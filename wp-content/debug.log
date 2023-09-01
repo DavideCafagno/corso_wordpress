@@ -109,3 +109,6 @@
 [31-Aug-2023 15:57:58 UTC] Start function PHP
 [31-Aug-2023 15:59:59 UTC] Start function PHP
 [31-Aug-2023 16:00:59 UTC] Start function PHP
+[01-Sep-2023 09:09:52 UTC] Start function PHP
+[01-Sep-2023 09:09:52 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[01-Sep-2023 09:09:52 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
