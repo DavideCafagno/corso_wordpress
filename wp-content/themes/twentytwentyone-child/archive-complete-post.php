@@ -5,12 +5,13 @@ query_posts($args);
 ?>
 
 
+<?php get_header();?>
 <?php  if(have_posts()) : while(have_posts()): the_post();?>
 
-    <?php /*include 'single-complete-post.php' */
-        get_template_part('single-complete-post');
-    ?>
+    <?php get_template_part("complete_post")?>
+
+
 
 <?php endwhile; ?>
 <?php endif; ?>
-
+<?php get_footer();?>
