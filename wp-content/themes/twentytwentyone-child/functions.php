@@ -79,9 +79,21 @@ add_action('save_post', 'preSalvataggio');
 
 function add_styleandscript(): void
 {
-    wp_register_script('custom_script', get_stylesheet_directory_uri() . '/js/custom_script.js');
-    wp_enqueue_script('custom_script');
     wp_enqueue_style('custom_style', get_stylesheet_directory_uri() . '/css/custom_style.css');
+
+    wp_register_script('custom_script', get_stylesheet_directory_uri() . '/js/custom_script.js', array('jquery'));
+    wp_localize_script('custom_script', 'oggettoAjax', array('proprietaUrl' => admin_url('admin-ajax.php')));
+    wp_enqueue_script('custom_script');
+
+
+    // wp_register_script("liker_script", plugin_dir_url(__FILE__) . 'liker_script.js', array('jquery'));
+
+    // localize the script to your domain name, so that you can reference the url to admin-ajax.php file easily
+
+
+    // enqueue jQuery library and the script you registered above
+    //wp_enqueue_script('jquery');
+    //wp_enqueue_script('liker_script');
 }
 
 add_action('wp_enqueue_scripts', 'add_styleandscript');
@@ -92,7 +104,7 @@ function create_title_printer($atts)
     $res = "";
     $atts = (array)$atts;
     $myIds = $atts['id'];
-    $arrayIds = explode(",",$myIds);
+    $arrayIds = explode(",", $myIds);
     foreach ($arrayIds as $element) {
         $element = trim($element);
         $post = get_post($element);
@@ -103,3 +115,55 @@ function create_title_printer($atts)
 }
 
 add_shortcode('title-printer', 'create_title_printer');
+
+
+add_action('wp_ajax_retrive_permalink', 'retrive_permalink');
+add_action('wp_ajax_nopriv_retrive_permalink', 'retrive_permalink_login');
+function retrive_permalink()
+{
+
+    // nonce check for an extra layer of security, the function will exit if it fails
+    if (!wp_verify_nonce($_REQUEST['nonce_ajax'], "retrive_permalink")) {
+        exit("Non loggato!");
+    }//numero post di tipo  custom post;
+    $postType = trim($_REQUEST['postType_ajax']);
+
+    $response = [];
+    if (post_type_exists($postType)) {
+        $response['type'] = 'success';
+        $response['messaggio'] = $postType . ' n: ' . wp_count_posts($postType)->publish;
+    } else {
+        $response['type'] = 'error';
+        $response['messaggio'] = 'Errore nella compilazione dei dati';
+    }
+
+    /*$permalink = get_post_permalink($_REQUEST['post_id_ajax']);
+
+
+
+    if (!$permalink) {
+        $response['type'] = 'error';
+        $response['messaggio'] = 'Link non Trovato';
+    } else {
+        $response['type'] = 'success';
+        $response['messaggio'] = $permalink;
+    }*/
+// Check if action was fired via Ajax call. If yes, JS code will be triggered, else the user is redirected to the post page
+    if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') {
+        $result = json_encode($response);
+        echo $result;
+    } else {
+        header("Location: " . $_SERVER["HTTP_REFERER"]);
+        // header("Location: " . 'www.google.com');
+    }
+
+
+    //echo json_encode($response);
+    die();
+}
+
+function retrive_permalink_login()
+{
+    return "Effettua prima il login";
+    die();
+}
