@@ -1,6 +1,10 @@
 <?php 
-global $wp_query;
-$args = array('post_type'=>array('complete-post'));
+
+$args = array(
+    'post_type' => array('complete-post'),
+    'posts_per_page' => 5,
+    'paged' => returnPaged(get_site_url().'/complete-post'));
+
 query_posts($args);
 ?>
 
@@ -14,4 +18,6 @@ query_posts($args);
 
 <?php endwhile; ?>
 <?php endif; ?>
-<?php get_footer();?>
+<?php
+    the_posts_pagination();
+get_footer();?>

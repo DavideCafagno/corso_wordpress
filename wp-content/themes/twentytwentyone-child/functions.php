@@ -176,10 +176,11 @@ function at_force_template( $template ) {
     return $template;
 }
 
-function remove_page_from_query_string($query_string)
+function remove_page_from_query_string($wp_query)
 {
-    //$query_string['paged'] = null;
-    return $query_string;
+
+    $wp_query['paged'] = null;
+    return $wp_query;
 }
 add_filter('request', 'remove_page_from_query_string');
 
@@ -278,3 +279,22 @@ add_filter('request', 'remove_page_from_query_string');
 //    add_rewrite_rule('([a-z]+)/page/?([0-9]{1,})/?$', 'index.php?category_name=$matches[1]&paged=$matches[2]', 'top');
 //}
 //add_action('init', 'my_pagination_rewrite');
+
+function returnPaged($url){
+    $basePagingUrlLenght = strlen($url.'/page/');
+    $pageUrl = $_SERVER['REQUEST_SCHEME'].'://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+    $pageUrlLenght = strlen($pageUrl);
+    $pagePath='';
+    if($basePagingUrlLenght < $pageUrlLenght){
+        $pagePath = substr($pageUrl, $basePagingUrlLenght );
+        $pagePath = substr($pagePath,0,1);
+    }
+    $paged =1;
+    if($pagePath != "") {
+        $paged = $pagePath;
+    }
+
+    //echo "  BasePagingURL : ".$url.'/page/'." (lun: ".$basePagingUrlLenght.  ") || PageURL : ".$pageUrl. " (lun: ".$pageUrlLenght.")";
+    return $paged;
+
+}

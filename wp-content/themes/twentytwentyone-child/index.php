@@ -12,26 +12,12 @@
 <h1><?php bloginfo('name'); ?></h1>
 <h2><?php bloginfo('description'); ?></h2>
 <?php
-global $wp_query;
-$basePagingUrlLenght = strlen(site_url().'/page/');
-$pageUrl = $_SERVER['REQUEST_SCHEME'].'://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-$pageUrlLenght = strlen($pageUrl);
-$pagePath='';
-if($basePagingUrlLenght < $pageUrlLenght){
-    $pagePath = substr($pageUrl, $basePagingUrlLenght );
-    $pagePath = substr($pagePath,0,1);
-}
-if($pagePath != ""){
-    $paged = $pagePath;
-}else{
-    $paged = 1;
-}
-echo "  BasePagingURL : ".site_url().'/page/'." (lun: ".$basePagingUrlLenght.  ") || PageURL : ".$pageUrl. " (lun: ".$pageUrlLenght.")";
+$paged = returnPaged(get_site_url());
 $args = array(
     'post_type' => array('complete-post', 'pippo', 'post'),
     'posts_per_page' => 5,
     'paged' => $paged);
-$wp_query = new WP_Query($args);
+query_posts($args);
 
 ?>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
