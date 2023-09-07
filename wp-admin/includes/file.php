@@ -24,7 +24,7 @@ $wp_file_descriptions = array(
 	'theme.json'            => __( 'Theme Styles & Block Settings' ),
 	// Archives.
 	'index.php'             => __( 'Main Index Template' ),
-	'archive.php'           => __( 'Archives' ),
+	'page.php'           => __( 'Archives' ),
 	'author.php'            => __( 'Author Template' ),
 	'taxonomy.php'          => __( 'Taxonomy Template' ),
 	'category.php'          => __( 'Category Template' ),

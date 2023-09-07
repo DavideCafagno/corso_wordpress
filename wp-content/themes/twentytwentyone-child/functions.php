@@ -167,3 +167,114 @@ function retrive_permalink_login()
     return "Effettua prima il login";
     die();
 }
+
+add_filter( 'template_include', 'at_force_template', 15, 2 );
+function at_force_template( $template ) {
+    $isArchive = 'page.php' === basename( $template );
+    $isSingle  = 'single.php' === basename( $template );
+    error_log($template);
+    return $template;
+}
+
+function remove_page_from_query_string($query_string)
+{
+    //$query_string['paged'] = null;
+    return $query_string;
+}
+add_filter('request', 'remove_page_from_query_string');
+
+
+//function prefix_change_cpt_archive_per_page( $query ) {
+//
+//    //* for cpt or any post type main archive
+//    if ( $query->is_main_query() && ! is_admin() && is_post_type_archive( 'product' ) ) {
+//        $query->set( 'posts_per_page', '2' );
+//    }
+//
+//}
+//add_action( 'pre_get_posts', 'prefix_change_cpt_archive_per_page' );
+//
+///**
+// *
+// * Posts per page for category (test-category) under CPT archive
+// *
+// */
+//function prefix_change_category_cpt_posts_per_page( $query ) {
+//
+//    if ( $query->is_main_query() && ! is_admin() && is_category( 'test-category' ) ) {
+//        $query->set( 'post_type', array( 'product' ) );
+//        $query->set( 'posts_per_page', '2' );
+//    }
+//
+//}
+//add_action( 'pre_get_posts', 'prefix_change_category_cpt_posts_per_page' );
+//
+//
+///**
+// *
+// * custom numbered pagination
+// * @http://callmenick.com/post/custom-wordpress-loop-with-pagination
+// *
+// */
+//function custom_pagination( $numpages = '', $pagerange = '', $paged='' ) {
+//
+//    if (empty($pagerange)) {
+//        $pagerange = 2;
+//    }
+//
+//    /**
+//     * This first part of our function is a fallback
+//     * for custom pagination inside a regular loop that
+//     * uses the global $paged and global $wp_query variables.
+//     *
+//     * It's good because we can now override default pagination
+//     * in our theme, and use this function in default queries
+//     * and custom queries.
+//     */
+//    global $paged;
+//    if (empty($paged)) {
+//        $paged = 1;
+//    }
+//    if ($numpages == '') {
+//        global $wp_query;
+//        $numpages = $wp_query->max_num_pages;
+//        if(!$numpages) {
+//            $numpages = 1;
+//        }
+//    }
+//
+//    /**
+//     * We construct the pagination arguments to enter into our paginate_links
+//     * function.
+//     */
+//    $pagination_args = array(
+//        'base'            => get_pagenum_link(1) . '%_%',
+//        'format'          => 'page/%#%',
+//        'total'           => $numpages,
+//        'current'         => $paged,
+//        'show_all'        => False,
+//        'end_size'        => 1,
+//        'mid_size'        => $pagerange,
+//        'prev_next'       => True,
+//        'prev_text'       => __('&laquo;'),
+//        'next_text'       => __('&raquo;'),
+//        'type'            => 'plain',
+//        'add_args'        => false,
+//        'add_fragment'    => ''
+//    );
+//
+//    $paginate_links = paginate_links($pagination_args);
+//
+//    if ($paginate_links) {
+//        echo "<nav class='custom-pagination'>";
+//        echo "<span class='page-numbers page-num'>Page " . $paged . " of " . $numpages . "</span> ";
+//        echo $paginate_links;
+//        echo "</nav>";
+//    }
+//
+//}
+//
+//function my_pagination_rewrite() {
+//    add_rewrite_rule('([a-z]+)/page/?([0-9]{1,})/?$', 'index.php?category_name=$matches[1]&paged=$matches[2]', 'top');
+//}
+//add_action('init', 'my_pagination_rewrite');

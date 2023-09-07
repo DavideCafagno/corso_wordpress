@@ -1498,7 +1498,7 @@ function single_post_title( $prefix = '', $display = true ) {
 /**
  * Displays or retrieves title for a post type archive.
  *
- * This is optimized for archive.php and archive-{$post_type}.php template files
+ * This is optimized for page.php and archive-{$post_type}.php template files
  * for displaying the title of the post type.
  *
  * @since 3.1.0
