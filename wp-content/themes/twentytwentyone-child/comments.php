@@ -1,2 +1,2 @@
 <?php
-comments_template();
+//comments_template();

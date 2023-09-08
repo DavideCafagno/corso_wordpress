@@ -23,6 +23,8 @@ get_header(); ?>
 <?php endif; ?>
 
 <?php
+global $wp_query;
+//echo json_encode($wp_query);
 if ( have_posts() ) {
 
 	// Load posts loop.

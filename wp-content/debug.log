@@ -1,1252 +1,666 @@
-[06-Sep-2023 14:59:44 UTC] Start function PHP
-[06-Sep-2023 14:59:44 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 14:59:44 UTC] asd
-[06-Sep-2023 14:59:44 UTC] Ciao da index
-[06-Sep-2023 14:59:49 UTC] Start function PHP
-[06-Sep-2023 14:59:49 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[06-Sep-2023 15:00:20 UTC] Start function PHP
-[06-Sep-2023 15:00:20 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:00:20 UTC] asd
-[06-Sep-2023 15:00:20 UTC] Ciao da index
-[06-Sep-2023 15:00:22 UTC] Start function PHP
-[06-Sep-2023 15:00:22 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:00:22 UTC] asd
-[06-Sep-2023 15:00:22 UTC] Ciao da index
-[06-Sep-2023 15:00:45 UTC] Start function PHP
-[06-Sep-2023 15:00:45 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:00:45 UTC] asd
-[06-Sep-2023 15:00:45 UTC] Ciao da index
-[06-Sep-2023 15:00:53 UTC] Start function PHP
-[06-Sep-2023 15:00:53 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[06-Sep-2023 15:01:11 UTC] Start function PHP
-[06-Sep-2023 15:01:11 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[06-Sep-2023 15:02:41 UTC] Start function PHP
-[06-Sep-2023 15:02:41 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:03:16 UTC] asd
-[06-Sep-2023 15:03:16 UTC] Ciao da index
-[06-Sep-2023 15:03:25 UTC] Start function PHP
-[06-Sep-2023 15:03:25 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[06-Sep-2023 15:03:27 UTC] Start function PHP
-[06-Sep-2023 15:03:27 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:04:29 UTC] asd
-[06-Sep-2023 15:04:29 UTC] Ciao da index
-[06-Sep-2023 15:05:18 UTC] Start function PHP
-[06-Sep-2023 15:05:18 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[06-Sep-2023 15:13:28 UTC] Start function PHP
-[06-Sep-2023 15:13:28 UTC] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 181
-[06-Sep-2023 15:13:28 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:13:51 UTC] asd
-[06-Sep-2023 15:13:51 UTC] Ciao da index
-[06-Sep-2023 15:14:21 UTC] Start function PHP
-[06-Sep-2023 15:14:22 UTC] Start function PHP
-[06-Sep-2023 15:15:21 UTC] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 181
-[06-Sep-2023 15:15:50 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:15:50 UTC] asd
-[06-Sep-2023 15:15:50 UTC] Ciao da index
-[06-Sep-2023 15:15:56 UTC] Start function PHP
-[06-Sep-2023 15:16:04 UTC] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 181
-[06-Sep-2023 15:16:05 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[06-Sep-2023 15:16:37 UTC] Start function PHP
-[06-Sep-2023 15:16:37 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:16:37 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:16:37 UTC] asd
-[06-Sep-2023 15:16:37 UTC] Ciao da index
-[06-Sep-2023 15:16:43 UTC] Start function PHP
-[06-Sep-2023 15:16:43 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:16:43 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:16:43 UTC] asd
-[06-Sep-2023 15:16:43 UTC] Ciao da index
-[06-Sep-2023 15:16:45 UTC] Start function PHP
-[06-Sep-2023 15:16:45 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:16:46 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:16:46 UTC] asd
-[06-Sep-2023 15:16:46 UTC] Ciao da index
-[06-Sep-2023 15:16:50 UTC] Start function PHP
-[06-Sep-2023 15:16:50 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:16:50 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:16:50 UTC] asd
-[06-Sep-2023 15:16:50 UTC] Ciao da index
-[06-Sep-2023 15:17:04 UTC] Start function PHP
-[06-Sep-2023 15:17:04 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:17:04 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:17:04 UTC] asd
-[06-Sep-2023 15:17:04 UTC] Ciao da index
-[06-Sep-2023 15:17:09 UTC] Start function PHP
-[06-Sep-2023 15:17:09 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:17:09 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:17:09 UTC] asd
-[06-Sep-2023 15:17:09 UTC] Ciao da index
-[06-Sep-2023 15:19:40 UTC] Start function PHP
-[06-Sep-2023 15:19:40 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:19:44 UTC] Start function PHP
-[06-Sep-2023 15:19:45 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:20:07 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:20:07 UTC] asd
-[06-Sep-2023 15:20:07 UTC] Ciao da index
-[06-Sep-2023 15:20:17 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:20:17 UTC] asd
-[06-Sep-2023 15:22:58 UTC] Start function PHP
-[06-Sep-2023 15:22:58 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:23:02 UTC] Start function PHP
-[06-Sep-2023 15:23:02 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:23:07 UTC] Start function PHP
-[06-Sep-2023 15:23:07 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:23:12 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:23:13 UTC] asd
-[06-Sep-2023 15:23:13 UTC] Start function PHP
-[06-Sep-2023 15:23:13 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:23:14 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:23:14 UTC] asd
-[06-Sep-2023 15:23:14 UTC] Ciao da index
-[06-Sep-2023 15:23:25 UTC] Start function PHP
-[06-Sep-2023 15:23:25 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:24:13 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:25:23 UTC] asd
-[06-Sep-2023 15:25:23 UTC] Ciao da index
-[06-Sep-2023 15:25:39 UTC] Start function PHP
-[06-Sep-2023 15:25:39 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:25:39 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:28:03 UTC] asd
-[06-Sep-2023 15:28:03 UTC] Ciao da index
-[06-Sep-2023 15:28:08 UTC] Start function PHP
-[06-Sep-2023 15:28:19 UTC] Start function PHP
-[06-Sep-2023 15:28:19 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:28:19 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:28:27 UTC] asd
-[06-Sep-2023 15:28:27 UTC] Ciao da index
-[06-Sep-2023 15:28:39 UTC] Start function PHP
-[06-Sep-2023 15:28:39 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:28:39 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:28:42 UTC] asd
-[06-Sep-2023 15:28:42 UTC] Ciao da index
-[06-Sep-2023 15:29:08 UTC] Start function PHP
-[06-Sep-2023 15:29:17 UTC] Start function PHP
-[06-Sep-2023 15:29:17 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:29:17 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:29:50 UTC] asd
-[06-Sep-2023 15:29:50 UTC] Ciao da index
-[06-Sep-2023 15:29:54 UTC] Start function PHP
-[06-Sep-2023 15:29:54 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:29:54 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:31:09 UTC] Start function PHP
-[06-Sep-2023 15:32:58 UTC] asd
-[06-Sep-2023 15:32:58 UTC] Ciao da index
-[06-Sep-2023 15:33:10 UTC] Start function PHP
-[06-Sep-2023 15:35:11 UTC] Start function PHP
-[06-Sep-2023 15:37:12 UTC] Start function PHP
-[06-Sep-2023 15:39:28 UTC] Start function PHP
-[06-Sep-2023 15:39:28 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:39:28 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:42:54 UTC] Start function PHP
-[06-Sep-2023 15:42:54 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:42:54 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:42:59 UTC] Start function PHP
-[06-Sep-2023 15:42:59 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:42:59 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:43:08 UTC] Start function PHP
-[06-Sep-2023 15:43:08 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:43:08 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:43:15 UTC] asd
-[06-Sep-2023 15:43:15 UTC] PHP Fatal error:  Uncaught Error: Attempt to assign property "paged" on array in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php:53
+[08-Sep-2023 14:44:34 UTC] Start function PHP
+[08-Sep-2023 14:44:34 UTC] PHP Warning:  Undefined array key "post_type" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 309
+[08-Sep-2023 14:44:34 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 309
+[08-Sep-2023 14:44:34 UTC] 
+[08-Sep-2023 14:44:34 UTC] PHP Warning:  Undefined array key "post_type" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 309
+[08-Sep-2023 14:44:34 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 309
+[08-Sep-2023 14:44:34 UTC] 
+[08-Sep-2023 14:44:34 UTC] PHP Warning:  Undefined array key "post_type" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 309
+[08-Sep-2023 14:44:34 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 309
+[08-Sep-2023 14:44:34 UTC] 
+[08-Sep-2023 14:44:34 UTC] PHP Warning:  Undefined array key "post_type" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 309
+[08-Sep-2023 14:44:34 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 309
+[08-Sep-2023 14:44:34 UTC] 
+[08-Sep-2023 14:44:34 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/single-complete-post.php
+[08-Sep-2023 14:44:34 UTC] PHP Warning:  Undefined array key "post_type" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 309
+[08-Sep-2023 14:44:34 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 309
+[08-Sep-2023 14:44:34 UTC] 
+[08-Sep-2023 14:44:34 UTC] PHP Warning:  Undefined array key "post_type" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 309
+[08-Sep-2023 14:44:34 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 309
+[08-Sep-2023 14:44:34 UTC] 
+[08-Sep-2023 14:44:35 UTC] PHP Warning:  Undefined array key "post_type" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 309
+[08-Sep-2023 14:44:35 UTC] PHP Deprecated:  error_log(): Passing null to parameter #1 ($message) of type string is deprecated in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 309
+[08-Sep-2023 14:44:35 UTC] 
+[08-Sep-2023 14:45:51 UTC] Start function PHP
+[08-Sep-2023 14:45:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function prenit_r() in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php:309
 Stack trace:
-#0 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\template-loader.php(106): include()
-#1 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\Progetti\Corso_Wordpress\index.php(17): require('C:\\xampp\\htdocs...')
-#3 {main}
-  thrown in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php on line 53
-[06-Sep-2023 15:43:33 UTC] Start function PHP
-[06-Sep-2023 15:43:33 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:43:33 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:44:51 UTC] asd
-[06-Sep-2023 15:44:51 UTC] PHP Fatal error:  Uncaught Error: Attempt to assign property "paged" on array in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php:53
-Stack trace:
-#0 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\template-loader.php(106): include()
-#1 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\Progetti\Corso_Wordpress\index.php(17): require('C:\\xampp\\htdocs...')
-#3 {main}
-  thrown in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php on line 53
-[06-Sep-2023 15:44:54 UTC] Start function PHP
-[06-Sep-2023 15:44:54 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:44:54 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:46:28 UTC] Start function PHP
-[06-Sep-2023 15:46:28 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:46:28 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:46:33 UTC] asd
-[06-Sep-2023 15:46:33 UTC] PHP Notice:  Indirect modification of overloaded property WP_Query::$query_var has no effect in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php on line 53
-[06-Sep-2023 15:46:33 UTC] Ciao da index
-[06-Sep-2023 15:46:41 UTC] Start function PHP
-[06-Sep-2023 15:46:41 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:46:41 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:46:41 UTC] asd
-[06-Sep-2023 15:46:41 UTC] PHP Notice:  Indirect modification of overloaded property WP_Query::$query_var has no effect in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php on line 53
-[06-Sep-2023 15:46:41 UTC] Ciao da index
-[06-Sep-2023 15:46:44 UTC] Start function PHP
-[06-Sep-2023 15:46:44 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:46:44 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:46:44 UTC] asd
-[06-Sep-2023 15:46:44 UTC] PHP Notice:  Indirect modification of overloaded property WP_Query::$query_var has no effect in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php on line 53
-[06-Sep-2023 15:46:44 UTC] Ciao da index
-[06-Sep-2023 15:46:54 UTC] Start function PHP
-[06-Sep-2023 15:46:54 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:46:54 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:46:54 UTC] asd
-[06-Sep-2023 15:46:54 UTC] PHP Notice:  Indirect modification of overloaded property WP_Query::$query_var has no effect in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php on line 53
-[06-Sep-2023 15:46:54 UTC] Ciao da index
-[06-Sep-2023 15:51:46 UTC] Start function PHP
-[06-Sep-2023 15:51:46 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:51:46 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:51:46 UTC] asd
-[06-Sep-2023 15:51:46 UTC] PHP Notice:  Indirect modification of overloaded property WP_Query::$query_var has no effect in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php on line 53
-[06-Sep-2023 15:51:46 UTC] Ciao da index
-[06-Sep-2023 15:51:48 UTC] Start function PHP
-[06-Sep-2023 15:51:48 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:51:49 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:51:49 UTC] asd
-[06-Sep-2023 15:51:49 UTC] PHP Notice:  Indirect modification of overloaded property WP_Query::$query_var has no effect in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php on line 53
-[06-Sep-2023 15:51:49 UTC] Ciao da index
-[06-Sep-2023 15:51:53 UTC] Start function PHP
-[06-Sep-2023 15:51:53 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:51:53 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:51:53 UTC] asd
-[06-Sep-2023 15:51:53 UTC] PHP Notice:  Indirect modification of overloaded property WP_Query::$query_var has no effect in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php on line 53
-[06-Sep-2023 15:51:53 UTC] Ciao da index
-[06-Sep-2023 15:52:24 UTC] Start function PHP
-[06-Sep-2023 15:52:24 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:52:24 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:52:24 UTC] asd
-[06-Sep-2023 15:52:24 UTC] PHP Notice:  Indirect modification of overloaded property WP_Query::$query_var has no effect in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php on line 53
-[06-Sep-2023 15:52:24 UTC] Ciao da index
-[06-Sep-2023 15:52:26 UTC] Start function PHP
-[06-Sep-2023 15:52:26 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:52:26 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:52:26 UTC] asd
-[06-Sep-2023 15:52:26 UTC] PHP Notice:  Indirect modification of overloaded property WP_Query::$query_var has no effect in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php on line 53
-[06-Sep-2023 15:52:26 UTC] Ciao da index
-[06-Sep-2023 15:52:46 UTC] Start function PHP
-[06-Sep-2023 15:52:46 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:52:46 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:54:49 UTC] asd
-[06-Sep-2023 15:54:58 UTC] Start function PHP
-[06-Sep-2023 15:54:58 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:54:58 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:55:43 UTC] asd
-[06-Sep-2023 15:55:43 UTC] PHP Notice:  Indirect modification of overloaded property WP_Query::$query_var has no effect in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php on line 54
-[06-Sep-2023 15:55:43 UTC] Ciao da index
-[06-Sep-2023 15:55:48 UTC] Start function PHP
-[06-Sep-2023 15:55:48 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:55:48 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:56:55 UTC] asd
-[06-Sep-2023 15:56:55 UTC] PHP Notice:  Indirect modification of overloaded property WP_Query::$query_var has no effect in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php on line 54
-[06-Sep-2023 15:56:55 UTC] Ciao da index
-[06-Sep-2023 15:57:04 UTC] Start function PHP
-[06-Sep-2023 15:57:04 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:57:04 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:57:08 UTC] asd
-[06-Sep-2023 15:57:08 UTC] PHP Notice:  Indirect modification of overloaded property WP_Query::$query_var has no effect in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php on line 54
-[06-Sep-2023 15:57:08 UTC] Ciao da index
-[06-Sep-2023 15:58:09 UTC] Start function PHP
-[06-Sep-2023 15:58:09 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:58:09 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:58:12 UTC] asd
-[06-Sep-2023 15:58:12 UTC] PHP Notice:  Indirect modification of overloaded property WP_Query::$query_var has no effect in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php on line 53
-[06-Sep-2023 15:58:12 UTC] Ciao da index
-[06-Sep-2023 15:58:34 UTC] Start function PHP
-[06-Sep-2023 15:58:34 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:58:34 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:58:37 UTC] asd
-[06-Sep-2023 15:58:37 UTC] Ciao da index
-[06-Sep-2023 15:58:39 UTC] Start function PHP
-[06-Sep-2023 15:58:39 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 15:58:39 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 15:58:43 UTC] asd
-[06-Sep-2023 15:58:44 UTC] Ciao da index
-[06-Sep-2023 16:00:02 UTC] Start function PHP
-[06-Sep-2023 16:00:02 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 16:00:02 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 16:04:56 UTC] asd
-[06-Sep-2023 16:04:56 UTC] Ciao da index
-[06-Sep-2023 16:05:02 UTC] Start function PHP
-[06-Sep-2023 16:05:02 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 16:05:02 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 16:08:23 UTC] asd
-[06-Sep-2023 16:08:23 UTC] Ciao da index
-[06-Sep-2023 16:08:31 UTC] Start function PHP
-[06-Sep-2023 16:08:31 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 16:08:31 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 16:08:31 UTC] asd
-[06-Sep-2023 16:08:31 UTC] Ciao da index
-[06-Sep-2023 16:08:55 UTC] Start function PHP
-[06-Sep-2023 16:08:55 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 16:08:55 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 16:09:19 UTC] asd
-[06-Sep-2023 16:09:49 UTC] Ciao da index
-[06-Sep-2023 16:09:56 UTC] Start function PHP
-[06-Sep-2023 16:09:56 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 16:09:56 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 16:11:28 UTC] asd
-[06-Sep-2023 16:11:32 UTC] Ciao da index
-[06-Sep-2023 16:12:38 UTC] Start function PHP
-[06-Sep-2023 16:13:01 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 16:14:37 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 16:14:37 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php:16
-Stack trace:
-#0 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\template-loader.php(106): include()
-#1 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\Progetti\Corso_Wordpress\index.php(17): require('C:\\xampp\\htdocs...')
-#3 {main}
-  thrown in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php on line 16
-[06-Sep-2023 16:15:05 UTC] Start function PHP
-[06-Sep-2023 16:15:05 UTC] Start function PHP
-[06-Sep-2023 16:15:35 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[06-Sep-2023 16:16:17 UTC] Start function PHP
-[06-Sep-2023 16:16:20 UTC] Start function PHP
-[06-Sep-2023 16:16:26 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 16:16:26 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php:17
-Stack trace:
-#0 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\template-loader.php(106): include()
-#1 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\Progetti\Corso_Wordpress\index.php(17): require('C:\\xampp\\htdocs...')
-#3 {main}
-  thrown in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php on line 17
-[06-Sep-2023 16:16:31 UTC] Start function PHP
-[06-Sep-2023 16:16:45 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 16:16:45 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php:17
-Stack trace:
-#0 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\template-loader.php(106): include()
-#1 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\Progetti\Corso_Wordpress\index.php(17): require('C:\\xampp\\htdocs...')
-#3 {main}
-  thrown in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php on line 17
-[06-Sep-2023 16:17:56 UTC] Start function PHP
-[06-Sep-2023 16:18:01 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 16:18:19 UTC] asd
-[06-Sep-2023 16:18:19 UTC] Ciao da index
-[06-Sep-2023 16:18:25 UTC] Start function PHP
-[06-Sep-2023 16:18:29 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[06-Sep-2023 16:18:49 UTC] Start function PHP
-[06-Sep-2023 16:18:52 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 16:18:53 UTC] asd
-[06-Sep-2023 16:18:53 UTC] Ciao da index
-[06-Sep-2023 16:18:55 UTC] Start function PHP
-[06-Sep-2023 16:19:06 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[06-Sep-2023 16:24:52 UTC] Start function PHP
-[06-Sep-2023 16:24:52 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 16:24:52 UTC] asd
-[06-Sep-2023 16:24:52 UTC] Ciao da index
-[06-Sep-2023 16:24:54 UTC] Start function PHP
-[06-Sep-2023 16:24:54 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 16:24:54 UTC] asd
-[06-Sep-2023 16:24:54 UTC] Ciao da index
-[06-Sep-2023 16:24:58 UTC] Start function PHP
-[06-Sep-2023 16:24:58 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[06-Sep-2023 16:25:00 UTC] Start function PHP
-[06-Sep-2023 16:25:03 UTC] Start function PHP
-[06-Sep-2023 16:25:03 UTC] Start function PHP
-[06-Sep-2023 16:25:05 UTC] Start function PHP
-[06-Sep-2023 16:25:06 UTC] Start function PHP
-[06-Sep-2023 16:25:07 UTC] Start function PHP
-[06-Sep-2023 16:25:10 UTC] Start function PHP
-[06-Sep-2023 16:25:10 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 16:25:10 UTC] asd
-[06-Sep-2023 16:25:10 UTC] Ciao da index
-[06-Sep-2023 16:25:12 UTC] Start function PHP
-[06-Sep-2023 16:25:12 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[06-Sep-2023 16:26:01 UTC] Start function PHP
-[06-Sep-2023 16:26:07 UTC] Start function PHP
-[06-Sep-2023 16:27:00 UTC] Start function PHP
-[06-Sep-2023 16:27:11 UTC] Start function PHP
-[06-Sep-2023 16:27:11 UTC] Start function PHP
-[06-Sep-2023 16:27:15 UTC] Start function PHP
-[06-Sep-2023 16:27:15 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 16:27:15 UTC] asd
-[06-Sep-2023 16:27:15 UTC] Ciao da index
-[06-Sep-2023 16:27:17 UTC] Start function PHP
-[06-Sep-2023 16:27:18 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[06-Sep-2023 16:27:44 UTC] Start function PHP
-[06-Sep-2023 16:27:44 UTC] PHP Warning:  Undefined array key "page" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[06-Sep-2023 16:27:44 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 16:27:44 UTC] asd
-[06-Sep-2023 16:27:44 UTC] Ciao da index
-[06-Sep-2023 16:28:12 UTC] Start function PHP
-[06-Sep-2023 16:28:38 UTC] Start function PHP
-[06-Sep-2023 16:28:38 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 16:28:39 UTC] asd
-[06-Sep-2023 16:28:39 UTC] Ciao da index
-[06-Sep-2023 16:28:43 UTC] Start function PHP
-[06-Sep-2023 16:28:43 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 16:28:43 UTC] asd
-[06-Sep-2023 16:28:43 UTC] Ciao da index
-[06-Sep-2023 16:29:42 UTC] Start function PHP
-[06-Sep-2023 16:29:42 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 16:29:42 UTC] asd
-[06-Sep-2023 16:29:42 UTC] Ciao da index
-[06-Sep-2023 16:29:45 UTC] Start function PHP
-[06-Sep-2023 16:29:45 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 16:29:45 UTC] asd
-[06-Sep-2023 16:29:45 UTC] Ciao da index
-[06-Sep-2023 16:29:50 UTC] Start function PHP
-[06-Sep-2023 16:29:50 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 16:29:50 UTC] asd
-[06-Sep-2023 16:29:51 UTC] Ciao da index
-[06-Sep-2023 16:29:55 UTC] Start function PHP
-[06-Sep-2023 16:29:55 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 16:29:55 UTC] asd
-[06-Sep-2023 16:29:55 UTC] Ciao da index
-[06-Sep-2023 16:30:05 UTC] Start function PHP
-[06-Sep-2023 16:30:26 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 16:30:26 UTC] asd
-[06-Sep-2023 16:30:26 UTC] Ciao da index
-[06-Sep-2023 16:30:27 UTC] Start function PHP
-[06-Sep-2023 16:30:30 UTC] Start function PHP
-[06-Sep-2023 16:31:07 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 16:31:07 UTC] asd
-[06-Sep-2023 16:31:12 UTC] Start function PHP
-[06-Sep-2023 16:31:12 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 16:31:12 UTC] asd
-[06-Sep-2023 16:31:12 UTC] Ciao da index
-[06-Sep-2023 16:32:13 UTC] Start function PHP
-[06-Sep-2023 16:32:42 UTC] Start function PHP
-[06-Sep-2023 16:32:42 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[06-Sep-2023 16:32:42 UTC] asd
-[06-Sep-2023 16:32:42 UTC] Ciao da index
-[06-Sep-2023 16:34:14 UTC] Start function PHP
-[07-Sep-2023 07:07:16 UTC] Start function PHP
-[07-Sep-2023 07:07:17 UTC] Start function PHP
-[07-Sep-2023 07:07:17 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:07:17 UTC] asd
-[07-Sep-2023 07:07:17 UTC] Ciao da index
-[07-Sep-2023 07:07:17 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:18 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:18 UTC] Start function PHP
-[07-Sep-2023 07:07:18 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:18 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:07:18 UTC] asd
-[07-Sep-2023 07:07:18 UTC] Ciao da index
-[07-Sep-2023 07:07:18 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:19 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:23 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:23 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:30 UTC] Start function PHP
-[07-Sep-2023 07:07:32 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:32 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:37 UTC] Start function PHP
-[07-Sep-2023 07:07:37 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:37 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:38 UTC] Start function PHP
-[07-Sep-2023 07:07:39 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:39 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:40 UTC] Start function PHP
-[07-Sep-2023 07:07:40 UTC] Start function PHP
-[07-Sep-2023 07:07:41 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:42 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:45 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:45 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:46 UTC] Start function PHP
-[07-Sep-2023 07:07:46 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:07:46 UTC] asd
-[07-Sep-2023 07:07:46 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:46 UTC] Ciao da index
-[07-Sep-2023 07:07:46 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:46 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:46 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:46 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:47 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:47 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:48 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:48 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:49 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:49 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:49 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:50 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:50 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:51 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:51 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:51 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:52 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:52 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:53 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:53 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:53 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:54 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:54 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:07:59 UTC] Start function PHP
-[07-Sep-2023 07:07:59 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:07:59 UTC] asd
-[07-Sep-2023 07:07:59 UTC] Ciao da index
-[07-Sep-2023 07:07:59 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:08:00 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:08:40 UTC] Start function PHP
-[07-Sep-2023 07:08:40 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:08:41 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 07:10:38 UTC] Start function PHP
-[07-Sep-2023 07:10:38 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:10:38 UTC] asd
-[07-Sep-2023 07:10:38 UTC] Ciao da index
-[07-Sep-2023 07:10:41 UTC] Start function PHP
-[07-Sep-2023 07:12:35 UTC] Start function PHP
-[07-Sep-2023 07:12:35 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:12:35 UTC] asd
-[07-Sep-2023 07:12:36 UTC] Ciao da index
-[07-Sep-2023 07:12:42 UTC] Start function PHP
-[07-Sep-2023 07:12:54 UTC] Start function PHP
-[07-Sep-2023 07:14:14 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:14:14 UTC] asd
-[07-Sep-2023 07:14:14 UTC] Ciao da index
-[07-Sep-2023 07:14:26 UTC] Start function PHP
-[07-Sep-2023 07:14:26 UTC] Start function PHP
-[07-Sep-2023 07:14:26 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:14:43 UTC] Start function PHP
-[07-Sep-2023 07:16:44 UTC] Start function PHP
-[07-Sep-2023 07:18:45 UTC] Start function PHP
-[07-Sep-2023 07:20:33 UTC] asd
-[07-Sep-2023 07:20:33 UTC] Ciao da index
-[07-Sep-2023 07:20:35 UTC] Start function PHP
-[07-Sep-2023 07:20:35 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:20:35 UTC] asd
-[07-Sep-2023 07:20:35 UTC] Ciao da index
-[07-Sep-2023 07:20:41 UTC] Start function PHP
-[07-Sep-2023 07:20:41 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:20:41 UTC] asd
-[07-Sep-2023 07:20:41 UTC] Ciao da index
-[07-Sep-2023 07:20:46 UTC] Start function PHP
-[07-Sep-2023 07:21:20 UTC] Start function PHP
-[07-Sep-2023 07:21:20 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:21:20 UTC] asd
-[07-Sep-2023 07:21:20 UTC] Ciao da index
-[07-Sep-2023 07:21:28 UTC] Start function PHP
-[07-Sep-2023 07:21:28 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:21:28 UTC] asd
-[07-Sep-2023 07:21:28 UTC] Ciao da index
-[07-Sep-2023 07:22:47 UTC] Start function PHP
-[07-Sep-2023 07:24:48 UTC] Start function PHP
-[07-Sep-2023 07:26:49 UTC] Start function PHP
-[07-Sep-2023 07:27:34 UTC] Start function PHP
-[07-Sep-2023 07:27:34 UTC] PHP Warning:  Attempt to read property "query_vars" on null in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[07-Sep-2023 07:27:34 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[07-Sep-2023 07:27:34 UTC] PHP Warning:  Attempt to read property "query_vars" on null in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 184
-[07-Sep-2023 07:27:34 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 184
-[07-Sep-2023 07:27:53 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:27:53 UTC] asd
-[07-Sep-2023 07:27:53 UTC] Ciao da index
-[07-Sep-2023 07:28:28 UTC] Start function PHP
-[07-Sep-2023 07:28:28 UTC] PHP Warning:  Attempt to read property "query_vars" on null in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[07-Sep-2023 07:28:28 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[07-Sep-2023 07:28:28 UTC] PHP Warning:  Attempt to read property "query_vars" on null in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 184
-[07-Sep-2023 07:28:28 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 184
-[07-Sep-2023 07:28:50 UTC] Start function PHP
-[07-Sep-2023 07:29:25 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:29:25 UTC] asd
-[07-Sep-2023 07:29:25 UTC] Ciao da index
-[07-Sep-2023 07:29:27 UTC] Start function PHP
-[07-Sep-2023 07:29:27 UTC] PHP Warning:  Attempt to read property "query_vars" on null in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[07-Sep-2023 07:29:27 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[07-Sep-2023 07:29:27 UTC] PHP Warning:  Undefined variable $posts in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 184
-[07-Sep-2023 07:29:27 UTC] PHP Warning:  Attempt to read property "query_vars" on null in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 184
-[07-Sep-2023 07:29:27 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 184
-[07-Sep-2023 07:30:03 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:30:03 UTC] asd
-[07-Sep-2023 07:30:04 UTC] Ciao da index
-[07-Sep-2023 07:30:05 UTC] Start function PHP
-[07-Sep-2023 07:30:05 UTC] PHP Warning:  Attempt to read property "query_vars" on null in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[07-Sep-2023 07:30:05 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 183
-[07-Sep-2023 07:30:05 UTC] PHP Warning:  Attempt to read property "query_vars" on null in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 184
-[07-Sep-2023 07:30:05 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 184
-[07-Sep-2023 07:30:51 UTC] Start function PHP
-[07-Sep-2023 07:32:46 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:32:47 UTC] asd
-[07-Sep-2023 07:32:47 UTC] Ciao da index
-[07-Sep-2023 07:32:51 UTC] Start function PHP
-[07-Sep-2023 07:32:51 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:32:52 UTC] Start function PHP
-[07-Sep-2023 07:34:24 UTC] PHP Warning:  Attempt to read property "query_vars" on null in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php on line 16
-[07-Sep-2023 07:34:24 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php on line 16
-[07-Sep-2023 07:34:25 UTC] asd
-[07-Sep-2023 07:34:25 UTC] Ciao da index
-[07-Sep-2023 07:34:27 UTC] Start function PHP
-[07-Sep-2023 07:34:27 UTC] PHP Warning:  Undefined array key "paged" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 181
-[07-Sep-2023 07:34:27 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:34:27 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php:18
-Stack trace:
-#0 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\template-loader.php(106): include()
-#1 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\Progetti\Corso_Wordpress\index.php(17): require('C:\\xampp\\htdocs...')
-#3 {main}
-  thrown in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php on line 18
-[07-Sep-2023 07:34:53 UTC] Start function PHP
-[07-Sep-2023 07:35:19 UTC] Start function PHP
-[07-Sep-2023 07:35:19 UTC] PHP Warning:  Undefined array key "paged" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 181
-[07-Sep-2023 07:35:19 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:35:19 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php:18
-Stack trace:
-#0 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\template-loader.php(106): include()
-#1 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\Progetti\Corso_Wordpress\index.php(17): require('C:\\xampp\\htdocs...')
-#3 {main}
-  thrown in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php on line 18
-[07-Sep-2023 07:35:54 UTC] Start function PHP
-[07-Sep-2023 07:35:54 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:35:54 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php:18
-Stack trace:
-#0 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\template-loader.php(106): include()
-#1 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\Progetti\Corso_Wordpress\index.php(17): require('C:\\xampp\\htdocs...')
-#3 {main}
-  thrown in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php on line 18
-[07-Sep-2023 07:36:54 UTC] Start function PHP
-[07-Sep-2023 07:37:37 UTC] Start function PHP
-[07-Sep-2023 07:37:37 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:37:37 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php:18
-Stack trace:
-#0 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\template-loader.php(106): include()
-#1 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\Progetti\Corso_Wordpress\index.php(17): require('C:\\xampp\\htdocs...')
-#3 {main}
-  thrown in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php on line 18
-[07-Sep-2023 07:37:50 UTC] Start function PHP
-[07-Sep-2023 07:37:50 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:38:22 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php:18
-Stack trace:
-#0 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\template-loader.php(106): include()
-#1 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\Progetti\Corso_Wordpress\index.php(17): require('C:\\xampp\\htdocs...')
-#3 {main}
-  thrown in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php on line 18
-[07-Sep-2023 07:38:55 UTC] Start function PHP
-[07-Sep-2023 07:39:10 UTC] Start function PHP
-[07-Sep-2023 07:39:10 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:39:10 UTC] asd
-[07-Sep-2023 07:39:10 UTC] Ciao da index
-[07-Sep-2023 07:39:30 UTC] Start function PHP
-[07-Sep-2023 07:39:30 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:39:30 UTC] asd
-[07-Sep-2023 07:39:30 UTC] Ciao da index
-[07-Sep-2023 07:40:00 UTC] Start function PHP
-[07-Sep-2023 07:40:00 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:40:00 UTC] asd
-[07-Sep-2023 07:40:00 UTC] Ciao da index
-[07-Sep-2023 07:40:26 UTC] Start function PHP
-[07-Sep-2023 07:40:26 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:40:26 UTC] Ciao da index
-[07-Sep-2023 07:40:38 UTC] Start function PHP
-[07-Sep-2023 07:40:38 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:40:56 UTC] Start function PHP
-[07-Sep-2023 07:42:23 UTC] Ciao da index
-[07-Sep-2023 07:42:57 UTC] Start function PHP
-[07-Sep-2023 07:43:43 UTC] Start function PHP
-[07-Sep-2023 07:43:43 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:44:58 UTC] Start function PHP
-[07-Sep-2023 07:45:22 UTC] Ciao da index
-[07-Sep-2023 07:45:38 UTC] Start function PHP
-[07-Sep-2023 07:45:38 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:46:18 UTC] Ciao da index
-[07-Sep-2023 07:46:23 UTC] Start function PHP
-[07-Sep-2023 07:46:23 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:46:59 UTC] Start function PHP
-[07-Sep-2023 07:47:13 UTC] Ciao da index
-[07-Sep-2023 07:47:20 UTC] Start function PHP
-[07-Sep-2023 07:49:00 UTC] Start function PHP
-[07-Sep-2023 07:49:52 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:49:55 UTC] Ciao da index
-[07-Sep-2023 07:49:58 UTC] Start function PHP
-[07-Sep-2023 07:50:14 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:50:38 UTC] Ciao da index
-[07-Sep-2023 07:50:42 UTC] Start function PHP
-[07-Sep-2023 07:50:45 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:51:01 UTC] Start function PHP
-[07-Sep-2023 07:53:02 UTC] Start function PHP
-[07-Sep-2023 07:55:03 UTC] Start function PHP
-[07-Sep-2023 07:55:32 UTC] Ciao da index
-[07-Sep-2023 07:55:39 UTC] Start function PHP
-[07-Sep-2023 07:56:56 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:57:02 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Query could not be converted to string in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php:24
-Stack trace:
-#0 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\template-loader.php(106): include()
-#1 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\Progetti\Corso_Wordpress\index.php(17): require('C:\\xampp\\htdocs...')
-#3 {main}
-  thrown in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\index.php on line 24
-[07-Sep-2023 07:57:04 UTC] Start function PHP
-[07-Sep-2023 07:57:23 UTC] Start function PHP
-[07-Sep-2023 07:57:26 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:57:26 UTC] Ciao da index
-[07-Sep-2023 07:57:48 UTC] Start function PHP
-[07-Sep-2023 07:57:48 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 07:59:05 UTC] Start function PHP
-[07-Sep-2023 07:59:54 UTC] Ciao da index
-[07-Sep-2023 07:59:56 UTC] Start function PHP
-[07-Sep-2023 07:59:56 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 08:01:06 UTC] Start function PHP
-[07-Sep-2023 08:02:10 UTC] Ciao da index
-[07-Sep-2023 08:02:11 UTC] Start function PHP
-[07-Sep-2023 08:02:11 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 08:03:07 UTC] Start function PHP
-[07-Sep-2023 08:04:58 UTC] Ciao da index
-[07-Sep-2023 08:05:00 UTC] Start function PHP
-[07-Sep-2023 08:05:00 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 08:05:04 UTC] Ciao da index
-[07-Sep-2023 08:05:08 UTC] Start function PHP
-[07-Sep-2023 08:05:19 UTC] Start function PHP
-[07-Sep-2023 08:05:19 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 08:05:21 UTC] Ciao da index
-[07-Sep-2023 08:07:08 UTC] Start function PHP
-[07-Sep-2023 08:07:08 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 08:07:09 UTC] Start function PHP
-[07-Sep-2023 08:07:11 UTC] Ciao da index
-[07-Sep-2023 08:07:21 UTC] Start function PHP
-[07-Sep-2023 08:07:21 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 08:07:25 UTC] Ciao da index
-[07-Sep-2023 08:07:50 UTC] Start function PHP
-[07-Sep-2023 08:07:50 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 08:08:20 UTC] Ciao da index
-[07-Sep-2023 08:08:23 UTC] Start function PHP
-[07-Sep-2023 08:08:23 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 08:08:26 UTC] Ciao da index
-[07-Sep-2023 08:08:30 UTC] Start function PHP
-[07-Sep-2023 08:08:30 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 08:09:10 UTC] Start function PHP
-[07-Sep-2023 08:09:26 UTC] Start function PHP
-[07-Sep-2023 08:09:26 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[07-Sep-2023 08:10:02 UTC] Ciao da index
-[07-Sep-2023 08:10:12 UTC] Start function PHP
-[07-Sep-2023 08:10:13 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 08:10:16 UTC] Ciao da index
-[07-Sep-2023 08:10:37 UTC] Start function PHP
-[07-Sep-2023 08:10:37 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[07-Sep-2023 08:11:11 UTC] Start function PHP
-[07-Sep-2023 08:11:16 UTC] Start function PHP
-[07-Sep-2023 08:11:16 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 08:11:25 UTC] Ciao da index
-[07-Sep-2023 08:11:40 UTC] Start function PHP
-[07-Sep-2023 08:11:40 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[07-Sep-2023 08:11:44 UTC] Start function PHP
-[07-Sep-2023 08:11:44 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 08:12:09 UTC] Ciao da index
-[07-Sep-2023 08:13:12 UTC] Start function PHP
-[07-Sep-2023 08:13:32 UTC] Start function PHP
-[07-Sep-2023 08:13:33 UTC] Start function PHP
-[07-Sep-2023 08:13:33 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 08:13:35 UTC] Ciao da index
-[07-Sep-2023 08:13:45 UTC] Start function PHP
-[07-Sep-2023 08:13:45 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[07-Sep-2023 08:15:13 UTC] Start function PHP
-[07-Sep-2023 08:17:14 UTC] Start function PHP
-[07-Sep-2023 08:17:44 UTC] Start function PHP
-[07-Sep-2023 08:17:45 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[07-Sep-2023 08:17:48 UTC] Start function PHP
-[07-Sep-2023 08:17:48 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 08:17:48 UTC] Ciao da index
-[07-Sep-2023 08:17:50 UTC] Start function PHP
-[07-Sep-2023 08:17:50 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[07-Sep-2023 08:18:21 UTC] Start function PHP
-[07-Sep-2023 08:18:21 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 08:18:21 UTC] Ciao da index
-[07-Sep-2023 08:18:53 UTC] Start function PHP
-[07-Sep-2023 08:18:53 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 08:18:53 UTC] Ciao da index
-[07-Sep-2023 08:18:55 UTC] Start function PHP
-[07-Sep-2023 08:18:55 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[07-Sep-2023 08:19:15 UTC] Start function PHP
-[07-Sep-2023 08:19:15 UTC] Start function PHP
-[07-Sep-2023 08:19:15 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 08:19:48 UTC] Start function PHP
-[07-Sep-2023 08:19:48 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 08:21:10 UTC] Start function PHP
-[07-Sep-2023 08:21:10 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 08:21:14 UTC] Ciao da index
-[07-Sep-2023 08:21:16 UTC] Start function PHP
-[07-Sep-2023 08:21:25 UTC] Start function PHP
-[07-Sep-2023 08:21:25 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 08:21:55 UTC] Ciao da index
-[07-Sep-2023 08:21:57 UTC] Start function PHP
-[07-Sep-2023 08:21:57 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[07-Sep-2023 08:23:17 UTC] Start function PHP
-[07-Sep-2023 08:24:10 UTC] Start function PHP
-[07-Sep-2023 08:24:10 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 08:25:18 UTC] Start function PHP
-[07-Sep-2023 08:25:39 UTC] Ciao da index
-[07-Sep-2023 08:25:41 UTC] Start function PHP
-[07-Sep-2023 08:25:41 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 08:26:25 UTC] Ciao da index
-[07-Sep-2023 08:26:29 UTC] Start function PHP
-[07-Sep-2023 08:26:29 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[07-Sep-2023 08:26:31 UTC] Start function PHP
-[07-Sep-2023 08:26:31 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 08:26:32 UTC] Start function PHP
-[07-Sep-2023 08:26:45 UTC] Ciao da index
-[07-Sep-2023 08:27:32 UTC] Start function PHP
-[07-Sep-2023 08:29:33 UTC] Start function PHP
-[07-Sep-2023 08:31:34 UTC] Start function PHP
-[07-Sep-2023 08:31:52 UTC] Start function PHP
-[07-Sep-2023 08:31:52 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 08:32:06 UTC] Ciao da index
-[07-Sep-2023 08:32:09 UTC] Start function PHP
-[07-Sep-2023 08:32:09 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[07-Sep-2023 08:33:28 UTC] Start function PHP
-[07-Sep-2023 08:33:28 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 08:33:35 UTC] Start function PHP
-[07-Sep-2023 08:35:16 UTC] Ciao da index
-[07-Sep-2023 08:35:36 UTC] Start function PHP
-[07-Sep-2023 08:37:52 UTC] Start function PHP
-[07-Sep-2023 08:37:52 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 08:37:52 UTC] Ciao da index
-[07-Sep-2023 08:37:55 UTC] Start function PHP
-[07-Sep-2023 08:37:55 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[07-Sep-2023 08:39:23 UTC] Start function PHP
-[07-Sep-2023 08:39:23 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 08:39:23 UTC] Ciao da index
-[07-Sep-2023 08:39:31 UTC] Start function PHP
-[07-Sep-2023 08:39:32 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 08:39:32 UTC] Ciao da index
-[07-Sep-2023 08:39:33 UTC] Start function PHP
-[07-Sep-2023 08:39:33 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[07-Sep-2023 08:50:47 UTC] Start function PHP
-[07-Sep-2023 08:50:47 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 08:50:47 UTC] Ciao da index
-[07-Sep-2023 08:50:56 UTC] Start function PHP
-[07-Sep-2023 08:50:56 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[07-Sep-2023 08:51:18 UTC] Start function PHP
-[07-Sep-2023 08:51:22 UTC] Start function PHP
-[07-Sep-2023 08:51:23 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 08:51:23 UTC] Ciao da index
-[07-Sep-2023 08:51:25 UTC] Start function PHP
-[07-Sep-2023 08:51:25 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[07-Sep-2023 08:52:12 UTC] Start function PHP
-[07-Sep-2023 08:52:14 UTC] Start function PHP
-[07-Sep-2023 08:52:15 UTC] Start function PHP
-[07-Sep-2023 08:52:16 UTC] Start function PHP
-[07-Sep-2023 08:52:20 UTC] Start function PHP
-[07-Sep-2023 08:52:20 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 08:52:20 UTC] Ciao da index
-[07-Sep-2023 08:52:22 UTC] Start function PHP
-[07-Sep-2023 08:52:22 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[07-Sep-2023 08:52:24 UTC] Start function PHP
-[07-Sep-2023 08:52:24 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 08:52:24 UTC] Ciao da index
-[07-Sep-2023 08:52:55 UTC] Start function PHP
-[07-Sep-2023 08:52:55 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 08:52:55 UTC] Ciao da index
-[07-Sep-2023 08:52:57 UTC] Start function PHP
-[07-Sep-2023 08:52:58 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[07-Sep-2023 08:52:59 UTC] Start function PHP
-[07-Sep-2023 08:53:00 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 08:53:00 UTC] Ciao da index
-[07-Sep-2023 08:53:17 UTC] Start function PHP
-[07-Sep-2023 08:54:25 UTC] Start function PHP
-[07-Sep-2023 08:54:27 UTC] Start function PHP
-[07-Sep-2023 08:55:26 UTC] Start function PHP
-[07-Sep-2023 08:58:14 UTC] Start function PHP
-[07-Sep-2023 08:58:17 UTC] Start function PHP
-[07-Sep-2023 08:58:17 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 08:58:17 UTC] Ciao da index
-[07-Sep-2023 08:58:28 UTC] Start function PHP
-[07-Sep-2023 09:00:29 UTC] Start function PHP
-[07-Sep-2023 09:01:18 UTC] Start function PHP
-[07-Sep-2023 09:01:18 UTC] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 181
-[07-Sep-2023 09:01:18 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[07-Sep-2023 09:01:52 UTC] Start function PHP
-[07-Sep-2023 09:01:52 UTC] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 181
-[07-Sep-2023 09:01:52 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[07-Sep-2023 09:01:54 UTC] Start function PHP
-[07-Sep-2023 09:01:54 UTC] PHP Warning:  Undefined array key "name" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 181
-[07-Sep-2023 09:01:54 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:01:54 UTC] Ciao da index
-[07-Sep-2023 09:02:15 UTC] Start function PHP
-[07-Sep-2023 09:02:16 UTC] Start function PHP
-[07-Sep-2023 09:02:18 UTC] Start function PHP
-[07-Sep-2023 09:02:19 UTC] Start function PHP
-[07-Sep-2023 09:02:21 UTC] Start function PHP
-[07-Sep-2023 09:02:22 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:02:22 UTC] Ciao da index
-[07-Sep-2023 09:03:20 UTC] Start function PHP
-[07-Sep-2023 09:03:35 UTC] Start function PHP
-[07-Sep-2023 09:03:35 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:03:35 UTC] Ciao da index
-[07-Sep-2023 09:04:43 UTC] Start function PHP
-[07-Sep-2023 09:04:43 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:04:43 UTC] Ciao da index
-[07-Sep-2023 09:04:46 UTC] Start function PHP
-[07-Sep-2023 09:04:46 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:04:46 UTC] Ciao da index
-[07-Sep-2023 09:04:46 UTC] Start function PHP
-[07-Sep-2023 09:04:48 UTC] Start function PHP
-[07-Sep-2023 09:04:48 UTC] Start function PHP
-[07-Sep-2023 09:05:14 UTC] Start function PHP
-[07-Sep-2023 09:05:14 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:05:14 UTC] Ciao da index
-[07-Sep-2023 09:06:32 UTC] Start function PHP
-[07-Sep-2023 09:06:32 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:06:32 UTC] Ciao da index
-[07-Sep-2023 09:06:49 UTC] Start function PHP
-[07-Sep-2023 09:06:53 UTC] Start function PHP
-[07-Sep-2023 09:06:53 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:06:53 UTC] Ciao da index
-[07-Sep-2023 09:06:55 UTC] Start function PHP
-[07-Sep-2023 09:06:55 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:06:55 UTC] Ciao da index
-[07-Sep-2023 09:07:04 UTC] Start function PHP
-[07-Sep-2023 09:07:04 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:07:04 UTC] Ciao da index
-[07-Sep-2023 09:07:14 UTC] Start function PHP
-[07-Sep-2023 09:07:14 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:07:14 UTC] Ciao da index
-[07-Sep-2023 09:07:41 UTC] Start function PHP
-[07-Sep-2023 09:07:41 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:07:41 UTC] Ciao da index
-[07-Sep-2023 09:08:09 UTC] Start function PHP
-[07-Sep-2023 09:08:09 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:08:09 UTC] Ciao da index
-[07-Sep-2023 09:08:50 UTC] Start function PHP
-[07-Sep-2023 09:09:02 UTC] Start function PHP
-[07-Sep-2023 09:09:02 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:09:02 UTC] Ciao da index
-[07-Sep-2023 09:09:08 UTC] Start function PHP
-[07-Sep-2023 09:09:08 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[07-Sep-2023 09:09:14 UTC] Start function PHP
-[07-Sep-2023 09:09:14 UTC] Start function PHP
-[07-Sep-2023 09:09:20 UTC] Start function PHP
-[07-Sep-2023 09:09:20 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:09:20 UTC] Ciao da index
-[07-Sep-2023 09:09:22 UTC] Start function PHP
-[07-Sep-2023 09:09:22 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[07-Sep-2023 09:09:26 UTC] Start function PHP
-[07-Sep-2023 09:09:27 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:09:27 UTC] Ciao da index
-[07-Sep-2023 09:10:01 UTC] Start function PHP
-[07-Sep-2023 09:10:01 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:10:01 UTC] Ciao da index
-[07-Sep-2023 09:10:06 UTC] Start function PHP
-[07-Sep-2023 09:10:06 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:10:06 UTC] Ciao da index
-[07-Sep-2023 09:10:16 UTC] Start function PHP
-[07-Sep-2023 09:10:19 UTC] Start function PHP
-[07-Sep-2023 09:10:51 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:10:51 UTC] Ciao da index
-[07-Sep-2023 09:10:53 UTC] Start function PHP
-[07-Sep-2023 09:10:53 UTC] PHP Warning:  Attempt to read property "paged" on array in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 181
-[07-Sep-2023 09:10:53 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:10:53 UTC] Ciao da index
-[07-Sep-2023 09:10:56 UTC] Start function PHP
-[07-Sep-2023 09:10:56 UTC] PHP Warning:  Attempt to read property "paged" on array in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 181
-[07-Sep-2023 09:10:56 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:10:56 UTC] Ciao da index
-[07-Sep-2023 09:10:58 UTC] Start function PHP
-[07-Sep-2023 09:10:58 UTC] PHP Warning:  Attempt to read property "paged" on array in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 181
-[07-Sep-2023 09:10:58 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:10:58 UTC] Ciao da index
-[07-Sep-2023 09:11:50 UTC] Start function PHP
-[07-Sep-2023 09:18:51 UTC] PHP Warning:  Attempt to read property "paged" on array in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 181
-[07-Sep-2023 09:18:51 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:18:51 UTC] Ciao da index
-[07-Sep-2023 09:18:51 UTC] Start function PHP
-[07-Sep-2023 09:18:53 UTC] Start function PHP
-[07-Sep-2023 09:18:53 UTC] Start function PHP
-[07-Sep-2023 09:18:53 UTC] Start function PHP
-[07-Sep-2023 09:18:54 UTC] Start function PHP
-[07-Sep-2023 09:18:57 UTC] Start function PHP
-[07-Sep-2023 09:18:57 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:18:57 UTC] Ciao da index
-[07-Sep-2023 09:19:02 UTC] Start function PHP
-[07-Sep-2023 09:19:02 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:19:02 UTC] Ciao da index
-[07-Sep-2023 09:19:42 UTC] Start function PHP
-[07-Sep-2023 09:19:42 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:19:42 UTC] Ciao da index
-[07-Sep-2023 09:19:51 UTC] Start function PHP
-[07-Sep-2023 09:19:51 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:21:58 UTC] Ciao da index
-[07-Sep-2023 09:21:58 UTC] Start function PHP
-[07-Sep-2023 09:21:59 UTC] Start function PHP
-[07-Sep-2023 09:21:59 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:22:01 UTC] Ciao da index
-[07-Sep-2023 09:22:21 UTC] Start function PHP
-[07-Sep-2023 09:22:36 UTC] Start function PHP
-[07-Sep-2023 09:22:36 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:22:46 UTC] Ciao da index
-[07-Sep-2023 09:24:05 UTC] Start function PHP
-[07-Sep-2023 09:24:05 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:24:05 UTC] Ciao da index
-[07-Sep-2023 09:24:22 UTC] Start function PHP
-[07-Sep-2023 09:24:50 UTC] Start function PHP
-[07-Sep-2023 09:24:50 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:24:50 UTC] Ciao da index
-[07-Sep-2023 09:26:11 UTC] Start function PHP
-[07-Sep-2023 09:26:12 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:26:12 UTC] Ciao da index
-[07-Sep-2023 09:26:16 UTC] Start function PHP
-[07-Sep-2023 09:26:16 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:26:16 UTC] Ciao da index
-[07-Sep-2023 09:26:21 UTC] Start function PHP
-[07-Sep-2023 09:26:21 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:26:21 UTC] Ciao da index
-[07-Sep-2023 09:26:23 UTC] Start function PHP
-[07-Sep-2023 09:26:43 UTC] Start function PHP
-[07-Sep-2023 09:26:43 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:26:43 UTC] Ciao da index
-[07-Sep-2023 09:26:45 UTC] Start function PHP
-[07-Sep-2023 09:26:45 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:26:45 UTC] Ciao da index
-[07-Sep-2023 09:26:51 UTC] Start function PHP
-[07-Sep-2023 09:26:51 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:26:51 UTC] Ciao da index
-[07-Sep-2023 09:26:53 UTC] Start function PHP
-[07-Sep-2023 09:26:53 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:26:53 UTC] Ciao da index
-[07-Sep-2023 09:26:56 UTC] Start function PHP
-[07-Sep-2023 09:26:56 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:26:56 UTC] Ciao da index
-[07-Sep-2023 09:26:58 UTC] Start function PHP
-[07-Sep-2023 09:26:58 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:26:58 UTC] Ciao da index
-[07-Sep-2023 09:27:01 UTC] Start function PHP
-[07-Sep-2023 09:27:01 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:27:02 UTC] Ciao da index
-[07-Sep-2023 09:27:24 UTC] Start function PHP
-[07-Sep-2023 09:29:25 UTC] Start function PHP
-[07-Sep-2023 09:31:07 UTC] Start function PHP
-[07-Sep-2023 09:31:07 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:38:14 UTC] Ciao da index
-[07-Sep-2023 09:38:15 UTC] Start function PHP
-[07-Sep-2023 09:38:15 UTC] Start function PHP
-[07-Sep-2023 09:38:15 UTC] Start function PHP
-[07-Sep-2023 09:38:32 UTC] Start function PHP
-[07-Sep-2023 09:38:32 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:40:29 UTC] Ciao da index
-[07-Sep-2023 09:40:34 UTC] Start function PHP
-[07-Sep-2023 09:40:34 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:41:59 UTC] Ciao da index
-[07-Sep-2023 09:42:19 UTC] Start function PHP
-[07-Sep-2023 09:42:19 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:42:23 UTC] Ciao da index
-[07-Sep-2023 09:42:43 UTC] Start function PHP
-[07-Sep-2023 09:42:43 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:42:43 UTC] Ciao da index
-[07-Sep-2023 09:42:50 UTC] Start function PHP
-[07-Sep-2023 09:42:50 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:42:50 UTC] Ciao da index
-[07-Sep-2023 09:42:54 UTC] Start function PHP
-[07-Sep-2023 09:42:54 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:42:54 UTC] Ciao da index
-[07-Sep-2023 09:42:57 UTC] Start function PHP
-[07-Sep-2023 09:42:57 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:42:57 UTC] Ciao da index
-[07-Sep-2023 09:45:46 UTC] Start function PHP
-[07-Sep-2023 09:45:46 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:45:46 UTC] Ciao da index
-[07-Sep-2023 09:45:52 UTC] Start function PHP
-[07-Sep-2023 09:45:52 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:45:52 UTC] Ciao da index
-[07-Sep-2023 09:48:26 UTC] Start function PHP
-[07-Sep-2023 09:48:26 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:48:26 UTC] Ciao da index
-[07-Sep-2023 09:48:53 UTC] Start function PHP
-[07-Sep-2023 09:48:53 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:48:53 UTC] Ciao da index
-[07-Sep-2023 09:49:15 UTC] Start function PHP
-[07-Sep-2023 09:49:15 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:49:15 UTC] Ciao da index
-[07-Sep-2023 09:50:29 UTC] Start function PHP
-[07-Sep-2023 09:50:30 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:50:30 UTC] Ciao da index
-[07-Sep-2023 09:52:41 UTC] Start function PHP
-[07-Sep-2023 09:52:41 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:52:41 UTC] Ciao da index
-[07-Sep-2023 09:52:50 UTC] Start function PHP
-[07-Sep-2023 09:52:50 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:52:50 UTC] Ciao da index
-[07-Sep-2023 09:53:36 UTC] Start function PHP
-[07-Sep-2023 09:53:36 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:53:36 UTC] Ciao da index
-[07-Sep-2023 09:53:49 UTC] Start function PHP
-[07-Sep-2023 09:53:49 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:53:49 UTC] Ciao da index
-[07-Sep-2023 09:53:58 UTC] Start function PHP
-[07-Sep-2023 09:53:58 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:53:58 UTC] Ciao da index
-[07-Sep-2023 09:54:22 UTC] Start function PHP
-[07-Sep-2023 09:54:22 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:54:22 UTC] Ciao da index
-[07-Sep-2023 09:54:31 UTC] Start function PHP
-[07-Sep-2023 09:54:31 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:54:31 UTC] Ciao da index
-[07-Sep-2023 09:54:38 UTC] Start function PHP
-[07-Sep-2023 09:54:38 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 09:54:38 UTC] Ciao da index
-[07-Sep-2023 09:58:27 UTC] Start function PHP
-[07-Sep-2023 09:58:27 UTC] PHP Fatal error:  Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp.php:573
-Stack trace:
-#0 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp.php(573): array_keys(NULL)
-#1 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp.php(661): WP->build_query_string()
-#2 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp.php(782): WP->query_posts()
-#3 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\functions.php(1335): WP->main('')
-#4 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-blog-header.php(16): wp()
-#5 C:\xampp\htdocs\Progetti\Corso_Wordpress\index.php(17): require('C:\\xampp\\htdocs...')
-#6 {main}
-  thrown in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp.php on line 573
-[07-Sep-2023 09:58:37 UTC] Start function PHP
-[07-Sep-2023 09:58:37 UTC] PHP Fatal error:  Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp.php:573
-Stack trace:
-#0 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp.php(573): array_keys(NULL)
-#1 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp.php(661): WP->build_query_string()
-#2 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp.php(782): WP->query_posts()
-#3 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\functions.php(1335): WP->main('')
-#4 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-blog-header.php(16): wp()
-#5 C:\xampp\htdocs\Progetti\Corso_Wordpress\index.php(17): require('C:\\xampp\\htdocs...')
-#6 {main}
-  thrown in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp.php on line 573
-[07-Sep-2023 09:59:11 UTC] Start function PHP
-[07-Sep-2023 10:01:01 UTC] Start function PHP
-[07-Sep-2023 10:02:35 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 10:02:35 UTC] Ciao da index
-[07-Sep-2023 10:03:03 UTC] Start function PHP
-[07-Sep-2023 10:03:03 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 10:04:29 UTC] Ciao da index
-[07-Sep-2023 10:05:33 UTC] Start function PHP
-[07-Sep-2023 10:05:33 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 10:05:33 UTC] Ciao da index
-[07-Sep-2023 10:05:41 UTC] Start function PHP
-[07-Sep-2023 10:05:41 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 10:05:41 UTC] Ciao da index
-[07-Sep-2023 10:07:46 UTC] Start function PHP
-[07-Sep-2023 10:07:46 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 10:07:46 UTC] Ciao da index
-[07-Sep-2023 10:08:00 UTC] Start function PHP
-[07-Sep-2023 10:08:58 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 10:08:58 UTC] Ciao da index
-[07-Sep-2023 10:09:15 UTC] Start function PHP
-[07-Sep-2023 10:17:24 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 10:17:24 UTC] Ciao da index
-[07-Sep-2023 10:18:28 UTC] Start function PHP
-[07-Sep-2023 10:18:28 UTC] Start function PHP
-[07-Sep-2023 10:18:29 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 10:19:01 UTC] Start function PHP
-[07-Sep-2023 10:19:01 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 10:19:10 UTC] Ciao da index
-[07-Sep-2023 10:19:12 UTC] Start function PHP
-[07-Sep-2023 10:19:12 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 10:19:36 UTC] Start function PHP
-[07-Sep-2023 10:19:36 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[07-Sep-2023 10:19:41 UTC] Ciao da index
-[07-Sep-2023 13:03:14 UTC] Start function PHP
-[07-Sep-2023 13:03:14 UTC] Start function PHP
-[07-Sep-2023 13:03:14 UTC] Start function PHP
-[07-Sep-2023 13:03:14 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 13:03:14 UTC] Ciao da index
-[07-Sep-2023 13:03:15 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 13:03:15 UTC] Ciao da index
-[07-Sep-2023 14:41:42 UTC] Start function PHP
-[07-Sep-2023 14:41:42 UTC] Start function PHP
-[07-Sep-2023 14:41:42 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 14:41:42 UTC] Ciao da index
-[07-Sep-2023 15:41:02 UTC] Start function PHP
-[07-Sep-2023 15:41:03 UTC] Start function PHP
-[07-Sep-2023 15:41:03 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 15:43:19 UTC] Start function PHP
-[07-Sep-2023 15:43:19 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 15:43:22 UTC] Ciao da index
-[07-Sep-2023 15:43:24 UTC] Start function PHP
-[07-Sep-2023 15:43:24 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 15:44:36 UTC] Start function PHP
-[07-Sep-2023 15:44:36 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 15:44:36 UTC] Ciao da index
-[07-Sep-2023 15:44:36 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 15:44:37 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 15:44:40 UTC] Start function PHP
-[07-Sep-2023 15:44:40 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[07-Sep-2023 15:44:40 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 15:44:41 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[07-Sep-2023 15:45:31 UTC] Start function PHP
-[07-Sep-2023 15:45:31 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 15:45:39 UTC] Ciao da index
-[07-Sep-2023 15:45:42 UTC] Start function PHP
-[07-Sep-2023 15:45:42 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[07-Sep-2023 15:46:07 UTC] Start function PHP
-[07-Sep-2023 15:46:12 UTC] Start function PHP
-[07-Sep-2023 15:46:12 UTC] Start function PHP
-[07-Sep-2023 15:46:12 UTC] Start function PHP
-[07-Sep-2023 15:46:21 UTC] Start function PHP
-[07-Sep-2023 15:46:21 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 15:46:29 UTC] Ciao da index
-[07-Sep-2023 15:46:35 UTC] Start function PHP
-[07-Sep-2023 15:46:35 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[07-Sep-2023 15:46:39 UTC] Start function PHP
-[07-Sep-2023 15:46:41 UTC] Start function PHP
-[07-Sep-2023 15:46:43 UTC] Start function PHP
-[07-Sep-2023 15:46:43 UTC] Start function PHP
-[07-Sep-2023 15:46:45 UTC] Start function PHP
-[07-Sep-2023 15:46:45 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[07-Sep-2023 15:47:13 UTC] Start function PHP
-[07-Sep-2023 15:47:13 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 15:47:13 UTC] Ciao da index
-[07-Sep-2023 15:47:44 UTC] Start function PHP
-[07-Sep-2023 15:47:53 UTC] Start function PHP
-[07-Sep-2023 15:49:07 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 15:49:07 UTC] Ciao da index
-[07-Sep-2023 15:49:09 UTC] Start function PHP
-[07-Sep-2023 15:49:13 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 15:49:13 UTC] Ciao da index
-[07-Sep-2023 15:49:26 UTC] Start function PHP
-[07-Sep-2023 15:49:26 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 15:49:26 UTC] Ciao da index
-[07-Sep-2023 15:49:31 UTC] Start function PHP
-[07-Sep-2023 15:49:31 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 15:49:31 UTC] Ciao da index
-[07-Sep-2023 15:49:33 UTC] Start function PHP
-[07-Sep-2023 15:49:33 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 15:49:33 UTC] Ciao da index
-[07-Sep-2023 15:49:45 UTC] Start function PHP
-[07-Sep-2023 15:50:08 UTC] Start function PHP
-[07-Sep-2023 15:50:08 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[07-Sep-2023 15:50:31 UTC] Start function PHP
-[07-Sep-2023 15:50:31 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
-[07-Sep-2023 15:50:48 UTC] Start function PHP
-[07-Sep-2023 15:50:48 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 15:51:13 UTC] Ciao da index
-[07-Sep-2023 15:51:17 UTC] Start function PHP
-[07-Sep-2023 15:51:17 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 15:51:17 UTC] Ciao da index
-[07-Sep-2023 15:51:19 UTC] Start function PHP
-[07-Sep-2023 15:51:19 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 15:51:19 UTC] Ciao da index
-[07-Sep-2023 15:51:23 UTC] Start function PHP
-[07-Sep-2023 15:51:23 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 15:51:23 UTC] Ciao da index
-[07-Sep-2023 15:51:33 UTC] Start function PHP
-[07-Sep-2023 15:51:33 UTC] Start function PHP
-[07-Sep-2023 15:51:33 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/single-complete-post.php
-[07-Sep-2023 15:51:40 UTC] Start function PHP
-[07-Sep-2023 15:51:40 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/archive-complete-post.php
-[07-Sep-2023 15:51:46 UTC] Start function PHP
-[07-Sep-2023 15:53:33 UTC] Start function PHP
-[07-Sep-2023 15:53:33 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/archive-complete-post.php
-[07-Sep-2023 15:53:47 UTC] Start function PHP
-[07-Sep-2023 15:53:56 UTC] Start function PHP
-[07-Sep-2023 15:53:56 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/archive-complete-post.php
-[07-Sep-2023 15:54:03 UTC] Start function PHP
-[07-Sep-2023 15:54:03 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/archive-complete-post.php
-[07-Sep-2023 15:54:09 UTC] Start function PHP
-[07-Sep-2023 15:54:09 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/archive-complete-post.php
-[07-Sep-2023 15:54:23 UTC] Start function PHP
-[07-Sep-2023 15:54:40 UTC] Start function PHP
-[07-Sep-2023 15:54:40 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/archive-complete-post.php
-[07-Sep-2023 15:54:59 UTC] Start function PHP
-[07-Sep-2023 15:54:59 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/archive-complete-post.php
-[07-Sep-2023 15:55:02 UTC] Start function PHP
-[07-Sep-2023 15:55:02 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/archive-complete-post.php
-[07-Sep-2023 15:55:25 UTC] Start function PHP
-[07-Sep-2023 15:55:25 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/archive-complete-post.php
-[07-Sep-2023 15:55:48 UTC] Start function PHP
-[07-Sep-2023 15:57:49 UTC] Start function PHP
-[07-Sep-2023 15:58:40 UTC] Start function PHP
-[07-Sep-2023 15:58:40 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/archive-complete-post.php
-[07-Sep-2023 15:59:50 UTC] Start function PHP
-[07-Sep-2023 16:01:51 UTC] Start function PHP
-[07-Sep-2023 16:02:21 UTC] Start function PHP
-[07-Sep-2023 16:02:21 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/archive-complete-post.php
-[07-Sep-2023 16:02:37 UTC] Start function PHP
-[07-Sep-2023 16:02:38 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/archive-complete-post.php
-[07-Sep-2023 16:02:54 UTC] Start function PHP
-[07-Sep-2023 16:02:54 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/archive-complete-post.php
-[07-Sep-2023 16:03:15 UTC] Start function PHP
-[07-Sep-2023 16:03:15 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
-[07-Sep-2023 16:03:15 UTC] Ciao da index
-[07-Sep-2023 16:03:52 UTC] Start function PHP
+#0 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp-hook.php(310): target_main_category_query_with_conditional_tags(Object(WP_Query))
+#1 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp-query.php(1881): do_action_ref_array('pre_get_posts', Array)
+#4 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp-query.php(3800): WP_Query->get_posts()
+#5 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp-query.php(3932): WP_Query->query(Array)
+#6 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\block-template-utils.php(1002): WP_Query->__construct(Array)
+#7 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\blocks\template-part.php(228): get_block_templates(Array, 'wp_template_par...')
+#8 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\blocks\template-part.php(272): build_template_part_block_instance_variations()
+#9 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\blocks\template-part.php(285): build_template_part_block_variations()
+#10 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp-hook.php(310): register_block_core_template_part('')
+#11 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-settings.php(632): do_action('init')
+#14 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-config.php(103): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\Progetti\Corso_Wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 309
+[08-Sep-2023 14:46:14 UTC] Start function PHP
+[08-Sep-2023 14:46:14 UTC] 1
+[08-Sep-2023 14:46:14 UTC] 1
+[08-Sep-2023 14:46:14 UTC] 1
+[08-Sep-2023 14:46:14 UTC] 1
+[08-Sep-2023 14:46:14 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/single-complete-post.php
+[08-Sep-2023 14:46:14 UTC] 1
+[08-Sep-2023 14:46:14 UTC] 1
+[08-Sep-2023 14:46:14 UTC] 1
+[08-Sep-2023 14:46:36 UTC] Start function PHP
+[08-Sep-2023 14:48:21 UTC] 1
+[08-Sep-2023 14:48:32 UTC] 1
+[08-Sep-2023 14:48:32 UTC] 1
+[08-Sep-2023 14:48:32 UTC] 1
+[08-Sep-2023 14:48:32 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/single-complete-post.php
+[08-Sep-2023 14:48:32 UTC] 1
+[08-Sep-2023 14:48:32 UTC] 1
+[08-Sep-2023 14:48:32 UTC] 1
+[08-Sep-2023 14:49:21 UTC] Start function PHP
+[08-Sep-2023 14:49:21 UTC] 1
+[08-Sep-2023 14:49:21 UTC] 1
+[08-Sep-2023 14:49:21 UTC] 1
+[08-Sep-2023 14:49:21 UTC] 1
+[08-Sep-2023 14:49:21 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/single-complete-post.php
+[08-Sep-2023 14:49:21 UTC] 1
+[08-Sep-2023 14:49:21 UTC] 1
+[08-Sep-2023 14:49:21 UTC] 1
+[08-Sep-2023 14:50:18 UTC] Start function PHP
+[08-Sep-2023 14:50:19 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/single-complete-post.php
+[08-Sep-2023 14:50:45 UTC] Start function PHP
+[08-Sep-2023 14:50:45 UTC] []
+[08-Sep-2023 14:50:45 UTC] []
+[08-Sep-2023 14:50:45 UTC] []
+[08-Sep-2023 14:50:45 UTC] []
+[08-Sep-2023 14:50:45 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/single-complete-post.php
+[08-Sep-2023 14:50:45 UTC] []
+[08-Sep-2023 14:50:45 UTC] []
+[08-Sep-2023 14:50:45 UTC] []
+[08-Sep-2023 14:52:17 UTC] Start function PHP
+[08-Sep-2023 14:52:17 UTC] []
+[08-Sep-2023 14:52:18 UTC] []
+[08-Sep-2023 14:52:18 UTC] []
+[08-Sep-2023 14:52:18 UTC] []
+[08-Sep-2023 14:52:18 UTC] []
+[08-Sep-2023 14:52:18 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
+[08-Sep-2023 14:52:18 UTC] []
+[08-Sep-2023 14:52:18 UTC] Ciao da index
+[08-Sep-2023 14:52:26 UTC] Start function PHP
+[08-Sep-2023 14:52:26 UTC] []
+[08-Sep-2023 14:52:27 UTC] []
+[08-Sep-2023 14:52:27 UTC] []
+[08-Sep-2023 14:52:27 UTC] []
+[08-Sep-2023 14:52:27 UTC] []
+[08-Sep-2023 14:52:27 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
+[08-Sep-2023 14:52:27 UTC] []
+[08-Sep-2023 14:52:27 UTC] Ciao da index
+[08-Sep-2023 14:52:30 UTC] Start function PHP
+[08-Sep-2023 14:52:30 UTC] []
+[08-Sep-2023 14:52:30 UTC] []
+[08-Sep-2023 14:52:30 UTC] []
+[08-Sep-2023 14:52:30 UTC] []
+[08-Sep-2023 14:52:30 UTC] []
+[08-Sep-2023 14:52:30 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
+[08-Sep-2023 14:52:30 UTC] []
+[08-Sep-2023 14:52:30 UTC] Ciao da index
+[08-Sep-2023 14:53:00 UTC] Start function PHP
+[08-Sep-2023 14:53:00 UTC] []
+[08-Sep-2023 14:53:00 UTC] []
+[08-Sep-2023 14:53:00 UTC] []
+[08-Sep-2023 14:53:00 UTC] []
+[08-Sep-2023 14:53:00 UTC] []
+[08-Sep-2023 14:53:00 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/index.php
+[08-Sep-2023 14:53:00 UTC] []
+[08-Sep-2023 14:53:00 UTC] Ciao da index
+[08-Sep-2023 14:53:06 UTC] Start function PHP
+[08-Sep-2023 14:53:06 UTC] []
+[08-Sep-2023 14:53:06 UTC] []
+[08-Sep-2023 14:53:06 UTC] []
+[08-Sep-2023 14:53:06 UTC] []
+[08-Sep-2023 14:53:06 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/single.php
+[08-Sep-2023 14:53:06 UTC] []
+[08-Sep-2023 14:53:51 UTC] Start function PHP
+[08-Sep-2023 14:53:51 UTC] {"caio":"qwerty"}
+[08-Sep-2023 14:53:51 UTC] {"caio":"qwerty"}
+[08-Sep-2023 14:53:51 UTC] {"caio":"qwerty"}
+[08-Sep-2023 14:53:51 UTC] {"caio":"qwerty"}
+[08-Sep-2023 14:53:51 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/single.php
+[08-Sep-2023 14:53:51 UTC] {"caio":"qwerty"}
+[08-Sep-2023 14:55:26 UTC] Start function PHP
+[08-Sep-2023 14:55:26 UTC] []
+[08-Sep-2023 14:55:26 UTC] []
+[08-Sep-2023 14:55:26 UTC] []
+[08-Sep-2023 14:55:26 UTC] []
+[08-Sep-2023 14:55:26 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/archive-complete-post.php
+[08-Sep-2023 14:55:26 UTC] []
+[08-Sep-2023 14:55:27 UTC] []
+[08-Sep-2023 14:55:27 UTC] []
+[08-Sep-2023 14:55:27 UTC] []
+[08-Sep-2023 14:55:27 UTC] []
+[08-Sep-2023 14:55:27 UTC] []
+[08-Sep-2023 14:55:27 UTC] []
+[08-Sep-2023 14:55:27 UTC] []
+[08-Sep-2023 14:55:27 UTC] []
+[08-Sep-2023 14:55:27 UTC] []
+[08-Sep-2023 14:55:27 UTC] []
+[08-Sep-2023 14:55:33 UTC] Start function PHP
+[08-Sep-2023 14:55:33 UTC] []
+[08-Sep-2023 14:55:33 UTC] []
+[08-Sep-2023 14:55:33 UTC] []
+[08-Sep-2023 14:55:34 UTC] Start function PHP
+[08-Sep-2023 14:55:34 UTC] []
+[08-Sep-2023 14:55:34 UTC] []
+[08-Sep-2023 14:55:34 UTC] []
+[08-Sep-2023 14:55:34 UTC] []
+[08-Sep-2023 14:55:34 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/single-complete-post.php
+[08-Sep-2023 14:55:34 UTC] []
+[08-Sep-2023 14:55:34 UTC] []
+[08-Sep-2023 14:55:34 UTC] []
+[08-Sep-2023 14:55:44 UTC] Start function PHP
+[08-Sep-2023 14:55:44 UTC] []
+[08-Sep-2023 14:55:44 UTC] []
+[08-Sep-2023 14:55:44 UTC] []
+[08-Sep-2023 14:55:44 UTC] []
+[08-Sep-2023 14:55:44 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
+[08-Sep-2023 14:55:44 UTC] []
+[08-Sep-2023 14:55:50 UTC] Start function PHP
+[08-Sep-2023 14:55:50 UTC] []
+[08-Sep-2023 14:55:50 UTC] []
+[08-Sep-2023 14:55:50 UTC] []
+[08-Sep-2023 14:55:50 UTC] []
+[08-Sep-2023 14:55:50 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
+[08-Sep-2023 14:55:50 UTC] []
+[08-Sep-2023 14:55:56 UTC] Start function PHP
+[08-Sep-2023 14:55:56 UTC] []
+[08-Sep-2023 14:55:56 UTC] []
+[08-Sep-2023 14:55:56 UTC] []
+[08-Sep-2023 14:55:56 UTC] []
+[08-Sep-2023 14:55:56 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
+[08-Sep-2023 14:55:56 UTC] []
+[08-Sep-2023 14:56:06 UTC] Start function PHP
+[08-Sep-2023 14:56:06 UTC] []
+[08-Sep-2023 14:56:07 UTC] []
+[08-Sep-2023 14:57:09 UTC] Start function PHP
+[08-Sep-2023 14:57:10 UTC] []
+[08-Sep-2023 14:57:10 UTC] []
+[08-Sep-2023 14:59:17 UTC] Start function PHP
+[08-Sep-2023 14:59:18 UTC] []
+[08-Sep-2023 14:59:18 UTC] []
+[08-Sep-2023 15:01:37 UTC] Start function PHP
+[08-Sep-2023 15:01:38 UTC] []
+[08-Sep-2023 15:01:38 UTC] []
+[08-Sep-2023 15:02:49 UTC] Start function PHP
+[08-Sep-2023 15:02:50 UTC] []
+[08-Sep-2023 15:02:50 UTC] []
+[08-Sep-2023 15:02:53 UTC] Start function PHP
+[08-Sep-2023 15:02:53 UTC] []
+[08-Sep-2023 15:02:54 UTC] []
+[08-Sep-2023 15:02:54 UTC] []
+[08-Sep-2023 15:02:54 UTC] []
+[08-Sep-2023 15:02:54 UTC] []
+[08-Sep-2023 15:02:54 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/index.php
+[08-Sep-2023 15:02:54 UTC] []
+[08-Sep-2023 15:03:29 UTC] Start function PHP
+[08-Sep-2023 15:03:29 UTC] []
+[08-Sep-2023 15:03:29 UTC] []
+[08-Sep-2023 15:03:31 UTC] Start function PHP
+[08-Sep-2023 15:03:31 UTC] {"action":"edit","menu":"0"}
+[08-Sep-2023 15:03:31 UTC] {"action":"edit","menu":"0"}
+[08-Sep-2023 15:03:32 UTC] {"action":"edit","menu":"0"}
+[08-Sep-2023 15:03:32 UTC] {"action":"edit","menu":"0"}
+[08-Sep-2023 15:03:32 UTC] {"action":"edit","menu":"0"}
+[08-Sep-2023 15:03:32 UTC] {"action":"edit","menu":"0"}
+[08-Sep-2023 15:03:32 UTC] {"action":"edit","menu":"0"}
+[08-Sep-2023 15:03:32 UTC] {"action":"edit","menu":"0"}
+[08-Sep-2023 15:03:32 UTC] {"action":"edit","menu":"0"}
+[08-Sep-2023 15:03:32 UTC] {"action":"edit","menu":"0"}
+[08-Sep-2023 15:03:54 UTC] Start function PHP
+[08-Sep-2023 15:03:54 UTC] {"action":"edit","menu":"0"}
+[08-Sep-2023 15:03:54 UTC] {"action":"edit","menu":"0"}
+[08-Sep-2023 15:03:55 UTC] Start function PHP
+[08-Sep-2023 15:03:55 UTC] {"menu":"4"}
+[08-Sep-2023 15:03:55 UTC] {"menu":"4"}
+[08-Sep-2023 15:03:56 UTC] {"menu":"4"}
+[08-Sep-2023 15:03:56 UTC] {"menu":"4"}
+[08-Sep-2023 15:03:56 UTC] {"menu":"4"}
+[08-Sep-2023 15:03:56 UTC] {"menu":"4"}
+[08-Sep-2023 15:03:56 UTC] {"menu":"4"}
+[08-Sep-2023 15:03:56 UTC] {"menu":"4"}
+[08-Sep-2023 15:03:56 UTC] {"menu":"4"}
+[08-Sep-2023 15:03:56 UTC] {"menu":"4"}
+[08-Sep-2023 15:04:58 UTC] Start function PHP
+[08-Sep-2023 15:04:58 UTC] []
+[08-Sep-2023 15:04:58 UTC] []
+[08-Sep-2023 15:05:28 UTC] Start function PHP
+[08-Sep-2023 15:05:28 UTC] []
+[08-Sep-2023 15:05:28 UTC] []
+[08-Sep-2023 15:05:38 UTC] Start function PHP
+[08-Sep-2023 15:05:38 UTC] []
+[08-Sep-2023 15:05:38 UTC] []
+[08-Sep-2023 15:05:38 UTC] []
+[08-Sep-2023 15:05:38 UTC] []
+[08-Sep-2023 15:05:38 UTC] []
+[08-Sep-2023 15:05:38 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/index.php
+[08-Sep-2023 15:05:38 UTC] []
+[08-Sep-2023 15:06:01 UTC] Start function PHP
+[08-Sep-2023 15:06:01 UTC] []
+[08-Sep-2023 15:06:02 UTC] []
+[08-Sep-2023 15:06:37 UTC] Start function PHP
+[08-Sep-2023 15:06:37 UTC] []
+[08-Sep-2023 15:06:37 UTC] []
+[08-Sep-2023 15:06:37 UTC] []
+[08-Sep-2023 15:06:37 UTC] []
+[08-Sep-2023 15:06:37 UTC] []
+[08-Sep-2023 15:06:37 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/index.php
+[08-Sep-2023 15:06:37 UTC] []
+[08-Sep-2023 15:07:25 UTC] Start function PHP
+[08-Sep-2023 15:07:26 UTC] []
+[08-Sep-2023 15:07:26 UTC] []
+[08-Sep-2023 15:07:34 UTC] Start function PHP
+[08-Sep-2023 15:07:34 UTC] {"menu":"4"}
+[08-Sep-2023 15:07:34 UTC] {"menu":"4"}
+[08-Sep-2023 15:07:34 UTC] {"menu":"4"}
+[08-Sep-2023 15:07:34 UTC] {"menu":"4"}
+[08-Sep-2023 15:07:35 UTC] {"menu":"4"}
+[08-Sep-2023 15:07:35 UTC] {"menu":"4"}
+[08-Sep-2023 15:07:35 UTC] {"menu":"4"}
+[08-Sep-2023 15:07:35 UTC] {"menu":"4"}
+[08-Sep-2023 15:07:35 UTC] {"menu":"4"}
+[08-Sep-2023 15:07:35 UTC] {"menu":"4"}
+[08-Sep-2023 15:07:35 UTC] {"menu":"4"}
+[08-Sep-2023 15:07:35 UTC] {"menu":"4"}
+[08-Sep-2023 15:07:41 UTC] Start function PHP
+[08-Sep-2023 15:07:41 UTC] {"action":"locations"}
+[08-Sep-2023 15:07:41 UTC] {"action":"locations"}
+[08-Sep-2023 15:07:42 UTC] {"action":"locations"}
+[08-Sep-2023 15:07:42 UTC] {"action":"locations"}
+[08-Sep-2023 15:08:00 UTC] Start function PHP
+[08-Sep-2023 15:08:00 UTC] {"action":"locations"}
+[08-Sep-2023 15:08:00 UTC] {"action":"locations"}
+[08-Sep-2023 15:08:00 UTC] {"action":"locations"}
+[08-Sep-2023 15:08:00 UTC] {"action":"locations"}
+[08-Sep-2023 15:08:04 UTC] Start function PHP
+[08-Sep-2023 15:08:04 UTC] []
+[08-Sep-2023 15:08:05 UTC] []
+[08-Sep-2023 15:08:05 UTC] []
+[08-Sep-2023 15:08:05 UTC] []
+[08-Sep-2023 15:08:05 UTC] []
+[08-Sep-2023 15:08:05 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/index.php
+[08-Sep-2023 15:08:05 UTC] []
+[08-Sep-2023 15:08:05 UTC] []
+[08-Sep-2023 15:08:09 UTC] Start function PHP
+[08-Sep-2023 15:08:10 UTC] []
+[08-Sep-2023 15:08:10 UTC] []
+[08-Sep-2023 15:08:10 UTC] []
+[08-Sep-2023 15:08:10 UTC] []
+[08-Sep-2023 15:08:10 UTC] []
+[08-Sep-2023 15:08:10 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/page.php
+[08-Sep-2023 15:08:10 UTC] []
+[08-Sep-2023 15:08:10 UTC] []
+[08-Sep-2023 15:08:10 UTC] []
+[08-Sep-2023 15:08:10 UTC] Archive
+[08-Sep-2023 15:08:10 UTC] Ciao da index
+[08-Sep-2023 15:09:02 UTC] Start function PHP
+[08-Sep-2023 15:09:02 UTC] []
+[08-Sep-2023 15:09:02 UTC] []
+[08-Sep-2023 15:11:03 UTC] Start function PHP
+[08-Sep-2023 15:11:03 UTC] []
+[08-Sep-2023 15:11:03 UTC] []
+[08-Sep-2023 15:12:51 UTC] Start function PHP
+[08-Sep-2023 15:12:51 UTC] []
+[08-Sep-2023 15:12:51 UTC] []
+[08-Sep-2023 15:12:51 UTC] []
+[08-Sep-2023 15:12:51 UTC] []
+[08-Sep-2023 15:12:51 UTC] []
+[08-Sep-2023 15:12:51 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/page.php
+[08-Sep-2023 15:12:51 UTC] []
+[08-Sep-2023 15:12:52 UTC] []
+[08-Sep-2023 15:13:05 UTC] Start function PHP
+[08-Sep-2023 15:13:05 UTC] []
+[08-Sep-2023 15:13:05 UTC] []
+[08-Sep-2023 15:14:04 UTC] Start function PHP
+[08-Sep-2023 15:14:04 UTC] []
+[08-Sep-2023 15:14:04 UTC] []
+[08-Sep-2023 15:14:04 UTC] []
+[08-Sep-2023 15:14:04 UTC] []
+[08-Sep-2023 15:14:04 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/category.php
+[08-Sep-2023 15:14:04 UTC] []
+[08-Sep-2023 15:14:05 UTC] []
+[08-Sep-2023 15:14:05 UTC] []
+[08-Sep-2023 15:14:05 UTC] Archive
+[08-Sep-2023 15:14:05 UTC] Ciao da index
+[08-Sep-2023 15:15:04 UTC] Start function PHP
+[08-Sep-2023 15:15:05 UTC] []
+[08-Sep-2023 15:15:05 UTC] []
+[08-Sep-2023 15:16:05 UTC] Start function PHP
+[08-Sep-2023 15:16:06 UTC] []
+[08-Sep-2023 15:16:06 UTC] []
+[08-Sep-2023 15:16:17 UTC] Start function PHP
+[08-Sep-2023 15:16:17 UTC] []
+[08-Sep-2023 15:16:17 UTC] []
+[08-Sep-2023 15:16:17 UTC] []
+[08-Sep-2023 15:16:17 UTC] []
+[08-Sep-2023 15:16:17 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
+[08-Sep-2023 15:16:17 UTC] []
+[08-Sep-2023 15:16:18 UTC] []
+[08-Sep-2023 15:16:23 UTC] Start function PHP
+[08-Sep-2023 15:16:23 UTC] []
+[08-Sep-2023 15:16:23 UTC] []
+[08-Sep-2023 15:16:23 UTC] []
+[08-Sep-2023 15:16:23 UTC] []
+[08-Sep-2023 15:16:23 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
+[08-Sep-2023 15:16:23 UTC] []
+[08-Sep-2023 15:16:23 UTC] []
+[08-Sep-2023 15:16:28 UTC] Start function PHP
+[08-Sep-2023 15:16:28 UTC] []
+[08-Sep-2023 15:16:28 UTC] []
+[08-Sep-2023 15:16:28 UTC] []
+[08-Sep-2023 15:16:28 UTC] []
+[08-Sep-2023 15:16:28 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
+[08-Sep-2023 15:16:28 UTC] []
+[08-Sep-2023 15:16:28 UTC] Start function PHP
+[08-Sep-2023 15:16:29 UTC] []
+[08-Sep-2023 15:16:29 UTC] []
+[08-Sep-2023 15:16:29 UTC] []
+[08-Sep-2023 15:16:29 UTC] []
+[08-Sep-2023 15:16:29 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/category.php
+[08-Sep-2023 15:16:29 UTC] []
+[08-Sep-2023 15:16:29 UTC] []
+[08-Sep-2023 15:16:29 UTC] []
+[08-Sep-2023 15:16:29 UTC] Archive
+[08-Sep-2023 15:16:29 UTC] Ciao da index
+[08-Sep-2023 15:16:39 UTC] Start function PHP
+[08-Sep-2023 15:16:39 UTC] []
+[08-Sep-2023 15:16:39 UTC] []
+[08-Sep-2023 15:16:39 UTC] []
+[08-Sep-2023 15:16:39 UTC] []
+[08-Sep-2023 15:16:39 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
+[08-Sep-2023 15:16:39 UTC] []
+[08-Sep-2023 15:16:39 UTC] []
+[08-Sep-2023 15:17:06 UTC] Start function PHP
+[08-Sep-2023 15:17:06 UTC] []
+[08-Sep-2023 15:17:07 UTC] []
+[08-Sep-2023 15:18:01 UTC] Start function PHP
+[08-Sep-2023 15:18:02 UTC] []
+[08-Sep-2023 15:18:02 UTC] []
+[08-Sep-2023 15:18:02 UTC] []
+[08-Sep-2023 15:18:02 UTC] []
+[08-Sep-2023 15:18:02 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
+[08-Sep-2023 15:18:02 UTC] []
+[08-Sep-2023 15:18:02 UTC] []
+[08-Sep-2023 15:18:07 UTC] Start function PHP
+[08-Sep-2023 15:18:08 UTC] []
+[08-Sep-2023 15:18:08 UTC] []
+[08-Sep-2023 15:18:15 UTC] Start function PHP
+[08-Sep-2023 15:18:16 UTC] {"post_type":"complete-post"}
+[08-Sep-2023 15:18:16 UTC] {"post_type":"complete-post"}
+[08-Sep-2023 15:18:16 UTC] {"post_type":"complete-post"}
+[08-Sep-2023 15:18:16 UTC] {"post_type":"complete-post"}
+[08-Sep-2023 15:18:16 UTC] {"post_type":"complete-post"}
+[08-Sep-2023 15:18:17 UTC] Start function PHP
+[08-Sep-2023 15:18:18 UTC] []
+[08-Sep-2023 15:18:18 UTC] []
+[08-Sep-2023 15:18:23 UTC] Start function PHP
+[08-Sep-2023 15:18:23 UTC] {"post":"60","action":"edit"}
+[08-Sep-2023 15:18:23 UTC] {"post":"60","action":"edit"}
+[08-Sep-2023 15:18:23 UTC] {"post":"60","action":"edit"}
+[08-Sep-2023 15:18:24 UTC] {"post":"60","action":"edit"}
+[08-Sep-2023 15:18:50 UTC] Start function PHP
+[08-Sep-2023 15:18:51 UTC] []
+[08-Sep-2023 15:18:51 UTC] []
+[08-Sep-2023 15:19:02 UTC] Start function PHP
+[08-Sep-2023 15:19:02 UTC] []
+[08-Sep-2023 15:19:03 UTC] []
+[08-Sep-2023 15:19:03 UTC] []
+[08-Sep-2023 15:19:03 UTC] []
+[08-Sep-2023 15:19:03 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
+[08-Sep-2023 15:19:03 UTC] []
+[08-Sep-2023 15:19:03 UTC] []
+[08-Sep-2023 15:19:13 UTC] Start function PHP
+[08-Sep-2023 15:19:13 UTC] []
+[08-Sep-2023 15:19:14 UTC] []
+[08-Sep-2023 15:19:14 UTC] []
+[08-Sep-2023 15:19:14 UTC] Start function PHP
+[08-Sep-2023 15:19:14 UTC] []
+[08-Sep-2023 15:19:14 UTC] []
+[08-Sep-2023 15:19:14 UTC] []
+[08-Sep-2023 15:19:14 UTC] []
+[08-Sep-2023 15:19:14 UTC] []
+[08-Sep-2023 15:19:15 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/page.php
+[08-Sep-2023 15:19:15 UTC] []
+[08-Sep-2023 15:19:15 UTC] []
+[08-Sep-2023 15:19:27 UTC] Start function PHP
+[08-Sep-2023 15:19:28 UTC] []
+[08-Sep-2023 15:19:28 UTC] []
+[08-Sep-2023 15:21:23 UTC] Start function PHP
+[08-Sep-2023 15:21:23 UTC] []
+[08-Sep-2023 15:21:23 UTC] []
+[08-Sep-2023 15:21:23 UTC] []
+[08-Sep-2023 15:21:23 UTC] []
+[08-Sep-2023 15:21:23 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/taxonomy-categoria_custom.php
+[08-Sep-2023 15:21:23 UTC] []
+[08-Sep-2023 15:21:24 UTC] []
+[08-Sep-2023 15:21:24 UTC] []
+[08-Sep-2023 15:21:24 UTC] Archive
+[08-Sep-2023 15:21:24 UTC] Ciao da index
+[08-Sep-2023 15:21:28 UTC] Start function PHP
+[08-Sep-2023 15:21:29 UTC] []
+[08-Sep-2023 15:21:29 UTC] []
+[08-Sep-2023 15:22:03 UTC] Start function PHP
+[08-Sep-2023 15:22:03 UTC] []
+[08-Sep-2023 15:22:03 UTC] []
+[08-Sep-2023 15:22:03 UTC] []
+[08-Sep-2023 15:22:03 UTC] []
+[08-Sep-2023 15:22:03 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/taxonomy-categoria_custom.php
+[08-Sep-2023 15:22:03 UTC] []
+[08-Sep-2023 15:22:03 UTC] []
+[08-Sep-2023 15:22:04 UTC] []
+[08-Sep-2023 15:22:04 UTC] Archive
+[08-Sep-2023 15:22:04 UTC] Ciao da index
+[08-Sep-2023 15:23:04 UTC] Start function PHP
+[08-Sep-2023 15:23:05 UTC] []
+[08-Sep-2023 15:23:05 UTC] []
+[08-Sep-2023 15:23:05 UTC] []
+[08-Sep-2023 15:23:05 UTC] []
+[08-Sep-2023 15:23:05 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/taxonomy-categoria_custom.php
+[08-Sep-2023 15:23:05 UTC] []
+[08-Sep-2023 15:23:05 UTC] []
+[08-Sep-2023 15:23:05 UTC] []
+[08-Sep-2023 15:23:05 UTC] Archive
+[08-Sep-2023 15:23:05 UTC] Ciao da index
+[08-Sep-2023 15:23:29 UTC] Start function PHP
+[08-Sep-2023 15:23:29 UTC] []
+[08-Sep-2023 15:23:29 UTC] []
+[08-Sep-2023 15:25:29 UTC] Start function PHP
+[08-Sep-2023 15:25:30 UTC] []
+[08-Sep-2023 15:25:30 UTC] []
+[08-Sep-2023 15:25:53 UTC] Start function PHP
+[08-Sep-2023 15:25:53 UTC] []
+[08-Sep-2023 15:25:54 UTC] []
+[08-Sep-2023 15:25:54 UTC] []
+[08-Sep-2023 15:25:54 UTC] []
+[08-Sep-2023 15:25:54 UTC] []
+[08-Sep-2023 15:25:54 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/page.php
+[08-Sep-2023 15:25:54 UTC] []
+[08-Sep-2023 15:25:54 UTC] []
+[08-Sep-2023 15:27:30 UTC] Start function PHP
+[08-Sep-2023 15:27:31 UTC] []
+[08-Sep-2023 15:27:31 UTC] []
+[08-Sep-2023 15:28:20 UTC] Start function PHP
+[08-Sep-2023 15:28:20 UTC] []
+[08-Sep-2023 15:28:20 UTC] []
+[08-Sep-2023 15:28:20 UTC] []
+[08-Sep-2023 15:28:20 UTC] []
+[08-Sep-2023 15:28:20 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/category.php
+[08-Sep-2023 15:28:20 UTC] []
+[08-Sep-2023 15:28:20 UTC] []
+[08-Sep-2023 15:28:20 UTC] []
+[08-Sep-2023 15:28:20 UTC] Archive
+[08-Sep-2023 15:28:20 UTC] Ciao da index
+[08-Sep-2023 15:28:56 UTC] Start function PHP
+[08-Sep-2023 15:28:56 UTC] []
+[08-Sep-2023 15:28:56 UTC] []
+[08-Sep-2023 15:28:56 UTC] []
+[08-Sep-2023 15:28:56 UTC] []
+[08-Sep-2023 15:28:56 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/category.php
+[08-Sep-2023 15:28:56 UTC] []
+[08-Sep-2023 15:28:56 UTC] []
+[08-Sep-2023 15:28:56 UTC] []
+[08-Sep-2023 15:28:56 UTC] Archive
+[08-Sep-2023 15:28:56 UTC] Ciao da index
+[08-Sep-2023 15:29:26 UTC] Start function PHP
+[08-Sep-2023 15:29:26 UTC] []
+[08-Sep-2023 15:29:27 UTC] []
+[08-Sep-2023 15:29:27 UTC] []
+[08-Sep-2023 15:29:27 UTC] []
+[08-Sep-2023 15:29:27 UTC] []
+[08-Sep-2023 15:29:27 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/page.php
+[08-Sep-2023 15:29:27 UTC] []
+[08-Sep-2023 15:29:27 UTC] []
+[08-Sep-2023 15:29:31 UTC] Start function PHP
+[08-Sep-2023 15:29:32 UTC] []
+[08-Sep-2023 15:29:32 UTC] []
+[08-Sep-2023 15:31:03 UTC] Start function PHP
+[08-Sep-2023 15:31:04 UTC] []
+[08-Sep-2023 15:31:04 UTC] []
+[08-Sep-2023 15:31:04 UTC] []
+[08-Sep-2023 15:31:04 UTC] []
+[08-Sep-2023 15:31:04 UTC] []
+[08-Sep-2023 15:31:04 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/page.php
+[08-Sep-2023 15:31:04 UTC] []
+[08-Sep-2023 15:31:04 UTC] []
+[08-Sep-2023 15:33:58 UTC] Start function PHP
+[08-Sep-2023 15:33:59 UTC] []
+[08-Sep-2023 15:33:59 UTC] []
+[08-Sep-2023 15:34:11 UTC] Start function PHP
+[08-Sep-2023 15:34:11 UTC] []
+[08-Sep-2023 15:34:11 UTC] []
+[08-Sep-2023 15:34:11 UTC] []
+[08-Sep-2023 15:34:11 UTC] []
+[08-Sep-2023 15:34:11 UTC] []
+[08-Sep-2023 15:34:11 UTC] []
+[08-Sep-2023 15:34:11 UTC] []
+[08-Sep-2023 15:34:13 UTC] Start function PHP
+[08-Sep-2023 15:34:14 UTC] []
+[08-Sep-2023 15:34:14 UTC] []
+[08-Sep-2023 15:34:17 UTC] Start function PHP
+[08-Sep-2023 15:34:17 UTC] Start function PHP
+[08-Sep-2023 15:34:17 UTC] {"context":"edit","per_page":"100","_locale":"user"}
+[08-Sep-2023 15:34:18 UTC] {"_locale":"user"}
+[08-Sep-2023 15:34:18 UTC] {"context":"edit","per_page":"100","_locale":"user"}
+[08-Sep-2023 15:34:18 UTC] Start function PHP
+[08-Sep-2023 15:34:18 UTC] {"_locale":"user"}
+[08-Sep-2023 15:34:18 UTC] {"context":"edit","per_page":"100","_locale":"user"}
+[08-Sep-2023 15:34:18 UTC] {"_locale":"user"}
+[08-Sep-2023 15:34:18 UTC] {"_locale":"user"}
+[08-Sep-2023 15:34:19 UTC] Start function PHP
+[08-Sep-2023 15:34:19 UTC] {"_fields":"description,gmt_offset,home,name,site_icon,site_icon_url,site_logo,timezone_string,url","_locale":"user"}
+[08-Sep-2023 15:34:20 UTC] {"_fields":"description,gmt_offset,home,name,site_icon,site_icon_url,site_logo,timezone_string,url","_locale":"user"}
+[08-Sep-2023 15:34:20 UTC] Start function PHP
+[08-Sep-2023 15:34:20 UTC] {"context":"view","who":"authors","per_page":"50","_fields":"id,name","_locale":"user"}
+[08-Sep-2023 15:34:20 UTC] {"context":"view","who":"authors","per_page":"50","_fields":"id,name","_locale":"user"}
+[08-Sep-2023 15:34:21 UTC] Start function PHP
+[08-Sep-2023 15:34:21 UTC] {"context":"edit","per_page":"100","_locale":"user"}
+[08-Sep-2023 15:34:21 UTC] Start function PHP
+[08-Sep-2023 15:34:22 UTC] {"context":"edit","per_page":"100","_locale":"user"}
+[08-Sep-2023 15:34:22 UTC] {"_locale":"user"}
+[08-Sep-2023 15:34:22 UTC] {"_locale":"user"}
+[08-Sep-2023 15:34:23 UTC] Start function PHP
+[08-Sep-2023 15:34:23 UTC] {"p":"66","_wp-find-template":"true","_locale":"user"}
+[08-Sep-2023 15:34:23 UTC] Start function PHP
+[08-Sep-2023 15:34:23 UTC] {"p":"66","_wp-find-template":"true","_locale":"user"}
+[08-Sep-2023 15:34:23 UTC] {"p":"66","_wp-find-template":"true","_locale":"user"}
+[08-Sep-2023 15:34:23 UTC] {"p":"66","_wp-find-template":"true","_locale":"user"}
+[08-Sep-2023 15:34:23 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/single.php
+[08-Sep-2023 15:34:23 UTC] {"p":"66","_wp-find-template":"true","_locale":"user"}
+[08-Sep-2023 15:34:24 UTC] {"context":"edit","status":"active","_locale":"user"}
+[08-Sep-2023 15:34:24 UTC] {"p":"66","_wp-find-template":"true","_locale":"user"}
+[08-Sep-2023 15:34:24 UTC] {"context":"edit","status":"active","_locale":"user"}
+[08-Sep-2023 15:34:24 UTC] {"context":"edit","status":"active","_locale":"user"}
+[08-Sep-2023 15:34:25 UTC] Start function PHP
+[08-Sep-2023 15:34:26 UTC] []
+[08-Sep-2023 15:34:26 UTC] Start function PHP
+[08-Sep-2023 15:34:26 UTC] []
+[08-Sep-2023 15:34:26 UTC] {"post":"60","action":"edit"}
+[08-Sep-2023 15:34:27 UTC] {"post":"60","action":"edit"}
+[08-Sep-2023 15:34:27 UTC] {"post":"60","action":"edit"}
+[08-Sep-2023 15:34:27 UTC] {"post":"60","action":"edit"}
+[08-Sep-2023 15:34:29 UTC] Start function PHP
+[08-Sep-2023 15:34:29 UTC] {"post":"60","action":"edit"}
+[08-Sep-2023 15:34:30 UTC] {"post":"60","action":"edit"}
+[08-Sep-2023 15:34:30 UTC] {"post":"60","action":"edit"}
+[08-Sep-2023 15:34:30 UTC] {"post":"60","action":"edit"}
+[08-Sep-2023 15:34:56 UTC] Start function PHP
+[08-Sep-2023 15:34:56 UTC] {"taxonomy":"category"}
+[08-Sep-2023 15:34:56 UTC] {"taxonomy":"category"}
+[08-Sep-2023 15:34:58 UTC] Start function PHP
+[08-Sep-2023 15:34:58 UTC] []
+[08-Sep-2023 15:34:58 UTC] []
+[08-Sep-2023 15:35:06 UTC] Start function PHP
+[08-Sep-2023 15:35:06 UTC] {"taxonomy":"category","tag_ID":"1","post_type":"post","wp_http_referer":"\/Progetti\/Corso_Wordpress\/wp-admin\/edit-tags.php?taxonomy=category"}
+[08-Sep-2023 15:35:06 UTC] {"taxonomy":"category","tag_ID":"1","post_type":"post","wp_http_referer":"\/Progetti\/Corso_Wordpress\/wp-admin\/edit-tags.php?taxonomy=category"}
+[08-Sep-2023 15:36:08 UTC] Start function PHP
+[08-Sep-2023 15:36:09 UTC] []
+[08-Sep-2023 15:36:09 UTC] []
+[08-Sep-2023 15:36:30 UTC] Start function PHP
+[08-Sep-2023 15:36:30 UTC] []
+[08-Sep-2023 15:36:30 UTC] []
+[08-Sep-2023 15:36:30 UTC] []
+[08-Sep-2023 15:36:30 UTC] []
+[08-Sep-2023 15:36:30 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone-child/category-senza-categoria.php
+[08-Sep-2023 15:36:30 UTC] []
+[08-Sep-2023 15:36:30 UTC] []
+[08-Sep-2023 15:36:30 UTC] []
+[08-Sep-2023 15:36:30 UTC] Archive
+[08-Sep-2023 15:36:30 UTC] Ciao da index
+[08-Sep-2023 15:38:09 UTC] Start function PHP
+[08-Sep-2023 15:38:10 UTC] []
+[08-Sep-2023 15:38:10 UTC] []
+[08-Sep-2023 15:39:10 UTC] Start function PHP
+[08-Sep-2023 15:39:11 UTC] []
+[08-Sep-2023 15:39:11 UTC] []
+[08-Sep-2023 15:41:12 UTC] Start function PHP
+[08-Sep-2023 15:41:13 UTC] []
+[08-Sep-2023 15:41:13 UTC] []
+[08-Sep-2023 15:41:14 UTC] Start function PHP
+[08-Sep-2023 15:41:15 UTC] {"doing_wp_cron":"1694187673.3654251098632812500000"}
+[08-Sep-2023 15:41:15 UTC] {"doing_wp_cron":"1694187673.3654251098632812500000"}
+[08-Sep-2023 15:41:41 UTC] Start function PHP
+[08-Sep-2023 15:41:41 UTC] []
+[08-Sep-2023 15:41:41 UTC] []
+[08-Sep-2023 15:41:41 UTC] []
+[08-Sep-2023 15:41:41 UTC] []
+[08-Sep-2023 15:41:41 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
+[08-Sep-2023 15:41:41 UTC] []
+[08-Sep-2023 15:41:42 UTC] []
+[08-Sep-2023 15:42:54 UTC] Start function PHP
+[08-Sep-2023 15:42:54 UTC] []
+[08-Sep-2023 15:42:54 UTC] []
+[08-Sep-2023 15:42:54 UTC] []
+[08-Sep-2023 15:42:54 UTC] []
+[08-Sep-2023 15:42:54 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
+[08-Sep-2023 15:42:54 UTC] []
+[08-Sep-2023 15:42:55 UTC] []
+[08-Sep-2023 15:43:14 UTC] Start function PHP
+[08-Sep-2023 15:43:14 UTC] []
+[08-Sep-2023 15:43:14 UTC] []
+[08-Sep-2023 15:43:38 UTC] Start function PHP
+[08-Sep-2023 15:43:39 UTC] []
+[08-Sep-2023 15:43:39 UTC] []
+[08-Sep-2023 15:43:39 UTC] []
+[08-Sep-2023 15:43:39 UTC] []
+[08-Sep-2023 15:43:39 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
+[08-Sep-2023 15:43:39 UTC] []
+[08-Sep-2023 15:43:39 UTC] []
+[08-Sep-2023 15:45:14 UTC] Start function PHP
+[08-Sep-2023 15:45:14 UTC] []
+[08-Sep-2023 15:45:14 UTC] []
+[08-Sep-2023 15:47:16 UTC] Start function PHP
+[08-Sep-2023 15:47:16 UTC] []
+[08-Sep-2023 15:47:16 UTC] []

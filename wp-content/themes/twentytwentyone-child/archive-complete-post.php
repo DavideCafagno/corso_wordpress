@@ -1,11 +1,11 @@
 <?php 
 
-$args = array(
+/*$args = array(
     'post_type' => array('complete-post'),
     'posts_per_page' => 5,
     'paged' => returnPaged(get_site_url().'/complete-post'));
 
-query_posts($args);
+query_posts($args);*/
 ?>
 
 

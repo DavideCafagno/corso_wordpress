@@ -168,21 +168,22 @@ function retrive_permalink_login()
     die();
 }
 
-add_filter( 'template_include', 'at_force_template', 15, 2 );
-function at_force_template( $template ) {
-    $isArchive = 'page.php' === basename( $template );
-    $isSingle  = 'single.php' === basename( $template );
+add_filter('template_include', 'at_force_template', 15, 2);
+function at_force_template($template)
+{
+    $isArchive = 'page.php' === basename($template);
+    $isSingle = 'single.php' === basename($template);
     error_log($template);
     return $template;
 }
 
 function remove_page_from_query_string($wp_query)
 {
-
-    $wp_query['paged'] = null;
+    // $wp_query['paged'] = null;
     return $wp_query;
 }
-add_filter('request', 'remove_page_from_query_string');
+
+//add_filter('request', 'remove_page_from_query_string');
 
 
 //function prefix_change_cpt_archive_per_page( $query ) {
@@ -280,21 +281,86 @@ add_filter('request', 'remove_page_from_query_string');
 //}
 //add_action('init', 'my_pagination_rewrite');
 
-function returnPaged($url){
-    $basePagingUrlLenght = strlen($url.'/page/');
-    $pageUrl = $_SERVER['REQUEST_SCHEME'].'://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+function returnPaged($url)
+{
+    $basePagingUrlLenght = strlen($url . '/page/');
+    $pageUrl = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
     $pageUrlLenght = strlen($pageUrl);
-    $pagePath='';
-    if($basePagingUrlLenght < $pageUrlLenght){
-        $pagePath = substr($pageUrl, $basePagingUrlLenght );
-        $pagePath = substr($pagePath,0,1);
+    $pagePath = '';
+    if ($basePagingUrlLenght < $pageUrlLenght) {
+        $pagePath = substr($pageUrl, $basePagingUrlLenght);
+        $pagePath = substr($pagePath, 0, strlen($pagePath) - 1);
     }
-    $paged =1;
-    if($pagePath != "") {
+    $paged = 1;
+    if ($pagePath != "") {
         $paged = $pagePath;
     }
 
-    //echo "  BasePagingURL : ".$url.'/page/'." (lun: ".$basePagingUrlLenght.  ") || PageURL : ".$pageUrl. " (lun: ".$pageUrlLenght.")";
+    echo "  BasePagingURL : " . $url . '/page/' . " (lun: " . $basePagingUrlLenght . ") || PageURL : " . $pageUrl . " (lun: " . $pageUrlLenght . ")<br>";
+    echo "N PAG: " . $paged;
     return $paged;
 
 }
+
+function target_main_category_query_with_conditional_tags($query)
+{
+    global $wp_query;
+    global $_GET;
+    $variabile =  $wp_query;
+    error_log(json_encode($_GET));
+    //controllare se siamo in home; esistenza post-type,verificare tipo post-ytpe e controllare contenuto
+    //se troviamo 'post' aggiungiamo settings(type and post per page);
+if(is_home()){
+    if(!array_key_exists('post_type', $query->query_vars)){
+       // if(!is_array($query->query_vars['post_type'])){
+        //    if("post" == $query->query_vars['post_type']){
+                $query->set('posts_per_page', 4);
+                $query->set('post_type', array('complete-post','post','pippo'));
+       //     }else{
+       //         $query->set('posts_per_page', 1);
+       //    }
+        //}else{
+       //     $query->set('posts_per_page', 2);
+        //}
+    }else{
+        $query->set('posts_per_page', 3);
+    }
+
+}else{
+    $query->set('posts_per_page', 5);
+}
+
+
+    /*if (true) {
+        if (
+            is_array($query->query_vars) &&
+            array_key_exists('post_type', $query->query_vars) &&
+            is_array($query->query_vars["post_type"])
+
+        ) {
+
+            if (in_array('complete-post', $query->query_vars["post_type"])) {
+                if (is_category()) {
+                    // It's the main query for a category archive.
+
+                    // Let's change the query for category archives.
+                    $query->set('posts_per_page', 3);
+                }else{
+                    $query->set('posts_per_page', 2);
+                }
+            }
+        }
+        // Not a query for an admin page.
+        // It's the main query for a front end page of your site.
+
+
+    }*/
+}
+
+add_action('pre_get_posts', 'target_main_category_query_with_conditional_tags');
+function getPostProva($post,$query){
+    $abc = $query;
+    //error_log($query->query_vars['post_type']);
+    return $post;
+}
+add_action('posts_results', 'getPostProva',10,2);

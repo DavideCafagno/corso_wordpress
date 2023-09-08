@@ -29,7 +29,7 @@ error_log("Archive");
 //print_r($wp_query);
 ?>
 <?php
-echo "CIao DA Page";
+echo "Ciao DA Taxopnomy BASE Category";
 if (have_posts()) : while (have_posts()) : the_post(); ?>
     <div style='border:solid 1px black; padding : 20px; margin:20px;'>
         <h3><a href="<?php the_permalink()?>"><?php the_title(); ?></a></h3>
