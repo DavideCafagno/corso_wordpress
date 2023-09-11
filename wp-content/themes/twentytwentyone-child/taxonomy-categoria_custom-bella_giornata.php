@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html>
 
@@ -12,11 +10,11 @@
 
 <body>
 <h1><?php bloginfo('name'); ?></h1>
-<h2><?php bloginfo('description'); ?></h2>
 <?php
+
 ?>
 <?php
-echo "Ciao DA Category-senza categoria";
+echo "Ciao da Taxonomy categoria custom - bella giornata";
 if (have_posts()) : while (have_posts()) : the_post(); ?>
     <div style='border:solid 1px black; padding : 20px; margin:20px;'>
         <h3><a href="<?php the_permalink()?>"><?php the_title(); ?></a></h3>

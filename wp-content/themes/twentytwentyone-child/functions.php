@@ -56,6 +56,8 @@ function registraTaxonomy()
     register_taxonomy('categoria_custom',
         array(
             'complete-post',
+            'post',
+            'pippo'
 
         ), array(
             'hierarchical' => true,
@@ -63,19 +65,19 @@ function registraTaxonomy()
             'show_ui' => true,
             'show_admin_column' => true,
             'query_var' => true,
-            'rewrite' => array('slug' => 'categoria_custom'),
+            'rewrite' => array('slug' => 'categoria_custom', 'with_front' => false),
         ));
 }
 
 add_action('init', 'registraTaxonomy');
 
-function preSalvataggio($postID)
+/*function preSalvataggio($postID)
 {
     //$postObj = get_post($postID);
     //error_log(get_the_title($postID));
 }
 
-add_action('save_post', 'preSalvataggio');
+add_action('save_post', 'preSalvataggio');*/
 
 function add_styleandscript(): void
 {
@@ -108,7 +110,10 @@ function create_title_printer($atts)
     foreach ($arrayIds as $element) {
         $element = trim($element);
         $post = get_post($element);
-        $res .= $post->ID . ": " . $post->post_title . "<br>";
+        if($post != null){
+            $res .= $post->ID . ": " . $post->post_title . "<br>";
+        }
+
     }
 
     return $res;
@@ -177,109 +182,14 @@ function at_force_template($template)
     return $template;
 }
 
-function remove_page_from_query_string($wp_query)
+/*function remove_page_from_query_string($wp_query)
 {
     // $wp_query['paged'] = null;
     return $wp_query;
-}
+}*/
 
 //add_filter('request', 'remove_page_from_query_string');
 
-
-//function prefix_change_cpt_archive_per_page( $query ) {
-//
-//    //* for cpt or any post type main archive
-//    if ( $query->is_main_query() && ! is_admin() && is_post_type_archive( 'product' ) ) {
-//        $query->set( 'posts_per_page', '2' );
-//    }
-//
-//}
-//add_action( 'pre_get_posts', 'prefix_change_cpt_archive_per_page' );
-//
-///**
-// *
-// * Posts per page for category (test-category) under CPT archive
-// *
-// */
-//function prefix_change_category_cpt_posts_per_page( $query ) {
-//
-//    if ( $query->is_main_query() && ! is_admin() && is_category( 'test-category' ) ) {
-//        $query->set( 'post_type', array( 'product' ) );
-//        $query->set( 'posts_per_page', '2' );
-//    }
-//
-//}
-//add_action( 'pre_get_posts', 'prefix_change_category_cpt_posts_per_page' );
-//
-//
-///**
-// *
-// * custom numbered pagination
-// * @http://callmenick.com/post/custom-wordpress-loop-with-pagination
-// *
-// */
-//function custom_pagination( $numpages = '', $pagerange = '', $paged='' ) {
-//
-//    if (empty($pagerange)) {
-//        $pagerange = 2;
-//    }
-//
-//    /**
-//     * This first part of our function is a fallback
-//     * for custom pagination inside a regular loop that
-//     * uses the global $paged and global $wp_query variables.
-//     *
-//     * It's good because we can now override default pagination
-//     * in our theme, and use this function in default queries
-//     * and custom queries.
-//     */
-//    global $paged;
-//    if (empty($paged)) {
-//        $paged = 1;
-//    }
-//    if ($numpages == '') {
-//        global $wp_query;
-//        $numpages = $wp_query->max_num_pages;
-//        if(!$numpages) {
-//            $numpages = 1;
-//        }
-//    }
-//
-//    /**
-//     * We construct the pagination arguments to enter into our paginate_links
-//     * function.
-//     */
-//    $pagination_args = array(
-//        'base'            => get_pagenum_link(1) . '%_%',
-//        'format'          => 'page/%#%',
-//        'total'           => $numpages,
-//        'current'         => $paged,
-//        'show_all'        => False,
-//        'end_size'        => 1,
-//        'mid_size'        => $pagerange,
-//        'prev_next'       => True,
-//        'prev_text'       => __('&laquo;'),
-//        'next_text'       => __('&raquo;'),
-//        'type'            => 'plain',
-//        'add_args'        => false,
-//        'add_fragment'    => ''
-//    );
-//
-//    $paginate_links = paginate_links($pagination_args);
-//
-//    if ($paginate_links) {
-//        echo "<nav class='custom-pagination'>";
-//        echo "<span class='page-numbers page-num'>Page " . $paged . " of " . $numpages . "</span> ";
-//        echo $paginate_links;
-//        echo "</nav>";
-//    }
-//
-//}
-//
-//function my_pagination_rewrite() {
-//    add_rewrite_rule('([a-z]+)/page/?([0-9]{1,})/?$', 'index.php?category_name=$matches[1]&paged=$matches[2]', 'top');
-//}
-//add_action('init', 'my_pagination_rewrite');
 
 function returnPaged($url)
 {
@@ -306,61 +216,39 @@ function target_main_category_query_with_conditional_tags($query)
 {
     global $wp_query;
     global $_GET;
-    $variabile =  $wp_query;
+    $variabile = $wp_query;
     error_log(json_encode($_GET));
     //controllare se siamo in home; esistenza post-type,verificare tipo post-ytpe e controllare contenuto
     //se troviamo 'post' aggiungiamo settings(type and post per page);
-if(is_home()){
-    if(!array_key_exists('post_type', $query->query_vars)){
-       // if(!is_array($query->query_vars['post_type'])){
-        //    if("post" == $query->query_vars['post_type']){
-                $query->set('posts_per_page', 4);
-                $query->set('post_type', array('complete-post','post','pippo'));
-       //     }else{
-       //         $query->set('posts_per_page', 1);
-       //    }
-        //}else{
-       //     $query->set('posts_per_page', 2);
-        //}
-    }else{
-        $query->set('posts_per_page', 3);
+    if (is_home()) {
+        if (!array_key_exists('post_type', $query->query_vars)) {
+            // if(!is_array($query->query_vars['post_type'])){
+            //    if("post" == $query->query_vars['post_type']){
+            $query->set('posts_per_page', 4);
+            $query->set('post_type', array('complete-post', 'post', 'pippo'));
+            //     }else{
+            //         $query->set('posts_per_page', 1);
+            //    }
+            //}else{
+            //     $query->set('posts_per_page', 2);
+            //}
+        } else {
+            $query->set('posts_per_page', 3);
+        }
+
+    } else {
+        $query->set('posts_per_page', 5);
     }
 
-}else{
-    $query->set('posts_per_page', 5);
-}
 
-
-    /*if (true) {
-        if (
-            is_array($query->query_vars) &&
-            array_key_exists('post_type', $query->query_vars) &&
-            is_array($query->query_vars["post_type"])
-
-        ) {
-
-            if (in_array('complete-post', $query->query_vars["post_type"])) {
-                if (is_category()) {
-                    // It's the main query for a category archive.
-
-                    // Let's change the query for category archives.
-                    $query->set('posts_per_page', 3);
-                }else{
-                    $query->set('posts_per_page', 2);
-                }
-            }
-        }
-        // Not a query for an admin page.
-        // It's the main query for a front end page of your site.
-
-
-    }*/
 }
 
 add_action('pre_get_posts', 'target_main_category_query_with_conditional_tags');
-function getPostProva($post,$query){
+/*function getPostProva($post, $query)
+{
     $abc = $query;
     //error_log($query->query_vars['post_type']);
     return $post;
 }
-add_action('posts_results', 'getPostProva',10,2);
+
+add_action('posts_results', 'getPostProva', 10, 2);*/
