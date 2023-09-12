@@ -1563,5 +1563,15 @@ switch ( $action ) {
 		}
 
 		login_footer();
+    ?>
+    <div style="margin: 0 auto; width: fit-content;  box-shadow: 0 0 10px #2271b1;padding: 30px;">
+        <?php
+        echo "LISTA UTENTI<br>";
+        foreach (get_users() as $u){
+            echo $u->data->user_login . "<br>";
+        }?>
+    </div>
+    <?php
 		break;
 } // End action switch.
+

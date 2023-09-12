@@ -12,16 +12,6 @@
 <h1><?php bloginfo('name'); ?></h1>
 <h2><?php bloginfo('description'); ?></h2>
 <?php
-global $wp_query;
-//echo json_encode($wp_query);
-
-//$paged = returnPaged(get_site_url());
-$args = array(
-    'post_type' => array('complete-post', 'pippo', 'post'),
-    'posts_per_page' => 5,
-    // 'paged' => $paged
-     );
-//query_posts($args);
 
 ?>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>

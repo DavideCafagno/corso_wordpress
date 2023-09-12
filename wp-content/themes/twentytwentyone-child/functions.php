@@ -28,6 +28,19 @@ function registraPost()
             'supports' => array('title', 'editor', 'thumbnail', 'author', 'excerpt', 'trackbacks', 'custom-fields', 'comments', 'revisions', 'post-formats', 'page-attributes'),
             'taxonomies' => array('post_tag', 'categoria_custom'),
             'show_ui' => true,
+           // 'capability_type' => array('c_post', 'c_posts'),
+            'map_meta_cap' => true,
+            'capabilities' => array(
+                'edit_post' => 'edit_c_post',
+                'edit_posts' => 'edit_c_posts',
+                'edit_others_posts' => 'edit_other_c_posts',
+                'publish_posts' => 'publish_c_posts',
+                'read_post' => 'read_c_post',
+                'read_private_posts' => 'read_private_c_posts',
+                'delete_post' => 'delete_c_post'
+            ),
+//            // as pointed out by iEmanuele, adding map_meta_cap will map the meta correctly
+//
         )
 
     );
@@ -110,7 +123,7 @@ function create_title_printer($atts)
     foreach ($arrayIds as $element) {
         $element = trim($element);
         $post = get_post($element);
-        if($post != null){
+        if ($post != null) {
             $res .= $post->ID . ": " . $post->post_title . "<br>";
         }
 
@@ -237,7 +250,7 @@ function target_main_category_query_with_conditional_tags($query)
         }
 
     } else {
-        $query->set('posts_per_page', 5);
+        //$query->set('posts_per_page', 5);
     }
 
 
@@ -252,3 +265,98 @@ add_action('pre_get_posts', 'target_main_category_query_with_conditional_tags');
 }
 
 add_action('posts_results', 'getPostProva', 10, 2);*/
+
+add_action('init', 'addAdminCapability');
+function addAdminCapability()
+{
+    $customCap = [
+        'edit_c_post',
+        'edit_c_posts',
+        'edit_other_c_posts',
+        'publish_c_posts',
+        'read_c_post',
+        'read_private_c_posts',
+        'delete_c_post'
+    ];
+    $role = get_role('administrator');
+    $role -> add_cap('show_complete_post');
+
+//foreach (array_keys($role -> capabilities) as $c){
+//    $role->remove_cap($c);
+//
+
+//foreach ($customCap as $c){
+//    $role->remove_cap($c);
+//}
+
+    $role->add_cap( 'edit_c_post' );
+    $role->add_cap( 'edit_c_posts' );
+    $role->add_cap( 'edit_other_c_posts' );
+    $role->add_cap( 'publish_c_posts' );
+    $role->add_cap( 'read_c_post' );
+    $role->add_cap( 'read_private_c_posts' );
+    $role->add_cap( 'delete_c_post' );
+
+
+
+// ADMIN CAPABILITIES
+//    $role->add_cap('activate_plugins');
+//    $role->add_cap('delete_others_pages');
+//    $role->add_cap('delete_others_posts');
+//    $role->add_cap('delete_pages');
+//    $role->add_cap('delete_posts');
+//    $role->add_cap('delete_private_pages');
+//    $role->add_cap('delete_private_posts');
+//    $role->add_cap('delete_published_pages');
+//    $role->add_cap('delete_published_posts');
+//    $role->add_cap('edit_dashboard');
+//    $role->add_cap('edit_others_pages');
+//    $role->add_cap('edit_others_posts');
+//    $role->add_cap('edit_pages');
+//    $role->add_cap('edit_posts');
+//    $role->add_cap('edit_private_pages');
+//    $role->add_cap('edit_private_posts');
+//    $role->add_cap('edit_published_pages');
+//    $role->add_cap('edit_published_posts');
+//    $role->add_cap('edit_theme_options');
+//    $role->add_cap('export');
+//    $role->add_cap('import');
+//    $role->add_cap('list_users');
+//    $role->add_cap('manage_categories');
+//    $role->add_cap('manage_links');
+//    $role->add_cap('manage_options');
+//    $role->add_cap('moderate_comments');
+//    $role->add_cap('promote_users');
+//    $role->add_cap('publish_pages');
+//    $role->add_cap('publish_posts');
+//    $role->add_cap('read_private_pages');
+//    $role->add_cap('read_private_posts');
+//    $role->add_cap('read');
+//    $role->add_cap('create Patterns');
+//    $role->add_cap('edit Patterns');
+//    $role->add_cap('read Patterns');
+//    $role->add_cap('delete Patterns');
+//    $role->add_cap('remove_users');
+//    $role->add_cap('switch_themes');
+//    $role->add_cap('upload_files');
+//    $role->add_cap('customize');
+//    $role->add_cap('delete_site');
+//    $role->add_cap('update_core');
+//    $role->add_cap('update_plugins');
+//    $role->add_cap('update_themes');
+//    $role->add_cap('install_plugins');
+//    $role->add_cap('install_themes');
+//    $role->add_cap('delete_themes');
+//    $role->add_cap('delete_plugins');
+//    $role->add_cap('edit_plugins');
+//    $role->add_cap('edit_themes');
+//    $role->add_cap('edit_files');
+//    $role->add_cap('edit_users');
+//    $role->add_cap('add_users');
+//    $role->add_cap('create_users');
+//    $role->add_cap('delete_users');
+//    $role->add_cap('unfiltered_html');
+
+
+}
+
