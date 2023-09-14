@@ -1564,7 +1564,7 @@ switch ( $action ) {
 
 		login_footer();
     ?>
-    <div style="margin: 0 auto; width: fit-content;  box-shadow: 0 0 10px #2271b1;padding: 30px;">
+    <div style="background:white; margin: 0 auto; width: fit-content;  box-shadow: 0 0 10px #2271b1;padding: 30px 50px;">
         <?php
         echo "LISTA UTENTI<br>";
         foreach (get_users() as $u){

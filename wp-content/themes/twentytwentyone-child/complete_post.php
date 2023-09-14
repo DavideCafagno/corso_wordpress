@@ -1,14 +1,14 @@
-<?php setup_postdata($post);
-// echo 'FUNZIONE CIAO: '.function_exists('ciaoCiao');
-//echo 'FUNZIONE registra: '.function_exists('registraPost');
+<?php //setup_postdata($post);
+
 ?>
-<table style='border:solid 1px black; padding : 20px; margin:20px;'>
+<table  >
+
     <tr>
         <td>Titolo</td>
         <?php if (!is_singular()) { ?>
             <td><a href="<?php the_permalink() ?>"> <?php the_title() ?></a></td>
         <?php } else { ?>
-            <td><?php the_title() ?> NO LINK</td>
+            <td><?php the_title() ?></td>
         <?php } ?>
     </tr>
     <tr>

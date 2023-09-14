@@ -101,6 +101,11 @@ function add_styleandscript(): void
     wp_enqueue_script('custom_script');
 
 
+//    wp_register_script( 'bootstrap_js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js', array(), '0.1', true);
+//    wp_enqueue_script( 'bootstrap_js' );
+//    wp_register_style('bootstrap_style', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css');
+//    wp_enqueue_style( 'bootstrap_style' );
+
     // wp_register_script("liker_script", plugin_dir_url(__FILE__) . 'liker_script.js', array('jquery'));
 
     // localize the script to your domain name, so that you can reference the url to admin-ajax.php file easily
@@ -358,5 +363,31 @@ function addAdminCapability()
 //    $role->add_cap('unfiltered_html');
 
 
+}
+
+add_action('rest_api_init','addCustomRestApi');
+function addCustomRestApi(){
+    register_rest_route('contacts/v1','/list/',array(
+        'methods' => 'GET',
+        'callback' => 'getListContact',
+    ));
+    register_rest_route('contacts/v1','/add/',array(
+        'methods' => 'POST',
+        'callback' => 'addContact',
+      ));
+
+}
+function getListContact(){
+    return get_posts(array('post_type'=>'contatto'));
+}
+function addContact($data){
+    $postToAdd = $data->get_params();
+    $postToAdd['post_status'] ='publish';
+    $id = wp_insert_post($postToAdd);
+    foreach (array_keys($postToAdd['post_meta']) as $metakey){
+        add_post_meta($id, $metakey, $postToAdd['post_meta'][$metakey]);
+    }
+    $p = get_post($id);
+    $meta = get_post_meta($id);
 }
 
