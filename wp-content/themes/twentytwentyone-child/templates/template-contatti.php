@@ -8,7 +8,7 @@ global $wp_query;
 $paged = get_query_var('paged')? get_query_var('paged'):1;
 $args = [
     'post_type'=>'contatto',
-    'posts_per_page' => 1,
+    'posts_per_page' => 2,
     'paged'=> $paged];
 $my_query = new WP_Query($args);
 $wp_query = $my_query;

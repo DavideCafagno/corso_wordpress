@@ -28,7 +28,7 @@ function registraPost()
             'supports' => array('title', 'editor', 'thumbnail', 'author', 'excerpt', 'trackbacks', 'custom-fields', 'comments', 'revisions', 'post-formats', 'page-attributes'),
             'taxonomies' => array('post_tag', 'categoria_custom'),
             'show_ui' => true,
-           // 'capability_type' => array('c_post', 'c_posts'),
+            // 'capability_type' => array('c_post', 'c_posts'),
             'map_meta_cap' => true,
             'capabilities' => array(
                 'edit_post' => 'edit_c_post',
@@ -284,7 +284,7 @@ function addAdminCapability()
         'delete_c_post'
     ];
     $role = get_role('administrator');
-    $role -> add_cap('show_complete_post');
+    $role->add_cap('show_complete_post');
 
 //foreach (array_keys($role -> capabilities) as $c){
 //    $role->remove_cap($c);
@@ -294,14 +294,13 @@ function addAdminCapability()
 //    $role->remove_cap($c);
 //}
 
-    $role->add_cap( 'edit_c_post' );
-    $role->add_cap( 'edit_c_posts' );
-    $role->add_cap( 'edit_other_c_posts' );
-    $role->add_cap( 'publish_c_posts' );
-    $role->add_cap( 'read_c_post' );
-    $role->add_cap( 'read_private_c_posts' );
-    $role->add_cap( 'delete_c_post' );
-
+    $role->add_cap('edit_c_post');
+    $role->add_cap('edit_c_posts');
+    $role->add_cap('edit_other_c_posts');
+    $role->add_cap('publish_c_posts');
+    $role->add_cap('read_c_post');
+    $role->add_cap('read_private_c_posts');
+    $role->add_cap('delete_c_post');
 
 
 // ADMIN CAPABILITIES
@@ -365,29 +364,45 @@ function addAdminCapability()
 
 }
 
-add_action('rest_api_init','addCustomRestApi');
-function addCustomRestApi(){
-    register_rest_route('contacts/v1','/list/',array(
+add_action('rest_api_init', 'addCustomRestApi');
+function addCustomRestApi()
+{
+    register_rest_route('contacts/v1', '/list/', array(
         'methods' => 'GET',
-        'callback' => 'getListContact',
+        'callback' => function () {
+            return get_posts(array('post_type' => 'contatto'));
+        },
     ));
-    register_rest_route('contacts/v1','/add/',array(
+    register_rest_route('contacts/v1', '/add/', array(
         'methods' => 'POST',
         'callback' => 'addContact',
-      ));
+    ));
 
 }
-function getListContact(){
-    return get_posts(array('post_type'=>'contatto'));
-}
-function addContact($data){
+
+function addContact($data)
+{
     $postToAdd = $data->get_params();
-    $postToAdd['post_status'] ='publish';
+    $postToAdd['post_status'] = 'publish';
     $id = wp_insert_post($postToAdd);
-    foreach (array_keys($postToAdd['post_meta']) as $metakey){
+    foreach (array_keys($postToAdd['post_meta']) as $metakey) {
         add_post_meta($id, $metakey, $postToAdd['post_meta'][$metakey]);
     }
-    $p = get_post($id);
-    $meta = get_post_meta($id);
+    $res = [];
+    if ($id > 0) {
+        return new WP_REST_Response(
+            array(
+                'status' => 200,
+                'response' => "Avvenuto con successo",
+
+            )
+        );
+    } else {
+        return new WP_Error(
+            array(
+            'status' => 500,
+            'response' => "Errore nell 'inserimento",
+        ));
+    }
 }
 
