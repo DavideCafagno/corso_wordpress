@@ -44,6 +44,22 @@ function registraPost()
         )
 
     );
+
+    register_post_type("notizia",
+        array(
+            'labels' => array(
+                'name' => __("Notizie", 'textdomain'),
+                'singular_name' => __("Notizia", 'textdomain'),
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'hierarchical' => false,
+            'supports' => array('title', 'editor', 'thumbnail', 'author', 'excerpt', 'comments', 'revisions'),
+            'taxonomies' => array('post_tag', 'category', 'categoria_custom'),
+            'show_ui' => true,
+        )
+
+    );
 }
 
 add_action('init', 'registraPost');
@@ -101,10 +117,15 @@ function add_styleandscript(): void
     wp_enqueue_script('custom_script');
 
 
-//    wp_register_script( 'bootstrap_js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js', array(), '0.1', true);
-//    wp_enqueue_script( 'bootstrap_js' );
-//    wp_register_style('bootstrap_style', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css');
-//    wp_enqueue_style( 'bootstrap_style' );
+    wp_register_script('bootstrap_js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js', array(), '0.1', true);
+    wp_enqueue_script('bootstrap_js');
+    wp_register_style('bootstrap_style', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css');
+    wp_enqueue_style('bootstrap_style');
+
+
+//    wp_register_style('glidejs', "https://unpkg.com/browse/@glidejs/glide@3.3.0/dist/css/glide.core.min.css");
+//    wp_enqueue_style("glidejs");wp_register_style('glidejs', "https://unpkg.com/browse/@glidejs/glide@3.3.0/dist/css/glide.core.min.css");
+//    wp_enqueue_style("glidejs");
 
     // wp_register_script("liker_script", plugin_dir_url(__FILE__) . 'liker_script.js', array('jquery'));
 
@@ -365,6 +386,7 @@ function addAdminCapability()
 }
 
 add_action('rest_api_init', 'addCustomRestApi');
+
 function addCustomRestApi()
 {
     register_rest_route('contacts/v1', '/list/', array(
@@ -381,9 +403,7 @@ function addCustomRestApi()
         'methods' => 'POST',
         'callback' => 'searchPost',
     ));
-
 }
-
 function searchPost($data)
 {
     $id = $data->get_params()['id'];

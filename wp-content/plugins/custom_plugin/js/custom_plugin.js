@@ -1,0 +1,3 @@
+function saluta(){
+    alert("Ciao");
+}

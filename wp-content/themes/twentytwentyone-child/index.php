@@ -13,7 +13,7 @@
 <h2><?php bloginfo('description'); ?></h2>
 <?php
 wp_nav_menu();
-$abc = new WP_REST_Server();
+//$abc = new WP_REST_Server();
 ?>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
     <div style='border:solid 1px black; padding : 20px; margin:20px;'>
