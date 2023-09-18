@@ -377,6 +377,71 @@ function addCustomRestApi()
         'methods' => 'POST',
         'callback' => 'addContact',
     ));
+    register_rest_route("posts/v1", "/search/", array(
+        'methods' => 'POST',
+        'callback' => 'searchPost',
+    ));
+
+}
+
+function searchPost($data)
+{
+    $id = $data->get_params()['id'];
+    $type = $data->get_params()['type'];
+    $username = $data->get_params()['username'];
+    $password = $data->get_params()['password'];
+
+    if (wp_authenticate_username_password(null, $username, $password) instanceof WP_User) {
+        if (!empty($id) && $id > 0) {
+            $post_found = get_post($id);
+            if ($post_found != null) {
+                if (!empty($type)) {
+                    if ($post_found->post_type == $type) {
+                        return new WP_REST_Response($post_found, 200, array(
+                            'message' => "Post con id $id di tipo '$type' trovato!",
+                        ));
+                    } else {
+                        $msg = "Post con id '$id' esiste ma non é di tipo : '$type'";
+                        $msg2 = str_replace('é', mb_convert_encoding('é', "ISO-8859-1"), $msg);
+                        return new WP_REST_Response($msg, 404, array(
+                            'message' => $msg2,
+                        ));
+                    }
+
+                } else {
+                    return new WP_REST_Response($post_found, 302, array(
+                        'message' => "Post con id '$id' trovato",
+                    ));
+                }
+            } else {
+                $msg = "Post con id '$id' non trovato, verificarne formato e presenza";
+                return new WP_REST_Response($msg, 404, array(
+                    'message' => $msg,
+                ));
+            }
+
+        } else {
+            if (!empty($id) || $id == 0) $msg = "Errore, specificare un ID maggiore di 0";
+            else $msg = "Errore, specificare almeno un ID";
+
+            return new WP_REST_Response($msg, 404, array(
+                'message' => $msg,
+            ));
+        }
+    } else {
+        if (get_user_by('login', $username) != false) {
+            $msg = Ucwords($username) . ", hai sbagliato la password!";
+            return new WP_REST_Response($msg, 401, array(
+                'message' => $msg,
+            ));
+        } else {
+            $msg = "Username '$username' non presente!";
+            return new WP_REST_Response($msg, 401, array(
+                'message' => $msg,
+            ));
+        }
+
+    }
 
 }
 
@@ -400,9 +465,9 @@ function addContact($data)
     } else {
         return new WP_Error(
             array(
-            'status' => 500,
-            'response' => "Errore nell 'inserimento",
-        ));
+                'status' => 500,
+                'response' => "Errore nell 'inserimento",
+            ));
     }
 }
 

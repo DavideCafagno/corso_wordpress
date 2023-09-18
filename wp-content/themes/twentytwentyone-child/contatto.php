@@ -1,7 +1,8 @@
 <?php //setup_postdata($post);
 
 ?>
-<table style='width: fit-content' >
+<table class="table table-striped" style='width: fit-content'>
+
 
     <tr>
 
