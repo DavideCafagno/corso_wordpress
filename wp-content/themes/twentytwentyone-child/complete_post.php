@@ -1,7 +1,4 @@
-<?php //setup_postdata($post);
-
-?>
-<table  >
+<table>
 
     <tr>
         <td>Titolo</td>
