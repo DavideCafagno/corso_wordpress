@@ -13,7 +13,6 @@ get_header();
 
 /* Start the Loop */
 
-if(!($post->post_name=='home')) {
     while (have_posts()) :
         the_post();
         get_template_part('template-parts/content/content-page');
@@ -23,7 +22,4 @@ if(!($post->post_name=='home')) {
             comments_template();
         }
     endwhile; // End of the loop.
-}else{
-    get_template_part('template-parts/content/content-page');
-}
 get_footer();
