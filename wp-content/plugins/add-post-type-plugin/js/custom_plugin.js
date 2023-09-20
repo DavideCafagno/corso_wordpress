@@ -101,7 +101,7 @@ function attiva_post() {
         });
 }
 function replace_wrong(str){
-    str = str.toLowerCase();
+    // str = str.toLowerCase();
     //str = str.trim();
     str = str.replaceAll("  "," ");
     str = str.replace(/[à-ù0-9"!£$%&/.,;()'=?^ÈÙ*|+Ú]/gi,"");
@@ -115,5 +115,6 @@ function make_slug(){
     let pn = jQuery('#post_name').val();
     pn = pn.trim();
     pn = pn.replaceAll(" ","-");
+    pn = pn.toLowerCase();
     jQuery('#post_slug').val(pn);
 }

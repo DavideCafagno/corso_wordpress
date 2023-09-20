@@ -28,9 +28,10 @@ add_action('rest_api_init', 'register_api');
 function register_custom($post_slug, $post_name, $post_singular_name, $supports): array
 {
     $post_slug = str_replace(" ",'-',$post_slug);
+    $post_slug = strtolower($post_slug);
     $res = array('ok' => false, 'err_msg' => 'Errrore!');
-    if (!file_exists('wp-content/plugins/custom_plugin/post_types/' . $post_slug . '.php')) {
-        $file = fopen('wp-content/plugins/custom_plugin/post_types/' . $post_slug . '.php', 'w');
+    if (!file_exists('wp-content/plugins/add-post-type-plugin/post_types/' . $post_slug . '.php')) {
+        $file = fopen('wp-content/plugins/add-post-type-plugin/post_types/' . $post_slug . '.php', 'w');
         if (false != $file) {
             fwrite($file, '<?php 
                 add_action("init", "register_custom_' . check_fun_name($post_slug) . '");
@@ -72,10 +73,10 @@ function remove_custom_post($data)
 {
     $post_type = $data->get_params()['post_type'];
     $path="";
-    if(file_exists('wp-content/plugins/custom_plugin/post_types/' . $post_type . '.php')){
-        $path = 'wp-content/plugins/custom_plugin/post_types/' . $post_type . '.php';
-    }elseif (file_exists('wp-content/plugins/custom_plugin/disabled/' . $post_type . '.php')){
-        $path = 'wp-content/plugins/custom_plugin/disabled/' . $post_type . '.php';
+    if(file_exists('wp-content/plugins/add-post-type-plugin/post_types/' . $post_type . '.php')){
+        $path = 'wp-content/plugins/add-post-type-plugin/post_types/' . $post_type . '.php';
+    }elseif (file_exists('wp-content/plugins/add-post-type-plugin/disabled/' . $post_type . '.php')){
+        $path = 'wp-content/plugins/add-post-type-plugin/disabled/' . $post_type . '.php';
     }
 
     if($path != ""){
@@ -101,8 +102,8 @@ function remove_custom_post($data)
 
 function add_custom_post($data)
 {
-    if(!file_exists('wp-content/plugins/custom_plugin/post_types')){
-        mkdir('wp-content/plugins/custom_plugin/post_types');
+    if(!file_exists('wp-content/plugins/add-post-type-plugin/post_types')){
+        mkdir('wp-content/plugins/add-post-type-plugin/post_types');
     }
     $supports = array('title', 'author');
     $obj = $data->get_params();
@@ -146,12 +147,12 @@ function add_custom_post($data)
 
 function disable_custom_post($data)
 {
-    if(!file_exists('wp-content/plugins/custom_plugin/disabled')){
-        mkdir('wp-content/plugins/custom_plugin/disabled');
+    if(!file_exists('wp-content/plugins/add-post-type-plugin/disabled')){
+        mkdir('wp-content/plugins/add-post-type-plugin/disabled');
     }
     $post_type = $data->get_params()['post_type'];
-    $path = 'wp-content/plugins/custom_plugin/post_types/' . $post_type . '.php';
-    $disable_path = 'wp-content/plugins/custom_plugin/disabled/' . $post_type . '.php';
+    $path = 'wp-content/plugins/add-post-type-plugin/post_types/' . $post_type . '.php';
+    $disable_path = 'wp-content/plugins/add-post-type-plugin/disabled/' . $post_type . '.php';
     if (file_exists($path)) {
         if (rename($path, $disable_path)) {
             return new WP_REST_Response(array(
@@ -177,8 +178,8 @@ function disable_custom_post($data)
 function enable_custom_post($data)
 {
     $post_type = $data->get_params()['post_type'];
-    $path = 'wp-content/plugins/custom_plugin/disabled/' . $post_type . '.php';
-    $disable_path = 'wp-content/plugins/custom_plugin/post_types/' . $post_type . '.php';
+    $path = 'wp-content/plugins/add-post-type-plugin/disabled/' . $post_type . '.php';
+    $disable_path = 'wp-content/plugins/add-post-type-plugin/post_types/' . $post_type . '.php';
     if (file_exists($path)) {
         if (rename($path, $disable_path)) {
             return new WP_REST_Response(array(

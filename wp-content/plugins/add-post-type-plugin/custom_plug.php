@@ -2,7 +2,7 @@
 /**
  *
  * @wordpress-plugin
- * Plugin Name:       ADD Custom Post-Type
+ * Plugin Name:       Add Post-Type
  * Plugin URI:        https://www.wordpress.com
  * Description: Plugin per creazione di Post-type
  * Version: 1.0
@@ -23,7 +23,7 @@ function load_custom_post_type()
 
 function custom_post_list()
 {
-    $file = @opendir('../wp-content/plugins/custom_plugin/post_types/');
+    $file = @opendir('../wp-content/plugins/add-post-type-plugin/post_types/');
     $res = [];
     if ($file != false) {
         while ($fname = @readdir($file)) {
@@ -34,7 +34,7 @@ function custom_post_list()
     return $res;
 }
 function disabled_custom_post_list(){
-    $file = @opendir('../wp-content/plugins/custom_plugin/disabled/');
+    $file = @opendir('../wp-content/plugins/add-post-type-plugin/disabled/');
     $res = [];
     if ($file != false) {
         while ($fname = @readdir($file)) {
@@ -50,9 +50,9 @@ load_custom_post_type();
 add_action('admin_enqueue_scripts', 'add_script');
 function add_script()
 {
-    wp_register_script('custom_plugin.js', plugins_url('custom_plugin/js/custom_plugin.js'));//, array('jquery'));
+    wp_register_script('add-post-type-plugin.js', plugins_url('add-post-type-plugin/js/custom_plugin.js'));//, array('jquery'));
 //    wp_localize_script('custom_script', 'oggettoAjax', array('proprietaUrl' => admin_url('admin-ajax.php')));
-    wp_enqueue_script('custom_plugin.js');
+    wp_enqueue_script('add-post-type-plugin.js');
 
 }
 

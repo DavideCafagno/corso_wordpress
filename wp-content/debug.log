@@ -12173,3 +12173,582 @@ Stack trace:
 [20-Sep-2023 12:04:49 UTC] []
 [20-Sep-2023 12:04:49 UTC] []
 [20-Sep-2023 12:04:49 UTC] []
+[20-Sep-2023 12:05:04 UTC] Start function PHP
+[20-Sep-2023 12:05:04 UTC] []
+[20-Sep-2023 12:05:04 UTC] []
+[20-Sep-2023 12:05:04 UTC] []
+[20-Sep-2023 12:05:04 UTC] []
+[20-Sep-2023 12:05:19 UTC] Start function PHP
+[20-Sep-2023 12:05:19 UTC] []
+[20-Sep-2023 12:05:19 UTC] []
+[20-Sep-2023 12:05:19 UTC] []
+[20-Sep-2023 12:05:19 UTC] []
+[20-Sep-2023 12:05:41 UTC] Start function PHP
+[20-Sep-2023 12:05:41 UTC] []
+[20-Sep-2023 12:05:41 UTC] []
+[20-Sep-2023 12:05:41 UTC] []
+[20-Sep-2023 12:05:41 UTC] []
+[20-Sep-2023 12:05:56 UTC] Start function PHP
+[20-Sep-2023 12:05:56 UTC] []
+[20-Sep-2023 12:05:56 UTC] []
+[20-Sep-2023 12:05:56 UTC] []
+[20-Sep-2023 12:05:56 UTC] []
+[20-Sep-2023 12:05:56 UTC] Start function PHP
+[20-Sep-2023 12:05:56 UTC] []
+[20-Sep-2023 12:05:56 UTC] []
+[20-Sep-2023 12:05:56 UTC] []
+[20-Sep-2023 12:05:56 UTC] []
+[20-Sep-2023 12:06:11 UTC] Start function PHP
+[20-Sep-2023 12:06:11 UTC] []
+[20-Sep-2023 12:06:11 UTC] []
+[20-Sep-2023 12:06:11 UTC] []
+[20-Sep-2023 12:06:11 UTC] []
+[20-Sep-2023 12:06:20 UTC] Start function PHP
+[20-Sep-2023 12:06:20 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:06:20 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:06:20 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:06:20 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:06:25 UTC] Start function PHP
+[20-Sep-2023 12:06:25 UTC] []
+[20-Sep-2023 12:06:25 UTC] []
+[20-Sep-2023 12:06:25 UTC] []
+[20-Sep-2023 12:06:25 UTC] []
+[20-Sep-2023 12:06:27 UTC] Start function PHP
+[20-Sep-2023 12:06:27 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:06:27 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:06:27 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:06:27 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:06:35 UTC] Start function PHP
+[20-Sep-2023 12:06:35 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:06:35 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:06:35 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:06:35 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:07:15 UTC] Start function PHP
+[20-Sep-2023 12:07:15 UTC] []
+[20-Sep-2023 12:07:15 UTC] []
+[20-Sep-2023 12:07:15 UTC] []
+[20-Sep-2023 12:07:16 UTC] []
+[20-Sep-2023 12:07:17 UTC] Start function PHP
+[20-Sep-2023 12:07:17 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:07:17 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:07:17 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:07:17 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:07:29 UTC] Start function PHP
+[20-Sep-2023 12:07:29 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:07:29 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:07:29 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:07:29 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:07:36 UTC] Start function PHP
+[20-Sep-2023 12:07:36 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:07:36 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:07:36 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:07:36 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:07:39 UTC] Start function PHP
+[20-Sep-2023 12:07:39 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:07:39 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:07:39 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:07:39 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:07:57 UTC] Start function PHP
+[20-Sep-2023 12:07:57 UTC] []
+[20-Sep-2023 12:07:57 UTC] []
+[20-Sep-2023 12:07:57 UTC] []
+[20-Sep-2023 12:07:57 UTC] []
+[20-Sep-2023 12:08:03 UTC] Start function PHP
+[20-Sep-2023 12:08:03 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:08:03 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:08:03 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:08:03 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:08:21 UTC] Start function PHP
+[20-Sep-2023 12:08:21 UTC] []
+[20-Sep-2023 12:08:21 UTC] []
+[20-Sep-2023 12:08:21 UTC] []
+[20-Sep-2023 12:08:21 UTC] []
+[20-Sep-2023 12:08:23 UTC] Start function PHP
+[20-Sep-2023 12:08:23 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:08:23 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:08:23 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:08:23 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:08:26 UTC] Start function PHP
+[20-Sep-2023 12:08:26 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:08:26 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:08:26 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:08:26 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:09:27 UTC] Start function PHP
+[20-Sep-2023 12:09:27 UTC] []
+[20-Sep-2023 12:09:27 UTC] []
+[20-Sep-2023 12:09:27 UTC] []
+[20-Sep-2023 12:09:27 UTC] []
+[20-Sep-2023 12:09:58 UTC] Start function PHP
+[20-Sep-2023 12:09:58 UTC] []
+[20-Sep-2023 12:09:58 UTC] []
+[20-Sep-2023 12:09:58 UTC] []
+[20-Sep-2023 12:09:58 UTC] []
+[20-Sep-2023 12:10:27 UTC] Start function PHP
+[20-Sep-2023 12:10:27 UTC] []
+[20-Sep-2023 12:10:27 UTC] []
+[20-Sep-2023 12:10:27 UTC] []
+[20-Sep-2023 12:10:27 UTC] []
+[20-Sep-2023 12:10:31 UTC] Start function PHP
+[20-Sep-2023 12:10:32 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:10:32 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:10:32 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:10:32 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:10:33 UTC] Start function PHP
+[20-Sep-2023 12:10:33 UTC] []
+[20-Sep-2023 12:10:33 UTC] []
+[20-Sep-2023 12:10:33 UTC] []
+[20-Sep-2023 12:10:33 UTC] []
+[20-Sep-2023 12:10:35 UTC] Start function PHP
+[20-Sep-2023 12:10:35 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:10:35 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:10:35 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:10:35 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:10:40 UTC] Start function PHP
+[20-Sep-2023 12:10:40 UTC] {"page":"add-post_type"}
+[20-Sep-2023 12:10:40 UTC] {"page":"add-post_type"}
+[20-Sep-2023 12:10:40 UTC] {"page":"add-post_type"}
+[20-Sep-2023 12:10:40 UTC] {"page":"add-post_type"}
+[20-Sep-2023 12:11:10 UTC] PHP Parse error:  syntax error, unexpected double-quoted string ", ", expecting ")" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\custom_plugin\post_types\asd-asd-asd.php on line 7
+[20-Sep-2023 12:11:10 UTC] PHP Notice:  La funzione is_embed è stata richiamata <strong>in maniera scorretta</strong>. I tag condizionali di una query non funzionano prima che la query sia stata eseguita. Prima dell'esecuzione restituiscono sempre il valore False. Leggi <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> per maggiori informazioni. (Questo messaggio è stato aggiunto nella versione 3.1.0.) in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\functions.php on line 5897
+[20-Sep-2023 12:11:10 UTC] PHP Notice:  La funzione is_search è stata richiamata <strong>in maniera scorretta</strong>. I tag condizionali di una query non funzionano prima che la query sia stata eseguita. Prima dell'esecuzione restituiscono sempre il valore False. Leggi <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> per maggiori informazioni. (Questo messaggio è stato aggiunto nella versione 3.1.0.) in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\functions.php on line 5897
+[20-Sep-2023 12:11:59 UTC] PHP Parse error:  syntax error, unexpected double-quoted string ", ", expecting ")" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\custom_plugin\post_types\asd-asd-asd.php on line 7
+[20-Sep-2023 12:14:00 UTC] PHP Parse error:  syntax error, unexpected double-quoted string ", ", expecting ")" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\custom_plugin\post_types\asd-asd-asd.php on line 7
+[20-Sep-2023 12:16:01 UTC] PHP Parse error:  syntax error, unexpected double-quoted string ", ", expecting ")" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\custom_plugin\post_types\asd-asd-asd.php on line 7
+[20-Sep-2023 12:17:24 UTC] Start function PHP
+[20-Sep-2023 12:17:24 UTC] {"page":"add-post_type"}
+[20-Sep-2023 12:17:24 UTC] {"page":"add-post_type"}
+[20-Sep-2023 12:17:24 UTC] {"page":"add-post_type"}
+[20-Sep-2023 12:18:02 UTC] Start function PHP
+[20-Sep-2023 12:18:02 UTC] []
+[20-Sep-2023 12:18:02 UTC] []
+[20-Sep-2023 12:18:02 UTC] []
+[20-Sep-2023 12:18:05 UTC] []
+[20-Sep-2023 12:18:05 UTC] Start function PHP
+[20-Sep-2023 12:18:05 UTC] {"doing_wp_cron":"1695212285.1750020980834960937500"}
+[20-Sep-2023 12:18:05 UTC] {"doing_wp_cron":"1695212285.1750020980834960937500"}
+[20-Sep-2023 12:18:05 UTC] {"doing_wp_cron":"1695212285.1750020980834960937500"}
+[20-Sep-2023 12:18:05 UTC] {"doing_wp_cron":"1695212285.1750020980834960937500"}
+[20-Sep-2023 12:18:12 UTC] {"page":"add-post_type"}
+[20-Sep-2023 12:18:12 UTC] Start function PHP
+[20-Sep-2023 12:18:12 UTC] {"doing_wp_cron":"1695212292.0648810863494873046875"}
+[20-Sep-2023 12:18:12 UTC] {"doing_wp_cron":"1695212292.0648810863494873046875"}
+[20-Sep-2023 12:18:12 UTC] {"doing_wp_cron":"1695212292.0648810863494873046875"}
+[20-Sep-2023 12:18:12 UTC] {"doing_wp_cron":"1695212292.0648810863494873046875"}
+[20-Sep-2023 12:18:25 UTC] Start function PHP
+[20-Sep-2023 12:18:25 UTC] []
+[20-Sep-2023 12:18:25 UTC] []
+[20-Sep-2023 12:18:25 UTC] []
+[20-Sep-2023 12:18:25 UTC] []
+[20-Sep-2023 12:18:29 UTC] Start function PHP
+[20-Sep-2023 12:18:29 UTC] {"page":"add-post_type"}
+[20-Sep-2023 12:18:29 UTC] {"page":"add-post_type"}
+[20-Sep-2023 12:18:29 UTC] {"page":"add-post_type"}
+[20-Sep-2023 12:18:29 UTC] {"page":"add-post_type"}
+[20-Sep-2023 12:18:38 UTC] Start function PHP
+[20-Sep-2023 12:18:38 UTC] []
+[20-Sep-2023 12:18:38 UTC] []
+[20-Sep-2023 12:18:38 UTC] []
+[20-Sep-2023 12:18:38 UTC] []
+[20-Sep-2023 12:18:46 UTC] Start function PHP
+[20-Sep-2023 12:18:46 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:18:46 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:18:46 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:18:46 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:18:49 UTC] Start function PHP
+[20-Sep-2023 12:18:49 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:18:49 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:18:49 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:18:49 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:18:53 UTC] Start function PHP
+[20-Sep-2023 12:18:53 UTC] []
+[20-Sep-2023 12:18:53 UTC] []
+[20-Sep-2023 12:18:53 UTC] []
+[20-Sep-2023 12:18:53 UTC] []
+[20-Sep-2023 12:18:55 UTC] Start function PHP
+[20-Sep-2023 12:18:55 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:18:55 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:18:55 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:18:55 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:18:57 UTC] Start function PHP
+[20-Sep-2023 12:18:57 UTC] []
+[20-Sep-2023 12:18:57 UTC] []
+[20-Sep-2023 12:18:57 UTC] []
+[20-Sep-2023 12:18:57 UTC] []
+[20-Sep-2023 12:18:59 UTC] Start function PHP
+[20-Sep-2023 12:18:59 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:18:59 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:18:59 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:18:59 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:19:04 UTC] Start function PHP
+[20-Sep-2023 12:19:04 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:19:04 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:19:04 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:19:04 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:19:05 UTC] Start function PHP
+[20-Sep-2023 12:19:05 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:19:05 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:19:05 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:19:06 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:20:03 UTC] Start function PHP
+[20-Sep-2023 12:20:03 UTC] []
+[20-Sep-2023 12:20:03 UTC] []
+[20-Sep-2023 12:20:03 UTC] []
+[20-Sep-2023 12:20:03 UTC] []
+[20-Sep-2023 12:20:06 UTC] Start function PHP
+[20-Sep-2023 12:20:06 UTC] []
+[20-Sep-2023 12:20:06 UTC] []
+[20-Sep-2023 12:20:06 UTC] []
+[20-Sep-2023 12:20:06 UTC] []
+[20-Sep-2023 12:21:06 UTC] Start function PHP
+[20-Sep-2023 12:21:06 UTC] []
+[20-Sep-2023 12:21:06 UTC] []
+[20-Sep-2023 12:21:06 UTC] []
+[20-Sep-2023 12:21:06 UTC] []
+[20-Sep-2023 12:22:04 UTC] Start function PHP
+[20-Sep-2023 12:22:04 UTC] []
+[20-Sep-2023 12:22:04 UTC] []
+[20-Sep-2023 12:22:04 UTC] []
+[20-Sep-2023 12:22:04 UTC] []
+[20-Sep-2023 12:22:06 UTC] Start function PHP
+[20-Sep-2023 12:22:06 UTC] []
+[20-Sep-2023 12:22:06 UTC] []
+[20-Sep-2023 12:22:06 UTC] []
+[20-Sep-2023 12:22:06 UTC] []
+[20-Sep-2023 12:23:06 UTC] Start function PHP
+[20-Sep-2023 12:23:06 UTC] []
+[20-Sep-2023 12:23:06 UTC] []
+[20-Sep-2023 12:23:06 UTC] []
+[20-Sep-2023 12:23:06 UTC] []
+[20-Sep-2023 12:23:36 UTC] Start function PHP
+[20-Sep-2023 12:23:36 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:23:36 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:23:36 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:23:36 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:23:40 UTC] Start function PHP
+[20-Sep-2023 12:23:40 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:23:40 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:23:40 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:23:40 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:23:43 UTC] Start function PHP
+[20-Sep-2023 12:23:43 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:23:43 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:23:43 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:23:44 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:23:48 UTC] Start function PHP
+[20-Sep-2023 12:23:48 UTC] []
+[20-Sep-2023 12:23:48 UTC] []
+[20-Sep-2023 12:23:48 UTC] []
+[20-Sep-2023 12:23:48 UTC] []
+[20-Sep-2023 12:23:48 UTC] []
+[20-Sep-2023 12:23:48 UTC] []
+[20-Sep-2023 12:23:48 UTC] []
+[20-Sep-2023 12:23:49 UTC] Start function PHP
+[20-Sep-2023 12:23:49 UTC] []
+[20-Sep-2023 12:23:49 UTC] []
+[20-Sep-2023 12:23:49 UTC] []
+[20-Sep-2023 12:23:49 UTC] []
+[20-Sep-2023 12:23:50 UTC] Start function PHP
+[20-Sep-2023 12:23:50 UTC] []
+[20-Sep-2023 12:23:50 UTC] []
+[20-Sep-2023 12:23:51 UTC] []
+[20-Sep-2023 12:23:51 UTC] []
+[20-Sep-2023 12:24:05 UTC] Start function PHP
+[20-Sep-2023 12:24:05 UTC] []
+[20-Sep-2023 12:24:05 UTC] []
+[20-Sep-2023 12:24:05 UTC] []
+[20-Sep-2023 12:24:05 UTC] []
+[20-Sep-2023 12:24:26 UTC] Start function PHP
+[20-Sep-2023 12:24:26 UTC] []
+[20-Sep-2023 12:24:26 UTC] []
+[20-Sep-2023 12:24:26 UTC] []
+[20-Sep-2023 12:24:26 UTC] []
+[20-Sep-2023 12:24:30 UTC] Start function PHP
+[20-Sep-2023 12:24:30 UTC] {"action":"activate","plugin":"add-post-type-plugin\/custom_plug.php","plugin_status":"all","paged":"1","s":"","_wpnonce":"e2cd9d2adf"}
+[20-Sep-2023 12:24:30 UTC] {"action":"activate","plugin":"add-post-type-plugin\/custom_plug.php","plugin_status":"all","paged":"1","s":"","_wpnonce":"e2cd9d2adf"}
+[20-Sep-2023 12:24:30 UTC] {"action":"activate","plugin":"add-post-type-plugin\/custom_plug.php","plugin_status":"all","paged":"1","s":"","_wpnonce":"e2cd9d2adf"}
+[20-Sep-2023 12:24:30 UTC] {"action":"activate","plugin":"add-post-type-plugin\/custom_plug.php","plugin_status":"all","paged":"1","s":"","_wpnonce":"e2cd9d2adf"}
+[20-Sep-2023 12:24:31 UTC] Start function PHP
+[20-Sep-2023 12:24:31 UTC] {"activate":"true","plugin_status":"all","paged":"1","s":""}
+[20-Sep-2023 12:24:31 UTC] {"activate":"true","plugin_status":"all","paged":"1","s":""}
+[20-Sep-2023 12:24:31 UTC] {"activate":"true","plugin_status":"all","paged":"1","s":""}
+[20-Sep-2023 12:24:31 UTC] {"activate":"true","plugin_status":"all","paged":"1","s":""}
+[20-Sep-2023 12:24:31 UTC] Start function PHP
+[20-Sep-2023 12:24:31 UTC] {"ver":"6.3.1"}
+[20-Sep-2023 12:24:31 UTC] {"ver":"6.3.1"}
+[20-Sep-2023 12:24:31 UTC] {"ver":"6.3.1"}
+[20-Sep-2023 12:24:31 UTC] {"ver":"6.3.1"}
+[20-Sep-2023 12:24:31 UTC] {"ver":"6.3.1"}
+[20-Sep-2023 12:24:31 UTC] {"ver":"6.3.1"}
+[20-Sep-2023 12:24:31 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
+[20-Sep-2023 12:24:31 UTC] {"ver":"6.3.1"}
+[20-Sep-2023 12:24:31 UTC] {"ver":"6.3.1"}
+[20-Sep-2023 12:24:34 UTC] Start function PHP
+[20-Sep-2023 12:24:34 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:24:34 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:24:34 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:24:34 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:24:34 UTC] Start function PHP
+[20-Sep-2023 12:24:34 UTC] {"ver":"6.3.1"}
+[20-Sep-2023 12:24:34 UTC] {"ver":"6.3.1"}
+[20-Sep-2023 12:24:34 UTC] {"ver":"6.3.1"}
+[20-Sep-2023 12:24:34 UTC] {"ver":"6.3.1"}
+[20-Sep-2023 12:24:34 UTC] {"ver":"6.3.1"}
+[20-Sep-2023 12:24:34 UTC] {"ver":"6.3.1"}
+[20-Sep-2023 12:24:34 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
+[20-Sep-2023 12:24:34 UTC] {"ver":"6.3.1"}
+[20-Sep-2023 12:24:34 UTC] {"ver":"6.3.1"}
+[20-Sep-2023 12:24:54 UTC] Start function PHP
+[20-Sep-2023 12:24:54 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:24:54 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:24:54 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:24:54 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:24:55 UTC] Start function PHP
+[20-Sep-2023 12:24:55 UTC] {"ver":"6.3.1"}
+[20-Sep-2023 12:24:55 UTC] {"ver":"6.3.1"}
+[20-Sep-2023 12:24:55 UTC] {"ver":"6.3.1"}
+[20-Sep-2023 12:24:55 UTC] {"ver":"6.3.1"}
+[20-Sep-2023 12:24:55 UTC] {"ver":"6.3.1"}
+[20-Sep-2023 12:24:55 UTC] {"ver":"6.3.1"}
+[20-Sep-2023 12:24:55 UTC] C:\xampp\htdocs\Progetti\Corso_Wordpress/wp-content/themes/twentytwentyone/404.php
+[20-Sep-2023 12:24:55 UTC] {"ver":"6.3.1"}
+[20-Sep-2023 12:24:55 UTC] {"ver":"6.3.1"}
+[20-Sep-2023 12:25:56 UTC] Start function PHP
+[20-Sep-2023 12:25:56 UTC] []
+[20-Sep-2023 12:25:56 UTC] []
+[20-Sep-2023 12:25:56 UTC] []
+[20-Sep-2023 12:25:56 UTC] []
+[20-Sep-2023 12:26:06 UTC] Start function PHP
+[20-Sep-2023 12:26:06 UTC] []
+[20-Sep-2023 12:26:06 UTC] []
+[20-Sep-2023 12:26:06 UTC] []
+[20-Sep-2023 12:26:06 UTC] []
+[20-Sep-2023 12:26:45 UTC] Start function PHP
+[20-Sep-2023 12:26:45 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:26:45 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:26:45 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:26:45 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:26:55 UTC] Start function PHP
+[20-Sep-2023 12:26:55 UTC] []
+[20-Sep-2023 12:26:55 UTC] []
+[20-Sep-2023 12:26:55 UTC] []
+[20-Sep-2023 12:26:55 UTC] []
+[20-Sep-2023 12:26:57 UTC] Start function PHP
+[20-Sep-2023 12:26:57 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:26:57 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:26:57 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:26:57 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:27:00 UTC] Start function PHP
+[20-Sep-2023 12:27:00 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:27:00 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:27:00 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:27:00 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:27:07 UTC] Start function PHP
+[20-Sep-2023 12:27:07 UTC] []
+[20-Sep-2023 12:27:07 UTC] []
+[20-Sep-2023 12:27:07 UTC] []
+[20-Sep-2023 12:27:07 UTC] []
+[20-Sep-2023 12:27:09 UTC] Start function PHP
+[20-Sep-2023 12:27:09 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:27:09 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:27:09 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:27:09 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:27:11 UTC] Start function PHP
+[20-Sep-2023 12:27:11 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:27:11 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:27:11 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:27:11 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:27:13 UTC] Start function PHP
+[20-Sep-2023 12:27:13 UTC] []
+[20-Sep-2023 12:27:13 UTC] []
+[20-Sep-2023 12:27:13 UTC] []
+[20-Sep-2023 12:27:13 UTC] []
+[20-Sep-2023 12:27:15 UTC] Start function PHP
+[20-Sep-2023 12:27:15 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:27:15 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:27:15 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:27:15 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:27:17 UTC] Start function PHP
+[20-Sep-2023 12:27:17 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:27:17 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:27:17 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:27:18 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:27:20 UTC] Start function PHP
+[20-Sep-2023 12:27:20 UTC] []
+[20-Sep-2023 12:27:20 UTC] []
+[20-Sep-2023 12:27:21 UTC] []
+[20-Sep-2023 12:27:21 UTC] []
+[20-Sep-2023 12:27:22 UTC] Start function PHP
+[20-Sep-2023 12:27:23 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:27:23 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:27:23 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:27:23 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:27:24 UTC] Start function PHP
+[20-Sep-2023 12:27:24 UTC] {"page":"add-post_type"}
+[20-Sep-2023 12:27:24 UTC] {"page":"add-post_type"}
+[20-Sep-2023 12:27:24 UTC] {"page":"add-post_type"}
+[20-Sep-2023 12:27:24 UTC] {"page":"add-post_type"}
+[20-Sep-2023 12:27:28 UTC] Start function PHP
+[20-Sep-2023 12:27:28 UTC] []
+[20-Sep-2023 12:27:28 UTC] []
+[20-Sep-2023 12:27:28 UTC] []
+[20-Sep-2023 12:27:28 UTC] []
+[20-Sep-2023 12:27:30 UTC] Start function PHP
+[20-Sep-2023 12:27:30 UTC] {"page":"add-post_type"}
+[20-Sep-2023 12:27:30 UTC] {"page":"add-post_type"}
+[20-Sep-2023 12:27:30 UTC] {"page":"add-post_type"}
+[20-Sep-2023 12:27:30 UTC] {"page":"add-post_type"}
+[20-Sep-2023 12:27:33 UTC] Start function PHP
+[20-Sep-2023 12:27:33 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:27:33 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:27:33 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:27:33 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:27:39 UTC] Start function PHP
+[20-Sep-2023 12:27:39 UTC] []
+[20-Sep-2023 12:27:39 UTC] []
+[20-Sep-2023 12:27:39 UTC] []
+[20-Sep-2023 12:27:39 UTC] []
+[20-Sep-2023 12:27:41 UTC] Start function PHP
+[20-Sep-2023 12:27:42 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:27:42 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:27:42 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:27:42 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:27:43 UTC] Start function PHP
+[20-Sep-2023 12:27:43 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:27:43 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:27:43 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:27:43 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:27:49 UTC] Start function PHP
+[20-Sep-2023 12:27:49 UTC] []
+[20-Sep-2023 12:27:49 UTC] []
+[20-Sep-2023 12:27:49 UTC] []
+[20-Sep-2023 12:27:50 UTC] []
+[20-Sep-2023 12:27:54 UTC] Start function PHP
+[20-Sep-2023 12:27:54 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:27:54 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:27:54 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:27:54 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:27:57 UTC] Start function PHP
+[20-Sep-2023 12:27:57 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:27:57 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:27:57 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:27:57 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:28:07 UTC] Start function PHP
+[20-Sep-2023 12:28:07 UTC] []
+[20-Sep-2023 12:28:07 UTC] []
+[20-Sep-2023 12:28:07 UTC] []
+[20-Sep-2023 12:28:07 UTC] []
+[20-Sep-2023 12:28:57 UTC] Start function PHP
+[20-Sep-2023 12:28:57 UTC] []
+[20-Sep-2023 12:28:57 UTC] []
+[20-Sep-2023 12:28:57 UTC] []
+[20-Sep-2023 12:28:57 UTC] []
+[20-Sep-2023 12:29:29 UTC] Start function PHP
+[20-Sep-2023 12:29:29 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:29:29 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:29:29 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:29:29 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:30:00 UTC] Start function PHP
+[20-Sep-2023 12:30:00 UTC] []
+[20-Sep-2023 12:30:00 UTC] []
+[20-Sep-2023 12:30:00 UTC] []
+[20-Sep-2023 12:30:00 UTC] []
+[20-Sep-2023 12:30:04 UTC] Start function PHP
+[20-Sep-2023 12:30:04 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:30:04 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:30:04 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:30:04 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:30:08 UTC] Start function PHP
+[20-Sep-2023 12:30:08 UTC] []
+[20-Sep-2023 12:30:08 UTC] []
+[20-Sep-2023 12:30:08 UTC] []
+[20-Sep-2023 12:30:08 UTC] []
+[20-Sep-2023 12:30:22 UTC] Start function PHP
+[20-Sep-2023 12:30:22 UTC] []
+[20-Sep-2023 12:30:22 UTC] []
+[20-Sep-2023 12:30:22 UTC] []
+[20-Sep-2023 12:30:22 UTC] []
+[20-Sep-2023 12:30:24 UTC] Start function PHP
+[20-Sep-2023 12:30:24 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:30:24 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:30:24 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:30:24 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:30:30 UTC] Start function PHP
+[20-Sep-2023 12:30:30 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:30:30 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:30:30 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:30:31 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:31:31 UTC] Start function PHP
+[20-Sep-2023 12:31:31 UTC] []
+[20-Sep-2023 12:31:31 UTC] []
+[20-Sep-2023 12:31:31 UTC] []
+[20-Sep-2023 12:31:31 UTC] []
+[20-Sep-2023 12:32:09 UTC] Start function PHP
+[20-Sep-2023 12:32:09 UTC] []
+[20-Sep-2023 12:32:09 UTC] []
+[20-Sep-2023 12:32:09 UTC] []
+[20-Sep-2023 12:32:09 UTC] []
+[20-Sep-2023 12:32:26 UTC] Start function PHP
+[20-Sep-2023 12:32:26 UTC] []
+[20-Sep-2023 12:32:26 UTC] []
+[20-Sep-2023 12:32:26 UTC] []
+[20-Sep-2023 12:32:26 UTC] []
+[20-Sep-2023 12:32:27 UTC] Start function PHP
+[20-Sep-2023 12:32:28 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:32:28 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:32:28 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:32:28 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:32:30 UTC] Start function PHP
+[20-Sep-2023 12:32:30 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:32:30 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:32:30 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:32:30 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:32:38 UTC] Start function PHP
+[20-Sep-2023 12:32:38 UTC] []
+[20-Sep-2023 12:32:38 UTC] []
+[20-Sep-2023 12:32:38 UTC] []
+[20-Sep-2023 12:32:38 UTC] []
+[20-Sep-2023 12:32:40 UTC] Start function PHP
+[20-Sep-2023 12:32:40 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:32:40 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:32:40 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:32:40 UTC] {"page":"add_custom_post_plugin"}
+[20-Sep-2023 12:32:41 UTC] Start function PHP
+[20-Sep-2023 12:32:41 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:32:41 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:32:41 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:32:41 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:32:53 UTC] Start function PHP
+[20-Sep-2023 12:32:53 UTC] []
+[20-Sep-2023 12:32:53 UTC] []
+[20-Sep-2023 12:32:53 UTC] []
+[20-Sep-2023 12:32:53 UTC] []
+[20-Sep-2023 12:32:55 UTC] Start function PHP
+[20-Sep-2023 12:32:55 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:32:55 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:32:55 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:32:55 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:32:58 UTC] Start function PHP
+[20-Sep-2023 12:32:58 UTC] []
+[20-Sep-2023 12:32:58 UTC] []
+[20-Sep-2023 12:32:58 UTC] []
+[20-Sep-2023 12:32:58 UTC] []
+[20-Sep-2023 12:33:00 UTC] Start function PHP
+[20-Sep-2023 12:33:00 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:33:00 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:33:00 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:33:00 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:33:42 UTC] Start function PHP
+[20-Sep-2023 12:33:42 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:33:42 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:33:42 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:33:42 UTC] {"page":"enable-post_type"}
+[20-Sep-2023 12:33:46 UTC] Start function PHP
+[20-Sep-2023 12:33:46 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:33:46 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:33:46 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:33:47 UTC] {"page":"remove-post_type"}
+[20-Sep-2023 12:33:48 UTC] Start function PHP
+[20-Sep-2023 12:33:48 UTC] {"page":"add-post_type"}
+[20-Sep-2023 12:33:48 UTC] {"page":"add-post_type"}
+[20-Sep-2023 12:33:48 UTC] {"page":"add-post_type"}
+[20-Sep-2023 12:33:49 UTC] {"page":"add-post_type"}
