@@ -9,11 +9,12 @@
  * Author: Davide Cafagno
  * License: GPL Attribution-ShareAlike
  *
- * Require : "jQuery" library
+ *
  */
 if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly
 }
+
 function load_custom_post_type()
 {
     foreach (custom_post_list() as $post) {

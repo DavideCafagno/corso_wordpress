@@ -275,9 +275,10 @@ function target_main_category_query_with_conditional_tags($query)
             $query->set('posts_per_page', 3);
         }
 
-    } else {
-        //$query->set('posts_per_page', 5);
     }
+//    else {
+        //$query->set('posts_per_page', 5);
+//    }
 
 
 }
@@ -406,6 +407,7 @@ function addCustomRestApi()
         'callback' => 'searchPost',
         'permission_callback' => '__return_true'
     ));
+
 }
 function searchPost($data)
 {
