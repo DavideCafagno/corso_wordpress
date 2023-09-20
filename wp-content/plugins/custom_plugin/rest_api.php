@@ -11,14 +11,23 @@ function register_api()
         'callback' => 'remove_custom_post',
         'permission_callback' => '__return_true'
     ));
+    register_rest_route("plug/v1", "/disable-custom-post-type/", array(
+        'methods' => 'POST',
+        'callback' => 'disable_custom_post',
+        'permission_callback' => '__return_true'
+    ));
+    register_rest_route("plug/v1", "/enable-custom-post-type/", array(
+        'methods' => 'POST',
+        'callback' => 'enable_custom_post',
+        'permission_callback' => '__return_true'
+    ));
 }
 
 add_action('rest_api_init', 'register_api');
 
-
-
 function register_custom($post_slug, $post_name, $post_singular_name, $supports): array
 {
+    $post_slug = str_replace(" ",'-',$post_slug);
     $res = array('ok' => false, 'err_msg' => 'Errrore!');
     if (!file_exists('wp-content/plugins/custom_plugin/post_types/' . $post_slug . '.php')) {
         $file = fopen('wp-content/plugins/custom_plugin/post_types/' . $post_slug . '.php', 'w');
@@ -62,21 +71,39 @@ function register_custom($post_slug, $post_name, $post_singular_name, $supports)
 function remove_custom_post($data)
 {
     $post_type = $data->get_params()['post_type'];
-    if (unlink('wp-content/plugins/custom_plugin/post_types/' . $post_type . '.php')) {
+    $path="";
+    if(file_exists('wp-content/plugins/custom_plugin/post_types/' . $post_type . '.php')){
+        $path = 'wp-content/plugins/custom_plugin/post_types/' . $post_type . '.php';
+    }elseif (file_exists('wp-content/plugins/custom_plugin/disabled/' . $post_type . '.php')){
+        $path = 'wp-content/plugins/custom_plugin/disabled/' . $post_type . '.php';
+    }
+
+    if($path != ""){
+        if (unlink($path)) {
+            return new WP_REST_Response(array(
+                'status' => 200,
+                'message' => "Eliminazione andata a buon fine"
+            ));
+        } else {
+            return new WP_REST_Response(array(
+                'status' => 500,
+                'message' => "Eliminazione non andata a buon fine"
+            ));
+        }
+    }else{
         return new WP_REST_Response(array(
-            'status' => 200,
-            'message' => "Eliminazione andata a buon fine"
-        ));
-    } else {
-        return new WP_REST_Response(array(
-            'status' => 200,
-            'message' => "Eliminazione non andata a buon fine"
+            'status' => 500,
+            'message' => "Errore, file non trovato"
         ));
     }
+
 }
 
 function add_custom_post($data)
 {
+    if(!file_exists('wp-content/plugins/custom_plugin/post_types')){
+        mkdir('wp-content/plugins/custom_plugin/post_types');
+    }
     $supports = array('title', 'author');
     $obj = $data->get_params();
     $post_name = $obj['post_name'];
@@ -116,6 +143,64 @@ function add_custom_post($data)
         ));
     }
 }
+
+function disable_custom_post($data)
+{
+    if(!file_exists('wp-content/plugins/custom_plugin/disabled')){
+        mkdir('wp-content/plugins/custom_plugin/disabled');
+    }
+    $post_type = $data->get_params()['post_type'];
+    $path = 'wp-content/plugins/custom_plugin/post_types/' . $post_type . '.php';
+    $disable_path = 'wp-content/plugins/custom_plugin/disabled/' . $post_type . '.php';
+    if (file_exists($path)) {
+        if (rename($path, $disable_path)) {
+            return new WP_REST_Response(array(
+                'status' => 200,
+                'message' => "Post disabilitato con successo"
+            ));
+        } else {
+            return new WP_REST_Response(array(
+                'status' => 500,
+                'message' => "Errore, procedura annullata"
+            ));
+        }
+
+    } else {
+        return new WP_REST_Response(array(
+            'status' => 500,
+            'message' => "Errore, File non trovato!"
+        ));
+    }
+
+}
+
+function enable_custom_post($data)
+{
+    $post_type = $data->get_params()['post_type'];
+    $path = 'wp-content/plugins/custom_plugin/disabled/' . $post_type . '.php';
+    $disable_path = 'wp-content/plugins/custom_plugin/post_types/' . $post_type . '.php';
+    if (file_exists($path)) {
+        if (rename($path, $disable_path)) {
+            return new WP_REST_Response(array(
+                'status' => 200,
+                'message' => "Post riabilitato con successo"
+            ));
+        } else {
+            return new WP_REST_Response(array(
+                'status' => 500,
+                'message' => "Errore, procedura annullata"
+            ));
+        }
+
+    } else {
+        return new WP_REST_Response(array(
+            'status' => 500,
+            'message' => "Errore, File non trovato!"
+        ));
+    }
+
+}
+
 function arraytoString($array)
 {
     $res = "array(";
@@ -128,5 +213,5 @@ function arraytoString($array)
 
 function check_fun_name($post_slug)
 {
-    return preg_replace( "{[à-ù' 0-9 \"!£$%&/()=?^ÈÙ*|+Ú\-]}", "_", $post_slug);
+    return preg_replace("{[à-ù' 0-9 \"!£$%&/,;.()=?^ÈÙ*|+Ú\-]}", "_", $post_slug);
 }
