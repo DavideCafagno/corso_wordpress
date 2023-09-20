@@ -45,7 +45,7 @@ wp_nav_menu();
 <?php endif; ?>
 <?php wp_footer();
 get_footer();
-error_log("Ciao da index");
+//error_log("Ciao da index");
 ?>
 </body>
 

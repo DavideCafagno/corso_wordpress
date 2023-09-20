@@ -23,7 +23,6 @@ $args = array('post_type'=>array('complete-post','pippo','post'));
 
 
 query_posts($args);
-error_log("Archive");
 //print_r($wp_query);
 ?>
 <?php
@@ -57,7 +56,6 @@ if (have_posts()) : while (have_posts()) : the_post(); ?>
 <?php endif; ?>
 <?php wp_footer();
 get_footer();
-error_log("Ciao da index")
 ?>
 </body>
 

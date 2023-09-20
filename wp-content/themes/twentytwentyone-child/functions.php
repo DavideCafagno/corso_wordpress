@@ -1,4 +1,4 @@
-<?php error_log("Start function PHP");
+<?php
 add_theme_support('post-thumbnails');
 register_post_type('pippo',
     array(
@@ -217,7 +217,7 @@ function at_force_template($template)
 {
     $isArchive = 'page.php' === basename($template);
     $isSingle = 'single.php' === basename($template);
-    error_log($template);
+//    error_log($template);
     return $template;
 }
 
@@ -256,7 +256,7 @@ function target_main_category_query_with_conditional_tags($query)
     global $wp_query;
     global $_GET;
     $variabile = $wp_query;
-    error_log(json_encode($_GET));
+//    error_log(json_encode($_GET));
     //controllare se siamo in home; esistenza post-type,verificare tipo post-ytpe e controllare contenuto
     //se troviamo 'post' aggiungiamo settings(type and post per page);
     if (is_home()) {
