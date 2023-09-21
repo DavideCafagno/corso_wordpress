@@ -6,7 +6,7 @@ $args = ['post_type' => 'notizia',
 ];
 $my_query = new WP_Query($args);
 //?>
-<div class="container" style="margin-top:100px;">
+<div class="container" style="display: inline; margin:100px auto; margin-bottom: 200px;">
     <?php
     while ($my_query->have_posts()) : $my_query->the_post(); ?>
 

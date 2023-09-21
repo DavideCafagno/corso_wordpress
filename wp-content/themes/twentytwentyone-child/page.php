@@ -46,7 +46,7 @@ if ($searchresult) {
     }
     if ($tag != "") {
         $args['tax_query'] = array(
-            'relation'=>'AND',
+            'relation'=>'OR',
             array(
                 'taxonomy' => 'post_tag',   // taxonomy name
                 'field' => 'slug',        // term_id, slug or name

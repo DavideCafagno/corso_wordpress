@@ -10,6 +10,24 @@ button:hover{
     background: #0c88b4 !important;
     font-weight: bold !important;
 }
+body {
+    background: rgba(154, 198, 218, 0.284);
+    display: flex !important;
+    min-height: 100vh !important;
+    flex-direction: column !important;
+}
+ul li{
+    display: inline;
+    list-style-type: none !important;
+    margin: 0 20px;
+}
+.footer{
+    flex:1;
+    background: darkgray;
+    padding:50px 10px;
+    margin-top: 200px;
+    color:white;
+}
 /*table{*/
 /*    border: none !important;*/
 /*    border-collapse: unset !important;*/

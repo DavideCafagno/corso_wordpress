@@ -16,11 +16,4 @@ Template: twentytwentyone
 
 */
 
-body{
-    background: rgba(154, 198, 218, 0.284);
-}
-ul li{
-    display: inline;
-    list-style-type: none !important;
-    margin: 0 20px;
-}
+

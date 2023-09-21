@@ -1,4 +1,4 @@
-<table>
+<table class="container table table-striped">
 
     <tr>
         <td>Titolo</td>

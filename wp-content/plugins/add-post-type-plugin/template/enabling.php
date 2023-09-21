@@ -10,7 +10,7 @@ if (count(disabled_custom_post_list()) == 0):
         <td class="col col-6"><select <?php if ($verify) echo 'disabled' ?> id="post_selected">
                 <?php
                 foreach (disabled_custom_post_list() as $pt):?>
-                    <option value="<?php echo $pt; ?>"><?php echo $pt; ?></option>
+                    <option value="<?php echo $pt->post_slug; ?>"><?php echo $pt->post_name; ?></option>
                 <?php endforeach; ?>
             </select></td>
     </tr>

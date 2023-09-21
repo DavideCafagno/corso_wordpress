@@ -104,7 +104,7 @@ function replace_wrong(str){
     // str = str.toLowerCase();
     //str = str.trim();
     str = str.replaceAll("  "," ");
-    str = str.replace(/[à-ù0-9"!£$%&/.,;()'=?^ÈÙ*|+Ú]/gi,"");
+    str = str.replace(/[à-ù0-9"!£$%&/.,;()'{}\]\[=?^ÈÙ*|+Ú]/gi,"");
     return str;
 }
 function check_input(name){

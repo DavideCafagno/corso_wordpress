@@ -15,10 +15,14 @@ function getAlert() {
         data: {action: "retrive_permalink", post_id_ajax: id, nonce_ajax: nonce, postType_ajax: input},
         success: function (response) {
             console.log('RESPONSE', response);
-            if (response.type == "success") {
-                alert(response.messaggio);
-            } else {
-                alert(response.messaggio);
+            if (response != 0) {
+                if (response.type == "success") {
+                    alert(response.messaggio);
+                } else {
+                    alert(response.messaggio);
+                }
+            }else{
+                alert('Login necessario');
             }
         }
     });

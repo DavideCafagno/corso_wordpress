@@ -165,7 +165,6 @@ add_action('wp_ajax_retrive_permalink', 'retrive_permalink');
 add_action('wp_ajax_nopriv_retrive_permalink', 'retrive_permalink_login');
 function retrive_permalink()
 {
-
     // nonce check for an extra layer of security, the function will exit if it fails
     if (!wp_verify_nonce($_REQUEST['nonce_ajax'], "retrive_permalink")) {
         exit("Non loggato!");
@@ -209,7 +208,7 @@ function retrive_permalink()
 function retrive_permalink_login()
 {
     return "Effettua prima il login";
-    die();
+
 }
 
 add_filter('template_include', 'at_force_template', 15, 2);
