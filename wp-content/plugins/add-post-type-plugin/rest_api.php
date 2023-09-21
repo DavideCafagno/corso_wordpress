@@ -21,14 +21,19 @@ function register_api()
         'callback' => 'enable_custom_post',
         'permission_callback' => '__return_true'
     ));
+    register_rest_route("plug/v1", "/update-custom-post-type/", array(
+        'methods' => 'GET',
+        'callback' => 'update_custom_post',
+        'permission_callback' => '__return_true'
+    ));
 }
 
 add_action('rest_api_init', 'register_api');
-function register_custom($post_slug, $post_name, $post_singular_name, $supports): array
+function register_custom($post_slug, $post_name, $post_singular_name, $supports,$post_taxonomies): array
 {
     $res = array('status' => 500, 'message' => 'Errrore!');
     if (!check_post_type_existing($post_slug)) {
-        if (insert_post_type($post_slug, $post_name, $post_singular_name, $supports)) {
+        if (insert_post_type($post_slug, $post_name, $post_singular_name, $supports,$post_taxonomies)) {
             $res['status'] = 200;
             $res['message'] = "Post Type creato con successo!";
         } else {
@@ -42,7 +47,7 @@ function register_custom($post_slug, $post_name, $post_singular_name, $supports)
     return $res;
 }
 
-function insert_post_type($post_slug, $post_name, $post_singular_name, $supports): bool
+function insert_post_type($post_slug, $post_name, $post_singular_name, $supports, $post_taxonomies): bool
 {
     $args = [
         'post_name' => $post_name,
@@ -53,8 +58,10 @@ function insert_post_type($post_slug, $post_name, $post_singular_name, $supports
         'post_thumb' => in_array('thumbnail', $supports),
         'post_comments' => in_array('comments', $supports),
         'post_custom_fields' => in_array('custom-fields', $supports),
+        'post_taxonomies' => (!empty($post_taxonomies))?implode(',',$post_taxonomies):"",
         'post_enabled' => true
     ];
+
     global $wpdb;
     return ($wpdb->insert(ADD_POST_TYPE_PLUGIN_TABLE_NAME, $args) != false) ? true : false;
 }
@@ -67,6 +74,7 @@ function add_custom_post($data)
     $post_name = $obj['post_name'];
     $post_slug = $obj['post_slug'];
     $post_singular_name = $obj['post_singular_name'];
+    $post_taxonomies = $obj['post_taxonomies'];
 
     $post_content = $obj['post_content'];
     if ($post_content == "true") {
@@ -89,7 +97,7 @@ function add_custom_post($data)
         $supports [] = 'custom-fields';
     }
 
-    $result = register_custom($post_slug, $post_name, $post_singular_name, $supports);
+    $result = register_custom($post_slug, $post_name, $post_singular_name, $supports, $post_taxonomies);
 
     if ($result['status'] == 200) {
         return new WP_REST_Response(array(
@@ -108,7 +116,7 @@ function remove_custom_post($data)
 {
     $post_slug = $data->get_params()['post_type'];
     global $wpdb;
-    if ($wpdb->delete(ADD_POST_TYPE_PLUGIN_TABLE_NAME,  array('post_slug' => $post_slug)) != false) {
+    if ($wpdb->delete(ADD_POST_TYPE_PLUGIN_TABLE_NAME, array('post_slug' => $post_slug)) != false) {
         return new WP_REST_Response(array(
             'status' => 200,
             'message' => "Eliminazione andata a buon fine!"
@@ -154,6 +162,25 @@ function enable_custom_post($data)
             'message' => "Attivazione non andata a buon fine."
         ));
     }
+}
+function update_custom_post($data){
+    $slug = $data->get_params()['post_slug'];
+    global $wpdb;
+
+    $post = $wpdb->get_results("SELECT * FROM ".ADD_POST_TYPE_PLUGIN_TABLE_NAME. " WHERE post_slug = '" . $slug . "'");
+    if($post != null || !empty($post)){
+        return new WP_REST_Response(array(
+            'status'=>200,
+            'post'=> $post
+        ));
+    }else{
+        return new WP_REST_Response(array(
+            'status'=>404,
+
+        ));
+    }
+
+
 }
 
 function check_post_type_existing($slug): bool

@@ -25,6 +25,7 @@ function registraPost()
             'public' => true,
             'has_archive' => true,
             'hierarchical' => false,
+            'query_var' => true,
             'supports' => array('title', 'editor', 'thumbnail', 'author', 'excerpt', 'trackbacks', 'custom-fields', 'comments', 'revisions', 'post-formats', 'page-attributes'),
             'taxonomies' => array('post_tag', 'categoria_custom'),
             'show_ui' => true,
@@ -70,17 +71,17 @@ add_action('init', 'registraPost');
 function registraTaxonomy()
 {
     $labels = [
-        'name' => _x('Categoria2', 'taxonomy general name'),
-        'singular_name' => _x('Categoria2', 'taxonomy singular name'),
-        'search_items' => __('Search Categoria2'),
-        'all_items' => __('All Categoria2'),
-        'parent_item' => __('Parent Categoria2'),
-        'parent_item_colon' => __('Parent Categoria2:'),
-        'edit_item' => __('Edit Categoria2'),
-        'update_item' => __('Update Categoria2'),
-        'add_new_item' => __('Add New Categoria2'),
-        'new_item_name' => __('New Categoria2 Name'),
-        'menu_name' => __('Categoria2'),
+        'name' => _x('Categoria Custom', 'taxonomy general name'),
+        'singular_name' => _x('Categoria Custom', 'taxonomy singular name'),
+        'search_items' => __('Search Categoria Custom'),
+        'all_items' => __('All Categoria Custom'),
+        'parent_item' => __('Parent Categoria Custom'),
+        'parent_item_colon' => __('Parent Categoria Custom:'),
+        'edit_item' => __('Edit Categoria Custom'),
+        'update_item' => __('Update Categoria Custom'),
+        'add_new_item' => __('Add New Categoria Custom'),
+        'new_item_name' => __('New Categoria Custom Name'),
+        'menu_name' => __('Categoria Custom'),
     ];
     register_taxonomy('categoria_custom',
         array(
@@ -90,6 +91,8 @@ function registraTaxonomy()
 
         ), array(
             'hierarchical' => true,
+            "public"                => true,
+            "publicly_queryable"    => true,
             'labels' => $labels,
             'show_ui' => true,
             'show_admin_column' => true,

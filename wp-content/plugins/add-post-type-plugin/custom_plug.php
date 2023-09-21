@@ -32,6 +32,7 @@ function load_custom_post_type()
                     post_thumb boolean DEFAULT false NOT NULL,
                     post_comments boolean DEFAULT false NOT NULL,
                     post_custom_fields boolean DEFAULT false NOT NULL,
+                    post_taxonomies varchar(1000) NOT NULL,
                     post_enabled boolean DEFAULT true NOT NULL
                 ) $charset_collate;";
     require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
@@ -42,12 +43,13 @@ function load_custom_post_type()
             $post_name = $r->post_name;
             $post_slug = check_fun_name($r->post_slug);
             $post_singular_name = $r->post_singular_name;
-            $support = ['title','author'];
-            if($r->post_content == '1') $support[]= "editor" ;
-            if($r->post_excerpt == '1') $support[]= "excerpt";
-            if($r->post_thumb == '1') $support[]= "thumbnail";
-            if($r->post_comments == '1') $support[]= "comments";
-            if($r->post_custom_fields == '1') $support[]= "custom-field";
+            $post_taxonomies = explode(',', $r->post_taxonomies);
+            $support = ['title', 'author'];
+            if ($r->post_content == '1') $support[] = "editor";
+            if ($r->post_excerpt == '1') $support[] = "excerpt";
+            if ($r->post_thumb == '1') $support[] = "thumbnail";
+            if ($r->post_comments == '1') $support[] = "comments";
+            if ($r->post_custom_fields == '1') $support[] = "custom-field";
             register_post_type($post_slug,
                 array(
                     "labels" => array(
@@ -58,12 +60,16 @@ function load_custom_post_type()
                     "has_archive" => true,
                     "hierarchical" => false,
                     "supports" => $support,
-                    "taxonomies" => array("post_tag", "category"),
+                    "taxonomies" => $post_taxonomies,
                     "show_ui" => true,
                 )
             );
+            foreach ($post_taxonomies as $tx) {
+                do_action( 'registered_taxonomy_for_object_type', $tx, $post_slug);
+            }
         }
-    });
+
+    },20);
 }
 
 function check_fun_name($post_slug)
@@ -77,6 +83,12 @@ function custom_post_list()
 {
     global $wpdb;
     $records = $wpdb->get_results("SELECT * from " . ADD_POST_TYPE_PLUGIN_TABLE_NAME . " WHERE post_enabled = true");
+    return $records;
+}
+function all_custom_post_list()
+{
+    global $wpdb;
+    $records = $wpdb->get_results("SELECT * from " . ADD_POST_TYPE_PLUGIN_TABLE_NAME);
     return $records;
 }
 
@@ -112,6 +124,7 @@ function register_my_custom_sub_menu_page()
     add_submenu_page('add_custom_post_plugin', "my plugin", "Add Custom Post", 'manage_options', 'add-post_type', 'my_add_custom_post');
     add_submenu_page('add_custom_post_plugin', "my plugin", "Remove Post - Type", 'manage_options', 'remove-post_type', 'my_remove_custom_post');
     add_submenu_page('add_custom_post_plugin', "my plugin", "Disabled Posts", 'manage_options', 'enable-post_type', 'my_enable_custom_post');
+    add_submenu_page('add_custom_post_plugin', "my plugin", "Update Posts", 'manage_options', 'update-post_type', 'my_update_custom_post');
 }
 
 function my_add_custom_post()
@@ -127,4 +140,8 @@ function my_remove_custom_post()
 function my_enable_custom_post()
 {
     include 'template/enabling.php';
+}
+function my_update_custom_post()
+{
+    include 'template/modifing.php';
 }
