@@ -8,6 +8,7 @@ if (count(disabled_custom_post_list()) == 0):
     <tr class="row">
         <td class="col col-6">SELEZIONA POST DA ABILITARE</td>
         <td class="col col-6"><select <?php if ($verify) echo 'disabled' ?> id="post_selected">
+                <option value="" selected disabled> - </option>
                 <?php
                 foreach (disabled_custom_post_list() as $pt):?>
                     <option value="<?php echo $pt->post_slug; ?>"><?php echo $pt->post_name; ?></option>

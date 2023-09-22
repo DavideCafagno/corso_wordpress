@@ -1,9 +1,14 @@
 <h1>SCEGLI UN CUSTOM POST TYPE DA MODIFICARE</h1>
-<select onchange="compile_update_post(this.value)" id="select_update_post">
-    <option></option>
-    <?php foreach (all_custom_post_list() as $post):?>
-    <option value="<?=$post->post_slug ?>"><?=$post->post_name ?></option>
-    <?php endforeach;?>
+<?php $verify = false;
+if (count(all_custom_post_list()) == 0):
+    $verify = true; ?>
+    <p>"Nessun Custom-Post da modificare"</p>
+<?php endif; ?>
+<select <?php if ($verify) echo 'disabled' ?> onchange="compile_update_post(this.value)" id="select_update_post">
+    <option value="" selected> -</option>
+    <?php foreach (all_custom_post_list() as $post): ?>
+        <option value="<?= $post->post_slug ?>"><?= $post->post_name ?></option>
+    <?php endforeach; ?>
 </select>
 <hr>
 <table>
@@ -34,7 +39,7 @@
         <td class="col col-6"><input id="post_excerpt" type="checkbox"></td>
     </tr>
     <tr class="row">
-        <td class="col col-6">IMMAAGINE</td>
+        <td class="col col-6">IMMAGINE</td>
         <td class="col col-6"><input type="checkbox" id="post_thumb"></td>
     </tr>
     <tr class="row">
@@ -52,14 +57,14 @@
         <tr class="row">
             <td class="col col-6"><?php echo $t; ?></td>
             <td class="col col-6"><input
-                    type="checkbox" <?php if ($t == 'post_tag' || $t == 'category') echo 'checked'; ?>
-                    value="<?php echo $t; ?>" id="post_taxonomies"></td>
+                        type="checkbox" <?php if ($t == 'post_tag' || $t == 'category') echo 'checked'; ?>
+                        value="<?php echo $t; ?>" name="post_taxonomies" id="post_taxonomies"></td>
         </tr>
 
     <?php endforeach; ?>
     <tr class="row">
         <td class="col col-12">
-            <button class="button" onclick="update_post()">Modifica</button>
+            <button <?php if ($verify) echo 'disabled' ?> class="button" onclick="update_post()">Modifica</button>
         </td>
     </tr>
 </table>

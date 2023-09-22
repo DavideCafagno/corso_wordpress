@@ -121,10 +121,10 @@ add_action('admin_menu', 'register_my_custom_sub_menu_page');
 
 function register_my_custom_sub_menu_page()
 {
-    add_submenu_page('add_custom_post_plugin', "my plugin", "Add Custom Post", 'manage_options', 'add-post_type', 'my_add_custom_post');
-    add_submenu_page('add_custom_post_plugin', "my plugin", "Remove Post - Type", 'manage_options', 'remove-post_type', 'my_remove_custom_post');
-    add_submenu_page('add_custom_post_plugin', "my plugin", "Disabled Posts", 'manage_options', 'enable-post_type', 'my_enable_custom_post');
-    add_submenu_page('add_custom_post_plugin', "my plugin", "Update Posts", 'manage_options', 'update-post_type', 'my_update_custom_post');
+    //add_submenu_page('add_custom_post_plugin', "my plugin", "Add Post-Type", 'manage_options', 'add-post_type', 'my_add_custom_post');
+    add_submenu_page('add_custom_post_plugin', "my plugin", "Remove Post-Type", 'manage_options', 'remove-post_type', 'my_remove_custom_post');
+    add_submenu_page('add_custom_post_plugin', "my plugin", "Disabled Post-Types", 'manage_options', 'enable-post_type', 'my_enable_custom_post');
+    add_submenu_page('add_custom_post_plugin', "my plugin", "Update Post-Type", 'manage_options', 'update-post_type', 'my_update_custom_post');
 }
 
 function my_add_custom_post()

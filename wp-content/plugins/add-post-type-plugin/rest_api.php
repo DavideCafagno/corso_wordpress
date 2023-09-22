@@ -21,19 +21,24 @@ function register_api()
         'callback' => 'enable_custom_post',
         'permission_callback' => '__return_true'
     ));
-    register_rest_route("plug/v1", "/update-custom-post-type/", array(
+    register_rest_route("plug/v1", "/get-custom-post-type/", array(
         'methods' => 'GET',
+        'callback' => 'get_custom_post',
+        'permission_callback' => '__return_true'
+    ));
+    register_rest_route("plug/v1", "/update-custom-post-type/", array(
+        'methods' => 'POST',
         'callback' => 'update_custom_post',
         'permission_callback' => '__return_true'
     ));
 }
 
 add_action('rest_api_init', 'register_api');
-function register_custom($post_slug, $post_name, $post_singular_name, $supports,$post_taxonomies): array
+function register_custom($post_slug, $post_name, $post_singular_name, $supports, $post_taxonomies): array
 {
     $res = array('status' => 500, 'message' => 'Errrore!');
     if (!check_post_type_existing($post_slug)) {
-        if (insert_post_type($post_slug, $post_name, $post_singular_name, $supports,$post_taxonomies)) {
+        if (insert_post_type($post_slug, $post_name, $post_singular_name, $supports, $post_taxonomies)) {
             $res['status'] = 200;
             $res['message'] = "Post Type creato con successo!";
         } else {
@@ -58,7 +63,7 @@ function insert_post_type($post_slug, $post_name, $post_singular_name, $supports
         'post_thumb' => in_array('thumbnail', $supports),
         'post_comments' => in_array('comments', $supports),
         'post_custom_fields' => in_array('custom-fields', $supports),
-        'post_taxonomies' => (!empty($post_taxonomies))?implode(',',$post_taxonomies):"",
+        'post_taxonomies' => (!empty($post_taxonomies)) ? implode(',', $post_taxonomies) : "",
         'post_enabled' => true
     ];
 
@@ -163,24 +168,86 @@ function enable_custom_post($data)
         ));
     }
 }
-function update_custom_post($data){
+
+function get_custom_post($data)
+{
     $slug = $data->get_params()['post_slug'];
     global $wpdb;
 
-    $post = $wpdb->get_results("SELECT * FROM ".ADD_POST_TYPE_PLUGIN_TABLE_NAME. " WHERE post_slug = '" . $slug . "'");
-    if($post != null || !empty($post)){
+    $post = $wpdb->get_results("SELECT * FROM " . ADD_POST_TYPE_PLUGIN_TABLE_NAME . " WHERE post_slug = '" . $slug . "'");
+    if ($post != null || !empty($post)) {
         return new WP_REST_Response(array(
-            'status'=>200,
-            'post'=> $post
+            'status' => 200,
+            'post' => $post
         ));
-    }else{
+    } else {
         return new WP_REST_Response(array(
-            'status'=>404,
+            'status' => 404,
 
         ));
     }
+}
 
 
+function update_custom_post($data)
+{
+    $params = $data->get_params();
+    $association = $params['association'] == "true" ? true : false;
+    $old_slug = $params['old_slug'];
+    global $wpdb;
+    $args = [
+        'post_name' => $params['post_name'],
+        'post_slug' => $params['post_slug'],
+        'post_singular_name' => $params['post_singular_name'],
+        'post_content' => ($params['post_content'] == 'true') ? true : false,
+        'post_excerpt' => ($params['post_excerpt'] == 'true') ? true : false,
+        'post_thumb' => ($params['post_thumb'] == 'true') ? true : false,
+        'post_comments' => ($params['post_comments'] == 'true') ? true : false,
+        'post_custom_fields' => ($params['post_custom_fields'] == 'true') ? true : false,
+        'post_taxonomies' => array_key_exists('post_taxonomies', $params) ? implode(',',$params['post_taxonomies']) : "",
+    ];
+    $post_type_updating = $wpdb->update(ADD_POST_TYPE_PLUGIN_TABLE_NAME, $args, array('post_slug' => $old_slug));
+    switch ($post_type_updating) {
+        case 0:
+            return new WP_REST_Response(array(
+                'status' => 500,
+                'message' => 'Nessuna modifica da effettuare.'
+            ));
+        case false:
+            return new WP_REST_Response(array(
+                'status' => 500,
+                'message' => 'Errore, modifica non avvenuta.'
+            ));
+        default:
+            if ($association) {
+                $post_updating = $wpdb->update('wp_posts', array('post_type' => $params['post_slug']), array('post_type' => $old_slug));
+                switch ($post_updating) {
+                    case 0:
+                        return new WP_REST_Response(array(
+                            'status' => 200,
+                            'message' => 'Modifica avvenuta con successo! Nessun post da modificare!'
+                        ));
+                    case false:
+                        return new WP_REST_Response(array(
+                            'status' => 200,
+                            'message' => 'Modifica avvenuta con successo! Errore nella modifica dei posts'
+                        ));
+                    default:
+                        return new WP_REST_Response(array(
+                            'status' => 200,
+                            'message' => 'Modifica avvenuta con successo! Post modificati : ' . $post_updating
+                        ));
+                }
+
+            } else {
+                return new WP_REST_Response(array(
+                    'status' => 200,
+                    'message' => 'Modifica post_type avvenuta con successo! '
+                ));
+            }
+
+
+    }
 }
 
 function check_post_type_existing($slug): bool
