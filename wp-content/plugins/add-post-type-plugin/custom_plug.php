@@ -102,7 +102,8 @@ function disabled_custom_post_list()
 include 'rest_api.php';
 
 load_custom_post_type();
-//load_plugin_textdomain('add-post-type-plugin',false,'/wp-content/languages/plugin/');
+load_plugin_textdomain('add-post-type-plugin', false, '/add-post-type-plugin/languages/');
+global $wp_textdomain_registry;
 add_action('admin_enqueue_scripts', 'add_script');
 function add_script()
 {
