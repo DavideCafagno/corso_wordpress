@@ -8,7 +8,7 @@
  * Version: 1.0
  * Author: Davide Cafagno
  * License: GPL Attribution-ShareAlike
- *
+ * Text Domain: add-post-type-plugin
  *
  */
 if (!defined('ABSPATH')) {
@@ -100,21 +100,25 @@ function disabled_custom_post_list()
 }
 
 include 'rest_api.php';
+
 load_custom_post_type();
+//load_plugin_textdomain('add-post-type-plugin',false,'/wp-content/languages/plugin/');
 add_action('admin_enqueue_scripts', 'add_script');
 function add_script()
 {
-    wp_register_script('add-post-type-plugin.js', plugins_url('add-post-type-plugin/js/custom_plugin.js'));//, array('jquery'));
-//    wp_localize_script('custom_script', 'oggettoAjax', array('proprietaUrl' => admin_url('admin-ajax.php')));
-    wp_enqueue_script('add-post-type-plugin.js');
+    wp_register_script('add-post-type-plugin', plugins_url('add-post-type-plugin/js/custom_plugin.js'));//, array('jquery'));
+//    wp_localize_script('custom_script', 'oggettoAjax', array('proprietaUrl' => admin_url('admin-ajax.php')));//https://code.jquery.com/jquery-3.7.1.min.js
+    wp_enqueue_script('add-post-type-plugin');
 
+    wp_register_script('jquery_script', 'https://code.jquery.com/jquery-3.7.1.min.js');
+    wp_enqueue_script('jquery_script');
 }
 
 add_action('admin_menu', 'register_my_custom_menu_page');
 
 function register_my_custom_menu_page()
 {
-    add_menu_page('my plugin', 'Add Post-Type', 'manage_options', 'add_custom_post_plugin', 'my_add_custom_post', 'dashicons-plus-alt2', 66);
+    add_menu_page('my plugin', __('Add Post-Type','add-post-type-plugin'), 'manage_options', 'add_custom_post_plugin', 'my_add_custom_post', 'dashicons-plus-alt2', 66);
 }
 
 add_action('admin_menu', 'register_my_custom_sub_menu_page');
@@ -122,9 +126,9 @@ add_action('admin_menu', 'register_my_custom_sub_menu_page');
 function register_my_custom_sub_menu_page()
 {
     //add_submenu_page('add_custom_post_plugin', "my plugin", "Add Post-Type", 'manage_options', 'add-post_type', 'my_add_custom_post');
-    add_submenu_page('add_custom_post_plugin', "my plugin", "Remove Post-Type", 'manage_options', 'remove-post_type', 'my_remove_custom_post');
-    add_submenu_page('add_custom_post_plugin', "my plugin", "Disabled Post-Types", 'manage_options', 'enable-post_type', 'my_enable_custom_post');
-    add_submenu_page('add_custom_post_plugin', "my plugin", "Update Post-Type", 'manage_options', 'update-post_type', 'my_update_custom_post');
+    add_submenu_page('add_custom_post_plugin', "my plugin", __("Remove Post-Type",'add-post-type-plugin'), 'manage_options', 'remove-post_type', 'my_remove_custom_post');
+    add_submenu_page('add_custom_post_plugin', "my plugin", __("Enable Post-Type",'add-post-type-plugin'), 'manage_options', 'enable-post_type', 'my_enable_custom_post');
+    add_submenu_page('add_custom_post_plugin', "my plugin", __("Update Post-Type",'add-post-type-plugin'), 'manage_options', 'update-post_type', 'my_update_custom_post');
 }
 
 function my_add_custom_post()

@@ -1,13 +1,13 @@
-<h1>SCEGLI IL CUSTOM POST TYPE DA RIMUOVERE</h1>
+<h1><?php echo _e('SELECT POST-TYPE TO BE REMOVED OR DISABLED','add-post-type-plugin');?></h1>
 <?php $verify = false;
 if (count(custom_post_list()) == 0):
     $verify = true; ?>
-    <p>"Nessun Custom-Post da eliminare"</p>
+    <p><?php echo _e("No custom posts to remove or disable.",'add-post-type-plugin');?></p>
     <hr>
 <?php endif; ?>
 <table>
     <tr class="row">
-        <td class="col col-6">SELEZIONA POST DA ELIMINARE</td>
+        <td class="col col-6"><?php echo _e('SELECT POST-TYPE','add-post-type-plugin');?></td>
         <td class="col col-6"><select <?php if ($verify) echo 'disabled' ?> id="post_selected">
                 <option value="" selected disabled> - </option>
                 <?php
@@ -18,10 +18,10 @@ if (count(custom_post_list()) == 0):
     </tr>
     <tr class="row">
         <td class="col col-6">
-            <button <?php if ($verify) echo 'disabled' ?> class="button" onclick="cestina_post()">DISABILITA</button>
+            <button <?php if ($verify) echo 'disabled' ?> class="button" onclick="cestina_post()"><?php echo _e('DISABLE','add-post-type-plugin');?></button>
         </td>
         <td class="col col-6">
-            <button <?php if ($verify) echo 'disabled' ?> class="button" onclick="elimina_post()">ELIMINA</button>
+            <button <?php if ($verify) echo 'disabled' ?> class="button" onclick="elimina_post()"><?php echo _e('DELETE','add-post-type-plugin');?></button>
         </td>
     </tr>
 </table>

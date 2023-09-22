@@ -10,6 +10,7 @@
  */
 session_start();
 global $wp_query;
+global $wp_textdomain_registry;
 $searchresult = array_key_exists('pagename',$wp_query->query) && $wp_query->query['pagename'] == 'search-result';
 if ($searchresult) {
     global $_POST;

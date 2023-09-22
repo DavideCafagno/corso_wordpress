@@ -1,0 +1,102 @@
+msgid ""
+msgstr ""
+
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.7\n"
+"Language: it\n"
+
+msgid "Add Post-Type"
+msgstr "Aggiungi Post-Type"
+
+msgid "Remove Post-Type"
+msgstr "Rimuovi Post-Type"
+
+msgid "Enable Post-Type"
+msgstr "Attiva Post-Type"
+
+msgid "Update Post-Type"
+msgstr "Modifica Post-Type"
+
+msgid "The name here.."
+msgstr "Inserire il nome.."
+
+msgid "The slug here.."
+msgstr "Inserire lo slug.."
+
+msgid "The singular name here.."
+msgstr "Inserire il nome singolare.."
+
+msgid "ADD CUSTOM POST-TYPE"
+msgstr "AGGIUNGI UN CUSTOM POST TYPE"
+
+msgid "ABOUT NEW POST-TYPE"
+msgstr "INFORMAZIONI NUOVO POST-TYPE"
+
+msgid "CUSTOM POSTS NAME"
+msgstr "NOME DEI POST"
+
+msgid "CUSTOM POST SLUG"
+msgstr "SLUG DEL POST"
+
+msgid "CUSTOM POST SINGULAR NAME"
+msgstr "NOME SINGOLARE DEL POST"
+
+msgid "CONTENT"
+msgstr "CONTENUTO"
+
+msgid "EXCERPT"
+msgstr "RIASSUNTO"
+
+msgid "THUMBNAIL"
+msgstr "IMMAGINE"
+
+msgid "COMMENTS"
+msgstr "COMMENTI"
+
+msgid "CUSTOM FIELDS"
+msgstr "CAMPI PERSONALIZZATI"
+
+msgid "ABOUT TAXONOMIES"
+msgstr "INFORMAZIONI TASSONOMIE"
+
+msgid "ADD POST-TYPE"
+msgstr "AGGIUNGI POST-TYPE"
+
+msgid "SELECT POST-TYPE TO BE REMOVED OR DISABLED"
+msgstr "SELEZIONA IL POST-TYPE DA RIMUOVERE O DISABILITARE"
+
+msgid "No custom posts to remove or disable."
+msgstr "Nessun Custom-Post da rimuovere o disabilitare."
+
+msgid "SELECT POST-TYPE"
+msgstr "SELEZIONA POST-TYPE"
+
+msgid "DISABLE"
+msgstr "DISABILITA"
+
+msgid "ENABLE"
+msgstr "RIATTIVA"
+
+msgid "DELETE"
+msgstr "ELIMINA"
+
+msgid "UPDATE"
+msgstr "MODIFICA"
+
+msgid "SELECT POST-TYPE TO BE ENABLED"
+msgstr "SELEZIONA IL POST-TYPE DA RIATTIVARE"
+
+msgid "No disabled custom posts to enable."
+msgstr "Nessun Custom-Post disabilitato da riattivare."
+
+msgid "SELECT POST-TYPE TO BE UPDATED"
+msgstr "SELEZIONA IL CUSTOM POST TYPE DA MODIFICARE"
+
+msgid "No custom posts to update."
+msgstr "Nessun Custom-Post da modificare."
+
+
+
+
