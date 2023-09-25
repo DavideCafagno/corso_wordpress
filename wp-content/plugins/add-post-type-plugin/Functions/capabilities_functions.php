@@ -92,7 +92,7 @@ function approve_post($postID)
         case in_array("administrator", $roles):
             break;
         case in_array("editor", $roles):
-            if($post->post_status == 'publish'){
+            if($post->post_status == 'append'){
                 global $wpdb;
                 $res = $wpdb->update('wp_posts',array('post_status' => 'approved'),array('ID' => $postID));
             }
