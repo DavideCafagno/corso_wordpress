@@ -365,3 +365,157 @@ Stack trace:
 #6 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-admin\edit.php(495): WP_List_Table->display()
 #7 {main}
   thrown in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\themes\twentytwentyone-child\functions.php on line 558
+[25-Sep-2023 15:11:21 UTC] PHP Warning:  Attempt to read property "post_type" on int in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\add-post-type-plugin\Functions\capabilities_functions.php on line 83
+[25-Sep-2023 15:12:48 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function approve_post(), 1 passed in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp-hook.php on line 312 and exactly 2 expected in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\add-post-type-plugin\Functions\capabilities_functions.php:81
+Stack trace:
+#0 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp-hook.php(312): approve_post(91)
+#1 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\post.php(4751): do_action('save_post', 91, Object(WP_Post), true)
+#4 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\post.php(4853): wp_insert_post(Array, false, true)
+#5 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-admin\includes\post.php(445): wp_update_post(Array)
+#6 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-admin\post.php(227): edit_post()
+#7 {main}
+  thrown in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\add-post-type-plugin\Functions\capabilities_functions.php on line 81
+[25-Sep-2023 15:16:51 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\add-post-type-plugin\Functions\capabilities_functions.php:96
+Stack trace:
+#0 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp-hook.php(312): approve_post(89)
+#1 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\post.php(4751): do_action('save_post', 89, Object(WP_Post), true)
+#4 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\post.php(4853): wp_insert_post(Array, false, true)
+#5 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-admin\includes\post.php(445): wp_update_post(Array)
+#6 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-admin\post.php(227): edit_post()
+#7 {main}
+  thrown in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\add-post-type-plugin\Functions\capabilities_functions.php on line 96
+[25-Sep-2023 15:19:24 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\add-post-type-plugin\Functions\capabilities_functions.php:96
+Stack trace:
+#0 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp-hook.php(312): approve_post(89)
+#1 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\post.php(4751): do_action('save_post', 89, Object(WP_Post), true)
+#4 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\post.php(4853): wp_insert_post(Array, false, true)
+#5 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-admin\includes\post.php(445): wp_update_post(Array)
+#6 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-admin\post.php(227): edit_post()
+#7 {main}
+  thrown in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\add-post-type-plugin\Functions\capabilities_functions.php on line 96
+[25-Sep-2023 15:34:46 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:34:46 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:35:30 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:35:30 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:35:33 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:35:33 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:35:36 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:35:36 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:35:37 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:35:38 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:35:41 UTC] WordPress database error Unknown column '0' in 'where clause' for query UPDATE `wp_posts` SET `post_status` = 'approved' WHERE `0` = 'ID' AND `1` = '89' made by edit_post, wp_update_post, wp_insert_post, do_action('post_updated'), WP_Hook->do_action, WP_Hook->apply_filters, approve_post
+[25-Sep-2023 15:35:41 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:35:41 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:35:43 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:35:44 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:35:46 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:35:46 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:35:48 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:35:49 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:35:49 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:35:50 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:35:51 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:35:51 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:36:05 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:36:06 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:36:21 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:36:21 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:36:36 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:36:36 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:36:48 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:36:48 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:36:51 UTC] WordPress database error Unknown column '0' in 'where clause' for query UPDATE `wp_posts` SET `post_status` = 'approved' WHERE `0` = 'ID' AND `1` = '89' made by edit_post, wp_update_post, wp_insert_post, do_action('post_updated'), WP_Hook->do_action, WP_Hook->apply_filters, approve_post
+[25-Sep-2023 15:36:51 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:36:51 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:36:53 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:36:54 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:36:55 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:36:56 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:37:11 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:37:11 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:37:26 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:37:26 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:37:29 UTC] WordPress database error Unknown column '0' in 'where clause' for query UPDATE `wp_posts` SET `post_status` = 'approved' WHERE `0` = 'ID' AND `1` = '89' made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, approve_post
+[25-Sep-2023 15:37:30 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:37:30 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:37:32 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:37:33 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:37:34 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:37:35 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:37:39 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:37:39 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:37:40 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:37:40 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:37:42 UTC] WordPress database error Unknown column '0' in 'where clause' for query UPDATE `wp_posts` SET `post_status` = 'approved' WHERE `0` = 'ID' AND `1` = '89' made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, approve_post
+[25-Sep-2023 15:37:42 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:37:42 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:37:44 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:37:45 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:37:47 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:37:47 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:37:56 UTC] WordPress database error Unknown column '0' in 'where clause' for query UPDATE `wp_posts` SET `post_status` = 'approved' WHERE `0` = 'ID' AND `1` = '89' made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, approve_post
+[25-Sep-2023 15:37:56 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:37:57 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:37:59 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:37:59 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:38:01 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:38:01 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:38:06 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:38:06 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:38:07 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:38:07 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:38:15 UTC] WordPress database error Unknown column '0' in 'where clause' for query UPDATE `wp_posts` SET `post_status` = 'approved' WHERE `0` = 'ID' AND `1` = '89' made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, approve_post
+[25-Sep-2023 15:38:16 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:38:16 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:38:18 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:38:18 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:38:20 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:38:20 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:38:40 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:38:40 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:38:49 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:38:50 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:38:51 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:38:51 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:38:55 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:38:55 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:38:57 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:38:58 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:39:00 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:39:00 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:39:15 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:39:15 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:39:25 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:39:26 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:39:26 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:39:26 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:39:27 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:39:28 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:39:44 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:39:44 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:39:44 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:39:45 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:39:50 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:39:51 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:39:54 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:39:54 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:39:56 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:39:56 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:39:58 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:39:58 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:40:14 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:40:14 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:40:32 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:40:32 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[25-Sep-2023 15:42:37 UTC] WordPress database error Unknown column '0' in 'where clause' for query UPDATE `wp_posts` SET `post_status` = 'approved' WHERE `0` = 'ID' AND `1` = '89' made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, approve_post
+[25-Sep-2023 15:44:49 UTC] WordPress database error Unknown column '0' in 'where clause' for query UPDATE `wp_posts` SET `post_status` = 'approved' WHERE `0` = 'wp_posts.ID' AND `1` = '89' made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, approve_post
+[25-Sep-2023 15:45:33 UTC] WordPress database error Unknown column '0' in 'where clause' for query UPDATE `wp_posts` SET `post_status` = 'approved' WHERE `0` = 'wp_posts.ID' AND `1` = '89' made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, approve_post
+[25-Sep-2023 15:46:21 UTC] WordPress database error Unknown column 'wp_posts.ID' in 'where clause' for query UPDATE `wp_posts` SET `post_status` = 'approved' WHERE `wp_posts.ID` = '89' made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, approve_post
+[25-Sep-2023 15:46:50 UTC] PHP Notice:  La funzione map_meta_cap è stata richiamata <strong>in maniera scorretta</strong>. Lo stato dell'articolo <code>approved</code> non è registrato, quindi potrebbe non essere affidabile controllare la capacità "<code>read_post</code>" rispetto a un articolo con quello stato. Leggi <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> per maggiori informazioni. (Questo messaggio è stato aggiunto nella versione 5.4.0.) in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\functions.php on line 5897
+[25-Sep-2023 15:46:50 UTC] PHP Notice:  La funzione map_meta_cap è stata richiamata <strong>in maniera scorretta</strong>. Lo stato dell'articolo <code>approved</code> non è registrato, quindi potrebbe non essere affidabile controllare la capacità "<code>read_post</code>" rispetto a un articolo con quello stato. Leggi <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> per maggiori informazioni. (Questo messaggio è stato aggiunto nella versione 5.4.0.) in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\functions.php on line 5897

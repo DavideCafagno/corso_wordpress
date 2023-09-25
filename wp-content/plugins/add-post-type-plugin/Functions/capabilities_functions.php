@@ -1,4 +1,5 @@
 <?php
+add_action('init', 'modify_capabilities');
 function modify_capabilities()
 {
     $user = wp_get_current_user();
@@ -13,6 +14,7 @@ function modify_capabilities()
         case in_array("administrator", $roles):
             break;
         case in_array("editor", $roles):
+            $user->add_cap('publish_posts', true);
             break;
         case in_array("subscriber", $roles):
             break;
@@ -21,8 +23,8 @@ function modify_capabilities()
 
 }
 
-add_action('init', 'modify_capabilities');
 
+add_action('pre_get_posts', 'modify_users_visibility');
 function modify_users_visibility($query)
 {
     $user = wp_get_current_user();
@@ -44,34 +46,8 @@ function modify_users_visibility($query)
 
 }
 
-add_action('pre_get_posts', 'modify_users_visibility');
-
-function modify_users_edit_capability($mange)
-{
-    $user = wp_get_current_user();
-    $roles = $user->roles;
-    global $wp_query;
-    if (array_key_exists('post_type', $wp_query->query_vars) && $wp_query->query_vars['post_type'] == 'articoli-custom')
-        switch ($roles) {
-            case in_array("contributor", $roles):
-
-// $wp_query->set('author', $user->ID );
-                break;
-            case in_array("administrator", $roles):
-                break;
-            case in_array("editor", $roles):
-                break;
-            case in_array("subscriber", $roles):
-                break;
-            default:
-        }
-
-}
-
-add_action('restrict_manage_posts', 'modify_users_edit_capability');
-
-add_filter('post_row_actions', 'remove_row_actions');
-function remove_row_actions($actions)
+add_filter('post_row_actions', 'remove_row_actions',10,2);
+function remove_row_actions($actions, $post)
 {
     global $current_screen;
     if ($current_screen->post_type != 'articoli-custom') return $actions;
@@ -86,6 +62,11 @@ function remove_row_actions($actions)
         case in_array("administrator", $roles):
             break;
         case in_array("editor", $roles):
+            if(user_can($post->post_author,'administrator') || user_can($post->post_author,'editor')){
+                unset($actions['edit']);
+                unset($actions['inline hide-if-no-js']);
+                unset($actions['trash']);
+            }
             break;
         case in_array("subscriber", $roles):
             break;
@@ -94,4 +75,32 @@ function remove_row_actions($actions)
 
 
     return $actions;
+}
+
+add_action('save_post', 'approve_post');
+function approve_post($postID)
+{
+    $post = get_post($postID);
+    $post_type = $post->post_type;
+    if($post_type != 'articoli-custom') return;
+
+    $user = wp_get_current_user();
+    $roles = $user->roles;
+    switch ($roles) {
+        case in_array("contributor", $roles):
+            break;
+        case in_array("administrator", $roles):
+            break;
+        case in_array("editor", $roles):
+            if($post->post_status == 'publish'){
+                global $wpdb;
+                $res = $wpdb->update('wp_posts',array('post_status' => 'approved'),array('ID' => $postID));
+            }
+            break;
+        case in_array("subscriber", $roles):
+            break;
+        default:
+    }
+
+
 }
