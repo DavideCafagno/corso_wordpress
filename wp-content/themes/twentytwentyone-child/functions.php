@@ -91,8 +91,8 @@ function registraTaxonomy()
 
         ), array(
             'hierarchical' => true,
-            "public"                => true,
-            "publicly_queryable"    => true,
+            "public" => true,
+            "publicly_queryable" => true,
             'labels' => $labels,
             'show_ui' => true,
             'show_admin_column' => true,
@@ -274,12 +274,12 @@ function target_main_category_query_with_conditional_tags($query)
             //     $query->set('posts_per_page', 2);
             //}
         } else {
-            $query->set('posts_per_page', 3);
+            $query->set('posts_per_page', 4);
         }
 
     }
 //    else {
-        //$query->set('posts_per_page', 5);
+    //$query->set('posts_per_page', 5);
 //    }
 
 
@@ -411,6 +411,7 @@ function addCustomRestApi()
     ));
 
 }
+
 function searchPost($data)
 {
     $id = $data->get_params()['id'];
@@ -498,7 +499,7 @@ function addContact($data)
     }
 }
 
-add_shortcode('news',"news_shortcode");
+add_shortcode('news', "news_shortcode");
 
 function news_shortcode()
 {
@@ -506,3 +507,4 @@ function news_shortcode()
     include "templates/shortcode_news.php";
     return ob_get_clean();
 }
+

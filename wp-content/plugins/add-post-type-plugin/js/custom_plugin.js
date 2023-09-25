@@ -134,8 +134,11 @@ function compile_update_post(value) {
                     jQuery("#post_comments")['0']['checked'] = (post.post_comments == "1") ? true : false;
                     jQuery("#post_custom_fields")['0']['checked'] = (post.post_custom_fields == "1") ? true : false;
                     let taxarray = post.post_taxonomies.split(',');
+                    console.log(taxarray);
                     jQuery.each(jQuery('input[name ="post_taxonomies"]'), function () {
+                        console.log(jQuery(this));
                         let val = jQuery(this).val();
+
                         (jQuery(this)[0]['checked'] = taxarray.includes(val));
                     });
                 } else if (response.status === 404) {

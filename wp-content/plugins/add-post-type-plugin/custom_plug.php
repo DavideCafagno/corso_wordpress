@@ -49,7 +49,7 @@ function load_custom_post_type()
             if ($r->post_excerpt == '1') $support[] = "excerpt";
             if ($r->post_thumb == '1') $support[] = "thumbnail";
             if ($r->post_comments == '1') $support[] = "comments";
-            if ($r->post_custom_fields == '1') $support[] = "custom-field";
+            if ($r->post_custom_fields == '1') $support[] = "custom-fields";
             register_post_type($post_slug,
                 array(
                     "labels" => array(
@@ -100,7 +100,7 @@ function disabled_custom_post_list()
 }
 
 include 'rest_api.php';
-
+include 'functions/capabilities_functions.php';
 load_custom_post_type();
 load_plugin_textdomain('add-post-type-plugin', false, '/add-post-type-plugin/languages/');
 global $wp_textdomain_registry;
