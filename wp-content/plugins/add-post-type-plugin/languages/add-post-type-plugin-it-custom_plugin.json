@@ -1,0 +1,118 @@
+{
+  "translation-revision-date": "2023-09-26T13:30:11-07:00",
+  "generator": "WP-CLI/2.2.0",
+  "source": "custom_plugin.js",
+  "domain": "add-post-type-plugin",
+  "locale_data": {
+    "add-post-type-plugin": {
+      "": {
+        "domain": "add-post-type-plugin",
+        "lang": "it",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "Error.": [ "Errore." ],
+
+      "Add Post-Type": ["Aggiungi Post-Type"],
+
+      "Remove Post-Type": ["Rimuovi Post-Type"],
+
+      "Enable Post-Type": ["Attiva Post-Type"],
+
+      "Update Post-Type": ["Modifica Post-Type"],
+
+      "The name here..": ["Inserire il nome.."],
+
+      "The slug here..": ["Inserire lo slug.."],
+
+      "The singular name here..": ["Inserire il nome singolare.."],
+
+      "ADD CUSTOM POST-TYPE": ["AGGIUNGI UN CUSTOM POST TYPE"],
+
+      "ABOUT NEW POST-TYPE": ["INFORMAZIONI NUOVO POST-TYPE"],
+
+      "CUSTOM POSTS NAME": ["NOME DEI POST"],
+
+      "CUSTOM POST SLUG": ["SLUG DEL POST"],
+
+      "CUSTOM POST SINGULAR NAME": ["NOME SINGOLARE DEL POST"],
+
+      "CONTENT": ["CONTENUTO"],
+
+      "EXCERPT": ["RIASSUNTO"],
+
+      "THUMBNAIL": ["IMMAGINE"],
+
+      "COMMENTS": ["COMMENTI"],
+
+      "CUSTOM FIELDS": ["CAMPI PERSONALIZZATI"],
+
+      "ABOUT TAXONOMIES": ["INFORMAZIONI TASSONOMIE"],
+
+      "ADD POST-TYPE": ["AGGIUNGI POST-TYPE"],
+
+      "SELECT POST-TYPE TO BE REMOVED OR DISABLED": ["SELEZIONA IL POST-TYPE DA RIMUOVERE O DISABILITARE"],
+
+      "No custom posts to remove or disable.": ["Nessun Custom-Post da rimuovere o disabilitare."],
+
+      "SELECT POST-TYPE": ["SELEZIONA POST-TYPE"],
+
+      "DISABLE": ["DISABILITA"],
+
+      "ENABLE": ["RIATTIVA"],
+
+      "DELETE": ["ELIMINA"],
+
+      "UPDATE": ["MODIFICA"],
+
+      "SELECT POST-TYPE TO BE ENABLED": ["SELEZIONA IL POST-TYPE DA RIATTIVARE"],
+
+      "No disabled custom posts to enable.": ["Nessun Custom-Post disabilitato da riattivare."],
+
+      "SELECT POST-TYPE TO BE UPDATED": ["SELEZIONA IL CUSTOM POST TYPE DA MODIFICARE"],
+
+      "No custom posts to update.": ["Nessun Custom-Post da modificare."],
+
+      "Post-Type created successfully!": [      "Post-Type creato con successo!"],
+
+      "Error, Post-Type not created.": [      "Errore, Post-Type non creato."],
+
+      "Error, Post-Type already exists.": [      "Errore, Post-Type già esistente."],
+
+
+      "Elimination successful!": ["Eliminazione andata a buon fine!"],
+
+      "Error, elimination unsuccessful.": ["Errore, eliminazione non andata a buon fine."],
+
+      "Disabling successful!": ["Disabilitazione andata a buon fine!"],
+
+      "Error, disabling fail.": ["Errore, Disabilitazione non andata a buon fine."],
+
+      "Activation successful!": ["Riattivazione andata a buon fine!"],
+
+      "Error, activation fail.": ["Errore, riattivazione non andata a buon fine."],
+
+      "Error, post not found.": ["Errore, post non trovato."],
+
+      "Error, no changes to make.": ["Errore, nessuna modifica da effettuare."],
+
+      "Error, changes not made.": ["Errore, modifiche non avvenute."],
+
+      "Error, no posts to change.": ["Errore, nessun post da modificare."],
+
+      "Changes made. Posts updated: ": ["Modifiche avvenute! Posts modificati : "],
+
+      "Post-type changes successful!": ["Modifiche a Post-type apportate con successo!"],
+
+      "Are you sure to make the changes?": ["Sicuro di voler modificare?"],
+
+      "Select at least one Post-Type!": ["Selezionare almento un Post-Type!"],
+
+      "Insert all text fields!": ["Inserire tutti i campi testuali!"],
+
+      "Are you sure to permanently delete?": ["Sicuro di eliminare definitavamente?"],
+
+      "Are you sure to disable? You can enable it later.": ["Sicuro di disabilitare? Potrai riattivarlo successivamente."],
+      "The posts associated with their old slug will lose the association with their Post-Type. Do you want to associate them with the new slug ": ["I post associati al vecchio slug, perderanno l'associazione al Post-Type, associarli al nuovo slug "]
+    }
+  }
+}

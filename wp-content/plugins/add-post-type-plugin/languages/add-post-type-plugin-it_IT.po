@@ -6,6 +6,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/4.0.0-alpha.7\n"
 "Language: it\n"
+"X-Domain: add-post-type-plugin\n"
 
 msgid "Add Post-Type"
 msgstr "Aggiungi Post-Type"

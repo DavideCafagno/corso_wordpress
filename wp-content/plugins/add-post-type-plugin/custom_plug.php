@@ -109,11 +109,17 @@ add_action('admin_enqueue_scripts', 'add_script');
 function add_script()
 {
 
-    wp_register_script('add-post-type-plugin-script', plugins_url('add-post-type-plugin/js/custom_plugin.js'), array('wp-i18n'));//, array('jquery'));
+    wp_register_script('add-post-type-plugin-script', plugins_url('add-post-type-plugin/js/custom_plugin.js'), array('wp-i18n'), 0.1,'');//, array('jquery'));
 
-//    wp_localize_script('custom_script', 'oggettoAjax', array('proprietaUrl' => admin_url('admin-ajax.php')));//https://code.jquery.com/jquery-3.7.1.min.js
-    wp_enqueue_script('add-post-type-plugin-script');
+//    wp_localize_script('custom_script', 'oggettoAjax', array('proprietaUrl' => admin_url('admin-ajax.php')));
+
+    global $GLOBALS;
+
+
+    wp_set_script_translations( 'add-post-type-plugin-script', 'add-post-type-plugin', plugins_url().'/add-post-type-plugin/languages/');
+
     wp_localize_script('add-post-type-plugin-script', 'lang',array(
+        'script'=>$GLOBALS['wp_scripts']->registered['add-post-type-plugin-script'],
         'insert_all'=>__('Insert all text fields!', 'add-post-type-plugin'),
         'sure_changes'=>__('Are you sure to make the changes?', 'add-post-type-plugin'),
         'select_one'=>__('Select at least one Post-Type!', 'add-post-type-plugin'),
@@ -121,9 +127,9 @@ function add_script()
         'sure_disable'=>__('Are you sure to disable? You can enable it later.', 'add-post-type-plugin'),
         'new_association'=>__('The posts associated with their old slug will lose the association with their Post-Type. Do you want to associate them with the new slug ', 'add-post-type-plugin'),
     ));
-    wp_set_script_translations( 'add-post-type-plugin-script', 'add-post-type-plugin', plugins_url().'/add-post-type-plugin/languages/' );
+    wp_enqueue_script('add-post-type-plugin-script');
 
-
+ // global $wp_textdomain_registry;
     wp_register_script('jquery_script', 'https://code.jquery.com/jquery-3.7.1.min.js');
     wp_enqueue_script('jquery_script');
 }

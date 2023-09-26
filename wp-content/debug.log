@@ -645,3 +645,43 @@ Stack trace:
 [26-Sep-2023 08:46:40 UTC] PHP Notice:  La funzione WP_List_Table::get_views_links è stata richiamata <strong>in maniera scorretta</strong>. L'argomento <code>label</code> deve essere una stringa non vuota per <code>approved</code>. Leggi <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> per maggiori informazioni. (Questo messaggio è stato aggiunto nella versione 6.1.0.) in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\functions.php on line 5897
 [26-Sep-2023 09:18:18 UTC] PHP Parse error:  syntax error, unexpected double-quoted string "Disabilitazione andata a buon ...", expecting ")" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\add-post-type-plugin\rest_api.php on line 144
 [26-Sep-2023 09:20:19 UTC] PHP Parse error:  syntax error, unexpected double-quoted string "Disabilitazione andata a buon ...", expecting ")" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\add-post-type-plugin\rest_api.php on line 144
+[26-Sep-2023 15:20:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_available_translations() in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\add-post-type-plugin\custom_plug.php:116
+Stack trace:
+#0 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp-hook.php(310): add_script('edit.php')
+#1 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-admin\admin-header.php(118): do_action('admin_enqueue_s...', 'edit.php')
+#4 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-admin\edit.php(407): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\add-post-type-plugin\custom_plug.php on line 116
+[26-Sep-2023 15:21:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function translations_api() in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\add-post-type-plugin\custom_plug.php:116
+Stack trace:
+#0 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp-hook.php(310): add_script('edit.php')
+#1 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-admin\admin-header.php(118): do_action('admin_enqueue_s...', 'edit.php')
+#4 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-admin\edit.php(407): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\add-post-type-plugin\custom_plug.php on line 116
+[26-Sep-2023 15:21:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function translations_api() in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\add-post-type-plugin\custom_plug.php:116
+Stack trace:
+#0 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp-hook.php(310): add_script('index.php')
+#1 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-admin\admin-header.php(118): do_action('admin_enqueue_s...', 'index.php')
+#4 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-admin\index.php(137): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\add-post-type-plugin\custom_plug.php on line 116
+[26-Sep-2023 16:00:30 UTC] PHP Warning:  Attempt to read property "wp_scripts" on array in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\add-post-type-plugin\custom_plug.php on line 120
+[26-Sep-2023 16:00:42 UTC] PHP Warning:  Attempt to read property "wp_script" on array in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\add-post-type-plugin\custom_plug.php on line 120
+[26-Sep-2023 16:01:02 UTC] PHP Warning:  Attempt to read property "wp_scripts" on array in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\add-post-type-plugin\custom_plug.php on line 122
+[26-Sep-2023 16:02:34 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Scripts as array in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\add-post-type-plugin\custom_plug.php:122
+Stack trace:
+#0 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp-hook.php(310): add_script('index.php')
+#1 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-admin\admin-header.php(118): do_action('admin_enqueue_s...', 'index.php')
+#4 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-admin\index.php(137): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\add-post-type-plugin\custom_plug.php on line 122
+[26-Sep-2023 16:02:58 UTC] PHP Warning:  Undefined array key "add-post-type.plugin" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\add-post-type-plugin\custom_plug.php on line 122

@@ -1,5 +1,6 @@
-// const {__, _x, _n, _nx} = wp.i18n;
-
+const {__, _x, _n, _nx} = wp.i18n;
+console.log(__('Add Post-Type','add-post-type-plugin'));
+console.log(lang.script);
 function invia_dati() {
     let post_name = jQuery("#post_name").val();
     let post_slug = jQuery("#post_slug").val();
