@@ -36,18 +36,18 @@ function register_api()
 add_action('rest_api_init', 'register_api');
 function register_custom($post_slug, $post_name, $post_singular_name, $supports, $post_taxonomies): array
 {
-    $res = array('status' => 500, 'message' => 'Errrore!');
+    $res = array('status' => 500, 'message' => __('Error.', 'add-post-type-plugin'));
     if (!check_post_type_existing($post_slug)) {
         if (insert_post_type($post_slug, $post_name, $post_singular_name, $supports, $post_taxonomies)) {
             $res['status'] = 200;
-            $res['message'] = "Post Type creato con successo!";
+            $res['message'] = __('Post-Type created successfully!', 'add-post-type-plugin');
         } else {
             $res['status'] = 500;
-            $res['message'] = "Errore, Post Type non creato";
+            $res['message'] = __('Error, Post-Type not created.', 'add-post-type-plugin');
         }
     } else {
         $res['status'] = 500;
-        $res['message'] = "Errore, Post Type già esistente";
+        $res['message'] = __('Error, Post-Type already exists.', 'add-post-type-plugin');
     }
     return $res;
 }
@@ -124,12 +124,12 @@ function remove_custom_post($data)
     if ($wpdb->delete(ADD_POST_TYPE_PLUGIN_TABLE_NAME, array('post_slug' => $post_slug)) != false) {
         return new WP_REST_Response(array(
             'status' => 200,
-            'message' => "Eliminazione andata a buon fine!"
+            'message' => __('Elimination successful!', 'add-post-type-plugin')
         ));
     } else {
         return new WP_REST_Response(array(
             'status' => 500,
-            'message' => "Eliminazione non andata a buon fine."
+            'message' => __('Error, elimination unsuccessful!', 'add-post-type-plugin')
         ));
     }
 }
@@ -141,12 +141,12 @@ function disable_custom_post($data)
     if ($wpdb->update(ADD_POST_TYPE_PLUGIN_TABLE_NAME, array('post_enabled' => false), array('post_slug' => $post_slug)) != false) {
         return new WP_REST_Response(array(
             'status' => 200,
-            'message' => "Disabilitazione andata a buon fine!"
+            'message' => __('Disabling successful!', 'add-post-type-plugin')
         ));
     } else {
         return new WP_REST_Response(array(
             'status' => 500,
-            'message' => "Errore, Disabilitazione non andata a buon fine."
+            'message' => __('Error, disabling fail.', 'add-post-type-plugin')
         ));
     }
 
@@ -159,12 +159,12 @@ function enable_custom_post($data)
     if ($wpdb->update(ADD_POST_TYPE_PLUGIN_TABLE_NAME, array('post_enabled' => true), array('post_slug' => $post_slug)) != false) {
         return new WP_REST_Response(array(
             'status' => 200,
-            'message' => "Attivazione andata a buon fine!"
+            'message' => __('Activation successful!', 'add-post-type-plugin')
         ));
     } else {
         return new WP_REST_Response(array(
             'status' => 500,
-            'message' => "Attivazione non andata a buon fine."
+            'message' => __('Error, activation fail.', 'add-post-type-plugin')
         ));
     }
 }
@@ -183,7 +183,7 @@ function get_custom_post($data)
     } else {
         return new WP_REST_Response(array(
             'status' => 404,
-
+            'message' => __('Error, post not found.', 'add-post-type-plugin')
         ));
     }
 }
@@ -204,19 +204,19 @@ function update_custom_post($data)
         'post_thumb' => ($params['post_thumb'] == 'true') ? true : false,
         'post_comments' => ($params['post_comments'] == 'true') ? true : false,
         'post_custom_fields' => ($params['post_custom_fields'] == 'true') ? true : false,
-        'post_taxonomies' => array_key_exists('post_taxonomies', $params) ? implode(',',$params['post_taxonomies']) : "",
+        'post_taxonomies' => array_key_exists('post_taxonomies', $params) ? implode(',', $params['post_taxonomies']) : "",
     ];
     $post_type_updating = $wpdb->update(ADD_POST_TYPE_PLUGIN_TABLE_NAME, $args, array('post_slug' => $old_slug));
     switch ($post_type_updating) {
         case 0:
             return new WP_REST_Response(array(
                 'status' => 500,
-                'message' => 'Nessuna modifica da effettuare.'
+                'message' => __('Error, no changes to make.', 'add-post-type-plugin')
             ));
         case false:
             return new WP_REST_Response(array(
                 'status' => 500,
-                'message' => 'Errore, modifica non avvenuta.'
+                'message' => __('Error, changes not made.', 'add-post-type-plugin')
             ));
         default:
             if ($association) {
@@ -225,24 +225,24 @@ function update_custom_post($data)
                     case 0:
                         return new WP_REST_Response(array(
                             'status' => 200,
-                            'message' => 'Modifica avvenuta con successo! Nessun post da modificare!'
+                            'message' => __('Error, no posts to change.', 'add-post-type-plugin')
                         ));
                     case false:
                         return new WP_REST_Response(array(
                             'status' => 200,
-                            'message' => 'Modifica avvenuta con successo! Errore nella modifica dei posts'
+                            'message' => __('Error, changes not made.', 'add-post-type-plugin')
                         ));
                     default:
                         return new WP_REST_Response(array(
                             'status' => 200,
-                            'message' => 'Modifica avvenuta con successo! Post modificati : ' . $post_updating
+                            'message' => __('Changes made. Post updated: ', 'add-post-type-plugin') . $post_updating
                         ));
                 }
 
             } else {
                 return new WP_REST_Response(array(
                     'status' => 200,
-                    'message' => 'Modifica post_type avvenuta con successo! '
+                    'message' => __('Post-type changes successful!', 'add-post-type-plugin')
                 ));
             }
 

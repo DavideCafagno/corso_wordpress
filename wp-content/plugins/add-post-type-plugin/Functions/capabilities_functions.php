@@ -2,6 +2,20 @@
 add_action('init', 'modify_capabilities');
 function modify_capabilities()
 {
+    register_post_status('approved', array(
+        'label'                     => 'Approved',
+        'label_count'               => _n_noop( 'Approved <span class="count">(%s)</span>', 'Approved <span class="count">(%s)</span>' ),
+        'exclude_from_search'       => false,
+        '_builtin'                  => false,
+        'public'                    => false,
+        'internal'                  => false,
+        'protected'                 => false,
+        'private'                   => false,
+        //'publicly_queryable'        => null,
+        'show_in_admin_status_list' => true,
+        'show_in_admin_all_list'    => true,
+        //'date_floating'             => false,
+    ));
     $user = wp_get_current_user();
     $roles = $user->roles;
     switch ($roles) {
@@ -62,7 +76,7 @@ function remove_row_actions($actions, $post)
         case in_array("administrator", $roles):
             break;
         case in_array("editor", $roles):
-            if(user_can($post->post_author,'administrator') || user_can($post->post_author,'editor')){
+            if(user_can($post->post_author,'administrator') || user_can($post->post_author,'editor') || $post->post_status == 'approved'){
                 unset($actions['edit']);
                 unset($actions['inline hide-if-no-js']);
                 unset($actions['trash']);
@@ -77,10 +91,18 @@ function remove_row_actions($actions, $post)
     return $actions;
 }
 
-add_action('save_post', 'approve_post');
+add_filter('posts_where_request','add_approved_clause');
+
+function add_approved_clause($where){
+    //$where.="OR wp_posts.post_status = 'approved'";
+    return $where;
+}
+
+add_action('transition_post_status', 'approve_post');
 function approve_post($postID)
 {
-    $post = get_post($postID);
+    $post = get_post($_POST['post_ID']);
+    $postID = $_POST['post_ID'];
     $post_type = $post->post_type;
     if($post_type != 'articoli-custom') return;
 
@@ -92,10 +114,8 @@ function approve_post($postID)
         case in_array("administrator", $roles):
             break;
         case in_array("editor", $roles):
-            if($post->post_status == 'append'){
                 global $wpdb;
                 $res = $wpdb->update('wp_posts',array('post_status' => 'approved'),array('ID' => $postID));
-            }
             break;
         case in_array("subscriber", $roles):
             break;

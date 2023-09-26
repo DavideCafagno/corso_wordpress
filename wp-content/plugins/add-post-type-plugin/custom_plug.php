@@ -9,12 +9,13 @@
  * Author: Davide Cafagno
  * License: GPL Attribution-ShareAlike
  * Text Domain: add-post-type-plugin
+ * Domain Path: /languages
  *
  */
 if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly
 }
-
+load_plugin_textdomain('add-post-type-plugin', false, '/add-post-type-plugin/languages/');
 function load_custom_post_type()
 {
     global $wpdb;
@@ -100,16 +101,28 @@ function disabled_custom_post_list()
 }
 
 include 'rest_api.php';
-include 'Functions/capabilities_functions.php';
+include 'functions/capabilities_functions.php';
 load_custom_post_type();
-load_plugin_textdomain('add-post-type-plugin', false, '/add-post-type-plugin/languages/');
+
 global $wp_textdomain_registry;
 add_action('admin_enqueue_scripts', 'add_script');
 function add_script()
 {
-    wp_register_script('add-post-type-plugin', plugins_url('add-post-type-plugin/js/custom_plugin.js'));//, array('jquery'));
+
+    wp_register_script('add-post-type-plugin-script', plugins_url('add-post-type-plugin/js/custom_plugin.js'), array('wp-i18n'));//, array('jquery'));
+
 //    wp_localize_script('custom_script', 'oggettoAjax', array('proprietaUrl' => admin_url('admin-ajax.php')));//https://code.jquery.com/jquery-3.7.1.min.js
-    wp_enqueue_script('add-post-type-plugin');
+    wp_enqueue_script('add-post-type-plugin-script');
+    wp_localize_script('add-post-type-plugin-script', 'lang',array(
+        'insert_all'=>__('Insert all text fields!', 'add-post-type-plugin'),
+        'sure_changes'=>__('Are you sure to make the changes?', 'add-post-type-plugin'),
+        'select_one'=>__('Select at least one Post-Type!', 'add-post-type-plugin'),
+        'sure_delete'=>__('Are you sure to permanently delete?', 'add-post-type-plugin'),
+        'sure_disable'=>__('Are you sure to disable? You can enable it later.', 'add-post-type-plugin'),
+        'new_association'=>__('The posts associated with their old slug will lose the association with their Post-Type. Do you want to associate them with the new slug ', 'add-post-type-plugin'),
+    ));
+    wp_set_script_translations( 'add-post-type-plugin-script', 'add-post-type-plugin', plugins_url().'/add-post-type-plugin/languages/' );
+
 
     wp_register_script('jquery_script', 'https://code.jquery.com/jquery-3.7.1.min.js');
     wp_enqueue_script('jquery_script');

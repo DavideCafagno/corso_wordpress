@@ -97,6 +97,68 @@ msgstr "SELEZIONA IL CUSTOM POST TYPE DA MODIFICARE"
 msgid "No custom posts to update."
 msgstr "Nessun Custom-Post da modificare."
 
+msgid "Error."
+msgstr "Errore."
 
+msgid "Post-Type created successfully!"
+msgstr "Post-Type creato con successo!"
 
+msgid "Error, Post-Type not created."
+msgstr "Errore, Post-Type non creato."
 
+msgid "Error, Post-Type already exists."
+msgstr "Errore, Post-Type già esistente."
+
+msgid "Elimination successful!"
+msgstr "Eliminazione andata a buon fine!"
+
+msgid "Error, elimination unsuccessful."
+msgstr "Errore, eliminazione non andata a buon fine."
+
+msgid "Disabling successful!"
+msgstr "Disabilitazione andata a buon fine!"
+
+msgid "Error, disabling fail."
+msgstr "Errore, Disabilitazione non andata a buon fine."
+
+msgid "Activation successful!"
+msgstr "Riattivazione andata a buon fine!"
+
+msgid "Error, activation fail."
+msgstr "Errore, riattivazione non andata a buon fine."
+
+msgid "Error, post not found."
+msgstr "Errore, post non trovato."
+
+msgid "Error, no changes to make."
+msgstr "Errore, nessuna modifica da effettuare."
+
+msgid "Error, changes not made."
+msgstr "Errore, modifiche non avvenute."
+
+msgid "Error, no posts to change."
+msgstr "Errore, nessun post da modificare."
+
+msgid "Changes made. Posts updated: "
+msgstr "Modifiche avvenute! Posts modificati : "
+
+msgid "Post-type changes successful!"
+msgstr "Modifiche a Post-type apportate con successo!"
+
+msgid "Are you sure to make the changes?"
+msgstr "Sicuro di voler modificare?"
+
+msgid "Select at least one Post-Type!"
+msgstr "Selezionare almento un Post-Type!"
+
+msgid "Insert all text fields!"
+msgstr "Inserire tutti i campi testuali!"
+
+msgid "Are you sure to permanently delete?"
+msgstr "Sicuro di eliminare definitavamente?"
+
+msgid "Are you sure to disable? You can enable it later."
+msgstr "Sicuro di disabilitare? Potrai riattivarlo successivamente."
+
+msgid "The posts associated with their old slug will lose the association with their Post-Type. Do you want to associate them with the new slug "
+msgstr "I post associati al vecchio slug, perderanno l'associazione al Post-Type, associarli al nuovo slug "

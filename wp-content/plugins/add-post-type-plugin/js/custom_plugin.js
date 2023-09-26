@@ -1,3 +1,5 @@
+// const {__, _x, _n, _nx} = wp.i18n;
+
 function invia_dati() {
     let post_name = jQuery("#post_name").val();
     let post_slug = jQuery("#post_slug").val();
@@ -37,7 +39,8 @@ function invia_dati() {
             }
         });
     } else {
-        alert("Inserire tutti i campi di testo!");
+        alert(lang.insert_all);
+        //alert(__('Insert all text fields!', 'add-post-type-plugin'));
 
     }
 }
@@ -46,7 +49,10 @@ function elimina_post() {
     let val = jQuery('#post_selected').val();
     if (val) {
         let post_name = {'post_type': val};
-        if (confirm('Eliminare definitivamente?')) {
+        if (
+            confirm(lang.sure_delete)
+            //confirm(__('Are you sure to permanently delete?', 'add-post-type-plugin'))
+        ) {
             jQuery.ajax({
                 url: "http://localhost/Progetti/Corso_wordpress/wp-json/plug/v1/remove-custom-post-type/",
                 method: "POST",
@@ -63,7 +69,8 @@ function elimina_post() {
             });
         }
     } else {
-        alert('Selezionare almeno un Post-Type');
+        alert(lang.select_one);
+        //alert(__('Select at least one Post-Type!', 'add-post-type-plugin'));
     }
 }
 
@@ -71,7 +78,10 @@ function cestina_post() {
     let val = jQuery('#post_selected').val();
     if (val) {
         let post_name = {'post_type': val};
-        if (confirm('Disabilitare? Potrai riabilitarlo successivamente.')) {
+        if (
+            confirm(lang.sure_disable)
+            //confirm(__('Are you sure to disable? You can enable it later.', 'add-post-type-plugin'))
+        ) {
             jQuery.ajax({
                 url: "http://localhost/Progetti/Corso_wordpress/wp-json/plug/v1/disable-custom-post-type/",
                 method: "POST",
@@ -88,7 +98,8 @@ function cestina_post() {
             });
         }
     } else {
-        alert('Selezionare almeno un Post-Type');
+        alert(lang.select_one);
+//        alert(__('Select at least one Post-Type!', 'add-post-type-plugin'));
     }
 }
 
@@ -111,7 +122,8 @@ function attiva_post() {
             }
         });
     } else {
-        alert('Selezionare almeno un Post-Type');
+        alert(lang.select_one);
+        // alert(__('Select at least one Post-Type!', 'add-post-type-plugin'));
     }
 }
 
@@ -139,10 +151,10 @@ function compile_update_post(value) {
                         (jQuery(this)[0]['checked'] = taxarray.includes(val));
                     });
                 } else if (response.status === 404) {
-                    alert("Post non trovato");
+                    alert(response.message);
                     clean();
                 } else {
-                    alert("Errore generale");
+                    alert("Error!");
                     clean();
                 }
             }
@@ -185,9 +197,16 @@ function update_post() {
         }).get();
         if (dato['post_name'] && dato['post_slug'] && dato['post_singular_name']) {
             let url = "http://localhost/Progetti/Corso_wordpress/wp-json/plug/v1/update-custom-post-type/?old_slug=" + val;
-            if (confirm('Sicro di voler modificare?')) {
+            console.log(wp);
+            if (
+                confirm(lang.sure_changes)
+                // confirm(__("Are you sure to make the changes?", "add-post-type-plugin")/*'Sicro di voler modificare?'*/)
+            ) {
                 if (dato['post_slug'] != val) {
-                    if (confirm("I post associati a slug: '" + val + "' perderanno l'associazione al post-type, associarli al nuovo slug: '" + dato['post_slug'] + "' ?")) {
+                    if (
+                        confirm(lang.new_association)
+                        //confirm(__("The posts associated with their old slug will lose the association with their Post-Type. Do you want to associate them with the new slug ", "add-post-type-plugin") + "'" + dato['post_slug'] + "' ?")
+                        ) {
                         url += '&association=true';
                     } else {
                         url += '&association=false';
@@ -201,7 +220,7 @@ function update_post() {
                         dataType: 'json',
                         data: dato,
                         success: function (response) {
-                            //console.log(response);
+                            console.log(response);
                             if (response.status === 200) {
                                 alert(response.message);
                                 location.reload();
@@ -214,10 +233,12 @@ function update_post() {
                 );
             }
         } else {
-            alert('Inserire i campi testuali');
+            alert(lang.insert_all);
+            //alert(__('Insert all text fields!', 'add-post-type-plugin'));
         }
     } else {
-        alert('Selezionare almeno un Post-Type');
+        alert(lang.select_one);
+        //alert(__('Select at least one Post-Type!', 'add-post-type-plugin'));
     }
 }
 
