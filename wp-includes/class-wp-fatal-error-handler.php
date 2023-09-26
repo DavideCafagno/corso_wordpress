@@ -175,7 +175,7 @@ class WP_Fatal_Error_Handler {
 		}
 
 		if ( ! function_exists( 'wp_die' ) ) {
-			require_once ABSPATH . WPINC . '/Functions.php';
+			require_once ABSPATH . WPINC . '/functions.php';
 		}
 
 		if ( ! class_exists( 'WP_Error' ) ) {

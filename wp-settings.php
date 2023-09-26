@@ -108,7 +108,7 @@ wp_set_lang_dir();
 require ABSPATH . WPINC . '/class-wp-list-util.php';
 require ABSPATH . WPINC . '/formatting.php';
 require ABSPATH . WPINC . '/meta.php';
-require ABSPATH . WPINC . '/Functions.php';
+require ABSPATH . WPINC . '/functions.php';
 require ABSPATH . WPINC . '/class-wp-meta-query.php';
 require ABSPATH . WPINC . '/class-wp-matchesmapregex.php';
 require ABSPATH . WPINC . '/class-wp.php';
@@ -370,7 +370,7 @@ $GLOBALS['wp_textdomain_registry'] = new WP_Textdomain_Registry();
 
 // Load multisite-specific files.
 if ( is_multisite() ) {
-	require ABSPATH . WPINC . '/ms-Functions.php';
+	require ABSPATH . WPINC . '/ms-functions.php';
 	require ABSPATH . WPINC . '/ms-default-filters.php';
 	require ABSPATH . WPINC . '/ms-deprecated.php';
 }
@@ -596,8 +596,8 @@ $GLOBALS['wp_locale_switcher']->init();
 
 // Load the Functions for the active theme, for both parent and child theme if applicable.
 foreach ( wp_get_active_and_valid_themes() as $theme ) {
-	if ( file_exists( $theme . '/Functions.php' ) ) {
-		include $theme . '/Functions.php';
+	if ( file_exists( $theme . '/functions.php' ) ) {
+		include $theme . '/functions.php';
 	}
 }
 unset( $theme );

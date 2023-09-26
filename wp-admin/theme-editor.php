@@ -95,9 +95,9 @@ foreach ( $file_types as $type ) {
 	}
 }
 
-// Move Functions.php and style.css to the top.
-if ( isset( $allowed_files['Functions.php'] ) ) {
-	$allowed_files = array( 'Functions.php' => $allowed_files['Functions.php'] ) + $allowed_files;
+// Move functions.php and style.css to the top.
+if ( isset( $allowed_files['functions.php'] ) ) {
+	$allowed_files = array( 'functions.php' => $allowed_files['functions.php'] ) + $allowed_files;
 }
 if ( isset( $allowed_files['style.css'] ) ) {
 	$allowed_files = array( 'style.css' => $allowed_files['style.css'] ) + $allowed_files;
