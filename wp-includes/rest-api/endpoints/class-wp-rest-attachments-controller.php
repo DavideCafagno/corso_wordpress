@@ -209,7 +209,7 @@ class WP_REST_Attachments_Controller extends WP_REST_Posts_Controller {
 			header( 'X-WP-Upload-Attachment-ID: ' . $attachment_id );
 		}
 
-		// Include media and image functions to get access to wp_generate_attachment_metadata().
+		// Include media and image Functions to get access to wp_generate_attachment_metadata().
 		require_once ABSPATH . 'wp-admin/includes/media.php';
 		require_once ABSPATH . 'wp-admin/includes/image.php';
 
@@ -258,7 +258,7 @@ class WP_REST_Attachments_Controller extends WP_REST_Posts_Controller {
 		$type = $file['type'];
 		$file = $file['file'];
 
-		// Include image functions to get access to wp_read_image_metadata().
+		// Include image Functions to get access to wp_read_image_metadata().
 		require_once ABSPATH . 'wp-admin/includes/image.php';
 
 		// Use image exif/iptc data for title and caption defaults if possible.
@@ -1032,7 +1032,7 @@ class WP_REST_Attachments_Controller extends WP_REST_Posts_Controller {
 		// Get the content-type.
 		$type = array_shift( $headers['content_type'] );
 
-		// Include filesystem functions to get access to wp_tempnam() and wp_handle_sideload().
+		// Include filesystem Functions to get access to wp_tempnam() and wp_handle_sideload().
 		require_once ABSPATH . 'wp-admin/includes/file.php';
 
 		// Save the file.
@@ -1230,7 +1230,7 @@ class WP_REST_Attachments_Controller extends WP_REST_Posts_Controller {
 			return $size_check;
 		}
 
-		// Include filesystem functions to get access to wp_handle_upload().
+		// Include filesystem Functions to get access to wp_handle_upload().
 		require_once ABSPATH . 'wp-admin/includes/file.php';
 
 		$file = wp_handle_upload( $files['file'], $overrides );
@@ -1312,7 +1312,7 @@ class WP_REST_Attachments_Controller extends WP_REST_Posts_Controller {
 			);
 		}
 
-		// Include multisite admin functions to get access to upload_is_user_over_quota().
+		// Include multisite admin Functions to get access to upload_is_user_over_quota().
 		require_once ABSPATH . 'wp-admin/includes/ms.php';
 
 		if ( upload_is_user_over_quota( false ) ) {

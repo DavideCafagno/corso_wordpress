@@ -546,7 +546,7 @@ function wp_clear_scheduled_hook( $hook, $args = array(), $wp_error = false ) {
 	 * Previously, this function took the arguments as discrete vars rather than an array like the rest of the API.
 	 */
 	if ( ! is_array( $args ) ) {
-		_deprecated_argument( __FUNCTION__, '3.0.0', __( 'This argument has changed to an array to match the behavior of the other cron functions.' ) );
+		_deprecated_argument( __FUNCTION__, '3.0.0', __( 'This argument has changed to an array to match the behavior of the other cron Functions.' ) );
 		$args     = array_slice( func_get_args(), 1 ); // phpcs:ignore PHPCompatibility.FunctionUse.ArgumentFunctionsReportCurrentValue.NeedsInspection
 		$wp_error = false;
 	}
@@ -1167,7 +1167,7 @@ function wp_get_ready_cron_jobs() {
 }
 
 //
-// Private functions.
+// Private Functions.
 //
 
 /**

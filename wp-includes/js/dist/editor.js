@@ -1235,7 +1235,7 @@ module.exports = window["React"];
 /******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	!function() {
-/******/ 		// define getter functions for harmony exports
+/******/ 		// define getter Functions for harmony exports
 /******/ 		__webpack_require__.d = function(exports, definition) {
 /******/ 			for(var key in definition) {
 /******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
@@ -9365,7 +9365,7 @@ function dayOfISOWeekYear(isoWeekYear, week, day) {
   return date;
 }
 
-// Validation functions
+// Validation Functions
 
 // February is null to handle the leap year (using ||)
 var daysInMonths = [31, null, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];

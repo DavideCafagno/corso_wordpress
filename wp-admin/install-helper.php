@@ -1,13 +1,13 @@
 <?php
 /**
- * Plugins may load this file to gain access to special helper functions
+ * Plugins may load this file to gain access to special helper Functions
  * for plugin installation. This file is not included by WordPress and it is
  * recommended, to prevent fatal errors, that this file is included using
  * require_once.
  *
- * These functions are not optimized for speed, but they should only be used
+ * These Functions are not optimized for speed, but they should only be used
  * once in a while, so speed shouldn't be a concern. If it is and you are
- * needing to use these functions a lot, you might experience timeouts.
+ * needing to use these Functions a lot, you might experience timeouts.
  * If you do, then it is advised to just write the SQL code yourself.
  *
  *     check_column( 'wp_links', 'link_description', 'mediumtext' );

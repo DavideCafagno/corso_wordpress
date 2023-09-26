@@ -1641,7 +1641,7 @@ module.exports = ExecutionEnvironment;
  *      //  IE7 or better
  *    }
  *
- *  The browser functions will return NaN if the browser does not match, so
+ *  The browser Functions will return NaN if the browser does not match, so
  *  you can also do version compares the other way:
  *
  *    if (UserAgent_DEPRECATED.ie() < 7) {
@@ -1657,7 +1657,7 @@ module.exports = ExecutionEnvironment;
  *
  *    http://www.quirksmode.org/js/support.html
  *
- *  Further, we have a large number of mature wrapper functions and classes
+ *  Further, we have a large number of mature wrapper Functions and classes
  *  which abstract away many browser irregularities. Check the documentation,
  *  grep for things, or ask on javascript@lists.facebook.com before writing yet
  *  another copy of "event || window.event".
@@ -3224,7 +3224,7 @@ module.exports = window["React"];
 /******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	!function() {
-/******/ 		// define getter functions for harmony exports
+/******/ 		// define getter Functions for harmony exports
 /******/ 		__webpack_require__.d = function(exports, definition) {
 /******/ 			for(var key in definition) {
 /******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
@@ -6297,7 +6297,7 @@ const comparator = (field, items, order) => {
 };
 /**
  * Order items by a certain key.
- * Supports decorator functions that allow complex picking of a comparison field.
+ * Supports decorator Functions that allow complex picking of a comparison field.
  * Sorts in ascending order by default, but supports descending as well.
  * Stable sort - maintains original order of equal items.
  *
@@ -10898,7 +10898,7 @@ const registeredStore = (0,external_wp_data_namespaceObject.registerStore)(STORE
 unlock(registeredStore).registerPrivateActions(private_actions_namespaceObject);
 unlock(registeredStore).registerPrivateSelectors(private_selectors_namespaceObject); // TODO: Remove once we switch to the `register` function (see above).
 //
-// Until then, private functions also need to be attached to the original
+// Until then, private Functions also need to be attached to the original
 // `store` descriptor in order to avoid unit tests failing, which could happen
 // when tests create new registries in which they register stores.
 //
@@ -16677,7 +16677,7 @@ const Edit = props => {
 
   if (!blockType) {
     return null;
-  } // `edit` and `save` are functions or components describing the markup
+  } // `edit` and `save` are Functions or components describing the markup
   // with which a block is displayed. If `blockType` is valid, assign
   // them preferentially as the render value for the block.
 
@@ -22352,7 +22352,7 @@ function useBlockRefProvider(clientId) {
   }, [clientId]);
   return (0,external_wp_compose_namespaceObject.useRefEffect)(element => {
     // Update the ref in the provider.
-    ref.current = element; // Call any update functions.
+    ref.current = element; // Call any update Functions.
 
     callbacks.forEach((id, setElement) => {
       if (clientId === id) {
@@ -23382,7 +23382,7 @@ const use_block_sync_noop = () => {};
  * a separate entity data source than a root entity. This hook syncs edits to
  * the template part in the block editor back to the entity and vice-versa.
  *
- * Here are some of its basic functions:
+ * Here are some of its basic Functions:
  * - Initalizes the block-editor store for the given clientID to the blocks
  *   given via props.
  * - Adds incoming changes (like undo) to the block-editor store.
@@ -30272,7 +30272,7 @@ const defaultRenderToggle = ({
     label = (0,external_wp_i18n_namespaceObject.__)('Add pattern');
   } else if (!label) {
     label = (0,external_wp_i18n_namespaceObject._x)('Add block', 'Generic label for block inserter button');
-  } // Handle both onClick functions from the toggle and the parent component.
+  } // Handle both onClick Functions from the toggle and the parent component.
 
 
   function handleClick(event) {
@@ -40459,7 +40459,7 @@ function PositionPanel(props) {
 
   const onChangeType = next => {
     // For now, use a hard-coded `0px` value for the position.
-    // `0px` is preferred over `0` as it can be used in `calc()` functions.
+    // `0px` is preferred over `0` as it can be used in `calc()` Functions.
     // In the future, it could be useful to allow for an offset value.
     const placementValue = '0px';
     const newStyle = { ...style,
@@ -44447,7 +44447,7 @@ const VELOCITY_MULTIPLIER = PIXELS_PER_SECOND_PER_PERCENTAGE * (SCROLL_INTERVAL_
  * React hook that scrolls the scroll container when a block is being dragged.
  *
  * @return {Function[]} `startScrolling`, `scrollOnDragOver`, `stopScrolling`
- *                      functions to be called in `onDragStart`, `onDragOver`
+ *                      Functions to be called in `onDragStart`, `onDragOver`
  *                      and `onDragEnd` events respectively.
  */
 
@@ -61686,7 +61686,7 @@ function calculate(expression) {
   }
 }
 /**
- * Calculates the css function value for the supported css functions such as max, min, clamp and calc.
+ * Calculates the css function value for the supported css Functions such as max, min, clamp and calc.
  *
  * @param {string} functionUnitValue string should be in a particular format (for example min(12px,12px) ) no nested loops.
  * @param {Object} options
@@ -65357,7 +65357,7 @@ function handleInterpolation(mergedProps, registered, interpolation) {
       if (false) { var replaced, matched; }
 
       break;
-  } // finalize string values (regular strings and functions interpolated into css calls)
+  } // finalize string values (regular strings and Functions interpolated into css calls)
 
 
   if (registered == null) {

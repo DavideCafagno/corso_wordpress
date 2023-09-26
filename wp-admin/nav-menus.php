@@ -1,7 +1,7 @@
 <?php
 /**
  * WordPress Administration for Navigation Menus
- * Interface functions
+ * Interface Functions
  *
  * @version 2.0.0
  *
@@ -12,7 +12,7 @@
 /** Load WordPress Administration Bootstrap */
 require_once __DIR__ . '/admin.php';
 
-// Load all the nav menu interface functions.
+// Load all the nav menu interface Functions.
 require_once ABSPATH . 'wp-admin/includes/nav-menu.php';
 
 if ( ! current_theme_supports( 'menus' ) && ! current_theme_supports( 'widgets' ) ) {

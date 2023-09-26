@@ -605,7 +605,7 @@ endif; // class_exists check
 /*
 *  Functions
 *
-*  alias of acf()->form->functions
+*  alias of acf()->form->Functions
 *
 *  @type    function
 *  @date    11/06/2014

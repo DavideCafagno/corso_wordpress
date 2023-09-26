@@ -117,7 +117,7 @@ function wp_safe_remote_head( $url, $args = array() ) {
 /**
  * Performs an HTTP request and returns its response.
  *
- * There are other API functions available which abstract away the HTTP method:
+ * There are other API Functions available which abstract away the HTTP method:
  *
  *  - Default 'GET'  for wp_remote_get()
  *  - Default 'POST' for wp_remote_post()

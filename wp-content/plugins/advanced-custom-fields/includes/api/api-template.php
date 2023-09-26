@@ -1378,7 +1378,7 @@ function delete_sub_row( $selector, $i = 1, $post_id = false ) {
 /*
 *  Depreceated Functions
 *
-*  These functions are outdated
+*  These Functions are outdated
 *
 *  @type    function
 *  @date    4/03/2014

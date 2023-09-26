@@ -36,7 +36,7 @@
      * `InertRoot` manages a single inert subtree, i.e. a DOM subtree whose root element has an `inert`
      * attribute.
      *
-     * Its main functions are:
+     * Its main Functions are:
      *
      * - to create and maintain a set of managed `InertNode`s, including when mutations occur in the
      *   subtree. The `makeSubtreeUnfocusable()` method handles collecting `InertNode`s via registering

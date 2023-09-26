@@ -368,7 +368,7 @@ function get_blog_id_from_url( $domain, $path = '/' ) {
 }
 
 //
-// Admin functions.
+// Admin Functions.
 //
 
 /**
@@ -1975,14 +1975,14 @@ function get_most_recent_post_of_user( $user_id ) {
 }
 
 //
-// Misc functions.
+// Misc Functions.
 //
 
 /**
  * Checks an array of MIME types against a list of allowed types.
  *
  * WordPress ships with a set of allowed upload filetypes,
- * which is defined in wp-includes/functions.php in
+ * which is defined in wp-includes/Functions.php in
  * get_allowed_mime_types(). This function is used to filter
  * that list against the filetypes allowed provided by Multisite
  * Super Admins at wp-admin/network/settings.php.
@@ -2475,7 +2475,7 @@ function wp_maybe_update_network_site_counts( $network_id = null ) {
 function wp_maybe_update_network_user_counts( $network_id = null ) {
 	$is_small_network = ! wp_is_large_network( 'users', $network_id );
 
-	/** This filter is documented in wp-includes/ms-functions.php */
+	/** This filter is documented in wp-includes/ms-Functions.php */
 	if ( ! apply_filters( 'enable_live_network_counts', $is_small_network, 'users' ) ) {
 		return;
 	}
@@ -2676,7 +2676,7 @@ function wp_is_large_network( $using = 'sites', $network_id = null ) {
 
 	$count = get_blog_count( $network_id );
 
-	/** This filter is documented in wp-includes/ms-functions.php */
+	/** This filter is documented in wp-includes/ms-Functions.php */
 	return apply_filters( 'wp_is_large_network', $count > 10000, 'sites', $count, $network_id );
 }
 

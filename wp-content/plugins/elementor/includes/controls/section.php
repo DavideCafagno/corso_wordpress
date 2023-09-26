@@ -9,7 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Elementor section control.
  *
  * A base control for creating section control. Displays a header that
- * functions as a toggle to show or hide a set of controls.
+ * Functions as a toggle to show or hide a set of controls.
  *
  * Note: Do not use it directly, instead use `$widget->start_controls_section()`
  * and `$widget->end_controls_section()` to wrap a set of controls.

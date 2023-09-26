@@ -1871,7 +1871,7 @@ class WP_Query {
 		 * Fires after the query variable object is created, but before the actual query is run.
 		 *
 		 * Note: If using conditional tags, use the method versions within the passed instance
-		 * (e.g. $this->is_main_query() instead of is_main_query()). This is because the functions
+		 * (e.g. $this->is_main_query() instead of is_main_query()). This is because the Functions
 		 * like is_main_query() test against the global $wp_query instance, not the passed one.
 		 *
 		 * @since 2.0.0
@@ -3133,7 +3133,7 @@ class WP_Query {
 		 *
 		 * Return a non-null value to bypass WordPress' default post queries.
 		 *
-		 * Filtering functions that require pagination information are encouraged to set
+		 * Filtering Functions that require pagination information are encouraged to set
 		 * the `found_posts` and `max_num_pages` properties of the WP_Query object,
 		 * passed to the filter by reference. If WP_Query does not perform a database
 		 * query, it will not have enough information to generate these values itself.

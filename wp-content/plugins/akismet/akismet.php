@@ -60,7 +60,7 @@ if ( is_admin() || ( defined( 'WP_CLI' ) && WP_CLI ) ) {
 	add_action( 'init', array( 'Akismet_Admin', 'init' ) );
 }
 
-//add wrapper class around deprecated akismet functions that are referenced elsewhere
+//add wrapper class around deprecated akismet Functions that are referenced elsewhere
 require_once( AKISMET__PLUGIN_DIR . 'wrapper.php' );
 
 if ( defined( 'WP_CLI' ) && WP_CLI ) {

@@ -764,10 +764,10 @@ if ( ! function_exists( 'bfi_image_resize_dimensions' ) ) {
 }
 
 
-// This function allows us to latch on WP image functions such as
+// This function allows us to latch on WP image Functions such as
 // the_post_thumbnail, get_image_tag and wp_get_attachment_image_src
 // so that you won't have to use the function bfi_thumb in order to do resizing.
-// To make this work, in the WP image functions, when specifying an
+// To make this work, in the WP image Functions, when specifying an
 // array for the image dimensions, add a 'bfi_thumb' => true to
 // the array, then add your normal $params arguments.
 //

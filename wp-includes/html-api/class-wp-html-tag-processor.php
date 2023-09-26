@@ -83,7 +83,7 @@
  *
  * Sometimes it's necessary to further inspect an HTML tag than
  * the query syntax here permits. In these cases one may further
- * inspect the search results using the read-only functions
+ * inspect the search results using the read-only Functions
  * provided by the processor or external state or variables.
  *
  * Example:
@@ -648,7 +648,7 @@ class WP_HTML_Tag_Processor {
 	 * updates are applied to the HTML document and therefore
 	 * retain their "position" - the location to which they
 	 * originally pointed. The inability to use bookmarks with
-	 * functions like `substr` is therefore intentional to guard
+	 * Functions like `substr` is therefore intentional to guard
 	 * against accidentally breaking the HTML.
 	 *
 	 * Because bookmarks allocate memory and require processing

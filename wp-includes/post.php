@@ -1082,8 +1082,8 @@ function get_post_ancestors( $post ) {
  * Examples of the post field will be, 'post_type', 'post_status', 'post_content',
  * etc and based off of the post object property or key names.
  *
- * The context values are based off of the taxonomy filter functions and
- * supported values are found within those functions.
+ * The context values are based off of the taxonomy filter Functions and
+ * supported values are found within those Functions.
  *
  * @since 2.3.0
  * @since 4.5.0 The `$post` parameter was made optional.
@@ -1460,7 +1460,7 @@ function is_post_type_hierarchical( $post_type ) {
 /**
  * Determines whether a post type is registered.
  *
- * For more information on this and similar theme functions, check out
+ * For more information on this and similar theme Functions, check out
  * the {@link https://developer.wordpress.org/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *
@@ -2443,7 +2443,7 @@ function get_posts( $args = null ) {
 }
 
 //
-// Post meta functions.
+// Post meta Functions.
 //
 
 /**
@@ -2667,7 +2667,7 @@ function get_post_custom_values( $key = '', $post_id = 0 ) {
  * Sticky posts should remain at the top of The Loop. If the post ID is not
  * given, then The Loop ID for the current post will be used.
  *
- * For more information on this and similar theme functions, check out
+ * For more information on this and similar theme Functions, check out
  * the {@link https://developer.wordpress.org/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *
@@ -5473,7 +5473,7 @@ function wp_after_insert_post( $post, $update, $post_before ) {
 }
 
 //
-// Comment, trackback, and pingback functions.
+// Comment, trackback, and pingback Functions.
 //
 
 /**
@@ -5646,7 +5646,7 @@ function trackback_url_list( $tb_list, $post_id ) {
 }
 
 //
-// Page functions.
+// Page Functions.
 //
 
 /**
@@ -6127,13 +6127,13 @@ function get_pages( $args = array() ) {
 }
 
 //
-// Attachment functions.
+// Attachment Functions.
 //
 
 /**
  * Determines whether an attachment URI is local and really an attachment.
  *
- * For more information on this and similar theme functions, check out
+ * For more information on this and similar theme Functions, check out
  * the {@link https://developer.wordpress.org/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *
@@ -6692,7 +6692,7 @@ function wp_attachment_is( $type, $post = null ) {
 /**
  * Determines whether an attachment is an image.
  *
- * For more information on this and similar theme functions, check out
+ * For more information on this and similar theme Functions, check out
  * the {@link https://developer.wordpress.org/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *
@@ -7375,7 +7375,7 @@ function update_post_parent_caches( $posts ) {
  * Updates metadata cache for a list of post IDs.
  *
  * Performs SQL query to retrieve the metadata for the post IDs and updates the
- * metadata cache for the posts. Therefore, the functions, which call this
+ * metadata cache for the posts. Therefore, the Functions, which call this
  * function, do not need to perform SQL queries on their own.
  *
  * @since 2.1.0

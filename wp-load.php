@@ -70,7 +70,7 @@ if ( file_exists( ABSPATH . 'wp-config.php' ) ) {
 	wp_fix_server_vars();
 
 	define( 'WP_CONTENT_DIR', ABSPATH . 'wp-content' );
-	require_once ABSPATH . WPINC . '/functions.php';
+	require_once ABSPATH . WPINC . '/Functions.php';
 
 	$path = wp_guess_url() . '/wp-admin/setup-config.php';
 

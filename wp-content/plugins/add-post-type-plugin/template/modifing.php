@@ -58,7 +58,7 @@ if (count(all_custom_post_list()) == 0):
             <td class="col col-6"><?php echo $t; ?></td>
             <td class="col col-6"><input
                         type="checkbox" <?php if ($t == 'post_tag' || $t == 'category') echo 'checked'; ?>
-                        value="<?php echo $t; ?>" id="post_taxonomies"></td>
+                        value="<?php echo $t; ?>" name="post_taxonomies" id="post_taxonomies"></td>
         </tr>
     <?php endforeach; ?>
     <tr class="row">

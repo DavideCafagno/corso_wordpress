@@ -128,7 +128,7 @@ if ( ! class_exists( 'ACF_Ajax' ) ) :
 		 */
 		function request() {
 
-			// Store data for has() and get() functions.
+			// Store data for has() and get() Functions.
 			$this->request = wp_unslash( $_REQUEST ); // phpcs:ignore WordPress.Security.NonceVerification.Recommended -- Verified below in verify_request().
 
 			// Verify request and handle error.

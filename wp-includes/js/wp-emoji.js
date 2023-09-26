@@ -17,7 +17,7 @@
 	 * @see  Twitter Emoji library
 	 * @link https://github.com/twitter/twemoji
 	 *
-	 * @return {Object} The wpEmoji parse and test functions.
+	 * @return {Object} The wpEmoji parse and test Functions.
 	 */
 	function wpEmoji() {
 		var MutationObserver = window.MutationObserver || window.WebKitMutationObserver || window.MozMutationObserver,

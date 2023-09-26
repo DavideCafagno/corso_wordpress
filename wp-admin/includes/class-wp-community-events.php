@@ -299,9 +299,9 @@ class WP_Community_Events {
 	/**
 	 * Generates a transient key based on user location.
 	 *
-	 * This could be reduced to a one-liner in the calling functions, but it's
+	 * This could be reduced to a one-liner in the calling Functions, but it's
 	 * intentionally a separate function because it's called from multiple
-	 * functions, and having it abstracted keeps the logic consistent and DRY,
+	 * Functions, and having it abstracted keeps the logic consistent and DRY,
 	 * which is less prone to errors.
 	 *
 	 * @since 4.8.0

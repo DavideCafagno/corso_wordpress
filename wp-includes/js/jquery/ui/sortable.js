@@ -639,7 +639,7 @@ return $.widget( "ui.sortable", $.ui.mouse, {
 
 	},
 
-	/* Be careful with the following core functions */
+	/* Be careful with the following core Functions */
 	_intersectsWith: function( item ) {
 
 		var x1 = this.positionAbs.left,

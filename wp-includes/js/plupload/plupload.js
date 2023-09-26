@@ -2082,7 +2082,7 @@ plupload.Uploader = function(options) {
 
 		@method trigger
 		@param {String} name Event name to fire.
-		@param {Object..} Multiple arguments to pass along to the listener functions.
+		@param {Object..} Multiple arguments to pass along to the listener Functions.
 		*/
 
 		// override the parent method to match Plupload-like event logic

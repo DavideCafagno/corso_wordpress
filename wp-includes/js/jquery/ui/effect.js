@@ -187,7 +187,7 @@ var jQuery = $;
 	// colors = jQuery.Color.names
 	colors,
 
-	// local aliases of functions called often
+	// local aliases of Functions called often
 	each = jQuery.each;
 
 // determine rgba support immediately
@@ -1165,7 +1165,7 @@ $.extend( $.effects, {
 		};
 	},
 
-	// Injects recently queued functions to be first in line (after "inprogress")
+	// Injects recently queued Functions to be first in line (after "inprogress")
 	unshift: function( element, queueLength, count ) {
 		var queue = element.queue();
 

@@ -10,7 +10,7 @@
 #[AllowDynamicProperties]
 class WP_Debug_Data {
 	/**
-	 * Calls all core functions to check for updates.
+	 * Calls all core Functions to check for updates.
 	 *
 	 * @since 5.2.0
 	 */

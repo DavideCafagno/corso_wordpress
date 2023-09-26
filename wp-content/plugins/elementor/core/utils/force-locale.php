@@ -8,7 +8,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 /**
  * Force translation to use a specific locale.
  *
- * A hacky class to force any translation functions in the call-stack between the
+ * A hacky class to force any translation Functions in the call-stack between the
  * `force()` & `reset()` methods to use a specific locale.
  */
 class Force_Locale {

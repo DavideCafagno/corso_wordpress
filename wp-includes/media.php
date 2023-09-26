@@ -2505,7 +2505,7 @@ add_shortcode( 'gallery', 'gallery_shortcode' );
  * @since 5.1.0 Code cleanup for WPCS 1.0.0 coding standards.
  * @since 5.3.0 Saved progress of intermediate image creation after upload.
  * @since 5.5.0 Ensured that galleries can be output as a list of links in feeds.
- * @since 5.6.0 Replaced order-style PHP type conversion functions with typecasts. Fix logic for
+ * @since 5.6.0 Replaced order-style PHP type conversion Functions with typecasts. Fix logic for
  *              an array of image dimensions.
  *
  * @param array $attr {
@@ -3893,7 +3893,7 @@ function get_taxonomies_for_attachments( $output = 'names' ) {
 }
 
 /**
- * Determines whether the value is an acceptable type for GD image functions.
+ * Determines whether the value is an acceptable type for GD image Functions.
  *
  * In PHP 8.0, the GD extension uses GdImage objects for its data structures.
  * This function checks if the passed value is either a GdImage object instance

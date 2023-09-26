@@ -1,5 +1,5 @@
 /**
- * The functions necessary for editing images.
+ * The Functions necessary for editing images.
  *
  * @since 2.9.0
  * @output wp-admin/js/image-edit.js

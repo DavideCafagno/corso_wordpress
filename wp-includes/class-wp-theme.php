@@ -125,7 +125,7 @@ final class WP_Theme implements ArrayAccess {
 	/**
 	 * Header name from the theme's style.css after being translated.
 	 *
-	 * Cached due to sorting functions running over the translated name.
+	 * Cached due to sorting Functions running over the translated name.
 	 *
 	 * @since 3.4.0
 	 * @var string

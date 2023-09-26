@@ -788,7 +788,7 @@ wpList = {
 	},
 
 	/**
-	 * Sets up `process()` and `recolor()` functions.
+	 * Sets up `process()` and `recolor()` Functions.
 	 */
 	init: function() {
 		var $list = this;

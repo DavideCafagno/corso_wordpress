@@ -267,7 +267,7 @@ window.wp = window.wp || {};
 		/**
 		 * Bind a function to be invoked whenever the value changes.
 		 *
-		 * @param {...Function} A function, or multiple functions, to add to the callback stack.
+		 * @param {...Function} A function, or multiple Functions, to add to the callback stack.
 		 */
 		bind: function() {
 			this.callbacks.add.apply( this.callbacks, arguments );
@@ -277,7 +277,7 @@ window.wp = window.wp || {};
 		/**
 		 * Unbind a previously bound function.
 		 *
-		 * @param {...Function} A function, or multiple functions, to remove from the callback stack.
+		 * @param {...Function} A function, or multiple Functions, to remove from the callback stack.
 		 */
 		unbind: function() {
 			this.callbacks.remove.apply( this.callbacks, arguments );

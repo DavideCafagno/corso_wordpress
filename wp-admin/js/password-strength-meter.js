@@ -10,7 +10,7 @@ window.wp = window.wp || {};
 		sprintf = wp.i18n.sprintf;
 
 	/**
-	 * Contains functions to determine the password strength.
+	 * Contains Functions to determine the password strength.
 	 *
 	 * @since 3.7.0
 	 *

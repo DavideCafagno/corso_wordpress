@@ -1,8 +1,8 @@
 <?php
 /**
- * Style engine: Public functions
+ * Style engine: Public Functions
  *
- * This file contains a variety of public functions developers can use to interact with
+ * This file contains a variety of public Functions developers can use to interact with
  * the Style Engine API.
  *
  * @package WordPress

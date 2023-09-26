@@ -198,7 +198,7 @@
     };
     // Handlers
     // --------
-    // A registry of functions to call, given a name
+    // A registry of Functions to call, given a name
     Wreqr.Handlers = function(Backbone, _) {
       "use strict";
       // Constructor
@@ -563,8 +563,8 @@
   // Marionette.normalizeMethods
   // ----------------------
   
-  // Pass in a mapping of events => functions or function names
-  // and return a mapping of events => functions
+  // Pass in a mapping of events => Functions or function names
+  // and return a mapping of events => Functions
   Marionette.normalizeMethods = function(hash) {
     return _.reduce(hash, function(normalizedHash, method, name) {
       if (!_.isFunction(method)) {
@@ -3577,7 +3577,7 @@
   
     // kick off all of the application's processes.
     // initializes all of the regions that have been added
-    // to the app, and runs all of the initializer functions
+    // to the app, and runs all of the initializer Functions
     start: function(options) {
       this.triggerMethod('before:start', options);
       this._initCallbacks.run(options, this);
@@ -3883,7 +3883,7 @@
     // ## Module Classes
     //
     // Module classes can be used as an alternative to the define pattern.
-    // The extend function of a Module is identical to the extend functions
+    // The extend function of a Module is identical to the extend Functions
     // on other Backbone and Marionette classes.
     // This allows module lifecyle events like `onStart` and `onStop` to be called directly.
     getClass: function(moduleDefinition) {

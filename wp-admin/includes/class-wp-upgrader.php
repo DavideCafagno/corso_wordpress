@@ -115,7 +115,7 @@ class WP_Upgrader {
 	/**
 	 * Stores the list of plugins or themes added to temporary backup directory.
 	 *
-	 * Used by the rollback functions.
+	 * Used by the rollback Functions.
 	 *
 	 * @since 6.3.0
 	 * @var array
@@ -125,7 +125,7 @@ class WP_Upgrader {
 	/**
 	 * Stores the list of plugins or themes to be restored from temporary backup directory.
 	 *
-	 * Used by the rollback functions.
+	 * Used by the rollback Functions.
 	 *
 	 * @since 6.3.0
 	 * @var array

@@ -252,7 +252,7 @@ var twemoji = (function (
 
 
   /////////////////////////
-  //  private functions  //
+  //  private Functions  //
   //     declaration     //
   /////////////////////////
 
@@ -512,7 +512,7 @@ var twemoji = (function (
 
 
   /////////////////////////
-  //  exported functions //
+  //  exported Functions //
   //     declaration     //
   /////////////////////////
 

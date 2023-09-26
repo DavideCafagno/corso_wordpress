@@ -1079,7 +1079,7 @@ class Akismet_Admin {
 		$notices[] = array( 'type' => 'plugin' );
 		$notices[] = array( 'type' => 'spam-check', 'link_text' => 'Link text.' );
 		$notices[] = array( 'type' => 'notice', 'notice_header' => 'This is the notice header.', 'notice_text' => 'This is the notice text.' );
-		$notices[] = array( 'type' => 'missing-functions' );
+		$notices[] = array( 'type' => 'missing-Functions' );
 		$notices[] = array( 'type' => 'servers-be-down' );
 		$notices[] = array( 'type' => 'active-dunning' );
 		$notices[] = array( 'type' => 'cancelled' );

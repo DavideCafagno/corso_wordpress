@@ -96,7 +96,7 @@ class WP_Widget {
 	public $updated = false;
 
 	//
-	// Member functions that must be overridden by subclasses.
+	// Member Functions that must be overridden by subclasses.
 	//
 
 	/**

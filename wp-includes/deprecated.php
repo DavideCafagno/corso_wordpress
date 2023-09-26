@@ -1,7 +1,7 @@
 <?php
 /**
- * Deprecated functions from past WordPress versions. You shouldn't use these
- * functions and look for the alternatives instead. The functions will be
+ * Deprecated Functions from past WordPress versions. You shouldn't use these
+ * Functions and look for the alternatives instead. The Functions will be
  * removed in a later version.
  *
  * @package WordPress
@@ -9,7 +9,7 @@
  */
 
 /*
- * Deprecated functions come here to die.
+ * Deprecated Functions come here to die.
  */
 
 /**
@@ -2518,7 +2518,7 @@ function is_term( $term, $taxonomy = '', $parent = 0 ) {
  *
  * Use global $plugin_page and/or get_plugin_page_hookname() hooks.
  *
- * For more information on this and similar theme functions, check out
+ * For more information on this and similar theme Functions, check out
  * the {@link https://developer.wordpress.org/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *
@@ -3734,7 +3734,7 @@ function get_comments_popup_template() {
 /**
  * Determines whether the current URL is within the comments popup window.
  *
- * For more information on this and similar theme functions, check out
+ * For more information on this and similar theme Functions, check out
  * the {@link https://developer.wordpress.org/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *

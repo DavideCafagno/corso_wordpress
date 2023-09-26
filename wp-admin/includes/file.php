@@ -13,7 +13,7 @@
 
 /** The descriptions for theme files. */
 $wp_file_descriptions = array(
-	'functions.php'         => __( 'Theme Functions' ),
+	'Functions.php'         => __( 'Theme Functions' ),
 	'header.php'            => __( 'Theme Header' ),
 	'footer.php'            => __( 'Theme Footer' ),
 	'sidebar.php'           => __( 'Sidebar' ),
@@ -864,7 +864,7 @@ function _wp_handle_upload( &$file, $overrides, $time, $action ) {
 		$upload_error_handler = $overrides['upload_error_handler'];
 	}
 
-	// You may have had one or more 'wp_handle_upload_prefilter' functions error out the file. Handle that gracefully.
+	// You may have had one or more 'wp_handle_upload_prefilter' Functions error out the file. Handle that gracefully.
 	if ( isset( $file['error'] ) && ! is_numeric( $file['error'] ) && $file['error'] ) {
 		return call_user_func_array( $upload_error_handler, array( &$file, $file['error'] ) );
 	}

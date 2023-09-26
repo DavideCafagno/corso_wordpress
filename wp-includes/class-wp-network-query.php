@@ -216,7 +216,7 @@ class WP_Network_Query {
 		 * Note that if the filter returns an array of network data, it will be assigned
 		 * to the `networks` property of the current WP_Network_Query instance.
 		 *
-		 * Filtering functions that require pagination information are encouraged to set
+		 * Filtering Functions that require pagination information are encouraged to set
 		 * the `found_networks` and `max_num_pages` properties of the WP_Network_Query object,
 		 * passed to the filter by reference. If WP_Network_Query does not perform a database
 		 * query, it will not have enough information to generate these values itself.

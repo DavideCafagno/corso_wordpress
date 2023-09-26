@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Site/blog functions that work with the blogs table and related data.
+ * Site/blog Functions that work with the blogs table and related data.
  *
  * @package WordPress
  * @subpackage Multisite

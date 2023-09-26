@@ -486,7 +486,7 @@ msgid "Your web host or server administrator has disabled PHP&#8217;s <code>geth
 msgstr "Il tuo host web o l'amministratore del server hanno disattivato la funzione PHP <code> gethostbynamel</code>. <strong>Akismet non può funzionare correttamente fino a quando la funzione non viene attivata.</strong> Contatta il tuo host web o il tuo amministratore del firewall per dare loro <a href=\"%s\" target=\"_blank\">queste informazioni sui requisiti di sistema di Akismet</a>."
 
 #: views/notice.php:55
-msgid "Network functions are disabled."
+msgid "Network Functions are disabled."
 msgstr "Le funzionalità di rete sono disabilitate"
 
 #. translators: the placeholder is a clickable URL that leads to more

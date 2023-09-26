@@ -663,11 +663,11 @@ function wp_doc_link_parse( $content ) {
 	sort( $functions );
 
 	/**
-	 * Filters the list of functions and classes to be ignored from the documentation lookup.
+	 * Filters the list of Functions and classes to be ignored from the documentation lookup.
 	 *
 	 * @since 2.8.0
 	 *
-	 * @param string[] $ignore_functions Array of names of functions and classes to be ignored.
+	 * @param string[] $ignore_functions Array of names of Functions and classes to be ignored.
 	 */
 	$ignore_functions = apply_filters( 'documentation_ignore_functions', $ignore_functions );
 

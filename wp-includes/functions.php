@@ -334,7 +334,7 @@ function wp_date( $format, $timestamp = null, $timezone = null ) {
 function wp_maybe_decline_date( $date, $format = '' ) {
 	global $wp_locale;
 
-	// i18n functions are not available in SHORTINIT mode.
+	// i18n Functions are not available in SHORTINIT mode.
 	if ( ! function_exists( '_x' ) ) {
 		return $date;
 	}
@@ -997,7 +997,7 @@ function wp_get_http_headers( $url, $deprecated = false ) {
  * Determines whether the publish date of the current post in the loop is different
  * from the publish date of the previous post in the loop.
  *
- * For more information on this and similar theme functions, check out
+ * For more information on this and similar theme Functions, check out
  * the {@link https://developer.wordpress.org/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *
@@ -1750,7 +1750,7 @@ function do_favicon() {
  *
  * Checks for the 'siteurl' option for whether WordPress is installed.
  *
- * For more information on this and similar theme functions, check out
+ * For more information on this and similar theme Functions, check out
  * the {@link https://developer.wordpress.org/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *
@@ -5433,11 +5433,11 @@ function _deprecated_function( $function_name, $version, $replacement = '' ) {
 	do_action( 'deprecated_function_run', $function_name, $replacement, $version );
 
 	/**
-	 * Filters whether to trigger an error for deprecated functions.
+	 * Filters whether to trigger an error for deprecated Functions.
 	 *
 	 * @since 2.5.0
 	 *
-	 * @param bool $trigger Whether to trigger the error for deprecated functions. Default true.
+	 * @param bool $trigger Whether to trigger the error for deprecated Functions. Default true.
 	 */
 	if ( WP_DEBUG && apply_filters( 'deprecated_function_trigger_error', true ) ) {
 		if ( function_exists( '__' ) ) {
@@ -5523,13 +5523,13 @@ function _deprecated_constructor( $class_name, $version, $parent_class = '' ) {
 	do_action( 'deprecated_constructor_run', $class_name, $version, $parent_class );
 
 	/**
-	 * Filters whether to trigger an error for deprecated functions.
+	 * Filters whether to trigger an error for deprecated Functions.
 	 *
 	 * `WP_DEBUG` must be true in addition to the filter evaluating to true.
 	 *
 	 * @since 4.3.0
 	 *
-	 * @param bool $trigger Whether to trigger the error for deprecated functions. Default true.
+	 * @param bool $trigger Whether to trigger the error for deprecated Functions. Default true.
 	 */
 	if ( WP_DEBUG && apply_filters( 'deprecated_constructor_trigger_error', true ) ) {
 		if ( function_exists( '__' ) ) {
@@ -5781,7 +5781,7 @@ function _deprecated_argument( $function_name, $version, $message = '' ) {
  * Default behavior is to trigger a user error if `WP_DEBUG` is true.
  *
  * This function is called by the do_action_deprecated() and apply_filters_deprecated()
- * functions, and so generally does not need to be called directly.
+ * Functions, and so generally does not need to be called directly.
  *
  * @since 4.6.0
  * @since 5.4.0 The error type is now classified as E_USER_DEPRECATED (used to default to E_USER_NOTICE).
@@ -6975,7 +6975,7 @@ function wp_allowed_protocols() {
 }
 
 /**
- * Returns a comma-separated string or array of functions that have been called to get
+ * Returns a comma-separated string or array of Functions that have been called to get
  * to the current point in code.
  *
  * @since 3.4.0
@@ -7304,7 +7304,7 @@ function get_tag_regex( $tag ) {
 
 /**
  * Retrieves a canonical form of the provided charset appropriate for passing to PHP
- * functions such as htmlspecialchars() and charset HTML attributes.
+ * Functions such as htmlspecialchars() and charset HTML attributes.
  *
  * @since 3.6.0
  * @access private
@@ -7333,7 +7333,7 @@ function _canonical_charset( $charset ) {
  * is enabled.
  *
  * When mbstring.func_overload is in use for multi-byte encodings, the results from
- * strlen() and similar functions respect the utf8 characters, causing binary data
+ * strlen() and similar Functions respect the utf8 characters, causing binary data
  * to return incorrect lengths.
  *
  * This function overrides the mbstring encoding to a binary-safe encoding, and
@@ -7866,7 +7866,7 @@ All at ###SITENAME###
  * @since 4.9.6 Abstracted from `WP_Community_Events::get_unsafe_client_ip()`.
  *
  * @param string $ip_addr       The IPv4 or IPv6 address to be anonymized.
- * @param bool   $ipv6_fallback Optional. Whether to return the original IPv6 address if the needed functions
+ * @param bool   $ipv6_fallback Optional. Whether to return the original IPv6 address if the needed Functions
  *                              to anonymize it are not present. Default false, return `::` (unspecified address).
  * @return string  The anonymized IP address.
  */

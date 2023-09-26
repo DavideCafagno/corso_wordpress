@@ -386,7 +386,7 @@ class WP_Rewrite {
 	}
 
 	/**
-	 * Indexes for matches for usage in preg_*() functions.
+	 * Indexes for matches for usage in preg_*() Functions.
 	 *
 	 * The format of the string is, with empty matches property value, '$NUM'.
 	 * The 'NUM' will be replaced with the value in the $number parameter. With

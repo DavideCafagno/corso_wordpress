@@ -1,6 +1,6 @@
 <?php
 /**
- * Nav Menu API: Template functions
+ * Nav Menu API: Template Functions
  *
  * @package WordPress
  * @subpackage Nav_Menus

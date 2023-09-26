@@ -323,7 +323,7 @@ function get_taxonomy( $taxonomy ) {
  *
  * Formerly is_taxonomy(), introduced in 2.3.0.
  *
- * For more information on this and similar theme functions, check out
+ * For more information on this and similar theme Functions, check out
  * the {@link https://developer.wordpress.org/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *
@@ -348,7 +348,7 @@ function taxonomy_exists( $taxonomy ) {
  *
  * A false return value might also mean that the taxonomy does not exist.
  *
- * For more information on this and similar theme functions, check out
+ * For more information on this and similar theme Functions, check out
  * the {@link https://developer.wordpress.org/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *
@@ -1505,7 +1505,7 @@ function unregister_term_meta( $taxonomy, $meta_key ) {
  *
  * Formerly is_term(), introduced in 2.3.0.
  *
- * For more information on this and similar theme functions, check out
+ * For more information on this and similar theme Functions, check out
  * the {@link https://developer.wordpress.org/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *
@@ -3679,7 +3679,7 @@ function clean_taxonomy_cache( $taxonomy ) {
 /**
  * Retrieves the cached term objects for the given object ID.
  *
- * Upstream functions (like get_the_terms() and is_object_in_term()) are
+ * Upstream Functions (like get_the_terms() and is_object_in_term()) are
  * responsible for populating the object-term relationship cache. The current
  * function only fetches relationship data that is already in the cache.
  *
@@ -3696,7 +3696,7 @@ function clean_taxonomy_cache( $taxonomy ) {
 function get_object_term_cache( $id, $taxonomy ) {
 	$_term_ids = wp_cache_get( $id, "{$taxonomy}_relationships" );
 
-	// We leave the priming of relationship caches to upstream functions.
+	// We leave the priming of relationship caches to upstream Functions.
 	if ( false === $_term_ids ) {
 		return false;
 	}

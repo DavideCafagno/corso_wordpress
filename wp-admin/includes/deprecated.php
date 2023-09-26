@@ -1,7 +1,7 @@
 <?php
 /**
- * Deprecated admin functions from past WordPress versions. You shouldn't use these
- * functions and look for the alternatives instead. The functions will be removed
+ * Deprecated admin Functions from past WordPress versions. You shouldn't use these
+ * Functions and look for the alternatives instead. The Functions will be removed
  * in a later version.
  *
  * @package WordPress
@@ -9,7 +9,7 @@
  */
 
 /*
- * Deprecated functions come here to die.
+ * Deprecated Functions come here to die.
  */
 
 /**
@@ -990,7 +990,7 @@ function type_url_form_file() {
  * @see WP_Screen::add_help_tab()
  *
  * @param string    $screen The handle for the screen to add help to. This is usually
- *                          the hook name returned by the `add_*_page()` functions.
+ *                          the hook name returned by the `add_*_page()` Functions.
  * @param string    $help   The content of an 'Overview' help tab.
  */
 function add_contextual_help( $screen, $help ) {

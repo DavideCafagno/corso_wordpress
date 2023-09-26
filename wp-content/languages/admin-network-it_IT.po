@@ -1217,7 +1217,7 @@ msgstr "Questa schermata imposta e modifica le impostazioni per tutto il network
 
 #. translators: %s: Reserved names list.
 #: wp-admin/network/site-new.php:59
-msgid "The following words are reserved for use by WordPress functions and cannot be used as site names: %s"
+msgid "The following words are reserved for use by WordPress Functions and cannot be used as site names: %s"
 msgstr "Le seguenti parole sono riservate per l'utilizzo da parte delle funzioni di WordPress e non possono essere utilizzate come nomi per i siti: %s"
 
 #: wp-admin/network/upgrade.php:125

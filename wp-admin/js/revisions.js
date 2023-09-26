@@ -1,5 +1,5 @@
 /**
- * @file Revisions interface functions, Backbone classes and
+ * @file Revisions interface Functions, Backbone classes and
  * the revisions.php document.ready bootstrap.
  *
  * @output wp-admin/js/revisions.js
@@ -34,7 +34,7 @@ window.wp = window.wp || {};
 		}
 	};
 
-	// Handy functions to help with positioning.
+	// Handy Functions to help with positioning.
 	$.fn.allOffsets = function() {
 		var offset = this.offset() || {top: 0, left: 0}, win = $(window);
 		return _.extend( offset, {

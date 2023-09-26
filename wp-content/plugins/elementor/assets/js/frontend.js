@@ -2053,7 +2053,7 @@ exports["default"] = void 0;
 /**
  * Breakpoints
  *
- * This utility class contains helper functions relating to Elementor's breakpoints system.
+ * This utility class contains helper Functions relating to Elementor's breakpoints system.
  *
  * @since 3.4.0
  */

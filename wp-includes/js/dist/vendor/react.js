@@ -436,7 +436,7 @@
    * The `'' + value` pattern (used in in perf-sensitive code) throws for Symbol
    * and Temporal.* types. See https://github.com/facebook/react/pull/22064.
    *
-   * The functions in this module will throw an easier-to-understand,
+   * The Functions in this module will throw an easier-to-understand,
    * easier-to-debug exception with a clear errors message message explaining the
    * problem. (Instead of a confusing exception thrown inside the implementation
    * of the `value` object).
@@ -704,7 +704,7 @@
    * @param {*} self A *temporary* helper to detect places where `this` is
    * different from the `owner` when React.createElement is called, so that we
    * can warn. We want to get rid of owner and replace string `ref`s with arrow
-   * functions, and as long as `this` and owner are the same, there will be no
+   * Functions, and as long as `this` and owner are the same, there will be no
    * change in behavior.
    * @param {*} source An annotation object (added by a transpiler or otherwise)
    * indicating filename, line number, and/or other information.
@@ -1462,13 +1462,13 @@
         error('forwardRef requires a render function but was given %s.', render === null ? 'null' : typeof render);
       } else {
         if (render.length !== 0 && render.length !== 2) {
-          error('forwardRef render functions accept exactly two parameters: props and ref. %s', render.length === 1 ? 'Did you forget to use the ref parameter?' : 'Any additional parameter will be undefined.');
+          error('forwardRef render Functions accept exactly two parameters: props and ref. %s', render.length === 1 ? 'Did you forget to use the ref parameter?' : 'Any additional parameter will be undefined.');
         }
       }
 
       if (render != null) {
         if (render.defaultProps != null || render.propTypes != null) {
-          error('forwardRef render functions do not support propTypes or defaultProps. ' + 'Did you accidentally pass a React component?');
+          error('forwardRef render Functions do not support propTypes or defaultProps. ' + 'Did you accidentally pass a React component?');
         }
       }
     }
@@ -1489,7 +1489,7 @@
         set: function (name) {
           ownName = name; // The inner component shouldn't inherit this display name in most cases,
           // because the component may be used elsewhere.
-          // But it's nice for anonymous functions to inherit the name,
+          // But it's nice for anonymous Functions to inherit the name,
           // so that our component-stack generation logic will display their frames.
           // An anonymous function generally suggests a pattern like:
           //   React.forwardRef((props, ref) => {...});
@@ -1558,7 +1558,7 @@
         set: function (name) {
           ownName = name; // The inner component shouldn't inherit this display name in most cases,
           // because the component may be used elsewhere.
-          // But it's nice for anonymous functions to inherit the name,
+          // But it's nice for anonymous Functions to inherit the name,
           // so that our component-stack generation logic will display their frames.
           // An anonymous function generally suggests a pattern like:
           //   React.memo((props) => {...});

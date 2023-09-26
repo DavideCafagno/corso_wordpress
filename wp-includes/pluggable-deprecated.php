@@ -1,10 +1,10 @@
 <?php
 /**
- * Deprecated pluggable functions from past WordPress versions. You shouldn't use these
- * functions and look for the alternatives instead. The functions will be removed in a
+ * Deprecated pluggable Functions from past WordPress versions. You shouldn't use these
+ * Functions and look for the alternatives instead. The Functions will be removed in a
  * later version.
  *
- * Deprecated warnings are also thrown if one of these functions is being defined by a plugin.
+ * Deprecated warnings are also thrown if one of these Functions is being defined by a plugin.
  *
  * @package WordPress
  * @subpackage Deprecated
@@ -12,7 +12,7 @@
  */
 
 /*
- * Deprecated functions come here to die.
+ * Deprecated Functions come here to die.
  */
 
 if ( !function_exists('set_current_user') ) :

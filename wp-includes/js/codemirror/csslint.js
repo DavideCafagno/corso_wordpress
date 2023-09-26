@@ -295,7 +295,7 @@ var StringReader = require("../util/StringReader");
 var SyntaxError = require("../util/SyntaxError");
 
 /**
- * This class implements a combinator library for matcher functions.
+ * This class implements a combinator library for matcher Functions.
  * The combinators are described at:
  * https://developer.mozilla.org/en-US/docs/Web/CSS/Value_definition_syntax#Component_value_combinators
  */
@@ -2678,7 +2678,7 @@ Parser.prototype = function() {
 
                             /*
                              * This checks for alpha(opacity=0) style of IE
-                             * functions. IE_FUNCTION only presents progid: style.
+                             * Functions. IE_FUNCTION only presents progid: style.
                              */
                             if (tokenStream.LA(3) === Tokens.EQUALS && this.options.ieFilters) {
                                 value = this._ie_function();
@@ -4554,7 +4554,7 @@ var h = /^[0-9a-fA-F]$/,
     whitespace = /\u0009|\u000a|\u000c|\u000d|\u0020/;
 
 //-----------------------------------------------------------------------------
-// Helper functions
+// Helper Functions
 //-----------------------------------------------------------------------------
 
 
@@ -5082,7 +5082,7 @@ TokenStream.prototype = mix(new TokenStreamBase(), {
             }
         } else if (reader.peek() === ":") {  //might be an IE function
 
-            //IE-specific functions always being with progid:
+            //IE-specific Functions always being with progid:
             if (ident.toLowerCase() === "progid") {
                 ident += reader.readTo("(");
                 tt = Tokens.IE_FUNCTION;
@@ -5644,7 +5644,7 @@ var Tokens = module.exports = [
     { name: "PERCENTAGE" },
     { name: "NUMBER" },
 
-    // functions
+    // Functions
     { name: "URI" },
     { name: "FUNCTION" },
 
@@ -6968,7 +6968,7 @@ function TokenStreamBase(input, tokenData) {
 /**
  * Accepts an array of token information and outputs
  * an array of token data containing key-value mappings
- * and matching functions that the TokenStream needs.
+ * and matching Functions that the TokenStream needs.
  * @param {Array} tokens An array of token descriptors.
  * @return {Array} An array of processed token data.
  * @method createTokenData
@@ -7549,7 +7549,7 @@ clone.clonePrototype = function clonePrototype(parent) {
   return new c();
 };
 
-// private utility functions
+// private utility Functions
 
 function __objToStr(o) {
   return Object.prototype.toString.call(o);
@@ -8085,7 +8085,7 @@ Reporter.prototype = {
 CSSLint._Reporter = Reporter;
 
 /*
- * Utility functions that make life easier.
+ * Utility Functions that make life easier.
  */
 CSSLint.Util = {
     /*

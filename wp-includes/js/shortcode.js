@@ -1,5 +1,5 @@
 /**
- * Utility functions for parsing and handling shortcodes in JavaScript.
+ * Utility Functions for parsing and handling shortcodes in JavaScript.
  *
  * @output wp-includes/js/shortcode.js
  */
@@ -315,10 +315,10 @@ window.wp = window.wp || {};
 }());
 
 /*
- * HTML utility functions
+ * HTML utility Functions
  * ----------------------
  *
- * Experimental. These functions may change or be removed in the future.
+ * Experimental. These Functions may change or be removed in the future.
  */
 (function(){
 	wp.html = _.extend( wp.html || {}, {

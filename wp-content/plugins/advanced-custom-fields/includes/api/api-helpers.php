@@ -2869,7 +2869,7 @@ function acf_upload_file( $uploaded_file ) {
 
 	// required
 	// require_once( ABSPATH . "/wp-load.php" ); // WP should already be loaded
-	require_once ABSPATH . '/wp-admin/includes/media.php'; // video functions
+	require_once ABSPATH . '/wp-admin/includes/media.php'; // video Functions
 	require_once ABSPATH . '/wp-admin/includes/file.php';
 	require_once ABSPATH . '/wp-admin/includes/image.php';
 

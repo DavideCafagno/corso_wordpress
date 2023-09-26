@@ -14,7 +14,7 @@
 (function($) {
 
 /*
- * Math functions will be used extensively, so it's convenient to make a few
+ * Math Functions will be used extensively, so it's convenient to make a few
  * shortcuts
  */
 var abs = Math.abs,
@@ -748,7 +748,7 @@ $.imgAreaSelect = function (img, options) {
 
         setSelection(selX(x1), selY(y1), selX(x1), selY(y1));
 
-        /* If this is an API call, callback functions should not be triggered */
+        /* If this is an API call, callback Functions should not be triggered */
         if (!(this instanceof $.imgAreaSelect)) {
             options.onSelectChange(img, getSelection());
             options.onSelectEnd(img, getSelection());

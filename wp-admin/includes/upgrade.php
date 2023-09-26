@@ -2,7 +2,7 @@
 /**
  * WordPress Upgrade API
  *
- * Most of the functions are pluggable and can be overwritten.
+ * Most of the Functions are pluggable and can be overwritten.
  *
  * @package WordPress
  * @subpackage Administration
@@ -23,7 +23,7 @@ if ( ! function_exists( 'wp_install' ) ) :
 	/**
 	 * Installs the site.
 	 *
-	 * Runs the required functions to set up and populate the database,
+	 * Runs the required Functions to set up and populate the database,
 	 * including primary admin user and initial options.
 	 *
 	 * @since 2.1.0
@@ -617,7 +617,7 @@ endif;
 
 if ( ! function_exists( 'wp_upgrade' ) ) :
 	/**
-	 * Runs WordPress Upgrade functions.
+	 * Runs WordPress Upgrade Functions.
 	 *
 	 * Upgrades the database if needed during a site update.
 	 *
@@ -2479,7 +2479,7 @@ function upgrade_network() {
 }
 
 //
-// General functions we use to actually do stuff.
+// General Functions we use to actually do stuff.
 //
 
 /**

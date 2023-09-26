@@ -1437,7 +1437,7 @@ class PHPMailer
      * Tells whether IDNs (Internationalized Domain Names) are supported or not. This requires the
      * `intl` and `mbstring` PHP extensions.
      *
-     * @return bool `true` if required functions for IDN support are present
+     * @return bool `true` if required Functions for IDN support are present
      */
     public static function idnSupported()
     {
@@ -1449,7 +1449,7 @@ class PHPMailer
      * Important: Address must be passed in same encoding as currently set in PHPMailer::$CharSet.
      * This function silently returns unmodified address if:
      * - No conversion is necessary (i.e. domain name is not an IDN, or is already in ASCII form)
-     * - Conversion to punycode is impossible (e.g. required PHP functions are not available)
+     * - Conversion to punycode is impossible (e.g. required PHP Functions are not available)
      *   or fails for any reason (e.g. domain contains characters not allowed in an IDN).
      *
      * @see PHPMailer::$CharSet
@@ -1460,7 +1460,7 @@ class PHPMailer
      */
     public function punyencodeAddress($address)
     {
-        //Verify we have required functions, CharSet, and at-sign.
+        //Verify we have required Functions, CharSet, and at-sign.
         $pos = strrpos($address, '@');
         if (
             !empty($this->CharSet) &&
@@ -1856,7 +1856,7 @@ class PHPMailer
 
     /**
      * Check whether a file path is of a permitted type.
-     * Used to reject URLs and phar files from functions that access local file paths,
+     * Used to reject URLs and phar files from Functions that access local file paths,
      * such as addAttachment.
      *
      * @param string $path A relative or absolute path to a file
@@ -3562,7 +3562,7 @@ class PHPMailer
             return strlen($str) > mb_strlen($str, $this->CharSet);
         }
 
-        //Assume no multibytes (we can't handle without mbstring functions anyway)
+        //Assume no multibytes (we can't handle without mbstring Functions anyway)
         return false;
     }
 

@@ -205,7 +205,7 @@ class wpdb {
 	 * Log of queries that were executed, for debugging purposes.
 	 *
 	 * @since 1.5.0
-	 * @since 2.5.0 The third element in each query log was added to record the calling functions.
+	 * @since 2.5.0 The third element in each query log was added to record the calling Functions.
 	 * @since 5.1.0 The fourth element in each query log was added to record the start time.
 	 * @since 5.3.0 The fifth element in each query log was added to record custom data.
 	 *
@@ -217,7 +217,7 @@ class wpdb {
 	 *
 	 *         @type string $0 The query's SQL.
 	 *         @type float  $1 Total time spent on the query, in seconds.
-	 *         @type string $2 Comma-separated list of the calling functions.
+	 *         @type string $2 Comma-separated list of the calling Functions.
 	 *         @type float  $3 Unix timestamp of the time at the start of the query.
 	 *         @type array  $4 Custom query data.
 	 *     }
@@ -1997,7 +1997,7 @@ class wpdb {
 
 		/*
 		 * Deprecated in 3.9+ when using MySQLi. No equivalent
-		 * $new_link parameter exists for mysqli_* functions.
+		 * $new_link parameter exists for mysqli_* Functions.
 		 */
 		$new_link     = defined( 'MYSQL_NEW_LINK' ) ? MYSQL_NEW_LINK : true;
 		$client_flags = defined( 'MYSQL_CLIENT_FLAGS' ) ? MYSQL_CLIENT_FLAGS : 0;
@@ -2480,7 +2480,7 @@ class wpdb {
 	 *
 	 * @param string $query           The query's SQL.
 	 * @param float  $query_time      Total time spent on the query, in seconds.
-	 * @param string $query_callstack Comma-separated list of the calling functions.
+	 * @param string $query_callstack Comma-separated list of the calling Functions.
 	 * @param float  $query_start     Unix timestamp of the time at the start of the query.
 	 * @param array  $query_data      Custom query data.
 	 */
@@ -2496,7 +2496,7 @@ class wpdb {
 		 * @param array  $query_data      Custom query data.
 		 * @param string $query           The query's SQL.
 		 * @param float  $query_time      Total time spent on the query, in seconds.
-		 * @param string $query_callstack Comma-separated list of the calling functions.
+		 * @param string $query_callstack Comma-separated list of the calling Functions.
 		 * @param float  $query_start     Unix timestamp of the time at the start of the query.
 		 */
 		$query_data = apply_filters( 'log_query_custom_data', $query_data, $query, $query_time, $query_callstack, $query_start );
@@ -4132,11 +4132,11 @@ class wpdb {
 	}
 
 	/**
-	 * Retrieves a comma-separated list of the names of the functions that called wpdb.
+	 * Retrieves a comma-separated list of the names of the Functions that called wpdb.
 	 *
 	 * @since 2.5.0
 	 *
-	 * @return string Comma-separated list of the calling functions.
+	 * @return string Comma-separated list of the calling Functions.
 	 */
 	public function get_caller() {
 		return wp_debug_backtrace_summary( __CLASS__ );

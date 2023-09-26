@@ -1,6 +1,6 @@
 <?php
 /**
- * HTTPS migration functions.
+ * HTTPS migration Functions.
  *
  * @package WordPress
  * @since 5.7.0

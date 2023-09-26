@@ -41,7 +41,7 @@
 	/**
 	 * The TagBox object.
 	 *
-	 * Contains functions to create and manage tags that can be associated with a
+	 * Contains Functions to create and manage tags that can be associated with a
 	 * post.
 	 *
 	 * @since 2.9.0

@@ -1640,7 +1640,7 @@ function handleInterpolation(mergedProps, registered, interpolation) {
       }
 
       break;
-  } // finalize string values (regular strings and functions interpolated into css calls)
+  } // finalize string values (regular strings and Functions interpolated into css calls)
 
 
   if (registered == null) {
@@ -3923,7 +3923,7 @@ function FocusTrap(props) {
       const {
         current: rootElement
       } = rootRef;
-      // Cleanup functions are executed lazily in React 17.
+      // Cleanup Functions are executed lazily in React 17.
       // Contain can be called between the component being unmounted and its cleanup function being run.
       if (rootElement === null) {
         return;
@@ -48744,7 +48744,7 @@ const theme2 = createTheme({ palette: {
     getContrastText,
     // Generate a rich color object.
     augmentColor,
-    // Used by the functions below to shift a color's luminance by approximately
+    // Used by the Functions below to shift a color's luminance by approximately
     // two indexes within its tonal palette.
     // E.g., shift from Red 500 to Red 300 or Red 700.
     tonalOffset
@@ -49671,7 +49671,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 // The legacy utilities from @mui/styles
-// These are just empty functions that throws when invoked
+// These are just empty Functions that throws when invoked
 
 
 
@@ -52029,7 +52029,7 @@ function createStyled(input = {}) {
     const muiStyledResolver = (styleArg, ...expressions) => {
       const expressionsWithDefaultTheme = expressions ? expressions.map(stylesArg => {
         // On the server Emotion doesn't use React.forwardRef for creating components, so the created
-        // component stays as a function. This condition makes sure that we do not interpolate functions
+        // component stays as a function. This condition makes sure that we do not interpolate Functions
         // which are basically components used as a selectors.
         return typeof stylesArg === 'function' && stylesArg.__emotion_real !== stylesArg ? props => {
           return stylesArg((0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
@@ -52080,7 +52080,7 @@ function createStyled(input = {}) {
         transformedStyleArg.raw = [...styleArg.raw, ...placeholders];
       } else if (typeof styleArg === 'function' &&
       // On the server Emotion doesn't use React.forwardRef for creating components, so the created
-      // component stays as a function. This condition makes sure that we do not interpolate functions
+      // component stays as a function. This condition makes sure that we do not interpolate Functions
       // which are basically components used as a selectors.
       styleArg.__emotion_real !== styleArg) {
         // If the type is function, we need to define the default theme.
@@ -52555,7 +52555,7 @@ function createCssVarsProvider(options) {
     const defaultLightColorScheme = typeof defaultColorScheme === 'string' ? defaultColorScheme : defaultColorScheme.light;
     const defaultDarkColorScheme = typeof defaultColorScheme === 'string' ? defaultColorScheme : defaultColorScheme.dark;
 
-    // 1. Get the data about the `mode`, `colorScheme`, and setter functions.
+    // 1. Get the data about the `mode`, `colorScheme`, and setter Functions.
     const {
       mode: stateMode,
       setMode,
@@ -54437,7 +54437,7 @@ __webpack_require__.r(__webpack_exports__);
  * Safe chained function.
  *
  * Will only create a new function if needed,
- * otherwise will pass back existing functions or null.
+ * otherwise will pass back existing Functions or null.
  */
 function createChainedFunction(...funcs) {
   return funcs.reduce((acc, func) => {
@@ -59683,7 +59683,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
    *   decl := ReactPropTypes.{type}(.isRequired)?
    *
    * Each and every declaration produces a function with the same signature. This
-   * allows the creation of custom validation functions. For example:
+   * allows the creation of custom validation Functions. For example:
    *
    *  var MyLink = React.createClass({
    *    propTypes: {
@@ -59972,7 +59972,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
       var checker = arrayOfTypeCheckers[i];
       if (typeof checker !== 'function') {
         printWarning(
-          'Invalid argument supplied to oneOfType. Expected an array of check functions, but ' +
+          'Invalid argument supplied to oneOfType. Expected an array of check Functions, but ' +
           'received ' + getPostfixForTypeWarning(checker) + ' at index ' + i + '.'
         );
         return emptyFunctionThatReturnsNull;
@@ -61171,7 +61171,7 @@ Transition.propTypes =  true ? {
    * A React reference to DOM element that need to transition:
    * https://stackoverflow.com/a/51127130/4671932
    *
-   *   - When `nodeRef` prop is used, `node` is not passed to callback functions
+   *   - When `nodeRef` prop is used, `node` is not passed to callback Functions
    *      (e.g. `onEnter`) because user already has direct access to the node.
    *   - When changing `key` prop of `Transition` in a `TransitionGroup` a new
    *     `nodeRef` need to be provided to `Transition` with changed `key` prop
@@ -62485,7 +62485,7 @@ function isArray(a) {
  * The `'' + value` pattern (used in in perf-sensitive code) throws for Symbol
  * and Temporal.* types. See https://github.com/facebook/react/pull/22064.
  *
- * The functions in this module will throw an easier-to-understand,
+ * The Functions in this module will throw an easier-to-understand,
  * easier-to-debug exception with a clear errors message message explaining the
  * problem. (Instead of a confusing exception thrown inside the implementation
  * of the `value` object).
@@ -62654,7 +62654,7 @@ function defineRefPropWarningGetter(props, displayName) {
  * @param {*} self A *temporary* helper to detect places where `this` is
  * different from the `owner` when React.createElement is called, so that we
  * can warn. We want to get rid of owner and replace string `ref`s with arrow
- * functions, and as long as `this` and owner are the same, there will be no
+ * Functions, and as long as `this` and owner are the same, there will be no
  * change in behavior.
  * @param {*} source An annotation object (added by a transpiler or otherwise)
  * indicating filename, line number, and/or other information.
@@ -63124,7 +63124,7 @@ function jsxWithValidation(type, props, key, isStaticChildren, source, self) {
 
     return element;
   }
-} // These two functions exist to still get child warnings in dev
+} // These two Functions exist to still get child warnings in dev
 // even with the prod transform. This means that jsxDEV is purely
 // opt-in behavior for better messages but that we won't stop
 // giving you warnings if you use production apis.
@@ -63141,7 +63141,7 @@ function jsxWithValidationDynamic(type, props, key) {
 }
 
 var jsx =  jsxWithValidationDynamic ; // we may want to special case jsxs internally to take advantage of static children.
-// for now we can ship identical prod functions
+// for now we can ship identical prod Functions
 
 var jsxs =  jsxWithValidationStatic ;
 
@@ -63868,7 +63868,7 @@ __webpack_require__.r(__webpack_exports__);
 function useEvent(handler) {
   if (typeof window === 'undefined') {
     // useLayoutEffect doesn't work on the server side, don't bother
-    // trying to make callback functions stable
+    // trying to make callback Functions stable
     return handler;
   }
   const handlerRef = react__WEBPACK_IMPORTED_MODULE_0__.useRef(null);
@@ -64967,7 +64967,7 @@ function combine (array, callback) {
 /******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	!function() {
-/******/ 		// define getter functions for harmony exports
+/******/ 		// define getter Functions for harmony exports
 /******/ 		__webpack_require__.d = function(exports, definition) {
 /******/ 			for(var key in definition) {
 /******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {

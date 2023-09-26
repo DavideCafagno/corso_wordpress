@@ -282,7 +282,7 @@ function tb_show(caption, url, imageGroup) {//function called when the user clic
 	}
 }
 
-//helper functions below
+//helper Functions below
 function tb_showIframe(){
 	jQuery("#TB_load").remove();
 	jQuery("#TB_window").css({'visibility':'visible'}).trigger( 'thickbox:iframe:loaded' );

@@ -608,7 +608,7 @@
   // Description :
   //   This public method, gives the list of the files and directories, with their
   //   properties.
-  //   The properties of each entries in the list are (used also in other functions) :
+  //   The properties of each entries in the list are (used also in other Functions) :
   //     filename : Name of the file. For a create or add action it is the filename
   //                given by the user. For an extract function it is the filename
   //                of the extracted file.
@@ -5357,7 +5357,7 @@
     $v_result=1;
 
 	// EDIT for WordPress 5.3.0
-	// magic_quote functions are deprecated in PHP 7.4, now assuming it's always off.
+	// magic_quote Functions are deprecated in PHP 7.4, now assuming it's always off.
 	/*
 
     // ----- Look if function exists
@@ -5396,7 +5396,7 @@
     $v_result=1;
 
 	// EDIT for WordPress 5.3.0
-	// magic_quote functions are deprecated in PHP 7.4, now assuming it's always off.
+	// magic_quote Functions are deprecated in PHP 7.4, now assuming it's always off.
 	/*
 
     // ----- Look if function exists

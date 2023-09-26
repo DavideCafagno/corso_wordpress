@@ -1,6 +1,6 @@
 <?php
 /**
- * File contains all the administration image manipulation functions.
+ * File contains all the administration image manipulation Functions.
  *
  * @package WordPress
  * @subpackage Administration

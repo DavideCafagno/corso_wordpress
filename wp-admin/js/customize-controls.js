@@ -4098,7 +4098,7 @@
 			input.removeClass( 'invalid' );
 			input.attr( 'disabled', 'disabled' );
 
-			// The menus functions add the page, publish when appropriate,
+			// The menus Functions add the page, publish when appropriate,
 			// and also add the new page to the dropdown-pages controls.
 			promise = api.Menus.insertAutoDraftPost( {
 				post_title: title,

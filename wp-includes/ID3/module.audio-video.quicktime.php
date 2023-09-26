@@ -55,7 +55,7 @@ class getid3_quicktime extends getid3_handler
 		$atom_data_read_buffer_size = $info['php_memory_limit'] ? round($info['php_memory_limit'] / 4) : $this->getid3->option_fread_buffer_size * 1024; // set read buffer to 25% of PHP memory limit (if one is specified), otherwise use option_fread_buffer_size [default: 32MB]
 		while ($offset < $info['avdataend']) {
 			if (!getid3_lib::intValueSupported($offset)) {
-				$this->error('Unable to parse atom at offset '.$offset.' because beyond '.round(PHP_INT_MAX / 1073741824).'GB limit of PHP filesystem functions');
+				$this->error('Unable to parse atom at offset '.$offset.' because beyond '.round(PHP_INT_MAX / 1073741824).'GB limit of PHP filesystem Functions');
 				break;
 			}
 			$this->fseek($offset);
@@ -2928,7 +2928,7 @@ $this->error('fragmented mp4 files not currently supported');
 
 
 	/**
-	 * Helper functions for m4b audiobook chapters
+	 * Helper Functions for m4b audiobook chapters
 	 * code by Steffen Hartmann 2015-Nov-08.
 	 *
 	 * @param array  $info
@@ -3019,7 +3019,7 @@ $this->error('fragmented mp4 files not currently supported');
 		return $time_scale;
 	}
 	/*
-	// END helper functions for m4b audiobook chapters
+	// END helper Functions for m4b audiobook chapters
 	*/
 
 

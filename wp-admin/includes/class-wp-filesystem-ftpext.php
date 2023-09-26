@@ -32,7 +32,7 @@ class WP_Filesystem_FTPext extends WP_Filesystem_Base {
 		$this->method = 'ftpext';
 		$this->errors = new WP_Error();
 
-		// Check if possible to use ftp functions.
+		// Check if possible to use ftp Functions.
 		if ( ! extension_loaded( 'ftp' ) ) {
 			$this->errors->add( 'no_ftp_ext', __( 'The ftp PHP extension is not available' ) );
 			return;

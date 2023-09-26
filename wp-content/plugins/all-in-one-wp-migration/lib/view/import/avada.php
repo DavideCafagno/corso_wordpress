@@ -33,7 +33,7 @@ if ( $should_reset_permalinks ) {
 	printf( __( '» <a class="ai1wm-no-underline" href="%s" target="_blank">Save permalinks structure</a>. (opens a new window)<br />', AI1WM_PLUGIN_NAME ), admin_url( 'options-permalink.php#submit' ) );
 }
 
-if ( ai1wm_validate_plugin_basename( 'oxygen/functions.php' ) ) {
+if ( ai1wm_validate_plugin_basename( 'oxygen/Functions.php' ) ) {
 	print( __( '» <a class="ai1wm-no-underline" href="https://oxygenbuilder.com/documentation/other/importing-exporting/#resigning" target="_blank">Re-sign Oxygen Builder shortcodes</a>. (opens a new window)<br />', AI1WM_PLUGIN_NAME ) );
 }
 

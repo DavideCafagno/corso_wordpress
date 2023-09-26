@@ -1,6 +1,6 @@
 <?php
 /**
- * Generic functions for accessing ACF objects stored as WordPress post types which aren't handled by type specific functions.
+ * Generic Functions for accessing ACF objects stored as WordPress post types which aren't handled by type specific Functions.
  *
  * @package ACF
  */

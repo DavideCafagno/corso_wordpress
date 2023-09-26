@@ -1274,7 +1274,7 @@ function show_admin_bar( $show ) {
 /**
  * Determines whether the admin bar should be showing.
  *
- * For more information on this and similar theme functions, check out
+ * For more information on this and similar theme Functions, check out
  * the {@link https://developer.wordpress.org/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *

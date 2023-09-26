@@ -358,7 +358,7 @@ class WP_REST_Widgets_Controller extends WP_REST_Controller {
 	 * @since 5.8.0
 	 *
 	 * @global WP_Widget_Factory $wp_widget_factory
-	 * @global array             $wp_registered_widget_updates The registered widget update functions.
+	 * @global array             $wp_registered_widget_updates The registered widget update Functions.
 	 *
 	 * @param WP_REST_Request $request Full details about the request.
 	 * @return WP_REST_Response|WP_Error Response object on success, or WP_Error object on failure.
@@ -512,7 +512,7 @@ class WP_REST_Widgets_Controller extends WP_REST_Controller {
 	 * @since 5.8.0
 	 *
 	 * @global WP_Widget_Factory $wp_widget_factory
-	 * @global array             $wp_registered_widget_updates The registered widget update functions.
+	 * @global array             $wp_registered_widget_updates The registered widget update Functions.
 	 *
 	 * @param WP_REST_Request $request    Full details about the request.
 	 * @param string          $sidebar_id ID of the sidebar the widget belongs to.

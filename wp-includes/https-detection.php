@@ -1,6 +1,6 @@
 <?php
 /**
- * HTTPS detection functions.
+ * HTTPS detection Functions.
  *
  * @package WordPress
  * @since 5.7.0

@@ -171,7 +171,7 @@ function determine_locale() {
  *
  * If there is no translation, or the text domain isn't loaded, the original text is returned.
  *
- * *Note:* Don't use translate() directly, use __() or related functions.
+ * *Note:* Don't use translate() directly, use __() or related Functions.
  *
  * @since 2.2.0
  * @since 5.5.0 Introduced `gettext-{$domain}` filter.
@@ -237,7 +237,7 @@ function before_last_bar( $text ) {
  *
  * If there is no translation, or the text domain isn't loaded, the original text is returned.
  *
- * *Note:* Don't use translate_with_gettext_context() directly, use _x() or related functions.
+ * *Note:* Don't use translate_with_gettext_context() directly, use _x() or related Functions.
  *
  * @since 2.8.0
  * @since 5.5.0 Introduced `gettext_with_context-{$domain}` filter.
@@ -1663,7 +1663,7 @@ function wp_dropdown_languages( $args = array() ) {
 /**
  * Determines whether the current locale is right-to-left (RTL).
  *
- * For more information on this and similar theme functions, check out
+ * For more information on this and similar theme Functions, check out
  * the {@link https://developer.wordpress.org/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *

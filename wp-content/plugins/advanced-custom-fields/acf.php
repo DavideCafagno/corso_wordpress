@@ -131,10 +131,10 @@ if ( ! class_exists( 'ACF' ) ) {
 				'enable_bidirection'      => true,
 			);
 
-			// Include utility functions.
+			// Include utility Functions.
 			include_once ACF_PATH . 'includes/acf-utility-functions.php';
 
-			// Include previous API functions.
+			// Include previous API Functions.
 			acf_include( 'includes/api/api-helpers.php' );
 			acf_include( 'includes/api/api-template.php' );
 			acf_include( 'includes/api/api-term.php' );
@@ -146,22 +146,22 @@ if ( ! class_exists( 'ACF' ) ) {
 			acf_include( 'includes/locations/abstract-acf-legacy-location.php' );
 			acf_include( 'includes/locations/abstract-acf-location.php' );
 
-			// Include functions.
-			acf_include( 'includes/acf-helper-functions.php' );
-			acf_include( 'includes/acf-hook-functions.php' );
-			acf_include( 'includes/acf-field-functions.php' );
-			acf_include( 'includes/acf-bidirectional-functions.php' );
-			acf_include( 'includes/acf-internal-post-type-functions.php' );
-			acf_include( 'includes/acf-post-type-functions.php' );
-			acf_include( 'includes/acf-taxonomy-functions.php' );
-			acf_include( 'includes/acf-field-group-functions.php' );
-			acf_include( 'includes/acf-form-functions.php' );
-			acf_include( 'includes/acf-meta-functions.php' );
-			acf_include( 'includes/acf-post-functions.php' );
-			acf_include( 'includes/acf-user-functions.php' );
-			acf_include( 'includes/acf-value-functions.php' );
-			acf_include( 'includes/acf-input-functions.php' );
-			acf_include( 'includes/acf-wp-functions.php' );
+			// Include Functions.
+			acf_include( 'includes/acf-helper-Functions.php' );
+			acf_include( 'includes/acf-hook-Functions.php' );
+			acf_include( 'includes/acf-field-Functions.php' );
+			acf_include( 'includes/acf-bidirectional-Functions.php' );
+			acf_include( 'includes/acf-internal-post-type-Functions.php' );
+			acf_include( 'includes/acf-post-type-Functions.php' );
+			acf_include( 'includes/acf-taxonomy-Functions.php' );
+			acf_include( 'includes/acf-field-group-Functions.php' );
+			acf_include( 'includes/acf-form-Functions.php' );
+			acf_include( 'includes/acf-meta-Functions.php' );
+			acf_include( 'includes/acf-post-Functions.php' );
+			acf_include( 'includes/acf-user-Functions.php' );
+			acf_include( 'includes/acf-value-Functions.php' );
+			acf_include( 'includes/acf-input-Functions.php' );
+			acf_include( 'includes/acf-wp-Functions.php' );
 
 			// Include core.
 			acf_include( 'includes/fields.php' );
@@ -248,12 +248,12 @@ if ( ! class_exists( 'ACF' ) ) {
 		 */
 		public function init() {
 
-			// Bail early if called directly from functions.php or plugin file.
+			// Bail early if called directly from Functions.php or plugin file.
 			if ( ! did_action( 'plugins_loaded' ) ) {
 				return;
 			}
 
-			// This function may be called directly from template functions. Bail early if already did this.
+			// This function may be called directly from template Functions. Bail early if already did this.
 			if ( acf_did( 'init' ) ) {
 				return;
 			}
@@ -755,7 +755,7 @@ if ( ! class_exists( 'ACF' ) ) {
 	}
 
 	/**
-	 * The main function responsible for returning the one true acf Instance to functions everywhere.
+	 * The main function responsible for returning the one true acf Instance to Functions everywhere.
 	 * Use this function like you would a global variable, except without needing to declare the global.
 	 *
 	 * Example: <?php $acf = acf(); ?>

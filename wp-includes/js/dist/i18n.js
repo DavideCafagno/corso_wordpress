@@ -281,7 +281,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/* global window, exports, define */
 /******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	!function() {
-/******/ 		// define getter functions for harmony exports
+/******/ 		// define getter Functions for harmony exports
 /******/ 		__webpack_require__.d = function(exports, definition) {
 /******/ 			for(var key in definition) {
 /******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
@@ -665,7 +665,7 @@ function postfix( expression ) {
 
 ;// CONCATENATED MODULE: ./node_modules/@tannin/evaluate/index.js
 /**
- * Operator callback functions.
+ * Operator callback Functions.
  *
  * @type {Object}
  */
@@ -1214,7 +1214,7 @@ const I18N_HOOK_REGEXP = /^i18n\.(n?gettext|has_translation)(_|$)/;
 
 const createI18n = (initialData, initialDomain, hooks) => {
   /**
-   * The underlying instance of Tannin to which exported functions interface.
+   * The underlying instance of Tannin to which exported Functions interface.
    *
    * @type {Tannin}
    */
@@ -1254,7 +1254,7 @@ const createI18n = (initialData, initialDomain, hooks) => {
 
     tannin.data[domain][''] = { ...DEFAULT_LOCALE_DATA[''],
       ...tannin.data[domain]?.['']
-    }; // Clean up cached plural forms functions cache as it might be updated.
+    }; // Clean up cached plural forms Functions cache as it might be updated.
 
     delete tannin.pluralForms[domain];
   };
@@ -1277,7 +1277,7 @@ const createI18n = (initialData, initialDomain, hooks) => {
         ...tannin.data[domain]?.[''],
         ...data?.['']
       }
-    }; // Clean up cached plural forms functions cache as it might be updated.
+    }; // Clean up cached plural forms Functions cache as it might be updated.
 
     delete tannin.pluralForms[domain];
     notifyListeners();
@@ -1287,7 +1287,7 @@ const createI18n = (initialData, initialDomain, hooks) => {
 
   const resetLocaleData = (data, domain) => {
     // Reset all current Tannin locale data.
-    tannin.data = {}; // Reset cached plural forms functions cache.
+    tannin.data = {}; // Reset cached plural forms Functions cache.
 
     tannin.pluralForms = {};
     setLocaleData(data, domain);

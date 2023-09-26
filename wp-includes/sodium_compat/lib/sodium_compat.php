@@ -7,9 +7,9 @@ use ParagonIE_Sodium_Compat;
 
 /**
  * This file will monkey patch the pure-PHP implementation in place of the
- * PECL functions, but only if they do not already exist.
+ * PECL Functions, but only if they do not already exist.
  *
- * Thus, the functions just proxy to the appropriate ParagonIE_Sodium_Compat
+ * Thus, the Functions just proxy to the appropriate ParagonIE_Sodium_Compat
  * method.
  */
 if (!is_callable('\\Sodium\\bin2hex')) {

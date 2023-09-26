@@ -1,6 +1,6 @@
 <?php
 /**
- * Theme, template, and stylesheet functions.
+ * Theme, template, and stylesheet Functions.
  *
  * @package WordPress
  * @subpackage Theme
@@ -2569,7 +2569,7 @@ function get_theme_starter_content() {
 /**
  * Registers theme support for a given feature.
  *
- * Must be called in the theme's functions.php file to work.
+ * Must be called in the theme's Functions.php file to work.
  * If attached to a hook, it must be {@see 'after_setup_theme'}.
  * The {@see 'init'} hook may be too late for some features.
  *
@@ -2869,7 +2869,7 @@ function add_theme_support( $feature, ...$args ) {
 
 		// Ensure that 'title-tag' is accessible in the admin.
 		case 'title-tag':
-			// Can be called in functions.php but must happen before wp_loaded, i.e. not in header.php.
+			// Can be called in Functions.php but must happen before wp_loaded, i.e. not in header.php.
 			if ( did_action( 'wp_loaded' ) ) {
 				_doing_it_wrong(
 					"add_theme_support( 'title-tag' )",
@@ -3005,7 +3005,7 @@ function get_theme_support( $feature, ...$args ) {
 /**
  * Allows a theme to de-register its support of a certain feature
  *
- * Should be called in the theme's functions.php file. Generally would
+ * Should be called in the theme's Functions.php file. Generally would
  * be used for child themes to override support from the parent theme.
  *
  * @since 3.0.0
@@ -3171,7 +3171,7 @@ function current_theme_supports( $feature, ...$args ) {
 }
 
 /**
- * Checks a theme's support for a given feature before loading the functions which implement it.
+ * Checks a theme's support for a given feature before loading the Functions which implement it.
  *
  * @since 2.9.0
  *
@@ -4307,7 +4307,7 @@ function _add_default_theme_supports() {
 	add_theme_support( 'editor-styles' );
 	/*
 	 * Makes block themes support HTML5 by default for the comment block and search form
-	 * (which use default template functions) and `[caption]` and `[gallery]` shortcodes.
+	 * (which use default template Functions) and `[caption]` and `[gallery]` shortcodes.
 	 * Other blocks contain their own HTML5 markup.
 	 */
 	add_theme_support( 'html5', array( 'comment-form', 'comment-list', 'search-form', 'gallery', 'caption', 'style', 'script' ) );

@@ -6,7 +6,7 @@
 /************************************************************************/
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	!function() {
-/******/ 		// define getter functions for harmony exports
+/******/ 		// define getter Functions for harmony exports
 /******/ 		__webpack_require__.d = function(exports, definition) {
 /******/ 			for(var key in definition) {
 /******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
@@ -251,7 +251,7 @@ function createAddHook(hooks, storeKey) {
  * @param {import('.').StoreKey} storeKey
  * @param {boolean}              [removeAll=false] Whether to remove all callbacks for a hookName,
  *                                                 without regard to namespace. Used to create
- *                                                 `removeAll*` functions.
+ *                                                 `removeAll*` Functions.
  *
  * @return {RemoveHook} Function that removes hooks.
  */

@@ -105,7 +105,7 @@ class getid3_riff extends getid3_handler
 					} catch (getid3_exception $e) {
 						if ($e->getCode() == 10) {
 							//$this->warning('RIFF parser: '.$e->getMessage());
-							$this->error('AVI extends beyond '.round(PHP_INT_MAX / 1073741824).'GB and PHP filesystem functions cannot read that far, playtime may be wrong');
+							$this->error('AVI extends beyond '.round(PHP_INT_MAX / 1073741824).'GB and PHP filesystem Functions cannot read that far, playtime may be wrong');
 							$this->warning('[avdataend] value may be incorrect, multiple AVIX chunks may be present');
 							break;
 						} else {
@@ -435,7 +435,7 @@ class getid3_riff extends getid3_handler
 				}
 
 				if (isset($thisfile_riff_WAVE['iXML'][0]['data'])) {
-					// requires functions simplexml_load_string and get_object_vars
+					// requires Functions simplexml_load_string and get_object_vars
 					if ($parsedXML = getid3_lib::XML2array($thisfile_riff_WAVE['iXML'][0]['data'])) {
 						$thisfile_riff_WAVE['iXML'][0]['parsed'] = $parsedXML;
 						if (isset($parsedXML['SPEED']['MASTER_SPEED'])) {

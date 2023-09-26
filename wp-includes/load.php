@@ -1,6 +1,6 @@
 <?php
 /**
- * These functions are needed to load WordPress.
+ * These Functions are needed to load WordPress.
  *
  * @package WordPress
  */
@@ -169,7 +169,7 @@ function wp_check_php_mysql_versions() {
 	if ( ! function_exists( 'mysqli_connect' ) && ! function_exists( 'mysql_connect' )
 		&& ! file_exists( $wp_content_dir . '/db.php' )
 	) {
-		require_once ABSPATH . WPINC . '/functions.php';
+		require_once ABSPATH . WPINC . '/Functions.php';
 		wp_load_translations_early();
 
 		$message = '<p>' . __( 'Your PHP installation appears to be missing the MySQL extension which is required by WordPress.' ) . "</p>\n";
@@ -375,7 +375,7 @@ function wp_maintenance() {
 		die();
 	}
 
-	require_once ABSPATH . WPINC . '/functions.php';
+	require_once ABSPATH . WPINC . '/Functions.php';
 	wp_load_translations_early();
 
 	header( 'Retry-After: 600' );
@@ -1202,7 +1202,7 @@ function is_protected_ajax_action() {
  * Sets internal encoding.
  *
  * In most cases the default internal encoding is latin1, which is
- * of no use, since we want to use the `mb_` functions for `utf-8` strings.
+ * of no use, since we want to use the `mb_` Functions for `utf-8` strings.
  *
  * @since 3.0.0
  * @access private
@@ -1287,7 +1287,7 @@ function is_login() {
  * Does not check if the user is an administrator; use current_user_can()
  * for checking roles and capabilities.
  *
- * For more information on this and similar theme functions, check out
+ * For more information on this and similar theme Functions, check out
  * the {@link https://developer.wordpress.org/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *
@@ -1579,7 +1579,7 @@ function wp_installing( $is_installing = null ) {
  * Determines if SSL is used.
  *
  * @since 2.6.0
- * @since 4.6.0 Moved from functions.php to load.php.
+ * @since 4.6.0 Moved from Functions.php to load.php.
  *
  * @return bool True if SSL, otherwise false.
  */
@@ -1853,7 +1853,7 @@ function wp_is_jsonp_request() {
 	}
 
 	if ( ! function_exists( 'wp_check_jsonp_callback' ) ) {
-		require_once ABSPATH . WPINC . '/functions.php';
+		require_once ABSPATH . WPINC . '/Functions.php';
 	}
 
 	$jsonp_callback = $_GET['_jsonp'];

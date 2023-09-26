@@ -967,7 +967,7 @@ class Ai1wm_Import_Database {
 		$mysql->set_visual_composer( ai1wm_validate_plugin_basename( 'js_composer/js_composer.php' ) );
 
 		// Set Oxygen Builder
-		$mysql->set_oxygen_builder( ai1wm_validate_plugin_basename( 'oxygen/functions.php' ) );
+		$mysql->set_oxygen_builder( ai1wm_validate_plugin_basename( 'oxygen/Functions.php' ) );
 
 		// Set Optimize Press
 		$mysql->set_optimize_press( ai1wm_validate_plugin_basename( 'optimizePressPlugin/optimizepress.php' ) );

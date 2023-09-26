@@ -1,6 +1,6 @@
 <?php
 /**
- * Robots template functions.
+ * Robots template Functions.
  *
  * @package WordPress
  * @subpackage Robots

@@ -5,7 +5,7 @@
  * @package WordPress
  */
 
-// These functions are used for the __unstableLocation feature and only active
+// These Functions are used for the __unstableLocation feature and only active
 // when the gutenberg plugin is active.
 if ( defined( 'IS_GUTENBERG_PLUGIN' ) && IS_GUTENBERG_PLUGIN ) {
 	/**

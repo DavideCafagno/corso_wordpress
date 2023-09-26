@@ -2346,14 +2346,14 @@ msgid ""
 "The following code can be used to register a local version of the selected "
 "items. Storing field groups, post types, or taxonomies locally can provide "
 "many benefits such as faster load times, version control & dynamic fields/"
-"settings. Simply copy and paste the following code to your theme's functions."
+"settings. Simply copy and paste the following code to your theme's Functions."
 "php file or include it within an external file, then deactivate or delete "
 "the items from the ACF admin."
 msgstr ""
 "다음 코드는 선택한 항목의 로컬 버전을 등록하는 데 사용할 수 있습니다. 필드 그"
 "룹, 게시물 유형 또는 택소노미를 로컬에 저장하면 더 빠른 로드 시간, 버전 제어 "
 "및 동적 필드/설정과 같은 많은 이점을 제공할 수 있습니다. 다음 코드를 복사하"
-"여 테마의 functions.php 파일에 붙여넣거나 외부 파일에 포함시킨 다음 ACF 관리"
+"여 테마의 Functions.php 파일에 붙여넣거나 외부 파일에 포함시킨 다음 ACF 관리"
 "자에서 항목을 비활성화하거나 삭제하십시오."
 
 #: includes/admin/tools/class-acf-admin-tool-export.php:411
@@ -5546,7 +5546,7 @@ msgstr "구글지도"
 #: includes/fields/class-acf-field-date_picker.php:212
 #: includes/fields/class-acf-field-date_time_picker.php:201
 #: includes/fields/class-acf-field-time_picker.php:132
-msgid "The format returned via template functions"
+msgid "The format returned via template Functions"
 msgstr "템플릿 함수를 통해 반환되는 형식"
 
 #: includes/fields/class-acf-field-color_picker.php:182

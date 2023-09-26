@@ -6,7 +6,7 @@
 /************************************************************************/
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	!function() {
-/******/ 		// define getter functions for harmony exports
+/******/ 		// define getter Functions for harmony exports
 /******/ 		__webpack_require__.d = function(exports, definition) {
 /******/ 			for(var key in definition) {
 /******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
@@ -569,7 +569,7 @@ function isAppleOS(_window = null) {
 ;// CONCATENATED MODULE: ./node_modules/@wordpress/keycodes/build-module/index.js
 /**
  * Note: The order of the modifier keys in many of the [foo]Shortcut()
- * functions in this file are intentional and should not be changed. They're
+ * Functions in this file are intentional and should not be changed. They're
  * designed to fit with the standard menu keyboard shortcuts shown in the
  * user's platform.
  *
@@ -597,7 +597,7 @@ function isAppleOS(_window = null) {
 /** @typedef {'primary' | 'primaryShift' | 'primaryAlt' | 'secondary' | 'access' | 'ctrl' | 'alt' | 'ctrlShift' | 'shift' | 'shiftAlt' | 'undefined'} WPKeycodeModifier */
 
 /**
- * An object of handler functions for each of the possible modifier
+ * An object of handler Functions for each of the possible modifier
  * combinations. A handler will return a value for a given key.
  *
  * @template T
@@ -731,7 +731,7 @@ function mapValues(object, mapFn) {
   return Object.fromEntries(Object.entries(object).map(([key, value]) => [key, mapFn(value)]));
 }
 /**
- * Object that contains functions that return the available modifier
+ * Object that contains Functions that return the available modifier
  * depending on platform.
  *
  * @type {WPModifierHandler< ( isApple: () => boolean ) => WPModifierPart[]>}
@@ -752,7 +752,7 @@ const modifiers = {
   undefined: () => []
 };
 /**
- * An object that contains functions to get raw shortcuts.
+ * An object that contains Functions to get raw shortcuts.
  *
  * These are intended for user with the KeyboardShortcuts.
  *
@@ -763,7 +763,7 @@ const modifiers = {
  * // "meta+m""
  * ```
  *
- * @type {WPModifierHandler<WPKeyHandler<string>>} Keyed map of functions to raw
+ * @type {WPModifierHandler<WPKeyHandler<string>>} Keyed map of Functions to raw
  *                                                 shortcuts.
  */
 
@@ -787,7 +787,7 @@ modifier) => {
  * // [ "⌘", "M" ]
  * ```
  *
- * @type {WPModifierHandler<WPKeyHandler<string[]>>} Keyed map of functions to
+ * @type {WPModifierHandler<WPKeyHandler<string[]>>} Keyed map of Functions to
  *                                                   shortcut sequences.
  */
 
@@ -830,7 +830,7 @@ modifier) => {
   );
 });
 /**
- * An object that contains functions to display shortcuts.
+ * An object that contains Functions to display shortcuts.
  *
  * @example
  * ```js
@@ -839,7 +839,7 @@ modifier) => {
  * // "⌘M"
  * ```
  *
- * @type {WPModifierHandler<WPKeyHandler<string>>} Keyed map of functions to
+ * @type {WPModifierHandler<WPKeyHandler<string>>} Keyed map of Functions to
  *                                                 display shortcuts.
  */
 
@@ -852,7 +852,7 @@ shortcutList) => {
   );
 });
 /**
- * An object that contains functions to return an aria label for a keyboard
+ * An object that contains Functions to return an aria label for a keyboard
  * shortcut.
  *
  * @example
@@ -862,7 +862,7 @@ shortcutList) => {
  * // "Command + Period"
  * ```
  *
- * @type {WPModifierHandler<WPKeyHandler<string>>} Keyed map of functions to
+ * @type {WPModifierHandler<WPKeyHandler<string>>} Keyed map of Functions to
  *                                                 shortcut ARIA labels.
  */
 
@@ -920,7 +920,7 @@ function getEventModifiers(event) {
   );
 }
 /**
- * An object that contains functions to check if a keyboard event matches a
+ * An object that contains Functions to check if a keyboard event matches a
  * predefined shortcut combination.
  *
  * @example
@@ -930,7 +930,7 @@ function getEventModifiers(event) {
  * // true
  * ```
  *
- * @type {WPModifierHandler<WPEventKeyHandler>} Keyed map of functions
+ * @type {WPModifierHandler<WPEventKeyHandler>} Keyed map of Functions
  *                                                       to match events.
  */
 

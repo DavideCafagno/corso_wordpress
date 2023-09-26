@@ -1236,7 +1236,7 @@
 
   // A CollectionIterator implements JavaScript's Iterator protocol, allowing the
   // use of `for of` loops in modern browsers and interoperation between
-  // Backbone.Collection and other JavaScript functions and third-party libraries
+  // Backbone.Collection and other JavaScript Functions and third-party libraries
   // which can operate on Iterables.
   var CollectionIterator = function(collection, kind) {
     this._collection = collection;
@@ -1457,7 +1457,7 @@
 
   });
 
-  // Proxy Backbone class methods to Underscore functions, wrapping the model's
+  // Proxy Backbone class methods to Underscore Functions, wrapping the model's
   // `attributes` object or collection's `models` array behind the scenes.
   //
   // collection.filter(function(model) { return model.get('age') > 10 });

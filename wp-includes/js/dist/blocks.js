@@ -1235,7 +1235,7 @@ showdown.validateExtension = function (ext) {
 };
 
 /**
- * showdownjs helper functions
+ * showdownjs helper Functions
  */
 
 if (!showdown.hasOwnProperty('helper')) {
@@ -5841,7 +5841,7 @@ if (true) {
 /******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	!function() {
-/******/ 		// define getter functions for harmony exports
+/******/ 		// define getter Functions for harmony exports
 /******/ 		__webpack_require__.d = function(exports, definition) {
 /******/ 			for(var key in definition) {
 /******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
@@ -10406,7 +10406,7 @@ var external_wp_isShallowEqual_default = /*#__PURE__*/__webpack_require__.n(exte
  * CAVEAT: This function is intended for re-serializing blocks as parsed by
  * valid parsers and skips any validation steps. This is NOT a generic
  * serialization function for in-memory blocks. For most purposes, see the
- * following functions available in the `@wordpress/blocks` package:
+ * following Functions available in the `@wordpress/blocks` package:
  *
  * @see serializeBlock
  * @see serialize
@@ -11848,7 +11848,7 @@ const ENUMERATED_ATTRIBUTES = ['autocapitalize', 'autocomplete', 'charset', 'con
 
 const MEANINGFUL_ATTRIBUTES = [...BOOLEAN_ATTRIBUTES, ...ENUMERATED_ATTRIBUTES];
 /**
- * Array of functions which receive a text string on which to apply normalizing
+ * Array of Functions which receive a text string on which to apply normalizing
  * behavior for consideration in text token equivalence, carefully ordered from
  * least-to-most expensive operations.
  *
@@ -13040,7 +13040,7 @@ function node_matcher(selector) {
   };
 }
 /**
- * Object of utility functions used in managing block attribute values of
+ * Object of utility Functions used in managing block attribute values of
  * source `node`.
  *
  * @see https://github.com/WordPress/gutenberg/pull/10439
@@ -13223,7 +13223,7 @@ function children_matcher(selector) {
   };
 }
 /**
- * Object of utility functions used in managing block attribute values of
+ * Object of utility Functions used in managing block attribute values of
  * source `children`.
  *
  * @see https://github.com/WordPress/gutenberg/pull/10439
@@ -13922,7 +13922,7 @@ function parseRawBlock(rawBlock, options) {
     validationIssues
   } = validatedBlock; // Run the block deprecation and migrations.
   // This is performed on both invalid and valid blocks because
-  // migration using the `migrate` functions should run even
+  // migration using the `migrate` Functions should run even
   // if the output is deemed valid.
 
   const updatedBlock = applyBlockDeprecatedVersions(validatedBlock, normalizedBlock, blockType);
@@ -14542,8 +14542,8 @@ const customMerge = key => {
           // the result of the merge will be undefined.
           if (!objValue || !srcValue) {
             return undefined;
-          } // When merging two isMatch functions, the result is a new function
-          // that returns if one of the source functions returns true.
+          } // When merging two isMatch Functions, the result is a new function
+          // that returns if one of the source Functions returns true.
 
 
           return (...args) => {
@@ -14629,7 +14629,7 @@ function isPlain(HTML) {
  * Given node filters, deeply filters and mutates a NodeList.
  *
  * @param {NodeList} nodeList The nodeList to filter.
- * @param {Array}    filters  An array of functions that can mutate with the provided node.
+ * @param {Array}    filters  An array of Functions that can mutate with the provided node.
  * @param {Document} doc      The document of the nodeList.
  * @param {Object}   schema   The schema to use.
  */
@@ -14652,7 +14652,7 @@ function deepFilterNodeList(nodeList, filters, doc, schema) {
  * Filters from the deepest nodes to the top.
  *
  * @param {string} HTML    The HTML to filter.
- * @param {Array}  filters An array of functions that can mutate with the provided node.
+ * @param {Array}  filters An array of Functions that can mutate with the provided node.
  * @param {Object} schema  The schema to use.
  *
  * @return {string} The filtered HTML.

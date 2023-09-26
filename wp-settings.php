@@ -9,7 +9,7 @@
  */
 
 /**
- * Stores the location of the WordPress directory of functions, classes, and core content.
+ * Stores the location of the WordPress directory of Functions, classes, and core content.
  *
  * @since 1.0.0
  */
@@ -108,7 +108,7 @@ wp_set_lang_dir();
 require ABSPATH . WPINC . '/class-wp-list-util.php';
 require ABSPATH . WPINC . '/formatting.php';
 require ABSPATH . WPINC . '/meta.php';
-require ABSPATH . WPINC . '/functions.php';
+require ABSPATH . WPINC . '/Functions.php';
 require ABSPATH . WPINC . '/class-wp-meta-query.php';
 require ABSPATH . WPINC . '/class-wp-matchesmapregex.php';
 require ABSPATH . WPINC . '/class-wp.php';
@@ -370,7 +370,7 @@ $GLOBALS['wp_textdomain_registry'] = new WP_Textdomain_Registry();
 
 // Load multisite-specific files.
 if ( is_multisite() ) {
-	require ABSPATH . WPINC . '/ms-functions.php';
+	require ABSPATH . WPINC . '/ms-Functions.php';
 	require ABSPATH . WPINC . '/ms-default-filters.php';
 	require ABSPATH . WPINC . '/ms-deprecated.php';
 }
@@ -473,7 +473,7 @@ foreach ( wp_get_active_and_valid_plugins() as $plugin ) {
 }
 unset( $plugin, $_wp_plugin_file );
 
-// Load pluggable functions.
+// Load pluggable Functions.
 require ABSPATH . WPINC . '/pluggable.php';
 require ABSPATH . WPINC . '/pluggable-deprecated.php';
 
@@ -488,7 +488,7 @@ if ( WP_CACHE && function_exists( 'wp_cache_postload' ) ) {
 /**
  * Fires once activated plugins have loaded.
  *
- * Pluggable functions are also available at this point in the loading order.
+ * Pluggable Functions are also available at this point in the loading order.
  *
  * @since 1.5.0
  */
@@ -594,10 +594,10 @@ $GLOBALS['wp_locale'] = new WP_Locale();
 $GLOBALS['wp_locale_switcher'] = new WP_Locale_Switcher();
 $GLOBALS['wp_locale_switcher']->init();
 
-// Load the functions for the active theme, for both parent and child theme if applicable.
+// Load the Functions for the active theme, for both parent and child theme if applicable.
 foreach ( wp_get_active_and_valid_themes() as $theme ) {
-	if ( file_exists( $theme . '/functions.php' ) ) {
-		include $theme . '/functions.php';
+	if ( file_exists( $theme . '/Functions.php' ) ) {
+		include $theme . '/Functions.php';
 	}
 }
 unset( $theme );

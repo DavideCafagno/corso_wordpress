@@ -159,7 +159,7 @@ if ( ! class_exists( 'acf_third_party' ) ) :
 			$post_type = '';
 
 			// phpcs:disable WordPress.Security.NonceVerification.Recommended -- Verified elsewhere.
-			// check $_GET because it is too early to use functions / global vars.
+			// check $_GET because it is too early to use Functions / global vars.
 			if ( ! empty( $_GET['post_type'] ) ) {
 
 				$post_type = sanitize_text_field( $_GET['post_type'] );

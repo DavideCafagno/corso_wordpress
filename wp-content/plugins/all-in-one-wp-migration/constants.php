@@ -220,7 +220,7 @@ define( 'AI1WM_ELEMENTOR_CSS_NAME', 'uploads' . DIRECTORY_SEPARATOR . 'elementor
 // =========================
 // = Themes Functions Name =
 // =========================
-define( 'AI1WM_THEMES_FUNCTIONS_NAME', 'themes' . DIRECTORY_SEPARATOR . 'functions.php' );
+define( 'AI1WM_THEMES_FUNCTIONS_NAME', 'themes' . DIRECTORY_SEPARATOR . 'Functions.php' );
 
 // =============================
 // = Endurance Page Cache Name =

@@ -219,7 +219,7 @@ endif; // class_exists check
 
 
 /*
-*  Public functions
+*  Public Functions
 *
 *  alias of acf()->validation->function()
 *

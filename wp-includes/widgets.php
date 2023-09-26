@@ -91,7 +91,7 @@ $GLOBALS['_wp_deprecated_widgets_callbacks'] = array(
 );
 
 //
-// Template tags & API functions.
+// Template tags & API Functions.
 //
 
 /**
@@ -885,7 +885,7 @@ function dynamic_sidebar( $index = 1 ) {
  * NOTE: $widget_id and $id_base are the same for single widgets. To be effective
  * this function has to run after widgets have initialized, at action {@see 'init'} or later.
  *
- * For more information on this and similar theme functions, check out
+ * For more information on this and similar theme Functions, check out
  * the {@link https://developer.wordpress.org/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *
@@ -931,7 +931,7 @@ function is_active_widget( $callback = false, $widget_id = false, $id_base = fal
 /**
  * Determines whether the dynamic sidebar is enabled and used by the theme.
  *
- * For more information on this and similar theme functions, check out
+ * For more information on this and similar theme Functions, check out
  * the {@link https://developer.wordpress.org/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *
@@ -963,7 +963,7 @@ function is_dynamic_sidebar() {
 /**
  * Determines whether a sidebar contains widgets.
  *
- * For more information on this and similar theme functions, check out
+ * For more information on this and similar theme Functions, check out
  * the {@link https://developer.wordpress.org/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *

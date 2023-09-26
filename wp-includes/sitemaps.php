@@ -1,8 +1,8 @@
 <?php
 /**
- * Sitemaps: Public functions
+ * Sitemaps: Public Functions
  *
- * This file contains a variety of public functions developers can use to interact with
+ * This file contains a variety of public Functions developers can use to interact with
  * the XML Sitemaps API.
  *
  * @package WordPress

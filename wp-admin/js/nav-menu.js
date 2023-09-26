@@ -1,6 +1,6 @@
 /**
  * WordPress Administration Navigation Menu
- * Interface JS functions
+ * Interface JS Functions
  *
  * @version 2.0.0
  *
@@ -16,7 +16,7 @@
 	var api;
 
 	/**
-	 * Contains all the functions to handle WordPress navigation menus administration.
+	 * Contains all the Functions to handle WordPress navigation menus administration.
 	 *
 	 * @namespace wpNavMenu
 	 */
@@ -607,7 +607,7 @@
 			// Init postboxes.
 			postboxes.add_postbox_toggles('nav-menus');
 
-			// Adjust columns functions for menus UI.
+			// Adjust columns Functions for menus UI.
 			columns.useCheckboxesForHidden();
 			columns.checked = function(field) {
 				$('.field-' + field).removeClass('hidden-field');

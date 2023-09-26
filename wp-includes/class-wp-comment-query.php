@@ -417,7 +417,7 @@ class WP_Comment_Query {
 		 * Note that if the filter returns an array of comment data, it will be assigned
 		 * to the `comments` property of the current WP_Comment_Query instance.
 		 *
-		 * Filtering functions that require pagination information are encouraged to set
+		 * Filtering Functions that require pagination information are encouraged to set
 		 * the `found_comments` and `max_num_pages` properties of the WP_Comment_Query object,
 		 * passed to the filter by reference. If WP_Comment_Query does not perform a database
 		 * query, it will not have enough information to generate these values itself.

@@ -264,8 +264,8 @@ var Clipboard = /*#__PURE__*/function (_Emitter) {
     return _this;
   }
   /**
-   * Defines if attributes would be resolved using internal setter functions
-   * or custom functions that were passed in the constructor.
+   * Defines if attributes would be resolved using internal setter Functions
+   * or custom Functions that were passed in the constructor.
    * @param {Object} options
    */
 
@@ -865,7 +865,7 @@ module.exports.TinyEmitter = E;
 /******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	!function() {
-/******/ 		// define getter functions for harmony exports
+/******/ 		// define getter Functions for harmony exports
 /******/ 		__webpack_require__.d = function(exports, definition) {
 /******/ 			for(var key in definition) {
 /******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {

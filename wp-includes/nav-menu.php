@@ -1,6 +1,6 @@
 <?php
 /**
- * Navigation Menu functions
+ * Navigation Menu Functions
  *
  * @package WordPress
  * @subpackage Nav_Menus

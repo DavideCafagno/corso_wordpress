@@ -220,8 +220,8 @@
   /**
    *  hooks
    *
-   *  Modify add_action and add_filter functions to add compatibility with changed $field parameter
-   *  Using the acf.add_action() or acf.add_filter() functions will interpret new field parameters as jQuery $field
+   *  Modify add_action and add_filter Functions to add compatibility with changed $field parameter
+   *  Using the acf.add_action() or acf.add_filter() Functions will interpret new field parameters as jQuery $field
    *
    *  @date	12/5/18
    *  @since	5.6.9
@@ -7845,7 +7845,7 @@
       // Listen for changes (use debounced version as this can fires often).
       wp.data.subscribe(acf.debounce(this.onChange).bind(this));
 
-      // Customize "acf.screen.get" functions.
+      // Customize "acf.screen.get" Functions.
       acf.screen.getPageTemplate = this.getPageTemplate;
       acf.screen.getPageParent = this.getPageParent;
       acf.screen.getPostType = this.getPostType;
@@ -9116,7 +9116,7 @@
       }
     },
     onReady: function () {
-      // Restore wp.editor functions used by tinymce removed in WP5.
+      // Restore wp.editor Functions used by tinymce removed in WP5.
       if (acf.isset(window, 'wp', 'oldEditor')) {
         wp.editor.autop = wp.oldEditor.autop;
         wp.editor.removep = wp.oldEditor.removep;
@@ -10366,7 +10366,7 @@
 /******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	!function() {
-/******/ 		// define getter functions for harmony exports
+/******/ 		// define getter Functions for harmony exports
 /******/ 		__webpack_require__.d = function(exports, definition) {
 /******/ 			for(var key in definition) {
 /******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {

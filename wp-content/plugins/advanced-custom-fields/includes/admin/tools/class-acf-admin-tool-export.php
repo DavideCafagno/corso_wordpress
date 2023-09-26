@@ -409,7 +409,7 @@ if ( ! class_exists( 'ACF_Admin_Tool_Export' ) ) :
 			?>
 			<div class="acf-postbox-header">
 				<h2 class="acf-postbox-title"><?php esc_html_e( 'Export - Generate PHP', 'acf' ); ?></h2>
-				<i tabindex="0" class="acf-icon acf-icon-help acf-js-tooltip" title="<?php esc_attr_e( "The following code can be used to register a local version of the selected items. Storing field groups, post types, or taxonomies locally can provide many benefits such as faster load times, version control & dynamic fields/settings. Simply copy and paste the following code to your theme's functions.php file or include it within an external file, then deactivate or delete the items from the ACF admin.", 'acf' ); ?>">?</i>
+				<i tabindex="0" class="acf-icon acf-icon-help acf-js-tooltip" title="<?php esc_attr_e( "The following code can be used to register a local version of the selected items. Storing field groups, post types, or taxonomies locally can provide many benefits such as faster load times, version control & dynamic fields/settings. Simply copy and paste the following code to your theme's Functions.php file or include it within an external file, then deactivate or delete the items from the ACF admin.", 'acf' ); ?>">?</i>
 			</div>
 			<div class="acf-postbox-columns">
 				<div class="acf-postbox-main">
@@ -440,7 +440,7 @@ if ( ! class_exists( 'ACF_Admin_Tool_Export' ) ) :
 			$json      = $this->get_selected();
 			$to_export = array();
 
-			// Sort by ACF post type first so we can wrap them in related functions.
+			// Sort by ACF post type first so we can wrap them in related Functions.
 			foreach ( $json as $post ) {
 				$post_type = acf_determine_internal_post_type( $post['key'] );
 

@@ -1,6 +1,6 @@
 <?php
 /**
- * Block support utility functions.
+ * Block support utility Functions.
  *
  * @package WordPress
  * @subpackage Block Supports

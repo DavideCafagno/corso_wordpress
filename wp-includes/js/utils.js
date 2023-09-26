@@ -1,5 +1,5 @@
 /**
- * Cookie functions.
+ * Cookie Functions.
  *
  * @output wp-includes/js/utils.js
  */
@@ -8,7 +8,7 @@
 /* exported getUserSetting, setUserSetting, deleteUserSetting */
 
 window.wpCookies = {
-// The following functions are from Cookie.js class in TinyMCE 3, Moxiecode, used under LGPL.
+// The following Functions are from Cookie.js class in TinyMCE 3, Moxiecode, used under LGPL.
 
 	each: function( obj, cb, scope ) {
 		var n, l;

@@ -7,7 +7,7 @@ if (class_exists('ParagonIE_Sodium_Core32_Curve25519', false)) {
 /**
  * Class ParagonIE_Sodium_Core32_Curve25519
  *
- * Implements Curve25519 core functions
+ * Implements Curve25519 core Functions
  *
  * Based on the ref10 curve25519 code provided by libsodium
  *

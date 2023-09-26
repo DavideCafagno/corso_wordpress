@@ -60,7 +60,7 @@ require_once dirname( __FILE__ ) . DIRECTORY_SEPARATOR . 'constants.php';
 // Include deprecated
 require_once dirname( __FILE__ ) . DIRECTORY_SEPARATOR . 'deprecated.php';
 
-// Include functions
+// Include Functions
 require_once dirname( __FILE__ ) . DIRECTORY_SEPARATOR . 'functions.php';
 
 // Include exceptions

@@ -18,7 +18,7 @@
 /******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	!function() {
-/******/ 		// define getter functions for harmony exports
+/******/ 		// define getter Functions for harmony exports
 /******/ 		__webpack_require__.d = function(exports, definition) {
 /******/ 			for(var key in definition) {
 /******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
@@ -1903,7 +1903,7 @@ const noop = () => {};
  *
  * @param {NodeList} nodeList The nodeList to filter.
  * @param {Document} doc      The document of the nodeList.
- * @param {Schema}   schema   An array of functions that can mutate with the provided node.
+ * @param {Schema}   schema   An array of Functions that can mutate with the provided node.
  * @param {boolean}  inline   Whether to clean for inline mode.
  */
 

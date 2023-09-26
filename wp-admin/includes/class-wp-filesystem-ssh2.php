@@ -64,7 +64,7 @@ class WP_Filesystem_SSH2 extends WP_Filesystem_Base {
 		$this->method = 'ssh2';
 		$this->errors = new WP_Error();
 
-		// Check if possible to use ssh2 functions.
+		// Check if possible to use ssh2 Functions.
 		if ( ! extension_loaded( 'ssh2' ) ) {
 			$this->errors->add( 'no_ssh2_ext', __( 'The ssh2 PHP extension is not available' ) );
 			return;
@@ -188,7 +188,7 @@ class WP_Filesystem_SSH2 extends WP_Filesystem_Base {
 	 * Gets the ssh2.sftp PHP stream wrapper path to open for the given file.
 	 *
 	 * This method also works around a PHP bug where the root directory (/) cannot
-	 * be opened by PHP functions, causing a false failure. In order to work around
+	 * be opened by PHP Functions, causing a false failure. In order to work around
 	 * this, the path is converted to /./ which is semantically the same as /
 	 * See https://bugs.php.net/bug.php?id=64169 for more details.
 	 *

@@ -18,7 +18,7 @@
 /******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	!function() {
-/******/ 		// define getter functions for harmony exports
+/******/ 		// define getter Functions for harmony exports
 /******/ 		__webpack_require__.d = function(exports, definition) {
 /******/ 			for(var key in definition) {
 /******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
@@ -60,9 +60,9 @@ var external_wp_apiFetch_namespaceObject = window["wp"]["apiFetch"];
 var external_wp_apiFetch_default = /*#__PURE__*/__webpack_require__.n(external_wp_apiFetch_namespaceObject);
 ;// CONCATENATED MODULE: ./node_modules/@wordpress/preferences-persistence/build-module/create/debounce-async.js
 /**
- * Performs a leading edge debounce of async functions.
+ * Performs a leading edge debounce of async Functions.
  *
- * If three functions are throttled at the same time:
+ * If three Functions are throttled at the same time:
  * - The first happens immediately.
  * - The second is never called.
  * - The third happens `delayMS` milliseconds after the first has resolved.

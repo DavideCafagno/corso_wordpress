@@ -5084,7 +5084,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    StaticPrototype: 'Classes may not have static property named prototype',
 	    StrictCatchVariable: 'Catch variable may not be eval or arguments in strict mode',
 	    StrictDelete: 'Delete of an unqualified identifier in strict mode.',
-	    StrictFunction: 'In strict mode code, functions can only be declared at top level or inside a block',
+	    StrictFunction: 'In strict mode code, Functions can only be declared at top level or inside a block',
 	    StrictFunctionName: 'Function name may not be eval or arguments in strict mode',
 	    StrictLHSAssignment: 'Assignment to eval or arguments is not allowed in strict mode',
 	    StrictLHSPostfix: 'Postfix increment/decrement may not have eval or arguments operand in strict mode',

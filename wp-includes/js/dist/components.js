@@ -2360,7 +2360,7 @@ module.exports = window["React"];
 /******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	!function() {
-/******/ 		// define getter functions for harmony exports
+/******/ 		// define getter Functions for harmony exports
 /******/ 		__webpack_require__.d = function(exports, definition) {
 /******/ 			for(var key in definition) {
 /******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
@@ -3184,7 +3184,7 @@ function shallowEqual(objA, objB) {
 
 
 /**
- * This higher order functions take `propsAreEqual` function and
+ * This higher order Functions take `propsAreEqual` function and
  * returns a new function which normalizes the props.
  *
  * Normalizing in our case is making sure the `propsAreEqual` works with
@@ -4933,7 +4933,7 @@ var useCompositeItem = createHook({
         return;
       } // `moves` will be incremented whenever next, previous, up, down, first,
       // last or move have been called. This means that the composite item will
-      // be focused whenever some of these functions are called. We're using
+      // be focused whenever some of these Functions are called. We're using
       // isCurrentItemRef instead of isCurrentItem because we don't want to
       // focus the item if isCurrentItem changes (and options.moves doesn't).
 
@@ -5126,7 +5126,7 @@ var external_ReactDOM_default = /*#__PURE__*/__webpack_require__.n(external_Reac
 var index = typeof document !== 'undefined' ? external_React_.useLayoutEffect : external_React_.useEffect;
 
 // Fork of `fast-deep-equal` that only does the comparisons we need and compares
-// functions
+// Functions
 function deepEqual(a, b) {
   if (a === b) {
     return true;
@@ -6833,7 +6833,7 @@ function resolveVariantFromProps(props, definition, custom, currentValues = {}, 
         definition = props.variants && props.variants[definition];
     }
     /**
-     * At this point we've resolved both functions and variant labels,
+     * At this point we've resolved both Functions and variant labels,
      * but the resolved variant label might itself have been a function.
      * If so, resolve. This can only have returned a valid target object.
      */
@@ -8490,7 +8490,7 @@ function createMixers(output, ease, customMixer) {
  * ```
  *
  * TODO Revist this approach once we've moved to data models for values,
- * probably not needed to pregenerate mixer functions.
+ * probably not needed to pregenerate mixer Functions.
  *
  * @public
  */
@@ -8573,8 +8573,8 @@ function defaultEasing(values, easing) {
 }
 function keyframes({ duration = 300, keyframes: keyframeValues, times, ease = "easeInOut", }) {
     /**
-     * Easing functions can be externally defined as strings. Here we convert them
-     * into actual functions.
+     * Easing Functions can be externally defined as strings. Here we convert them
+     * into actual Functions.
      */
     const easingFunctions = isEasingArray(ease)
         ? ease.map(easingDefinitionToFunction)
@@ -9808,7 +9808,7 @@ const animateMotionValue = (valueName, value, target, transition = {}) => {
             };
         }
         /**
-         * Both WAAPI and our internal animation functions use durations
+         * Both WAAPI and our internal animation Functions use durations
          * as defined by milliseconds, while our external API defines them
          * as seconds.
          */
@@ -10638,7 +10638,7 @@ function createAnimationState(visualElement) {
         return acc;
     };
     /**
-     * This just allows us to inject mocked animation functions
+     * This just allows us to inject mocked animation Functions
      * @internal
      */
     function setAnimateFunction(makeAnimator) {
@@ -14850,7 +14850,7 @@ class VisualElement {
          */
         this.values = new Map();
         /**
-         * Cleanup functions for active features (hover/tap/exit etc)
+         * Cleanup Functions for active features (hover/tap/exit etc)
          */
         this.features = {};
         /**
@@ -18179,7 +18179,7 @@ function handleInterpolation(mergedProps, registered, interpolation) {
       if (false) { var replaced, matched; }
 
       break;
-  } // finalize string values (regular strings and functions interpolated into css calls)
+  } // finalize string values (regular strings and Functions interpolated into css calls)
 
 
   if (registered == null) {
@@ -21714,7 +21714,7 @@ const computePopoverPosition = c => c === null || Number.isNaN(c) ? undefined : 
  * also takes into account the iframe offset that is added by the
  * custom "frameOffset" middleware.
  *
- * All unexported types and functions are also from the `@floating-ui` library,
+ * All unexported types and Functions are also from the `@floating-ui` library,
  * and have been copied to this file for convenience.
  */
 function getSide(placement) {
@@ -32930,7 +32930,7 @@ function UnforwardedSelectControl(props, ref) {
 }
 /**
  * `SelectControl` allows users to select from a single or multiple option menu.
- * It functions as a wrapper around the browser's native `<select>` element.
+ * It Functions as a wrapper around the browser's native `<select>` element.
  *
  * @example
  * import { SelectControl } from '@wordpress/components';
@@ -45601,7 +45601,7 @@ let hiddenElements = [],
  *
  * The reason we do this is because `aria-modal="true"` currently is bugged
  * in Safari, and support is spotty in other browsers overall. In the future
- * we should consider removing these helper functions in favor of
+ * we should consider removing these helper Functions in favor of
  * `aria-modal="true"`.
  *
  * @param {HTMLDivElement} unhiddenElement The element that should not be hidden.
@@ -46101,7 +46101,7 @@ function downshift_esm_debounce(fn, time) {
  * This is intended to be used to compose event handlers.
  * They are executed in order until one of them sets
  * `event.preventDownshiftDefault = true`.
- * @param {...Function} fns the event handler functions
+ * @param {...Function} fns the event handler Functions
  * @return {Function} the event handler to add to an element
  */
 
@@ -46266,7 +46266,7 @@ function pickState(state) {
  * This will perform a shallow merge of the given state object
  * with the state coming from props
  * (for the controlled component scenario)
- * This is used in state updater functions so they're referencing
+ * This is used in state updater Functions so they're referencing
  * the right state regardless of where it comes from.
  *
  * @param {Object} state The state of the component/hook.
@@ -48550,7 +48550,7 @@ function useSelect(userProps) {
     if (!isOpen) {
       itemRefs.current = {};
     }
-  }, [isOpen]); // Event handler functions.
+  }, [isOpen]); // Event handler Functions.
 
   const toggleButtonKeyDownHandlers = (0,external_React_.useMemo)(() => ({
     ArrowDown(event) {
@@ -48627,7 +48627,7 @@ function useSelect(userProps) {
       });
     }
 
-  }), [dispatch, getItemNodeFromIndex]); // Action functions.
+  }), [dispatch, getItemNodeFromIndex]); // Action Functions.
 
   const toggleMenu = (0,external_React_.useCallback)(() => {
     dispatch({
@@ -48666,7 +48666,7 @@ function useSelect(userProps) {
       type: FunctionSetInputValue$1,
       inputValue: newInputValue
     });
-  }, [dispatch]); // Getter functions.
+  }, [dispatch]); // Getter Functions.
 
   const getLabelProps = (0,external_React_.useCallback)(labelProps => ({
     id: elementIds.labelId,
@@ -49262,7 +49262,7 @@ function useCombobox(userProps) {
       itemRefs.current = {};
     }
   }, [isOpen]);
-  /* Event handler functions */
+  /* Event handler Functions */
 
   const inputKeyDownHandlers = (0,external_React_.useMemo)(() => ({
     ArrowDown(event) {
@@ -49995,7 +49995,7 @@ function useMultipleSelection(userProps) {
 
   (0,external_React_.useEffect)(() => {
     isInitialMountRef.current = false;
-  }, []); // Event handler functions.
+  }, []); // Event handler Functions.
 
   const selectedItemKeyDownHandlers = (0,external_React_.useMemo)(() => ({
     [keyNavigationPrevious]() {
@@ -51147,9 +51147,9 @@ function setMonth(dirtyDate, dirtyMonth) {
  * Sets time values to date from object `values`.
  * A value is not set if it is undefined or null or doesn't exist in `values`.
  *
- * Note about bundle size: `set` does not internally use `setX` functions from date-fns but instead opts
+ * Note about bundle size: `set` does not internally use `setX` Functions from date-fns but instead opts
  * to use native `Date#setX` methods. If you use this function, you may not want to include the
- * other `setX` functions that date-fns provides if you are concerned about the bundle size.
+ * other `setX` Functions that date-fns provides if you are concerned about the bundle size.
  *
  * @param {Date|Number} date - the date to be changed
  * @param {Object} values - an object with options
@@ -53783,8 +53783,8 @@ function format(dirtyDate, dirtyFormatStr, options) {
   }
 
   // Convert the date in system timezone to the same date in UTC+00:00 timezone.
-  // This ensures that when UTC functions will be implemented, locales will be compatible with them.
-  // See an issue about UTC functions: https://github.com/date-fns/date-fns/issues/376
+  // This ensures that when UTC Functions will be implemented, locales will be compatible with them.
+  // See an issue about UTC Functions: https://github.com/date-fns/date-fns/issues/376
   var timezoneOffset = getTimezoneOffsetInMilliseconds(originalDate);
   var utcDate = subMilliseconds(originalDate, timezoneOffset);
   var formatterOptions = {
@@ -54595,9 +54595,9 @@ function setMonth_setMonth(dirtyDate, dirtyMonth) {
  * Sets time values to date from object `values`.
  * A value is not set if it is undefined or null or doesn't exist in `values`.
  *
- * Note about bundle size: `set` does not internally use `setX` functions from date-fns but instead opts
+ * Note about bundle size: `set` does not internally use `setX` Functions from date-fns but instead opts
  * to use native `Date#setX` methods. If you use this function, you may not want to include the
- * other `setX` functions that date-fns provides if you are concerned about the bundle size.
+ * other `setX` Functions that date-fns provides if you are concerned about the bundle size.
  *
  * @param {Date|Number} date - the date to be changed
  * @param {Object} values - an object with options
@@ -59854,7 +59854,7 @@ function MenuItem(props, ref) {
 
 const menu_items_choice_noop = () => {};
 /**
- * `MenuItemsChoice` functions similarly to a set of `MenuItem`s, but allows the user to select one option from a set of multiple choices.
+ * `MenuItemsChoice` Functions similarly to a set of `MenuItem`s, but allows the user to select one option from a set of multiple choices.
  *
  *
  * ```jsx
@@ -60952,7 +60952,7 @@ const useNavigationTreeMenu = props => {
 
 /**
  * A Higher Order Component used to be provide speak and debounced speak
- * functions.
+ * Functions.
  *
  * @see https://developer.wordpress.org/block-editor/packages/packages-a11y/#speak
  *
@@ -73330,7 +73330,7 @@ function dist_floating_ui_dom_browser_min_n(t){return t&&t.document&&t.location&
 var floating_ui_react_dom_esm_index = typeof document !== 'undefined' ? external_React_.useLayoutEffect : external_React_.useEffect;
 
 // Fork of `fast-deep-equal` that only does the comparisons we need and compares
-// functions
+// Functions
 function floating_ui_react_dom_esm_deepEqual(a, b) {
   if (a === b) {
     return true;
@@ -76856,7 +76856,7 @@ const dropdown_menu_v2_UnconnectedDropdownMenu = props => {
 };
 /**
  * `DropdownMenu` displays a menu to the user (such as a set of actions
- * or functions) triggered by a button.
+ * or Functions) triggered by a button.
  */
 
 

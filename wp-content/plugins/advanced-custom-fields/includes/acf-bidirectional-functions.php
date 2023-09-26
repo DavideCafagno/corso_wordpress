@@ -1,6 +1,6 @@
 <?php
 /**
- * General functions relating to the bidirectional feature of some fields.
+ * General Functions relating to the bidirectional feature of some fields.
  *
  * @package ACF
  */
@@ -206,7 +206,7 @@ add_action( 'acf/fields/select/query/key=_acf_bidirectional_target', 'acf_build_
  *
  * @since 6.2
  *
- * @param array $field The field object passed into field setting functions.
+ * @param array $field The field object passed into field setting Functions.
  */
 function acf_render_bidirectional_field_settings( $field ) {
 	if ( ! acf_get_setting( 'enable_bidirection' ) ) {

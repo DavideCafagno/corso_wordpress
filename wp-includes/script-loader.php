@@ -26,13 +26,13 @@ require ABSPATH . WPINC . '/class-wp-dependencies.php';
 require ABSPATH . WPINC . '/class-wp-scripts.php';
 
 /** WordPress Scripts Functions */
-require ABSPATH . WPINC . '/functions.wp-scripts.php';
+require ABSPATH . WPINC . '/Functions.wp-scripts.php';
 
 /** WordPress Styles Class */
 require ABSPATH . WPINC . '/class-wp-styles.php';
 
 /** WordPress Styles Functions */
-require ABSPATH . WPINC . '/functions.wp-styles.php';
+require ABSPATH . WPINC . '/Functions.wp-styles.php';
 
 /**
  * Registers TinyMCE scripts.
@@ -2053,7 +2053,7 @@ function print_head_scripts() {
 	global $concatenate_scripts;
 
 	if ( ! did_action( 'wp_print_scripts' ) ) {
-		/** This action is documented in wp-includes/functions.wp-scripts.php */
+		/** This action is documented in wp-includes/Functions.wp-scripts.php */
 		do_action( 'wp_print_scripts' );
 	}
 
@@ -2173,7 +2173,7 @@ function wp_print_head_scripts() {
 	global $wp_scripts;
 
 	if ( ! did_action( 'wp_print_scripts' ) ) {
-		/** This action is documented in wp-includes/functions.wp-scripts.php */
+		/** This action is documented in wp-includes/Functions.wp-scripts.php */
 		do_action( 'wp_print_scripts' );
 	}
 
@@ -2212,7 +2212,7 @@ function wp_print_footer_scripts() {
  * Wrapper for do_action( 'wp_enqueue_scripts' ).
  *
  * Allows plugins to queue scripts for the front end using wp_enqueue_script().
- * Runs first in wp_head() where all is_home(), is_page(), etc. functions are available.
+ * Runs first in wp_head() where all is_home(), is_page(), etc. Functions are available.
  *
  * @since 2.8.0
  */
@@ -2528,7 +2528,7 @@ function wp_should_load_block_editor_scripts_and_styles() {
 /**
  * Checks whether separate styles should be loaded for core blocks on-render.
  *
- * When this function returns true, other functions ensure that core blocks
+ * When this function returns true, other Functions ensure that core blocks
  * only load their assets on-render, and each block loads its own, individual
  * assets. Third-party blocks only load their assets when rendered.
  *

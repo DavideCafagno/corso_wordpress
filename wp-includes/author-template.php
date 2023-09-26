@@ -1,8 +1,8 @@
 <?php
 /**
- * Author Template functions for use in themes.
+ * Author Template Functions for use in themes.
  *
- * These functions must be used within the WordPress Loop.
+ * These Functions must be used within the WordPress Loop.
  *
  * @link https://codex.wordpress.org/Author_Templates
  *
@@ -589,7 +589,7 @@ function wp_list_authors( $args = '' ) {
  *
  * Checks to see if more than one author has published posts.
  *
- * For more information on this and similar theme functions, check out
+ * For more information on this and similar theme Functions, check out
  * the {@link https://developer.wordpress.org/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *

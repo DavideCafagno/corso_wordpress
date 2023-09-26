@@ -221,7 +221,7 @@ class Deprecation {
 	/**
 	 * Deprecated Function
 	 *
-	 * Handles the deprecation process for functions.
+	 * Handles the deprecation process for Functions.
 	 *
 	 * @since 3.1.0
 	 *

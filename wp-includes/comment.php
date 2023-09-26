@@ -419,7 +419,7 @@ function get_comment_count( $post_id = 0 ) {
 }
 
 //
-// Comment meta functions.
+// Comment meta Functions.
 //
 
 /**
@@ -2775,7 +2775,7 @@ function wp_update_comment_count_now( $post_id ) {
 }
 
 //
-// Ping and trackback functions.
+// Ping and trackback Functions.
 //
 
 /**
@@ -3438,7 +3438,7 @@ function _close_comments_for_old_post( $open, $post_id ) {
 /**
  * Handles the submission of a comment, usually posted to wp-comments-post.php via a comment form.
  *
- * This function expects unslashed data, as opposed to functions such as `wp_new_comment()` which
+ * This function expects unslashed data, as opposed to Functions such as `wp_new_comment()` which
  * expect slashed data.
  *
  * @since 4.4.0

@@ -4802,7 +4802,7 @@ class wp_xmlrpc_server extends IXR_Server {
 	}
 
 	/*
-	 * Blogger API functions.
+	 * Blogger API Functions.
 	 * Specs on http://plant.blogger.com/api and https://groups.yahoo.com/group/bloggerDev/
 	 */
 
@@ -5306,7 +5306,7 @@ class wp_xmlrpc_server extends IXR_Server {
 	}
 
 	/*
-	 * MetaWeblog API functions.
+	 * MetaWeblog API Functions.
 	 * Specs on wherever Dave Winer wants them to be.
 	 */
 
@@ -6482,7 +6482,7 @@ class wp_xmlrpc_server extends IXR_Server {
 	}
 
 	/*
-	 * MovableType API functions.
+	 * MovableType API Functions.
 	 * Specs archive on http://web.archive.org/web/20050220091302/http://www.movabletype.org:80/docs/mtmanual_programmatic.html
 	 */
 
@@ -6830,7 +6830,7 @@ class wp_xmlrpc_server extends IXR_Server {
 	}
 
 	/*
-	 * Pingback functions.
+	 * Pingback Functions.
 	 * Specs on www.hixie.ch/specs/pingback/pingback
 	 */
 

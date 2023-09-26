@@ -4,9 +4,9 @@ require_once dirname(dirname(__FILE__)) . '/autoload.php';
 
 /**
  * This file will monkey patch the pure-PHP implementation in place of the
- * PECL functions and constants, but only if they do not already exist.
+ * PECL Functions and constants, but only if they do not already exist.
  *
- * Thus, the functions or constants just proxy to the appropriate
+ * Thus, the Functions or constants just proxy to the appropriate
  * ParagonIE_Sodium_Compat method or class constant, respectively.
  */
 foreach (array(

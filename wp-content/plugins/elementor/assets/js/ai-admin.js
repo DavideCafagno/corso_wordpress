@@ -8065,7 +8065,7 @@ function setup(env) {
 	createDebug.skips = [];
 
 	/**
-	* Map of special "%n" handling functions, for the debug "format" argument.
+	* Map of special "%n" handling Functions, for the debug "format" argument.
 	*
 	* Valid key names are a single, lower or upper-case letter, i.e. "n" and "N".
 	*/
@@ -9217,7 +9217,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
    *   decl := ReactPropTypes.{type}(.isRequired)?
    *
    * Each and every declaration produces a function with the same signature. This
-   * allows the creation of custom validation functions. For example:
+   * allows the creation of custom validation Functions. For example:
    *
    *  var MyLink = React.createClass({
    *    propTypes: {
@@ -9506,7 +9506,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
       var checker = arrayOfTypeCheckers[i];
       if (typeof checker !== 'function') {
         printWarning(
-          'Invalid argument supplied to oneOfType. Expected an array of check functions, but ' +
+          'Invalid argument supplied to oneOfType. Expected an array of check Functions, but ' +
           'received ' + getPostfixForTypeWarning(checker) + ' at index ' + i + '.'
         );
         return emptyFunctionThatReturnsNull;
@@ -12259,10 +12259,10 @@ var runtime = (function (exports) {
   // breaking out of the dispatch switch statement.
   var ContinueSentinel = {};
 
-  // Dummy constructor functions that we use as the .constructor and
-  // .constructor.prototype properties for functions that return Generator
+  // Dummy constructor Functions that we use as the .constructor and
+  // .constructor.prototype properties for Functions that return Generator
   // objects. For full spec compliance, you may wish to configure your
-  // minifier not to mangle the names of these two functions.
+  // minifier not to mangle the names of these two Functions.
   function Generator() {}
   function GeneratorFunction() {}
   function GeneratorFunctionPrototype() {}
@@ -12384,9 +12384,9 @@ var runtime = (function (exports) {
         // so that the async generator function has the opportunity to do
         // any necessary setup in a predictable way. This predictability
         // is why the Promise constructor synchronously invokes its
-        // executor callback, and why async functions synchronously
+        // executor callback, and why async Functions synchronously
         // execute code before the first await. Since we implement simple
-        // async functions in terms of async generators, it is especially
+        // async Functions in terms of async generators, it is especially
         // important to get this right, even though it requires care.
         previousPromise ? previousPromise.then(
           callInvokeWithMethodAndArg,
@@ -12407,7 +12407,7 @@ var runtime = (function (exports) {
   });
   exports.AsyncIterator = AsyncIterator;
 
-  // Note that simple async functions are implemented on top of
+  // Note that simple async Functions are implemented on top of
   // AsyncIterator objects; they just return a Promise for the value of
   // the final result produced by the iterator.
   exports.async = function(innerFn, outerFn, self, tryLocsList, PromiseImpl) {
@@ -35992,7 +35992,7 @@ function isUrl(fileUrlOrPath) {
 /******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	(() => {
-/******/ 		// define getter functions for harmony exports
+/******/ 		// define getter Functions for harmony exports
 /******/ 		__webpack_require__.d = (exports, definition) => {
 /******/ 			for(var key in definition) {
 /******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {

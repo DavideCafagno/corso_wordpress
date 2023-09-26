@@ -327,7 +327,7 @@ var tinyMCEPopup = {
     }
   },
 
-  // Internal functions
+  // Internal Functions
 
   _restoreSelection: function () {
     var e = window.event.srcElement;

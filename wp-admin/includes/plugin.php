@@ -517,7 +517,7 @@ function _get_dropins() {
  * Plugins in the mu-plugins/ folder can't be "activated," so this function will
  * return false for those plugins.
  *
- * For more information on this and similar theme functions, check out
+ * For more information on this and similar theme Functions, check out
  * the {@link https://developer.wordpress.org/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *
@@ -535,7 +535,7 @@ function is_plugin_active( $plugin ) {
  *
  * Reverse of is_plugin_active(). Used as a callback.
  *
- * For more information on this and similar theme functions, check out
+ * For more information on this and similar theme Functions, check out
  * the {@link https://developer.wordpress.org/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *
@@ -558,7 +558,7 @@ function is_plugin_inactive( $plugin ) {
  * Plugins in the mu-plugins/ folder can't be "activated," so this function will
  * return false for those plugins.
  *
- * For more information on this and similar theme functions, check out
+ * For more information on this and similar theme Functions, check out
  * the {@link https://developer.wordpress.org/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *
@@ -2180,7 +2180,7 @@ function user_can_access_admin_page() {
 	return true;
 }
 
-/* Allowed list functions */
+/* Allowed list Functions */
 
 /**
  * Refreshes the value of the allowed options list available via the 'allowed_options' hook.
@@ -2380,7 +2380,7 @@ function wp_add_privacy_policy_content( $plugin_name, $policy_text ) {
  * Determines whether a plugin is technically active but was paused while
  * loading.
  *
- * For more information on this and similar theme functions, check out
+ * For more information on this and similar theme Functions, check out
  * the {@link https://developer.wordpress.org/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *

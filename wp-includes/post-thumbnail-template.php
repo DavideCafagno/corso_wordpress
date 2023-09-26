@@ -3,7 +3,7 @@
  * WordPress Post Thumbnail Template Functions.
  *
  * Support for post thumbnails.
- * Theme's functions.php must call add_theme_support( 'post-thumbnails' ) to use these.
+ * Theme's Functions.php must call add_theme_support( 'post-thumbnails' ) to use these.
  *
  * @package WordPress
  * @subpackage Template
@@ -12,7 +12,7 @@
 /**
  * Determines whether a post has an image attached.
  *
- * For more information on this and similar theme functions, check out
+ * For more information on this and similar theme Functions, check out
  * the {@link https://developer.wordpress.org/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *
@@ -77,7 +77,7 @@ function get_post_thumbnail_id( $post = null ) {
  * is registered, which differs from the 'thumbnail' image size managed via the
  * Settings > Media screen.
  *
- * When using the_post_thumbnail() or related functions, the 'post-thumbnail' image
+ * When using the_post_thumbnail() or related Functions, the 'post-thumbnail' image
  * size is used by default, though a different size can be specified instead as needed.
  *
  * @since 2.9.0
@@ -133,7 +133,7 @@ function update_post_thumbnail_cache( $wp_query = null ) {
  * is registered, which differs from the 'thumbnail' image size managed via the
  * Settings > Media screen.
  *
- * When using the_post_thumbnail() or related functions, the 'post-thumbnail' image
+ * When using the_post_thumbnail() or related Functions, the 'post-thumbnail' image
  * size is used by default, though a different size can be specified instead as needed.
  *
  * @since 2.9.0

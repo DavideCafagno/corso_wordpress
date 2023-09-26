@@ -2567,8 +2567,8 @@ function safecss_filter_attr( $css, $deprecated = '' ) {
 
 		if ( $found ) {
 			/*
-			 * Allow CSS functions like var(), calc(), etc. by removing them from the test string.
-			 * Nested functions and parentheses are also removed, so long as the parentheses are balanced.
+			 * Allow CSS Functions like var(), calc(), etc. by removing them from the test string.
+			 * Nested Functions and parentheses are also removed, so long as the parentheses are balanced.
 			 */
 			$css_test_string = preg_replace(
 				'/\b(?:var|calc|min|max|minmax|clamp|repeat)(\((?:[^()]|(?1))*\))/',

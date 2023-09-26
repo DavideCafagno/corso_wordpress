@@ -1,6 +1,6 @@
 <?php
 /**
- * Object Cache API functions missing from 3rd party object caches.
+ * Object Cache API Functions missing from 3rd party object caches.
  *
  * @link https://developer.wordpress.org/reference/classes/wp_object_cache/
  *

@@ -59,7 +59,7 @@ class Manager {
 	 *
 	 * @param string   $text           Dynamic tag text.
 	 * @param array    $settings       The dynamic tag settings.
-	 * @param callable $parse_callback The functions that renders the dynamic tag.
+	 * @param callable $parse_callback The Functions that renders the dynamic tag.
 	 *
 	 * @return string|string[]|mixed A single string or an array of strings with
 	 *                               the return values from each tag callback
@@ -89,7 +89,7 @@ class Manager {
 	 *
 	 * @param string   $tag_text       Dynamic tag text.
 	 * @param array    $settings       The dynamic tag settings.
-	 * @param callable $parse_callback The functions that renders the dynamic tag.
+	 * @param callable $parse_callback The Functions that renders the dynamic tag.
 	 *
 	 * @return string|array|mixed If the tag was not found an empty string or an
 	 *                            empty array will be returned, otherwise the

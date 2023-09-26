@@ -9,7 +9,7 @@
 	/**
 	 * wp.sanitize
 	 *
-	 * Helper functions to sanitize strings.
+	 * Helper Functions to sanitize strings.
 	 */
 	wp.sanitize = {
 

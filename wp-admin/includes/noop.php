@@ -1,6 +1,6 @@
 <?php
 /**
- * Noop functions for load-scripts.php and load-styles.php.
+ * Noop Functions for load-scripts.php and load-styles.php.
  *
  * @package WordPress
  * @subpackage Administration

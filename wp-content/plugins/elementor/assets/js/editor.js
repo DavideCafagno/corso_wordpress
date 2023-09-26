@@ -602,7 +602,7 @@ function configureStore(options) {
         rootReducer = (0,redux__WEBPACK_IMPORTED_MODULE_0__.combineReducers)(reducer);
     }
     else {
-        throw new Error('"reducer" is a required argument, and must be a function or an object of functions that can be passed to combineReducers');
+        throw new Error('"reducer" is a required argument, and must be a function or an object of Functions that can be passed to combineReducers');
     }
     var finalMiddleware = middleware;
     if (typeof finalMiddleware === "function") {
@@ -37859,7 +37859,7 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
  * @typedef {import('../container/container')} Container
  */
 /**
- * Container element helper functions.
+ * Container element helper Functions.
  */
 var ContainerHelper = /*#__PURE__*/function () {
   function ContainerHelper() {
@@ -42257,7 +42257,7 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 /**
  * Breakpoints
  *
- * This utility class contains helper functions relating to Elementor's breakpoints system.
+ * This utility class contains helper Functions relating to Elementor's breakpoints system.
  *
  * @since 3.4.0
  */
@@ -52919,7 +52919,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
    *   decl := ReactPropTypes.{type}(.isRequired)?
    *
    * Each and every declaration produces a function with the same signature. This
-   * allows the creation of custom validation functions. For example:
+   * allows the creation of custom validation Functions. For example:
    *
    *  var MyLink = React.createClass({
    *    propTypes: {
@@ -53208,7 +53208,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
       var checker = arrayOfTypeCheckers[i];
       if (typeof checker !== 'function') {
         printWarning(
-          'Invalid argument supplied to oneOfType. Expected an array of check functions, but ' +
+          'Invalid argument supplied to oneOfType. Expected an array of check Functions, but ' +
           'received ' + getPostfixForTypeWarning(checker) + ' at index ' + i + '.'
         );
         return emptyFunctionThatReturnsNull;
@@ -53734,7 +53734,7 @@ function createThunkMiddleware(extraArgument) {
         getState = _ref.getState;
     return function (next) {
       return function (action) {
-        // The thunk middleware looks for any functions that were passed to `store.dispatch`.
+        // The thunk middleware looks for any Functions that were passed to `store.dispatch`.
         // If this "action" is really a function, call it and return the result.
         if (typeof action === 'function') {
           // Inject the store's `dispatch` and `getState` methods, as well as any "extra arg"
@@ -54050,7 +54050,7 @@ function createStore(reducer, preloadedState, enhancer) {
 
   function dispatch(action) {
     if (!isPlainObject(action)) {
-      throw new Error( false ? 0 : "Actions must be plain objects. Instead, the actual type was: '" + kindOf(action) + "'. You may need to add middleware to your store setup to handle dispatching other values, such as 'redux-thunk' to handle dispatching functions. See https://redux.js.org/tutorials/fundamentals/part-4-store#middleware and https://redux.js.org/tutorials/fundamentals/part-6-async-logic#using-the-redux-thunk-middleware for examples.");
+      throw new Error( false ? 0 : "Actions must be plain objects. Instead, the actual type was: '" + kindOf(action) + "'. You may need to add middleware to your store setup to handle dispatching other values, such as 'redux-thunk' to handle dispatching Functions. See https://redux.js.org/tutorials/fundamentals/part-4-store#middleware and https://redux.js.org/tutorials/fundamentals/part-6-async-logic#using-the-redux-thunk-middleware for examples.");
     }
 
     if (typeof action.type === 'undefined') {
@@ -54259,13 +54259,13 @@ function assertReducerShape(reducers) {
   });
 }
 /**
- * Turns an object whose values are different reducer functions, into a single
+ * Turns an object whose values are different reducer Functions, into a single
  * reducer function. It will call every child reducer, and gather their results
  * into a single state object, whose keys correspond to the keys of the passed
- * reducer functions.
+ * reducer Functions.
  *
  * @param {Object} reducers An object whose values correspond to different
- * reducer functions that need to be combined into one. One handy way to obtain
+ * reducer Functions that need to be combined into one. One handy way to obtain
  * it is to use ES6 `import * as reducers` syntax. The reducers may never return
  * undefined for any action. Instead, they should return their initial state
  * if the state passed to them was undefined, and the current state for any
@@ -54366,7 +54366,7 @@ function bindActionCreator(actionCreator, dispatch) {
  * and get a dispatch wrapped function in return.
  *
  * @param {Function|Object} actionCreators An object whose values are action
- * creator functions. One handy way to obtain it is to use ES6 `import * as`
+ * creator Functions. One handy way to obtain it is to use ES6 `import * as`
  * syntax. You may also pass a single function.
  *
  * @param {Function} dispatch The `dispatch` function available on your Redux
@@ -54402,12 +54402,12 @@ function bindActionCreators(actionCreators, dispatch) {
 }
 
 /**
- * Composes single-argument functions from right to left. The rightmost
+ * Composes single-argument Functions from right to left. The rightmost
  * function can take multiple arguments as it provides the signature for
  * the resulting composite function.
  *
- * @param {...Function} funcs The functions to compose.
- * @returns {Function} A function obtained by composing the argument functions
+ * @param {...Function} funcs The Functions to compose.
+ * @returns {Function} A function obtained by composing the argument Functions
  * from right to left. For example, compose(f, g, h) is identical to doing
  * (...args) => f(g(h(...args))).
  */
@@ -54443,7 +54443,7 @@ function compose() {
  * Because middleware is potentially asynchronous, this should be the first
  * store enhancer in the composition chain.
  *
- * Note that each middleware will be given the `dispatch` and `getState` functions
+ * Note that each middleware will be given the `dispatch` and `getState` Functions
  * as named arguments.
  *
  * @param {...Function} middlewares The middleware chain to be applied.
@@ -54676,7 +54676,7 @@ function getDependencies(funcs) {
     var dependencyTypes = dependencies.map(function (dep) {
       return typeof dep === 'function' ? "function " + (dep.name || 'unnamed') + "()" : typeof dep;
     }).join(', ');
-    throw new Error("createSelector expects all input-selectors to be functions, but received the following types: [" + dependencyTypes + "]");
+    throw new Error("createSelector expects all input-selectors to be Functions, but received the following types: [" + dependencyTypes + "]");
   }
 
   return dependencies;
@@ -55989,7 +55989,7 @@ function n(n){for(var r=arguments.length,t=Array(r>1?r-1:0),e=1;e<r;e++)t[e-1]=a
 /************************************************************************/
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	(() => {
-/******/ 		// define getter functions for harmony exports
+/******/ 		// define getter Functions for harmony exports
 /******/ 		__webpack_require__.d = (exports, definition) => {
 /******/ 			for(var key in definition) {
 /******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {

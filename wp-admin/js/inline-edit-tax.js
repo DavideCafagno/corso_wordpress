@@ -9,7 +9,7 @@
 window.wp = window.wp || {};
 
 /**
- * Consists of functions relevant to the inline taxonomy editor.
+ * Consists of Functions relevant to the inline taxonomy editor.
  *
  * @namespace inlineEditTax
  *

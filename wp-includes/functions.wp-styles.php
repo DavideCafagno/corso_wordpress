@@ -1,6 +1,6 @@
 <?php
 /**
- * Dependencies API: Styles functions
+ * Dependencies API: Styles Functions
  *
  * @since 2.6.0
  *

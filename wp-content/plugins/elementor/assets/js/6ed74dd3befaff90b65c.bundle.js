@@ -311,7 +311,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
    *   decl := ReactPropTypes.{type}(.isRequired)?
    *
    * Each and every declaration produces a function with the same signature. This
-   * allows the creation of custom validation functions. For example:
+   * allows the creation of custom validation Functions. For example:
    *
    *  var MyLink = React.createClass({
    *    propTypes: {
@@ -600,7 +600,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
       var checker = arrayOfTypeCheckers[i];
       if (typeof checker !== 'function') {
         printWarning(
-          'Invalid argument supplied to oneOfType. Expected an array of check functions, but ' +
+          'Invalid argument supplied to oneOfType. Expected an array of check Functions, but ' +
           'received ' + getPostfixForTypeWarning(checker) + ' at index ' + i + '.'
         );
         return emptyFunctionThatReturnsNull;

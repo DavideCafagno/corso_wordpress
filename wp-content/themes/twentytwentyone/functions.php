@@ -532,7 +532,7 @@ new Twenty_Twenty_One_Custom_Colors();
 // Enhance the theme by hooking into WordPress.
 require get_template_directory() . '/inc/template-functions.php';
 
-// Menu functions and filters.
+// Menu Functions and filters.
 require get_template_directory() . '/inc/menu-functions.php';
 
 // Custom template tags for the theme.

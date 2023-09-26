@@ -1,6 +1,6 @@
 <?php
 /**
- * Post format functions.
+ * Post format Functions.
  *
  * @package WordPress
  * @subpackage Post

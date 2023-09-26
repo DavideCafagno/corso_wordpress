@@ -1,6 +1,6 @@
 <?php
 /**
- * REST API functions.
+ * REST API Functions.
  *
  * @package WordPress
  * @subpackage REST_API

@@ -4244,7 +4244,7 @@ module.exports = function (FULL_NAME, wrapper, FORCED, IS_AGGREGATE_ERROR) {
   \*********************************************************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-/* eslint-disable no-unused-vars -- required for functions `.length` */
+/* eslint-disable no-unused-vars -- required for Functions `.length` */
 var $ = __webpack_require__(/*! ../internals/export */ "../node_modules/core-js/internals/export.js");
 var global = __webpack_require__(/*! ../internals/global */ "../node_modules/core-js/internals/global.js");
 var apply = __webpack_require__(/*! ../internals/function-apply */ "../node_modules/core-js/internals/function-apply.js");

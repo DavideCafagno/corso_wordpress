@@ -129,7 +129,7 @@ if ( ! class_exists( 'acf_field_time_picker' ) ) :
 				$field,
 				array(
 					'label'        => __( 'Return Format', 'acf' ),
-					'hint'         => __( 'The format returned via template functions', 'acf' ),
+					'hint'         => __( 'The format returned via template Functions', 'acf' ),
 					'type'         => 'radio',
 					'name'         => 'return_format',
 					'other_choice' => 1,

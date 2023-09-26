@@ -32,7 +32,7 @@ class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 		$this->method = 'ftpsockets';
 		$this->errors = new WP_Error();
 
-		// Check if possible to use ftp functions.
+		// Check if possible to use ftp Functions.
 		if ( ! require_once ABSPATH . 'wp-admin/includes/class-ftp.php' ) {
 			return;
 		}
@@ -205,7 +205,7 @@ class WP_Filesystem_ftpsockets extends WP_Filesystem_Base {
 			return false;
 		}
 
-		// The FTP class uses string functions internally during file download/upload.
+		// The FTP class uses string Functions internally during file download/upload.
 		mbstring_binary_safe_encoding();
 
 		$bytes_written = fwrite( $temphandle, $contents );

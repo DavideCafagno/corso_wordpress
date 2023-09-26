@@ -92,7 +92,7 @@ class IXR_Message
         $this->_parser = xml_parser_create();
         // Set XML parser to take the case of tags in to account
         xml_parser_set_option($this->_parser, XML_OPTION_CASE_FOLDING, false);
-        // Set XML parser callback functions
+        // Set XML parser callback Functions
         xml_set_object($this->_parser, $this);
         xml_set_element_handler($this->_parser, 'tag_open', 'tag_close');
         xml_set_character_data_handler($this->_parser, 'cdata');

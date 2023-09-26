@@ -807,7 +807,7 @@ function get_bloginfo( $show = '', $filter = 'raw' ) {
 				'2.2.0',
 				sprintf(
 					/* translators: 1: 'siteurl'/'home' argument, 2: bloginfo() function name, 3: 'url' argument. */
-					__( 'The %1$s option is deprecated for the family of %2$s functions. Use the %3$s option instead.' ),
+					__( 'The %1$s option is deprecated for the family of %2$s Functions. Use the %3$s option instead.' ),
 					'<code>' . $show . '</code>',
 					'<code>bloginfo()</code>',
 					'<code>url</code>'
@@ -888,7 +888,7 @@ function get_bloginfo( $show = '', $filter = 'raw' ) {
 				'2.2.0',
 				sprintf(
 					/* translators: 1: 'text_direction' argument, 2: bloginfo() function name, 3: is_rtl() function name. */
-					__( 'The %1$s option is deprecated for the family of %2$s functions. Use the %3$s function instead.' ),
+					__( 'The %1$s option is deprecated for the family of %2$s Functions. Use the %3$s function instead.' ),
 					'<code>' . $show . '</code>',
 					'<code>bloginfo()</code>',
 					'<code>is_rtl()</code>'
@@ -2828,7 +2828,7 @@ function get_post_datetime( $post = null, $field = 'date', $source = 'local' ) {
  * Retrieves post published or modified time as a Unix timestamp.
  *
  * Note that this function returns a true Unix timestamp, not summed with timezone offset
- * like older WP functions.
+ * like older WP Functions.
  *
  * @since 5.3.0
  *

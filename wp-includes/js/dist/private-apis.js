@@ -6,7 +6,7 @@
 /************************************************************************/
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	!function() {
-/******/ 		// define getter functions for harmony exports
+/******/ 		// define getter Functions for harmony exports
 /******/ 		__webpack_require__.d = function(exports, definition) {
 /******/ 			for(var key in definition) {
 /******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
@@ -98,7 +98,7 @@ try {
  *
  * @param {string} consent    The consent string.
  * @param {string} moduleName The name of the module that is opting in.
- * @return {{lock: typeof lock, unlock: typeof unlock}} An object containing the lock and unlock functions.
+ * @return {{lock: typeof lock, unlock: typeof unlock}} An object containing the lock and unlock Functions.
  */
 
 

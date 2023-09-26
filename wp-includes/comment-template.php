@@ -1,8 +1,8 @@
 <?php
 /**
- * Comment template functions
+ * Comment template Functions
  *
- * These functions are meant to live inside of the WordPress loop.
+ * These Functions are meant to live inside of the WordPress loop.
  *
  * @package WordPress
  * @subpackage Template
@@ -1291,7 +1291,7 @@ function trackback_rdf( $deprecated = '' ) {
 /**
  * Determines whether the current post is open for comments.
  *
- * For more information on this and similar theme functions, check out
+ * For more information on this and similar theme Functions, check out
  * the {@link https://developer.wordpress.org/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *
@@ -1320,7 +1320,7 @@ function comments_open( $post = null ) {
 /**
  * Determines whether the current post is open for pings.
  *
- * For more information on this and similar theme functions, check out
+ * For more information on this and similar theme Functions, check out
  * the {@link https://developer.wordpress.org/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *

@@ -44,7 +44,7 @@
       nativeCreate = Object.create,
       nativeIsView = supportsArrayBuffer && ArrayBuffer.isView;
 
-  // Create references to these builtin functions because we override them.
+  // Create references to these builtin Functions because we override them.
   var _isNaN = isNaN,
       _isFinite = isFinite;
 
@@ -56,7 +56,7 @@
   // The largest integer that can be represented exactly.
   var MAX_ARRAY_INDEX = Math.pow(2, 53) - 1;
 
-  // Some functions take a variable number of arguments, or a few expected
+  // Some Functions take a variable number of arguments, or a few expected
   // arguments at the beginning and then a variable number of values to operate
   // on. This helper accumulates all remaining arguments past the function’s
   // argument length (or an explicit `startIndex`), into an array that becomes
@@ -316,7 +316,7 @@
   }
 
   // If Underscore is called as a function, it returns a wrapped object that can
-  // be used OO-style. This wrapper holds altered versions of all functions added
+  // be used OO-style. This wrapper holds altered versions of all Functions added
   // through `_.mixin`. Wrapped objects may be chained.
   function _$1(obj) {
     if (obj instanceof _$1) return obj;
@@ -571,7 +571,7 @@
     return names.sort();
   }
 
-  // An internal function for creating assigner functions.
+  // An internal function for creating assigner Functions.
   function createAssigner(keysFunc, defaults) {
     return function(obj) {
       var length = arguments.length;
@@ -711,7 +711,7 @@
 
   // Internal function that returns an efficient (for current engines) version
   // of the passed-in callback, to be repeatedly applied in other Underscore
-  // functions.
+  // Functions.
   function optimizeCb(func, context, argCount) {
     if (context === void 0) return func;
     switch (argCount == null ? 3 : argCount) {
@@ -803,7 +803,7 @@
     return new Date().getTime();
   };
 
-  // Internal helper to generate functions for escaping and unescaping strings
+  // Internal helper to generate Functions for escaping and unescaping strings
   // to/from HTML interpolation.
   function createEscaper(map) {
     var escaper = function(match) {
@@ -1189,7 +1189,7 @@
     };
   }
 
-  // Returns a function that is the composition of a list of functions, each
+  // Returns a function that is the composition of a list of Functions, each
   // consuming the return value of the function that follows.
   function compose() {
     var args = arguments;
@@ -1270,7 +1270,7 @@
     return low;
   }
 
-  // Internal function to generate the `_.indexOf` and `_.lastIndexOf` functions.
+  // Internal function to generate the `_.indexOf` and `_.lastIndexOf` Functions.
   function createIndexFinder(dir, predicateFind, sortedIndex) {
     return function(array, item, idx) {
       var i = 0, length = getLength(array);
@@ -1318,7 +1318,7 @@
     return find(obj, matcher(attrs));
   }
 
-  // The cornerstone for collection functions, an `each`
+  // The cornerstone for collection Functions, an `each`
   // implementation, aka `forEach`.
   // Handles raw objects in addition to array-likes. Treats all
   // sparse array-likes as if they were dense.
@@ -1839,7 +1839,7 @@
     return instance._chain ? _$1(obj).chain() : obj;
   }
 
-  // Add your own custom functions to the Underscore object.
+  // Add your own custom Functions to the Underscore object.
   function mixin(obj) {
     each(functions(obj), function(name) {
       var func = _$1[name] = obj[name];
@@ -1852,7 +1852,7 @@
     return _$1;
   }
 
-  // Add all mutator `Array` functions to the wrapper.
+  // Add all mutator `Array` Functions to the wrapper.
   each(['pop', 'push', 'reverse', 'shift', 'sort', 'splice', 'unshift'], function(name) {
     var method = ArrayProto[name];
     _$1.prototype[name] = function() {
@@ -1867,7 +1867,7 @@
     };
   });
 
-  // Add all accessor `Array` functions to the wrapper.
+  // Add all accessor `Array` Functions to the wrapper.
   each(['concat', 'join', 'slice'], function(name) {
     var method = ArrayProto[name];
     _$1.prototype[name] = function() {
@@ -2031,7 +2031,7 @@
 
   // Default Export
 
-  // Add all of the Underscore functions to the wrapper object.
+  // Add all of the Underscore Functions to the wrapper object.
   var _ = mixin(allExports);
   // Legacy Node.js API.
   _._ = _;

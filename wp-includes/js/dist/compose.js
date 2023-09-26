@@ -265,8 +265,8 @@ var Clipboard = /*#__PURE__*/function (_Emitter) {
     return _this;
   }
   /**
-   * Defines if attributes would be resolved using internal setter functions
-   * or custom functions that were passed in the constructor.
+   * Defines if attributes would be resolved using internal setter Functions
+   * or custom Functions that were passed in the constructor.
    * @param {Object} options
    */
 
@@ -866,7 +866,7 @@ module.exports.TinyEmitter = E;
 /******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	!function() {
-/******/ 		// define getter functions for harmony exports
+/******/ 		// define getter Functions for harmony exports
 /******/ 		__nested_webpack_require_24495__.d = function(exports, definition) {
 /******/ 			for(var key in definition) {
 /******/ 				if(__nested_webpack_require_24495__.o(definition, key) && !__nested_webpack_require_24495__.o(exports, key)) {
@@ -1918,9 +1918,9 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/*global define:false */
     };
 
     /**
-     * Init the global mousetrap functions
+     * Init the global mousetrap Functions
      *
-     * This method is needed to allow the global mousetrap functions to work
+     * This method is needed to allow the global mousetrap Functions to work
      * now that mousetrap is a constructor function.
      */
     Mousetrap.init = function() {
@@ -2052,7 +2052,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/*global define:false */
 /******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	!function() {
-/******/ 		// define getter functions for harmony exports
+/******/ 		// define getter Functions for harmony exports
 /******/ 		__webpack_require__.d = function(exports, definition) {
 /******/ 			for(var key in definition) {
 /******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
@@ -3392,7 +3392,7 @@ const withInstanceId = createHigherOrderComponent(WrappedComponent => {
 
 /**
  * We cannot use the `Window['setTimeout']` and `Window['clearTimeout']`
- * types here because those functions include functionality that is not handled
+ * types here because those Functions include functionality that is not handled
  * by this component, like the ability to pass extra arguments.
  *
  * In the case of this component, we only handle the simplest case where
@@ -3510,7 +3510,7 @@ var external_wp_dom_namespaceObject = window["wp"]["dom"];
  * Effect-like ref callback. Just like with `useEffect`, this allows you to
  * return a cleanup function to be run if the ref changes or one of the
  * dependencies changes. The ref is provided as an argument to the callback
- * functions. The main difference between this and `useEffect` is that
+ * Functions. The main difference between this and `useEffect` is that
  * the `useEffect` callback is not called when the ref changes, but this is.
  * Pass the returned ref callback as the component's ref and merge multiple refs
  * with `useMergeRefs`.
@@ -5215,7 +5215,7 @@ var useCallback = (/* unused pure expression or super */ null && (useCallbackOne
 /**
  * Debounces a function similar to Lodash's `debounce`. A new debounced function will
  * be returned and any scheduled calls cancelled if any of the arguments change,
- * including the function to debounce, so please wrap functions created on
+ * including the function to debounce, so please wrap Functions created on
  * render in components in `useCallback`.
  *
  * @see https://docs-lodash.com/v4/debounce/
@@ -5252,7 +5252,7 @@ function useDebounce(fn, wait, options) {
 /**
  * Throttles a function similar to Lodash's `throttle`. A new throttled function will
  * be returned and any scheduled calls cancelled if any of the arguments change,
- * including the function to throttle, so please wrap functions created on
+ * including the function to throttle, so please wrap Functions created on
  * render in components in `useCallback`.
  *
  * @see https://docs-lodash.com/v4/throttle/

@@ -96,8 +96,8 @@ class Snoopy
 												// cURL installed. See http://curl.haxx.se
 												// for details on installing cURL.
 												// Snoopy does *not* use the cURL
-												// library functions built into php,
-												// as these functions are not stable
+												// library Functions built into php,
+												// as these Functions are not stable
 												// as of this Snoopy release.
 
 	/**** Private variables ****/
@@ -607,7 +607,7 @@ class Snoopy
 
 
 /*======================================================================*\
-	Private functions
+	Private Functions
 \*======================================================================*/
 
 

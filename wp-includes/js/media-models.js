@@ -33,7 +33,7 @@ Attachment = Backbone.Model.extend(/** @lends wp.media.model.Attachment.prototyp
 			return $.Deferred().rejectWith( this ).promise();
 		}
 
-		// Overload the `read` request so Attachment.fetch() functions correctly.
+		// Overload the `read` request so Attachment.fetch() Functions correctly.
 		if ( 'read' === method ) {
 			options = options || {};
 			options.context = this;
@@ -1081,7 +1081,7 @@ Query = Attachments.extend(/** @lends wp.media.model.Query.prototype */{
 	sync: function( method, model, options ) {
 		var args, fallback;
 
-		// Overload the read method so Attachment.fetch() functions correctly.
+		// Overload the read method so Attachment.fetch() Functions correctly.
 		if ( 'read' === method ) {
 			options = options || {};
 			options.context = this;

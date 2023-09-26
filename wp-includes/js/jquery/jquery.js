@@ -2563,7 +2563,7 @@ function compile( selector, match /* Internal Use Only */ ) {
 
 	if ( !cached ) {
 
-		// Generate a function of recursive functions that can be used to check each element
+		// Generate a function of recursive Functions that can be used to check each element
 		if ( !match ) {
 			match = tokenize( selector );
 		}
@@ -2589,7 +2589,7 @@ function compile( selector, match /* Internal Use Only */ ) {
 
 /**
  * A low-level selection function that works with jQuery's compiled
- *  selector functions
+ *  selector Functions
  * @param {String|Function} selector A selector or a pre-compiled
  *  selector function built with jQuery selector compile
  * @param {Element} context
@@ -3397,7 +3397,7 @@ function adoptValue( value, resolve, reject, noValue ) {
 	} catch ( value ) {
 
 		// Support: Android 4.0 only
-		// Strict mode functions invoked without .call/.apply get global-object context
+		// Strict mode Functions invoked without .call/.apply get global-object context
 		reject.apply( undefined, [ value ] );
 	}
 }
@@ -3492,7 +3492,7 @@ jQuery.extend( {
 
 										// Support: Promises/A+ section 2.3.4
 										// https://promisesaplus.com/#point-64
-										// Only check objects and functions for thenability
+										// Only check objects and Functions for thenability
 										( typeof returned === "object" ||
 											typeof returned === "function" ) &&
 										returned.then;
@@ -3830,7 +3830,7 @@ jQuery.extend( {
 			return;
 		}
 
-		// If there are functions bound, to execute
+		// If there are Functions bound, to execute
 		readyList.resolveWith( document, [ jQuery ] );
 	}
 } );
@@ -4889,7 +4889,7 @@ function on( elem, types, selector, data, fn, one ) {
 }
 
 /*
- * Helper functions for managing events -- not part of the public interface.
+ * Helper Functions for managing events -- not part of the public interface.
  * Props to Dean Edwards' addEvent library for many of the ideas.
  */
 jQuery.event = {

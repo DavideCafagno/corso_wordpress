@@ -1,7 +1,7 @@
 <?php
 /**
- * These functions can be replaced via plugins. If plugins do not redefine these
- * functions, then these will be used instead.
+ * These Functions can be replaced via plugins. If plugins do not redefine these
+ * Functions, then these will be used instead.
  *
  * @package WordPress
  */
@@ -1151,7 +1151,7 @@ if ( ! function_exists( 'is_user_logged_in' ) ) :
 	/**
 	 * Determines whether the current visitor is a logged in user.
 	 *
-	 * For more information on this and similar theme functions, check out
+	 * For more information on this and similar theme Functions, check out
 	 * the {@link https://developer.wordpress.org/themes/basics/conditional-tags/
 	 * Conditional Tags} article in the Theme Developer Handbook.
 	 *
@@ -2616,7 +2616,7 @@ if ( ! function_exists( 'wp_generate_password' ) ) :
 	 * Generates a random password drawn from the defined set of characters.
 	 *
 	 * Uses wp_rand() to create passwords with far less predictability
-	 * than similar native PHP functions like `rand()` or `mt_rand()`.
+	 * than similar native PHP Functions like `rand()` or `mt_rand()`.
 	 *
 	 * @since 2.5.0
 	 *

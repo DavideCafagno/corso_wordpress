@@ -11,7 +11,7 @@
  * Core class used for handling file uploads.
  *
  * This class handles the upload process and passes it as if it's a local file
- * to the Upgrade/Installer functions.
+ * to the Upgrade/Installer Functions.
  *
  * @since 2.8.0
  * @since 4.6.0 Moved to its own file from wp-admin/includes/class-wp-upgrader.php.

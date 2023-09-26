@@ -277,7 +277,7 @@ function wp_render_typography_support( $block_content, $block ) {
 
 	/*
 	 * Checks that $fluid_font_size does not match $custom_font_size,
-	 * which means it's been mutated by the fluid font size functions.
+	 * which means it's been mutated by the fluid font size Functions.
 	 */
 	if ( ! empty( $fluid_font_size ) && $fluid_font_size !== $custom_font_size ) {
 		// Replaces the first instance of `font-size:$custom_font_size` with `font-size:$fluid_font_size`.

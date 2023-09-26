@@ -2436,7 +2436,7 @@ msgid ""
 "The following code can be used to register a local version of the selected "
 "items. Storing field groups, post types, or taxonomies locally can provide "
 "many benefits such as faster load times, version control & dynamic fields/"
-"settings. Simply copy and paste the following code to your theme's functions."
+"settings. Simply copy and paste the following code to your theme's Functions."
 "php file or include it within an external file, then deactivate or delete "
 "the items from the ACF admin."
 msgstr ""
@@ -2444,7 +2444,7 @@ msgstr ""
 "geselecteerde items te registreren. Het lokaal opslaan van veldgroepen, "
 "berichttypen of taxonomieën kan veel voordelen bieden, zoals snellere "
 "laadtijden, versiebeheer en dynamische velden/instellingen. Kopieer en plak "
-"de volgende code in het functions.php-bestand van je thema of neem het op in "
+"de volgende code in het Functions.php-bestand van je thema of neem het op in "
 "een extern bestand, en deactiveer of verwijder vervolgens de items uit de "
 "ACF beheer."
 
@@ -5687,7 +5687,7 @@ msgstr "Google Map"
 #: includes/fields/class-acf-field-date_picker.php:212
 #: includes/fields/class-acf-field-date_time_picker.php:201
 #: includes/fields/class-acf-field-time_picker.php:132
-msgid "The format returned via template functions"
+msgid "The format returned via template Functions"
 msgstr "Het format dat wordt geretourneerd via templatefuncties"
 
 #: includes/fields/class-acf-field-color_picker.php:182

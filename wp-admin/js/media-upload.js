@@ -1,5 +1,5 @@
 /**
- * Contains global functions for the media upload within the post edit screen.
+ * Contains global Functions for the media upload within the post edit screen.
  *
  * Updates the ThickBox anchor href and the ThickBox's own properties in order
  * to set the size and position on every resize event. Also adds a function to

@@ -1098,7 +1098,7 @@ function customize_themes_print_templates() {
  * Determines whether a theme is technically active but was paused while
  * loading.
  *
- * For more information on this and similar theme functions, check out
+ * For more information on this and similar theme Functions, check out
  * the {@link https://developer.wordpress.org/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *
@@ -1144,8 +1144,8 @@ function wp_get_theme_error( $theme ) {
 /**
  * Tries to resume a single theme.
  *
- * If a redirect was provided and a functions.php file was found, we first ensure that
- * functions.php file does not throw fatal errors anymore.
+ * If a redirect was provided and a Functions.php file was found, we first ensure that
+ * Functions.php file does not throw fatal errors anymore.
  *
  * The way it works is by setting the redirection to the error before trying to
  * include the file. If the theme fails, then the redirection will not be overwritten
@@ -1168,9 +1168,9 @@ function resume_theme( $theme, $redirect = '' ) {
 	if ( ! empty( $redirect ) ) {
 		$functions_path = '';
 		if ( str_contains( STYLESHEETPATH, $extension ) ) {
-			$functions_path = STYLESHEETPATH . '/functions.php';
+			$functions_path = STYLESHEETPATH . '/Functions.php';
 		} elseif ( str_contains( TEMPLATEPATH, $extension ) ) {
-			$functions_path = TEMPLATEPATH . '/functions.php';
+			$functions_path = TEMPLATEPATH . '/Functions.php';
 		}
 
 		if ( ! empty( $functions_path ) ) {
@@ -1182,7 +1182,7 @@ function resume_theme( $theme, $redirect = '' ) {
 				)
 			);
 
-			// Load the theme's functions.php to test whether it throws a fatal error.
+			// Load the theme's Functions.php to test whether it throws a fatal error.
 			ob_start();
 			if ( ! defined( 'WP_SANDBOX_SCRAPING' ) ) {
 				define( 'WP_SANDBOX_SCRAPING', true );

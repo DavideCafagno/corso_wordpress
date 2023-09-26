@@ -1,6 +1,6 @@
 <?php
 /**
- * Multisite administration functions.
+ * Multisite administration Functions.
  *
  * @package WordPress
  * @subpackage Multisite

@@ -4,7 +4,7 @@
  *
  * Prevents the theme from running on WordPress versions prior to 5.3,
  * since this theme is not meant to be backward compatible beyond that and
- * relies on many newer functions and markup changes introduced in 5.3.
+ * relies on many newer Functions and markup changes introduced in 5.3.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_One

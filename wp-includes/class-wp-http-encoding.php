@@ -221,7 +221,7 @@ class WP_Http_Encoding {
 	 * Whether decompression and compression are supported by the PHP version.
 	 *
 	 * Each function is tested instead of checking for the zlib extension, to
-	 * ensure that the functions all exist in the PHP version and aren't
+	 * ensure that the Functions all exist in the PHP version and aren't
 	 * disabled.
 	 *
 	 * @since 2.8.0

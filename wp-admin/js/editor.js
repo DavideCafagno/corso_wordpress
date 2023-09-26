@@ -8,7 +8,7 @@ window.wp = window.wp || {};
 	wp.editor = wp.editor || {};
 
 	/**
-	 * Utility functions for the editor.
+	 * Utility Functions for the editor.
 	 *
 	 * @since 2.5.0
 	 */

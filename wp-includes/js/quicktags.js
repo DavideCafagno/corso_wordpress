@@ -33,7 +33,7 @@ window.edButtons = [];
 /**
  * Back-compat
  *
- * Define all former global functions so plugins that hack quicktags.js directly don't cause fatal errors.
+ * Define all former global Functions so plugins that hack quicktags.js directly don't cause fatal errors.
  */
 window.edAddTag = function(){};
 window.edCheckOpenTags = function(){};

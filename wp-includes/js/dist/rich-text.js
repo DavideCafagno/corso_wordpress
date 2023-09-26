@@ -18,7 +18,7 @@
 /******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	!function() {
-/******/ 		// define getter functions for harmony exports
+/******/ 		// define getter Functions for harmony exports
 /******/ 		__webpack_require__.d = function(exports, definition) {
 /******/ 			for(var key in definition) {
 /******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
@@ -909,11 +909,11 @@ function toFormat({
  * plain text string, with optionally a `Range` object to set the selection. If
  * called without any input, an empty value will be created. If
  * `multilineTag` is provided, any content of direct children whose type matches
- * `multilineTag` will be separated by two newlines. The optional functions can
+ * `multilineTag` will be separated by two newlines. The optional Functions can
  * be used to filter out content.
  *
  * A value will have the following shape, which you are strongly encouraged not
- * to modify without the use of helper functions:
+ * to modify without the use of helper Functions:
  *
  * ```js
  * {

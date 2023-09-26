@@ -1,6 +1,6 @@
 <?php
 /**
- * Block template loader functions.
+ * Block template loader Functions.
  *
  * @package WordPress
  */

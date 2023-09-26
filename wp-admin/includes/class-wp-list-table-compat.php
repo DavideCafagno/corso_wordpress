@@ -1,6 +1,6 @@
 <?php
 /**
- * Helper functions for displaying a list of items in an ajaxified HTML table.
+ * Helper Functions for displaying a list of items in an ajaxified HTML table.
  *
  * @package WordPress
  * @subpackage List_Table
@@ -8,7 +8,7 @@
  */
 
 /**
- * Helper class to be used only by back compat functions.
+ * Helper class to be used only by back compat Functions.
  *
  * @since 3.1.0
  */

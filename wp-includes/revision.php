@@ -1,6 +1,6 @@
 <?php
 /**
- * Post revision functions.
+ * Post revision Functions.
  *
  * @package WordPress
  * @subpackage Post_Revisions

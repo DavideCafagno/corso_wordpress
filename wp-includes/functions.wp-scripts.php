@@ -1,6 +1,6 @@
 <?php
 /**
- * Dependencies API: Scripts functions
+ * Dependencies API: Scripts Functions
  *
  * @since 2.6.0
  *
@@ -407,7 +407,7 @@ function wp_dequeue_script( $handle ) {
 /**
  * Determines whether a script has been added to the queue.
  *
- * For more information on this and similar theme functions, check out
+ * For more information on this and similar theme Functions, check out
  * the {@link https://developer.wordpress.org/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *

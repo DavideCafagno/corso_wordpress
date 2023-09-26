@@ -557,7 +557,7 @@ module.exports = combineReducers;
 /******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	!function() {
-/******/ 		// define getter functions for harmony exports
+/******/ 		// define getter Functions for harmony exports
 /******/ 		__webpack_require__.d = function(exports, definition) {
 /******/ 			for(var key in definition) {
 /******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
@@ -1214,13 +1214,13 @@ function assertReducerShape(reducers) {
   });
 }
 /**
- * Turns an object whose values are different reducer functions, into a single
+ * Turns an object whose values are different reducer Functions, into a single
  * reducer function. It will call every child reducer, and gather their results
  * into a single state object, whose keys correspond to the keys of the passed
- * reducer functions.
+ * reducer Functions.
  *
  * @param {Object} reducers An object whose values correspond to different
- * reducer functions that need to be combined into one. One handy way to obtain
+ * reducer Functions that need to be combined into one. One handy way to obtain
  * it is to use ES6 `import * as reducers` syntax. The reducers may never return
  * undefined for any action. Instead, they should return their initial state
  * if the state passed to them was undefined, and the current state for any
@@ -1309,7 +1309,7 @@ function bindActionCreator(actionCreator, dispatch) {
  * and get a dispatch wrapped function in return.
  *
  * @param {Function|Object} actionCreators An object whose values are action
- * creator functions. One handy way to obtain it is to use ES6 `import * as`
+ * creator Functions. One handy way to obtain it is to use ES6 `import * as`
  * syntax. You may also pass a single function.
  *
  * @param {Function} dispatch The `dispatch` function available on your Redux
@@ -1345,12 +1345,12 @@ function bindActionCreators(actionCreators, dispatch) {
 }
 
 /**
- * Composes single-argument functions from right to left. The rightmost
+ * Composes single-argument Functions from right to left. The rightmost
  * function can take multiple arguments as it provides the signature for
  * the resulting composite function.
  *
- * @param {...Function} funcs The functions to compose.
- * @returns {Function} A function obtained by composing the argument functions
+ * @param {...Function} funcs The Functions to compose.
+ * @returns {Function} A function obtained by composing the argument Functions
  * from right to left. For example, compose(f, g, h) is identical to doing
  * (...args) => f(g(h(...args))).
  */
@@ -1386,7 +1386,7 @@ function compose() {
  * Because middleware is potentially asynchronous, this should be the first
  * store enhancer in the composition chain.
  *
- * Note that each middleware will be given the `dispatch` and `getState` functions
+ * Note that each middleware will be given the `dispatch` and `getState` Functions
  * as named arguments.
  *
  * @param {...Function} middlewares The middleware chain to be applied.
@@ -2476,7 +2476,7 @@ function createReduxStore(key, options) {
         }
 
       };
-      const store = instantiateReduxStore(key, options, registry, thunkArgs); // Expose the private registration functions on the store
+      const store = instantiateReduxStore(key, options, registry, thunkArgs); // Expose the private registration Functions on the store
       // so they can be copied to a sub registry in registry.js.
 
       lock(store, privateRegistrationFunctions);
@@ -2604,7 +2604,7 @@ function createReduxStore(key, options) {
         subscribe
       };
     }
-  }; // Expose the private registration functions on the store
+  }; // Expose the private registration Functions on the store
   // descriptor. That's a natural choice since that's where the
   // public actions and selectors are stored .
 
@@ -2654,12 +2654,12 @@ function instantiateReduxStore(key, options, registry, thunkArgs) {
   }, (0,external_wp_compose_namespaceObject.compose)(enhancers));
 }
 /**
- * Maps selectors to functions that return a resolution promise for them
+ * Maps selectors to Functions that return a resolution promise for them
  *
  * @param {Object} selectors Selectors to map.
  * @param {Object} store     The redux store the selectors select from.
  *
- * @return {Object} Selectors mapped to their resolution functions.
+ * @return {Object} Selectors mapped to their resolution Functions.
  */
 
 
@@ -2717,12 +2717,12 @@ function mapResolveSelectors(selectors, store) {
   });
 }
 /**
- * Maps selectors to functions that throw a suspense promise if not yet resolved.
+ * Maps selectors to Functions that throw a suspense promise if not yet resolved.
  *
  * @param {Object} selectors Selectors to map.
  * @param {Object} store     The redux store the selectors select from.
  *
- * @return {Object} Selectors mapped to their suspense functions.
+ * @return {Object} Selectors mapped to their suspense Functions.
  */
 
 
@@ -3940,7 +3940,7 @@ function Store(registry, suspense) {
     }
 
     updateValue();
-    lastIsAsync = isAsync; // Return a pair of functions that can be passed to `useSyncExternalStore`.
+    lastIsAsync = isAsync; // Return a pair of Functions that can be passed to `useSyncExternalStore`.
 
     return {
       subscribe: subscriber.subscribe,
@@ -4157,9 +4157,9 @@ const withSelect = mapSelectToProps => (0,external_wp_compose_namespaceObject.cr
  * @param {Function} dispatchMap Receives the `registry.dispatch` function as
  *                               the first argument and the `registry` object
  *                               as the second argument.  Should return an
- *                               object mapping props to functions.
+ *                               object mapping props to Functions.
  * @param {Array}    deps        An array of dependencies for the hook.
- * @return {Object}  An object mapping props to functions created by the passed
+ * @return {Object}  An object mapping props to Functions created by the passed
  *                   in dispatchMap.
  */
 
@@ -4245,7 +4245,7 @@ const useDispatchWithMap = (dispatchMap, deps) => {
  * component. In such scenario, you can avoid using the `withSelect` higher
  * order component to compute such prop, which might lead to unnecessary
  * re-renders of your component caused by its frequent value change.
- * Keep in mind, that `mapDispatchToProps` must return an object with functions
+ * Keep in mind, that `mapDispatchToProps` must return an object with Functions
  * only.
  *
  * ```jsx
@@ -4424,7 +4424,7 @@ function dispatch_dispatch(storeNameOrDescriptor) {
 
 /**
  * Given a store descriptor, returns an object of the store's selectors.
- * The selector functions are been pre-bound to pass the current state automatically.
+ * The selector Functions are been pre-bound to pass the current state automatically.
  * As a consumer, you need only pass arguments of the selector, if applicable.
  *
  *
@@ -4483,11 +4483,11 @@ function select_select(storeNameOrDescriptor) {
 
 /**
  * The combineReducers helper function turns an object whose values are different
- * reducing functions into a single reducing function you can pass to registerReducer.
+ * reducing Functions into a single reducing function you can pass to registerReducer.
  *
  * @type  {import('./types').combineReducers}
  * @param {Object} reducers An object whose values correspond to different reducing
- *                          functions that need to be combined into one.
+ *                          Functions that need to be combined into one.
  *
  * @example
  * ```js

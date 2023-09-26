@@ -26,7 +26,7 @@ AnchorPosition.js
 Author: Matt Kruse
 Last modified: 10/11/02
 
-DESCRIPTION: These functions find the position of an <A> tag in a document,
+DESCRIPTION: These Functions find the position of an <A> tag in a document,
 so other elements can be positioned relative to it.
 
 COMPATABILITY: Netscape 4.x,6.x,Mozilla, IE 5.x,6.x on Windows. Some small
@@ -203,7 +203,7 @@ win.offsetX = 50;
 win.offsetY = 100;
 
 NOTES:
-1) Requires the functions in AnchorPosition.js
+1) Requires the Functions in AnchorPosition.js
 
 2) Your anchor tag MUST contain both NAME and ID attributes which are the
    same. For example:
@@ -507,7 +507,7 @@ function pickColor(color) {
 	}
 
 NOTES:
-1) Requires the functions in AnchorPosition.js and PopupWindow.js
+1) Requires the Functions in AnchorPosition.js and PopupWindow.js
 
 2) Your anchor tag MUST contain both NAME and ID attributes which are the
    same. For example:

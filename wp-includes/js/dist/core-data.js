@@ -436,7 +436,7 @@ module.exports = function equal(a, b) {
 /******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	!function() {
-/******/ 		// define getter functions for harmony exports
+/******/ 		// define getter Functions for harmony exports
 /******/ 		__webpack_require__.d = function(exports, definition) {
 /******/ 			for(var key in definition) {
 /******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
@@ -2289,7 +2289,7 @@ const saveEntityRecord = (kind, name, record, {
  *   ] );
  * ```
  *
- * @param {Array} requests Array of functions which are invoked simultaneously.
+ * @param {Array} requests Array of Functions which are invoked simultaneously.
  *                         Each function is passed an object containing
  *                         `saveEntityRecord`, `saveEditedEntityRecord`, and
  *                         `deleteEntityRecord`.
@@ -4501,7 +4501,7 @@ function getEntityConfig(state, kind, name) {
 /**
  * GetEntityRecord is declared as a *callable interface* with
  * two signatures to work around the fact that TypeScript doesn't
- * allow currying generic functions:
+ * allow currying generic Functions:
  *
  * ```ts
  * 		type CurriedState = F extends ( state: any, ...args: infer P ) => infer R
@@ -4650,7 +4650,7 @@ function hasEntityRecords(state, kind, name, query) {
 /**
  * GetEntityRecord is declared as a *callable interface* with
  * two signatures to work around the fact that TypeScript doesn't
- * allow currying generic functions.
+ * allow currying generic Functions.
  *
  * @see GetEntityRecord
  * @see https://github.com/WordPress/gutenberg/pull/41578

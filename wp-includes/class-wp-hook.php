@@ -65,9 +65,9 @@ final class WP_Hook implements Iterator, ArrayAccess {
 	 *
 	 * @param string   $hook_name     The name of the filter to add the callback to.
 	 * @param callable $callback      The callback to be run when the filter is applied.
-	 * @param int      $priority      The order in which the functions associated with a particular filter
+	 * @param int      $priority      The order in which the Functions associated with a particular filter
 	 *                                are executed. Lower numbers correspond with earlier execution,
-	 *                                and functions with the same priority are executed in the order
+	 *                                and Functions with the same priority are executed in the order
 	 *                                in which they were added to the filter.
 	 * @param int      $accepted_args The number of arguments the function accepts.
 	 */
@@ -273,14 +273,14 @@ final class WP_Hook implements Iterator, ArrayAccess {
 	}
 
 	/**
-	 * Calls the callback functions that have been added to a filter hook.
+	 * Calls the callback Functions that have been added to a filter hook.
 	 *
 	 * @since 4.7.0
 	 *
 	 * @param mixed $value The value to filter.
-	 * @param array $args  Additional parameters to pass to the callback functions.
+	 * @param array $args  Additional parameters to pass to the callback Functions.
 	 *                     This array is expected to include $value at index 0.
-	 * @return mixed The filtered value after all hooked functions are applied to it.
+	 * @return mixed The filtered value after all hooked Functions are applied to it.
 	 */
 	public function apply_filters( $value, $args ) {
 		if ( ! $this->callbacks ) {
@@ -323,11 +323,11 @@ final class WP_Hook implements Iterator, ArrayAccess {
 	}
 
 	/**
-	 * Calls the callback functions that have been added to an action hook.
+	 * Calls the callback Functions that have been added to an action hook.
 	 *
 	 * @since 4.7.0
 	 *
-	 * @param array $args Parameters to pass to the callback functions.
+	 * @param array $args Parameters to pass to the callback Functions.
 	 */
 	public function do_action( $args ) {
 		$this->doing_action = true;
@@ -340,7 +340,7 @@ final class WP_Hook implements Iterator, ArrayAccess {
 	}
 
 	/**
-	 * Processes the functions hooked into the 'all' hook.
+	 * Processes the Functions hooked into the 'all' hook.
 	 *
 	 * @since 4.7.0
 	 *

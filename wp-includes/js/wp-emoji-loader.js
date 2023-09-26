@@ -345,7 +345,7 @@
 
 		if ( supportsWorkerOffloading() ) {
 			try {
-				// Note that the functions are being passed as arguments due to minification.
+				// Note that the Functions are being passed as arguments due to minification.
 				var workerScript =
 					'postMessage(' +
 					testEmojiSupports.toString() +

@@ -84,7 +84,7 @@ if ( ! function_exists( 'xml_parser_create' ) ) {
 
 $xml_parser = xml_parser_create();
 
-// Set the functions to handle opening and closing tags.
+// Set the Functions to handle opening and closing tags.
 xml_set_element_handler( $xml_parser, 'startElement', 'endElement' );
 
 if ( ! xml_parse( $xml_parser, $opml, true ) ) {

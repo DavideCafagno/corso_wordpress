@@ -29,7 +29,7 @@ get_current_screen()->add_help_tab(
 		'content' =>
 				'<p>' . __( 'You can use the theme file editor to edit the individual CSS and PHP files which make up your theme.' ) . '</p>' .
 				'<p>' . __( 'Begin by choosing a theme to edit from the dropdown menu and clicking the Select button. A list then appears of the theme&#8217;s template files. Clicking once on any file name causes the file to appear in the large Editor box.' ) . '</p>' .
-				'<p>' . __( 'For PHP files, you can use the documentation dropdown to select from functions recognized in that file. Look Up takes you to a web page with reference material about that particular function.' ) . '</p>' .
+				'<p>' . __( 'For PHP files, you can use the documentation dropdown to select from Functions recognized in that file. Look Up takes you to a web page with reference material about that particular function.' ) . '</p>' .
 				'<p id="editor-keyboard-trap-help-1">' . __( 'When using a keyboard to navigate:' ) . '</p>' .
 				'<ul>' .
 				'<li id="editor-keyboard-trap-help-2">' . __( 'In the editing area, the Tab key enters a tab character.' ) . '</li>' .
@@ -95,9 +95,9 @@ foreach ( $file_types as $type ) {
 	}
 }
 
-// Move functions.php and style.css to the top.
-if ( isset( $allowed_files['functions.php'] ) ) {
-	$allowed_files = array( 'functions.php' => $allowed_files['functions.php'] ) + $allowed_files;
+// Move Functions.php and style.css to the top.
+if ( isset( $allowed_files['Functions.php'] ) ) {
+	$allowed_files = array( 'Functions.php' => $allowed_files['Functions.php'] ) + $allowed_files;
 }
 if ( isset( $allowed_files['style.css'] ) ) {
 	$allowed_files = array( 'style.css' => $allowed_files['style.css'] ) + $allowed_files;

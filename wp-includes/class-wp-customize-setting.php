@@ -757,7 +757,7 @@ class WP_Customize_Setting {
 			 * the base slug of the setting name, initialized from `$this->id_data['base']`.
 			 *
 			 * For settings handled as theme_mods or options, see those corresponding
-			 * functions for available hooks.
+			 * Functions for available hooks.
 			 *
 			 * @since 3.4.0
 			 * @since 4.6.0 Added the `$this` setting instance as the second parameter.

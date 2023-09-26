@@ -10182,7 +10182,7 @@ msgid "sub item"
 msgstr "sottoelemento"
 
 #: wp-admin/theme-editor.php:32
-msgid "For PHP files, you can use the documentation dropdown to select from functions recognized in that file. Look Up takes you to a web page with reference material about that particular function."
+msgid "For PHP files, you can use the documentation dropdown to select from Functions recognized in that file. Look Up takes you to a web page with reference material about that particular function."
 msgstr "Per i file PHP puoi utilizzare il menu a discesa Documentazione per selezionare le funzioni riconosciute presenti nel file. Guarda rimanda ad una pagina web con il materiale di riferimento per la specifica funzione."
 
 #: wp-admin/plugin-editor.php:277 wp-admin/theme-editor.php:301
@@ -10190,7 +10190,7 @@ msgid "Look Up"
 msgstr "Guarda"
 
 #: wp-admin/plugin-editor.php:129
-msgid "The documentation menu below the editor lists the PHP functions recognized in the plugin file. Clicking Look Up takes you to a web page about that particular function."
+msgid "The documentation menu below the editor lists the PHP Functions recognized in the plugin file. Clicking Look Up takes you to a web page about that particular function."
 msgstr "Il menu Documentazione sotto l'editor elenca la funzioni PHP riconosciute all'interno del file del plugin. Facendo clic su Guarda arriverai ad una pagina web che parla di quella specifica funzione."
 
 #. translators: %s: User's display name.

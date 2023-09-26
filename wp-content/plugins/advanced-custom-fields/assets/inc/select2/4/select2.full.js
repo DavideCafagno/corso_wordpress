@@ -2608,7 +2608,7 @@
 					this.dict = $.extend( {}, translation.all(), this.dict );
 				};
 
-				// Static functions
+				// Static Functions
 
 				Translation._cache = {};
 

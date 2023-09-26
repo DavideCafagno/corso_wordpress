@@ -220,7 +220,7 @@ define('moxie/core/utils/Basic', [], function() {
 	};
 
 	/**
-	Recieve an array of functions (usually async) to call in sequence, each  function
+	Recieve an array of Functions (usually async) to call in sequence, each  function
 	receives a callback as first argument that it should call, when it completes. Finally,
 	after everything is complete, main callback is called. Passing truthy value to the
 	callback as a first argument will interrupt the sequence and invoke main callback
@@ -228,7 +228,7 @@ define('moxie/core/utils/Basic', [], function() {
 
 	@method inSeries
 	@static
-	@param {Array} queue Array of functions to call in sequence
+	@param {Array} queue Array of Functions to call in sequence
 	@param {Function} cb Main callback that is called in the end, or in case of error
 	*/
 	var inSeries = function(queue, cb) {
@@ -255,7 +255,7 @@ define('moxie/core/utils/Basic', [], function() {
 
 
 	/**
-	Recieve an array of functions (usually async) to call in parallel, each  function
+	Recieve an array of Functions (usually async) to call in parallel, each  function
 	receives a callback as first argument that it should call, when it completes. After 
 	everything is complete, main callback is called. Passing truthy value to the
 	callback as a first argument will interrupt the process and invoke main callback
@@ -263,7 +263,7 @@ define('moxie/core/utils/Basic', [], function() {
 
 	@method inParallel
 	@static
-	@param {Array} queue Array of functions to call in sequence
+	@param {Array} queue Array of Functions to call in sequence
 	@param {Function} cb Main callback that is called in the end, or in case of error
 	*/
 	var inParallel = function(queue, cb) {
@@ -7933,7 +7933,7 @@ define("moxie/runtime/html5/image/ExifParser", [
 			clear: this.clear
 		};
 
-		// Public functions
+		// Public Functions
 		Basic.extend(this, {
 			
 			read: function() {

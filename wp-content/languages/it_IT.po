@@ -4489,8 +4489,8 @@ msgid "Paragraph"
 msgstr "Paragrafo"
 
 #: wp-includes/query.php:919
-msgid "https://developer.wordpress.org/reference/functions/is_main_query/"
-msgstr "https://developer.wordpress.org/reference/functions/is_main_query/"
+msgid "https://developer.wordpress.org/reference/Functions/is_main_query/"
+msgstr "https://developer.wordpress.org/reference/Functions/is_main_query/"
 
 #: wp-includes/class-wp-taxonomy.php:634
 msgid "Filter by category"
@@ -13268,13 +13268,13 @@ msgstr "Trascina e rilascia per riordinare i file."
 #. translators: 1: 'text_direction' argument, 2: bloginfo() function name, 3:
 #. is_rtl() function name.
 #: wp-includes/general-template.php:891
-msgid "The %1$s option is deprecated for the family of %2$s functions. Use the %3$s function instead."
+msgid "The %1$s option is deprecated for the family of %2$s Functions. Use the %3$s function instead."
 msgstr "L'opzione %1$s è deprecata per la famiglia di funzioni di %2$s. Al suo posto utilizza la funzione %3$s."
 
 #. translators: 1: 'siteurl'/'home' argument, 2: bloginfo() function name, 3:
 #. 'url' argument.
 #: wp-includes/general-template.php:810
-msgid "The %1$s option is deprecated for the family of %2$s functions. Use the %3$s option instead."
+msgid "The %1$s option is deprecated for the family of %2$s Functions. Use the %3$s option instead."
 msgstr "L'opzione %1$s è deprecata per la famiglia di funzioni di %2$s. Al suo posto utilizza la funzione %3$s."
 
 #: wp-includes/blocks/archives.php:60
@@ -18665,7 +18665,7 @@ msgid "Once Hourly"
 msgstr "Ogni ora"
 
 #: wp-includes/cron.php:549
-msgid "This argument has changed to an array to match the behavior of the other cron functions."
+msgid "This argument has changed to an array to match the behavior of the other cron Functions."
 msgstr "Questo argomento è stato trasformato in un array per adattarsi al funzionamento di altre funzioni cron."
 
 #: wp-includes/comment.php:2432

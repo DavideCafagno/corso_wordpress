@@ -66,7 +66,7 @@ function wp_signon( $credentials = array(), $secure_cookie = '' ) {
 	 * Fires before the user is authenticated.
 	 *
 	 * The variables passed to the callbacks are passed by reference,
-	 * and can be modified by callback functions.
+	 * and can be modified by callback Functions.
 	 *
 	 * @since 1.5.1
 	 *
@@ -622,7 +622,7 @@ function count_many_users_posts( $users, $post_type = 'post', $public_only = fal
 }
 
 //
-// User option functions.
+// User option Functions.
 //
 
 /**
@@ -1384,7 +1384,7 @@ function wp_maybe_update_user_counts( $network_id = null ) {
 	}
 
 	$is_small_network = ! wp_is_large_user_count( $network_id );
-	/** This filter is documented in wp-includes/ms-functions.php */
+	/** This filter is documented in wp-includes/ms-Functions.php */
 	if ( ! apply_filters( 'enable_live_network_counts', $is_small_network, 'users' ) ) {
 		return false;
 	}
@@ -1479,7 +1479,7 @@ function wp_is_large_user_count( $network_id = null ) {
 }
 
 //
-// Private helper functions.
+// Private helper Functions.
 //
 
 /**
@@ -1924,7 +1924,7 @@ function clean_user_cache( $user ) {
 /**
  * Determines whether the given username exists.
  *
- * For more information on this and similar theme functions, check out
+ * For more information on this and similar theme Functions, check out
  * the {@link https://developer.wordpress.org/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *
@@ -1956,7 +1956,7 @@ function username_exists( $username ) {
 /**
  * Determines whether the given email exists.
  *
- * For more information on this and similar theme functions, check out
+ * For more information on this and similar theme Functions, check out
  * the {@link https://developer.wordpress.org/themes/basics/conditional-tags/
  * Conditional Tags} article in the Theme Developer Handbook.
  *
@@ -3567,7 +3567,7 @@ function wp_get_users_with_no_role( $site_id = null ) {
  * will be set to the logged-in person. If no user is logged-in, then it will
  * set the current user to 0, which is invalid and won't have any permissions.
  *
- * This function is used by the pluggable functions wp_get_current_user() and
+ * This function is used by the pluggable Functions wp_get_current_user() and
  * get_currentuserinfo(), the latter of which is deprecated but used for backward
  * compatibility.
  *

@@ -192,7 +192,7 @@
    * The `'' + value` pattern (used in in perf-sensitive code) throws for Symbol
    * and Temporal.* types. See https://github.com/facebook/react/pull/22064.
    *
-   * The functions in this module will throw an easier-to-understand,
+   * The Functions in this module will throw an easier-to-understand,
    * easier-to-debug exception with a clear errors message message explaining the
    * problem. (Instead of a confusing exception thrown inside the implementation
    * of the `value` object).
@@ -4079,7 +4079,7 @@
     // In DEV mode, we swap out invokeGuardedCallback for a special version
     // that plays more nicely with the browser's DevTools. The idea is to preserve
     // "Pause on exceptions" behavior. Because React wraps all user-provided
-    // functions in invokeGuardedCallback, and the production version of
+    // Functions in invokeGuardedCallback, and the production version of
     // invokeGuardedCallback uses a try-catch, all user exceptions are treated
     // like caught exceptions, and the DevTools won't pause unless the developer
     // takes the extra step of enabling pause on caught exceptions. This is
@@ -4287,7 +4287,7 @@
     }
   }
   /**
-   * During execution of guarded functions we will capture the first error which
+   * During execution of guarded Functions we will capture the first error which
    * we will rethrow to be handled by the top level error handler.
    */
 
@@ -13506,7 +13506,7 @@
 
     {
       if (currentlyProcessingQueue === sharedQueue && !didWarnUpdateInsideUpdate) {
-        error('An update (setState, replaceState, or forceUpdate) was scheduled ' + 'from inside an update function. Update functions should be pure, ' + 'with zero side-effects. Consider using componentDidUpdate or a ' + 'callback.');
+        error('An update (setState, replaceState, or forceUpdate) was scheduled ' + 'from inside an update function. Update Functions should be pure, ' + 'with zero side-effects. Consider using componentDidUpdate or a ' + 'callback.');
 
         didWarnUpdateInsideUpdate = true;
       }
@@ -19848,7 +19848,7 @@
         transitions: nextState.transitions
       };
       var updateQueue = workInProgress.updateQueue; // `baseState` can always be the last state because the root doesn't
-      // have reducer functions so it doesn't need rebasing.
+      // have reducer Functions so it doesn't need rebasing.
 
       updateQueue.baseState = overrideState;
       workInProgress.memoizedState = overrideState;
@@ -23941,7 +23941,7 @@
       // up mounted layout effects, and call componentWillUnmount.
       // We only need to remove the topmost host child in each branch. But then we
       // still need to keep traversing to unmount effects, refs, and cWU. TODO: We
-      // could split this into two separate traversals functions, where the second
+      // could split this into two separate traversals Functions, where the second
       // one doesn't include any removeChild logic. This is maybe the same
       // function as "disappearLayoutEffects" (or whatever that turns into after
       // the layout phase is refactored to use recursion).
@@ -24310,7 +24310,7 @@
             } catch (error) {
               captureCommitPhaseError(finishedWork, finishedWork.return, error);
             } // Layout effects are destroyed during the mutation phase so that all
-            // destroy functions for all fibers are called before any create functions.
+            // destroy Functions for all fibers are called before any create Functions.
             // This prevents sibling component effects from interfering with each other,
             // e.g. a destroy function in one component should never override a ref set
             // by a create function in another component during the same commit.
@@ -26978,7 +26978,7 @@
   function flushPassiveEffects() {
     // Returns whether passive effects were flushed.
     // TODO: Combine this check with the one in flushPassiveEFfectsImpl. We should
-    // probably just combine the two functions. I believe they were only separate
+    // probably just combine the two Functions. I believe they were only separate
     // in the first place because we used to wrap it with
     // `Scheduler.runWithPriority`, which accepts a function. But now we track the
     // priority within React itself, so we can mutate the variable directly.
@@ -27178,7 +27178,7 @@
 
     {
       // TODO: Until we re-land skipUnmountedBoundaries (see #20147), this warning
-      // will fire for errors that are thrown by destroy functions inside deleted
+      // will fire for errors that are thrown by destroy Functions inside deleted
       // trees. What it should instead do is propagate the error to the parent of
       // the deleted tree. In the meantime, do not add this warning to the
       // allowlist; this is only for our internal use.

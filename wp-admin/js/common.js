@@ -544,7 +544,7 @@ window.showNotice = {
 };
 
 /**
- * Represents the functions for the meta screen options panel.
+ * Represents the Functions for the meta screen options panel.
  *
  * @since 3.2.0
  *

@@ -128,7 +128,7 @@ class WP_Fatal_Error_Handler {
 	 *
 	 * A drop-in 'php-error.php' can be used as a custom template. This drop-in should control the HTTP status code and
 	 * print the HTML markup indicating that a PHP error occurred. Note that this drop-in may potentially be executed
-	 * very early in the WordPress bootstrap process, so any core functions used that are not part of
+	 * very early in the WordPress bootstrap process, so any core Functions used that are not part of
 	 * `wp-includes/load.php` should be checked for before being called.
 	 *
 	 * If no such drop-in is available, this will call {@see WP_Fatal_Error_Handler::display_default_error_template()}.
@@ -175,7 +175,7 @@ class WP_Fatal_Error_Handler {
 		}
 
 		if ( ! function_exists( 'wp_die' ) ) {
-			require_once ABSPATH . WPINC . '/functions.php';
+			require_once ABSPATH . WPINC . '/Functions.php';
 		}
 
 		if ( ! class_exists( 'WP_Error' ) ) {

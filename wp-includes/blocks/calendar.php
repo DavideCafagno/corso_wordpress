@@ -130,7 +130,7 @@ function block_core_calendar_update_has_published_posts() {
 	return $has_published_posts;
 }
 
-// We only want to register these functions and actions when
+// We only want to register these Functions and actions when
 // we are on single sites. On multi sites we use `post_count` option.
 if ( ! is_multisite() ) {
 	/**
