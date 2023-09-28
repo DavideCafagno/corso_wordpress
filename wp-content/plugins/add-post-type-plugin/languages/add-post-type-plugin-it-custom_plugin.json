@@ -72,11 +72,11 @@
 
       "No custom posts to update.": ["Nessun Custom-Post da modificare."],
 
-      "Post-Type created successfully!": [      "Post-Type creato con successo!"],
+      "Post-Type created successfully!": ["Post-Type creato con successo!"],
 
-      "Error, Post-Type not created.": [      "Errore, Post-Type non creato."],
+      "Error, Post-Type not created.": ["Errore, Post-Type non creato."],
 
-      "Error, Post-Type already exists.": [      "Errore, Post-Type già esistente."],
+      "Error, Post-Type already exists.": ["Errore, Post-Type già esistente."],
 
 
       "Elimination successful!": ["Eliminazione andata a buon fine!"],
@@ -97,9 +97,11 @@
 
       "Error, changes not made.": ["Errore, modifiche non avvenute."],
 
-      "Error, no posts to change.": ["Errore, nessun post da modificare."],
+      "Post-type updated but post changes not made.": ["Post-type aggiornato ma modifiche ai post non avvenute."],
 
-      "Changes made. Posts updated: ": ["Modifiche avvenute! Posts modificati : "],
+      "Post-type updated but no posts to change.": ["Post-type aggiornato ma nessun post da modificare."],
+
+      "Changes made. Posts updated: ": ["Modifiche avvenute! Posts modificati: "],
 
       "Post-type changes successful!": ["Modifiche a Post-type apportate con successo!"],
 

@@ -3,17 +3,17 @@ add_action('init', 'modify_capabilities');
 function modify_capabilities()
 {
     register_post_status('approved', array(
-        'label'                     => 'Approved',
-        'label_count'               => _n_noop( 'Approved <span class="count">(%s)</span>', 'Approved <span class="count">(%s)</span>' ),
-        'exclude_from_search'       => false,
-        '_builtin'                  => false,
-        'public'                    => false,
-        'internal'                  => false,
-        'protected'                 => false,
-        'private'                   => false,
+        'label' => 'Approved',
+        'label_count' => _n_noop('Approved <span class="count">(%s)</span>', 'Approved <span class="count">(%s)</span>'),
+        'exclude_from_search' => false,
+        '_builtin' => false,
+        'public' => false,
+        'internal' => false,
+        'protected' => false,
+        'private' => false,
         //'publicly_queryable'        => null,
         'show_in_admin_status_list' => true,
-        'show_in_admin_all_list'    => true,
+        'show_in_admin_all_list' => true,
         //'date_floating'             => false,
     ));
     $user = wp_get_current_user();
@@ -60,7 +60,7 @@ function modify_users_visibility($query)
 
 }
 
-add_filter('post_row_actions', 'remove_row_actions',10,2);
+add_filter('post_row_actions', 'remove_row_actions', 10, 2);
 function remove_row_actions($actions, $post)
 {
     global $current_screen;
@@ -76,7 +76,7 @@ function remove_row_actions($actions, $post)
         case in_array("administrator", $roles):
             break;
         case in_array("editor", $roles):
-            if(user_can($post->post_author,'administrator') || user_can($post->post_author,'editor') || $post->post_status == 'approved'){
+            if (user_can($post->post_author, 'administrator') || user_can($post->post_author, 'editor') || $post->post_status == 'approved'|| $post->post_status == 'publish') {
                 unset($actions['edit']);
                 unset($actions['inline hide-if-no-js']);
                 unset($actions['trash']);
@@ -91,36 +91,34 @@ function remove_row_actions($actions, $post)
     return $actions;
 }
 
-add_filter('posts_where_request','add_approved_clause');
+add_filter('posts_where_request', 'add_approved_clause');
 
-function add_approved_clause($where){
+function add_approved_clause($where)
+{
     //$where.="OR wp_posts.post_status = 'approved'";
     return $where;
 }
 
 add_action('transition_post_status', 'approve_post');
-function approve_post($postID)
+function approve_post($post_status)
 {
-    $post = get_post($_POST['post_ID']);
-    $postID = $_POST['post_ID'];
-    $post_type = $post->post_type;
-    if($post_type != 'articoli-custom') return;
-
-    $user = wp_get_current_user();
-    $roles = $user->roles;
-    switch ($roles) {
-        case in_array("contributor", $roles):
-            break;
-        case in_array("administrator", $roles):
-            break;
-        case in_array("editor", $roles):
+    if ($_POST) {
+        if ($_POST['post_type'] != 'articoli-custom') return;
+        $postID = $_POST['post_ID'];
+        $post_type = $_POST['post_type'];
+        $roles = wp_get_current_user()->roles;
+        switch ($roles) {
+//            case in_array("contributor", $roles):
+//                break;
+//            case in_array("administrator", $roles):
+//                break;
+            case in_array("editor", $roles):
                 global $wpdb;
-                $res = $wpdb->update('wp_posts',array('post_status' => 'approved'),array('ID' => $postID));
-            break;
-        case in_array("subscriber", $roles):
-            break;
-        default:
+                $wpdb->update('wp_posts', array('post_status' => 'approved'), array('ID' => $postID));
+                break;
+//            case in_array("subscriber", $roles):
+//                break;
+            default:
+        }
     }
-
-
 }

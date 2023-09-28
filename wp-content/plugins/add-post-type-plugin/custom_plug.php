@@ -10,7 +10,7 @@
  * License: GPL Attribution-ShareAlike
  * Text Domain: add-post-type-plugin
  * Domain Path: /languages
- *
+ * Requirement to LOG: LOGGER PLUGIN (logger_success,logger_error,logger_info,logger_warning are the functions that permitt to LOG events);
  */
 if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly
@@ -125,7 +125,8 @@ function add_script()
         'select_one'=>__('Select at least one Post-Type!', 'add-post-type-plugin'),
         'sure_delete'=>__('Are you sure to permanently delete?', 'add-post-type-plugin'),
         'sure_disable'=>__('Are you sure to disable? You can enable it later.', 'add-post-type-plugin'),
-        'new_association'=>__('The posts associated with their old slug will lose the association with their Post-Type. Do you want to associate them with the new slug ', 'add-post-type-plugin'),
+        'new_association'=>__('The posts associated with their old slug `%1$s`, will lose the association with their Post-Type. Do you want to associate them with the new slug `%2$s`?', 'add-post-type-plugin'),
+        'confirm_delete_posts'=>__('Do you want to permanently delete all associated posts?','add-post-type-plugin')
     ));
     wp_enqueue_script('add-post-type-plugin-script');
 

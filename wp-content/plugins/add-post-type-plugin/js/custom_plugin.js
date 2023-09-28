@@ -1,4 +1,4 @@
-const {__, _x, _n, _nx} = wp.i18n;
+const {__, _x, _n, _nx, sprintf} = wp.i18n;
 console.log(__('Add Post-Type','add-post-type-plugin'));
 console.log(lang.script);
 function invia_dati() {
@@ -50,12 +50,18 @@ function elimina_post() {
     let val = jQuery('#post_selected').val();
     if (val) {
         let post_name = {'post_type': val};
+        let url = "http://localhost/Progetti/Corso_wordpress/wp-json/plug/v1/remove-custom-post-type/";
         if (
             confirm(lang.sure_delete)
             //confirm(__('Are you sure to permanently delete?', 'add-post-type-plugin'))
         ) {
+            if(confirm(lang.confirm_delete_posts)){ //confirm(__('Do you want to permanently delete all associated posts?', 'add-post-type-plugin'))
+                url+="?association=true";
+            }else{
+                url+="?association=false";
+            }
             jQuery.ajax({
-                url: "http://localhost/Progetti/Corso_wordpress/wp-json/plug/v1/remove-custom-post-type/",
+                url: url,
                 method: "POST",
                 dataType: "json",
                 data: post_name,
@@ -198,14 +204,13 @@ function update_post() {
         }).get();
         if (dato['post_name'] && dato['post_slug'] && dato['post_singular_name']) {
             let url = "http://localhost/Progetti/Corso_wordpress/wp-json/plug/v1/update-custom-post-type/?old_slug=" + val;
-            console.log(wp);
             if (
                 confirm(lang.sure_changes)
                 // confirm(__("Are you sure to make the changes?", "add-post-type-plugin")/*'Sicro di voler modificare?'*/)
             ) {
                 if (dato['post_slug'] != val) {
                     if (
-                        confirm(lang.new_association)
+                        confirm(sprintf(lang.new_association, val, dato['post_slug']))
                         //confirm(__("The posts associated with their old slug will lose the association with their Post-Type. Do you want to associate them with the new slug ", "add-post-type-plugin") + "'" + dato['post_slug'] + "' ?")
                         ) {
                         url += '&association=true';
@@ -221,7 +226,6 @@ function update_post() {
                         dataType: 'json',
                         data: dato,
                         success: function (response) {
-                            console.log(response);
                             if (response.status === 200) {
                                 alert(response.message);
                                 location.reload();

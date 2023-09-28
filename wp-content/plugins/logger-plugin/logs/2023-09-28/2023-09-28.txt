@@ -1,0 +1,100 @@
+LOGGER | 23/09/23 13:08:40 | DEBUG ~ Trying to register Post-Type: 'a'
+LOGGER | 23/09/23 13:08:40 | SUCCESS | Custom Post-Type 'a' created! ~ Object Class: 'PostType'
+{
+    "post_name": "A",
+    "post_slug": "a",
+    "post_singular_name": "A",
+    "supports": [
+        "title",
+        "author",
+        "editor",
+        "excerpt",
+        "thumbnail",
+        "comments",
+        "custom-fields"
+    ],
+    "post_taxonomies": [
+        "category",
+        "post_tag",
+        "tipologia_persona",
+        "categoria_custom"
+    ]
+}
+
+LOGGER | 23/09/23 13:08:46 | DEBUG ~ Trying to get a Post-Type with slug: 'a'
+LOGGER | 23/09/23 13:08:46 | SUCCESS | Get the Post-type 'slug' ->  ~ 
+	
+Array
+		[0] : Object Class: 'stdClass'
+{
+    "id": "25",
+    "post_name": "A",
+    "post_slug": "a",
+    "post_singular_name": "A",
+    "post_content": "1",
+    "post_excerpt": "1",
+    "post_thumb": "1",
+    "post_comments": "1",
+    "post_custom_fields": "1",
+    "post_taxonomies": "category,post_tag,tipologia_persona,categoria_custom",
+    "post_enabled": "1"
+}
+
+
+LOGGER | 23/09/23 13:09:13 | DEBUG | Trying to modify old Post-Type with slug: 'a', POST-TYPE Before Modification ->  ~ Object Class: 'stdClass'
+{
+    "id": "25",
+    "post_name": "A",
+    "post_slug": "a",
+    "post_singular_name": "A",
+    "post_content": "1",
+    "post_excerpt": "1",
+    "post_thumb": "1",
+    "post_comments": "1",
+    "post_custom_fields": "1",
+    "post_taxonomies": "category,post_tag,tipologia_persona,categoria_custom",
+    "post_enabled": "1"
+}
+
+LOGGER | 23/09/23 13:09:13 | DEBUG ~ Trying to modify posts of type 'a' into type: 'type-a'
+LOGGER | 23/09/23 13:09:13 | SUCCESS | No posts to modify. New Post-Type 'type-a' ->  ~ Object Class: 'PostType'
+{
+    "post_name": "Type A",
+    "post_slug": "type-a",
+    "post_singular_name": "Tipo a",
+    "supports": {
+        "post_content": true,
+        "post_excerpt": true,
+        "post_thumb": true,
+        "post_comments": true,
+        "post_custom_fields": true
+    },
+    "post_taxonomies": "category,post_tag,tipologia_persona,categoria_custom"
+}
+
+LOGGER | 23/09/23 13:09:21 | DEBUG ~ Trying to Disable a Post-Type : 'type-a'
+LOGGER | 23/09/23 13:09:21 | SUCCESS ~ Disabling 'type-a' successful!
+LOGGER | 23/09/23 13:09:27 | DEBUG ~ Trying to enable a Post-Type : 'type-a'
+LOGGER | 23/09/23 13:09:27 | SUCCESS ~ Enabling Post-Type 'type-a' successful!
+LOGGER | 23/09/23 13:09:35 | DEBUG ~ Trying to Delete a Post-Type with Slug: 'type-a'
+LOGGER | 23/09/23 13:09:35 | DEBUG ~ Trying to delete all posts of type 'type-a'
+LOGGER | 23/09/23 13:09:35 | SUCCESS ~ Post-Type successful deleted but no posts to delete.
+LOGGER | 23/09/23 13:35:21 | C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\logger-plugin\template\logger_function.php | DEBUG ~ Trying to register Post-Type: 'a'
+LOGGER | 23/09/23 13:35:21 | C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\logger-plugin\template\logger_function.php | SUCCESS | Custom Post-Type 'a' created! ~ Object Class: 'PostType'
+{
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "supports": [
+        "title",
+        "author"
+    ],
+    "post_taxonomies": [
+        "category",
+        "post_tag"
+    ]
+}
+
+LOGGER | 23/09/23 16:01:27 | C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\logger-plugin\template\logger_function.php | INFO ~ Trying to Delete a Post-Type with Slug: 'a'
+LOGGER | 23/09/23 16:01:27 | C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\logger-plugin\template\logger_function.php | INFO ~ Trying to delete all posts of type 'a'
+LOGGER | 23/09/23 16:01:27 | C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\logger-plugin\template\logger_function.php | SUCCESS ~ Post-Type successful deleted but no posts to delete.

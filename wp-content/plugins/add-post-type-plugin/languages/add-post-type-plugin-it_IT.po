@@ -137,11 +137,14 @@ msgstr "Errore, nessuna modifica da effettuare."
 msgid "Error, changes not made."
 msgstr "Errore, modifiche non avvenute."
 
-msgid "Error, no posts to change."
-msgstr "Errore, nessun post da modificare."
+msgid "Post-type updated but post changes not made."
+msgstr "Post-type aggiornato ma modifiche ai post non avvenute."
 
-msgid "Changes made. Posts updated: "
-msgstr "Modifiche avvenute! Posts modificati : "
+msgid "Post-type updated but no posts to change."
+msgstr "Post-type aggiornato ma nessun post da modificare."
+
+msgid "Changes made. Posts updated: %x."
+msgstr "Modifiche avvenute! Posts modificati: %x."
 
 msgid "Post-type changes successful!"
 msgstr "Modifiche a Post-type apportate con successo!"
@@ -161,5 +164,17 @@ msgstr "Sicuro di eliminare definitavamente?"
 msgid "Are you sure to disable? You can enable it later."
 msgstr "Sicuro di disabilitare? Potrai riattivarlo successivamente."
 
-msgid "The posts associated with their old slug will lose the association with their Post-Type. Do you want to associate them with the new slug "
-msgstr "I post associati al vecchio slug, perderanno l'associazione al Post-Type, associarli al nuovo slug "
+msgid "The posts associated with their old slug `%1$s`, will lose the association with their Post-Type. Do you want to associate them with the new slug `%2$s`?"
+msgstr "I post associati al vecchio slug '%1$s', perderanno l'associazione al Post-Type, associarli al nuovo slug '%2$s'?"
+
+msgid "Do you want to permanently delete all associated posts?"
+msgstr "Vuoi cancellare definitivamente tutti i posts associati?"
+
+msgid "Success! Posts deleted: %x."
+msgstr "Successo! Posts eliminati: %x."
+
+msgid "Post-Type successful deleted but no posts to delete."
+msgstr "Post-Type eliminato ma nessun post da eliminare."
+
+msgid "Post-Type successful deleted! Error deleting posts."
+msgstr "Post-Type eliminato! Errore nell' eliminazione dei posts."
