@@ -1,5 +1,4 @@
-const {__, _x, _n, _nx, sprintf} = wp.i18n;
-console.log(__('Add Post-Type','add-post-type-plugin'));
+console.log(wp.i18n.__('Add Post-Type','add-post-type-plugin'));
 console.log(lang.script);
 function invia_dati() {
     let post_name = jQuery("#post_name").val();
@@ -41,7 +40,7 @@ function invia_dati() {
         });
     } else {
         alert(lang.insert_all);
-        //alert(__('Insert all text fields!', 'add-post-type-plugin'));
+        //alert(wp.i18n.__('Insert all text fields!', 'add-post-type-plugin'));
 
     }
 }
@@ -53,9 +52,9 @@ function elimina_post() {
         let url = "http://localhost/Progetti/Corso_wordpress/wp-json/plug/v1/remove-custom-post-type/";
         if (
             confirm(lang.sure_delete)
-            //confirm(__('Are you sure to permanently delete?', 'add-post-type-plugin'))
+            //confirm(wp.i18n.__('Are you sure to permanently delete?', 'add-post-type-plugin'))
         ) {
-            if(confirm(lang.confirm_delete_posts)){ //confirm(__('Do you want to permanently delete all associated posts?', 'add-post-type-plugin'))
+            if(confirm(lang.confirm_delete_posts)){ //confirm(wp.i18n.__('Do you want to permanently delete all associated posts?', 'add-post-type-plugin'))
                 url+="?association=true";
             }else{
                 url+="?association=false";
@@ -77,7 +76,7 @@ function elimina_post() {
         }
     } else {
         alert(lang.select_one);
-        //alert(__('Select at least one Post-Type!', 'add-post-type-plugin'));
+        //alert(wp.i18n.__('Select at least one Post-Type!', 'add-post-type-plugin'));
     }
 }
 
@@ -87,7 +86,7 @@ function cestina_post() {
         let post_name = {'post_type': val};
         if (
             confirm(lang.sure_disable)
-            //confirm(__('Are you sure to disable? You can enable it later.', 'add-post-type-plugin'))
+            //confirm(wp.i18n.__('Are you sure to disable? You can enable it later.', 'add-post-type-plugin'))
         ) {
             jQuery.ajax({
                 url: "http://localhost/Progetti/Corso_wordpress/wp-json/plug/v1/disable-custom-post-type/",
@@ -106,7 +105,7 @@ function cestina_post() {
         }
     } else {
         alert(lang.select_one);
-//        alert(__('Select at least one Post-Type!', 'add-post-type-plugin'));
+//        alert(wp.i18n.__('Select at least one Post-Type!', 'add-post-type-plugin'));
     }
 }
 
@@ -130,7 +129,7 @@ function attiva_post() {
         });
     } else {
         alert(lang.select_one);
-        // alert(__('Select at least one Post-Type!', 'add-post-type-plugin'));
+        // alert(wp.i18n.__('Select at least one Post-Type!', 'add-post-type-plugin'));
     }
 }
 
@@ -206,12 +205,12 @@ function update_post() {
             let url = "http://localhost/Progetti/Corso_wordpress/wp-json/plug/v1/update-custom-post-type/?old_slug=" + val;
             if (
                 confirm(lang.sure_changes)
-                // confirm(__("Are you sure to make the changes?", "add-post-type-plugin")/*'Sicro di voler modificare?'*/)
+                // confirm(wp.i18n.__("Are you sure to make the changes?", "add-post-type-plugin")/*'Sicro di voler modificare?'*/)
             ) {
                 if (dato['post_slug'] != val) {
                     if (
                         confirm(sprintf(lang.new_association, val, dato['post_slug']))
-                        //confirm(__("The posts associated with their old slug will lose the association with their Post-Type. Do you want to associate them with the new slug ", "add-post-type-plugin") + "'" + dato['post_slug'] + "' ?")
+                        //confirm(wp.i18n.__("The posts associated with their old slug will lose the association with their Post-Type. Do you want to associate them with the new slug ", "add-post-type-plugin") + "'" + dato['post_slug'] + "' ?")
                         ) {
                         url += '&association=true';
                     } else {
@@ -239,11 +238,11 @@ function update_post() {
             }
         } else {
             alert(lang.insert_all);
-            //alert(__('Insert all text fields!', 'add-post-type-plugin'));
+            //alert(wp.i18n.__('Insert all text fields!', 'add-post-type-plugin'));
         }
     } else {
         alert(lang.select_one);
-        //alert(__('Select at least one Post-Type!', 'add-post-type-plugin'));
+        //alert(wp.i18n.__('Select at least one Post-Type!', 'add-post-type-plugin'));
     }
 }
 

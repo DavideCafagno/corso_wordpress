@@ -78,12 +78,15 @@
 
       "Error, Post-Type already exists.": ["Errore, Post-Type già esistente."],
 
-
       "Elimination successful!": ["Eliminazione andata a buon fine!"],
 
       "Error, elimination unsuccessful.": ["Errore, eliminazione non andata a buon fine."],
 
       "Disabling successful!": ["Disabilitazione andata a buon fine!"],
+
+      "Disabling '%s' successful!": ["Disabilitazione '%s' andata ],a buon fine!"],
+
+      "Type '%s' already disabled!": [  "Tipo '%s' già disabilitato!"],
 
       "Error, disabling fail.": ["Errore, Disabilitazione non andata a buon fine."],
 

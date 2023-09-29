@@ -52,4 +52,6 @@ function view_file_selected(value){
 
 function loggerDark(){
     jQuery('#loggerTextarea').toggleClass('loggerdark');
+    jQuery('#loggerdarkicon').toggleClass('invert');
+    jQuery('#darkmodeicon').toggleClass('darker');
 }

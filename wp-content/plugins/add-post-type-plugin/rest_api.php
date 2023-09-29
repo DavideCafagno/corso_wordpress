@@ -179,11 +179,18 @@ function disable_custom_post($data)
     $post_slug = $data->get_params()['post_type'];
     if (function_exists('logger_info')) logger_info( "Trying to Disable a Post-Type : '$post_slug'");
     global $wpdb;
-    if ($wpdb->update(ADD_POST_TYPE_PLUGIN_TABLE_NAME, array('post_enabled' => false), array('post_slug' => $post_slug)) != false) {
-        if (function_exists('logger_success')) logger_success("Disabling '$post_slug' successful!");
+$res = $wpdb->update(ADD_POST_TYPE_PLUGIN_TABLE_NAME, array('post_enabled' => false), array('post_slug' => $post_slug));
+    if ( $res!== false) {
+        $message ="Disabling '%s' successful!";
+        if($res === 0){
+            $message = "Type '%s' already disabled!";
+            if (function_exists('logger_warning')) logger_warning("Type '$post_slug' already disabled!");
+        }else{
+            if (function_exists('logger_success')) logger_success("Disabling '$post_slug' successful!");
+        }
         return new WP_REST_Response(array(
             'status' => 200,
-            'message' => __('Disabling successful!', 'add-post-type-plugin')
+            'message' => sprintf(__($message, 'add-post-type-plugin'), $post_slug)
         ));
     } else {
         if (function_exists('logger_error')) logger_error($wpdb->last_query, "Error, disabling '$post_slug' fail. Query SQL");

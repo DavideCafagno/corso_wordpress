@@ -15,7 +15,11 @@
 if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly
 }
-load_plugin_textdomain('add-post-type-plugin', false, '/add-post-type-plugin/languages/');
+add_action('plugins_loaded', 'add_post_type_plugin_myplugin_load_translation');
+function add_post_type_plugin_myplugin_load_translation()
+{
+    load_plugin_textdomain('add-post-type-plugin', false, '/add-post-type-plugin/languages/');
+}
 function load_custom_post_type()
 {
     global $wpdb;
@@ -108,14 +112,10 @@ global $wp_textdomain_registry;
 add_action('admin_enqueue_scripts', 'add_script');
 function add_script()
 {
-
     wp_register_script('add-post-type-plugin-script', plugins_url('add-post-type-plugin/js/custom_plugin.js'), array('wp-i18n'), 0.1,'');//, array('jquery'));
-
-//    wp_localize_script('custom_script', 'oggettoAjax', array('proprietaUrl' => admin_url('admin-ajax.php')));
-
     global $GLOBALS;
 
-
+    load_script_textdomain('dd-post-type-plugin-script','add-post-type-plugin',plugins_url().'/add-post-type-plugin/languages/');
     wp_set_script_translations( 'add-post-type-plugin-script', 'add-post-type-plugin', plugins_url().'/add-post-type-plugin/languages/');
 
     wp_localize_script('add-post-type-plugin-script', 'lang',array(
@@ -130,23 +130,15 @@ function add_script()
     ));
     wp_enqueue_script('add-post-type-plugin-script');
 
- // global $wp_textdomain_registry;
+
+
     wp_register_script('jquery_script', 'https://code.jquery.com/jquery-3.7.1.min.js');
     wp_enqueue_script('jquery_script');
 }
 
-add_action('admin_menu', 'register_my_custom_menu_page');
-
-function register_my_custom_menu_page()
-{
+add_action('admin_menu', 'add_post_type_register_my_custom_menu_page');
+function add_post_type_register_my_custom_menu_page(){
     add_menu_page('my plugin', __('Add Post-Type','add-post-type-plugin'), 'manage_options', 'add_custom_post_plugin', 'my_add_custom_post', 'dashicons-plus-alt2', 66);
-}
-
-add_action('admin_menu', 'register_my_custom_sub_menu_page');
-
-function register_my_custom_sub_menu_page()
-{
-    //add_submenu_page('add_custom_post_plugin', "my plugin", "Add Post-Type", 'manage_options', 'add-post_type', 'my_add_custom_post');
     add_submenu_page('add_custom_post_plugin', "my plugin", __("Remove Post-Type",'add-post-type-plugin'), 'manage_options', 'remove-post_type', 'my_remove_custom_post');
     add_submenu_page('add_custom_post_plugin', "my plugin", __("Enable Post-Type",'add-post-type-plugin'), 'manage_options', 'enable-post_type', 'my_enable_custom_post');
     add_submenu_page('add_custom_post_plugin', "my plugin", __("Update Post-Type",'add-post-type-plugin'), 'manage_options', 'update-post_type', 'my_update_custom_post');

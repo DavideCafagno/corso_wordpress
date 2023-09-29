@@ -1,6 +1,6 @@
 <h1><?php echo _e('SELECT POST-TYPE TO BE REMOVED OR DISABLED','add-post-type-plugin');?></h1>
 <?php $verify = false;
-if (count(custom_post_list()) == 0):
+if (count(all_custom_post_list()) == 0):
     $verify = true; ?>
     <p><?php echo _e("No custom posts to remove or disable.",'add-post-type-plugin');?></p>
     <hr>
@@ -11,7 +11,7 @@ if (count(custom_post_list()) == 0):
         <td class="col col-6"><select <?php if ($verify) echo 'disabled' ?> id="post_selected">
                 <option value="" selected disabled> - </option>
                 <?php
-                foreach (custom_post_list() as $pt):?>
+                foreach (all_custom_post_list() as $pt):?>
                     <option value="<?php echo $pt->post_slug; ?>"><?php echo $pt->post_name; ?></option>
                 <?php endforeach; ?>
             </select></td>

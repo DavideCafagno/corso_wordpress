@@ -1,0 +1,81 @@
+msgid ""
+msgstr ""
+
+"Project-Id-Version: LOGGER\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: logger-plugin\n"
+"Domain: logger-plugin\n"
+"Text-Domain: logger-plugin\n"
+"X-Generator: Poedit 3.3.2\n"
+
+
+msgid "LOGGER"
+msgstr ""
+
+msgid "SELECT YOUR LOG FILE"
+msgstr ""
+
+msgid "CONTENT"
+msgstr ""
+
+msgid "FOLDER"
+msgstr ""
+
+msgid "FILE"
+msgstr ""
+
+msgid "Error reading files."
+msgstr ""
+
+msgid "Click to switch light/dark mode"
+msgstr ""
+
+msgid "DESCRIPTION"
+msgstr ""
+
+msgid "LOGGER needs jQuery to work and is designed for development. All logs are divided into subfolders and archived by date."
+msgstr ""
+
+msgid "LOGGER may write many files and for this reason it is important to store the data logs externally and delete, if necessary, only the contents of the 'logs' folder in the LOGGER plugin."
+msgstr ""
+
+msgid "LOGGER can clearly log arguments of type: String, Array, Object, Array of Objects; A LOG has the following structure:"
+msgstr ""
+
+msgid "** LOGGER ** | {Type of LOG} | {-->Functions backtrace} - {Description (optionally)} ~ {Argument(Array, String, Object)}."
+msgstr ""
+
+msgid "LOG FUNCTIONS"
+msgstr ""
+
+msgid "LOGGER has 5 functions to insert a LOG wherever you want."
+msgstr ""
+
+msgid "Function 1 - do_log( $type, $argument, $description(optional) ) -- Save a Log in the structure as described before. The $type parameter can be customized."
+msgstr ""
+
+msgid "Function 2 - logger_info( $argument, $description(optional) ) -- So $type parameter will be 'INFO'."
+msgstr ""
+
+msgid "Function 3 - logger_success( $argument, $description(optional) ) -- So $type parameter will be 'SUCCESS'."
+msgstr ""
+
+msgid "Function 4 - logger_error( $argument, $description(optional) ) -- So $type parameter will be 'ERROR'."
+msgstr ""
+
+msgid "Function 5 - logger_warning( $argument, $description(optional) ) -- So $type parameter will be 'WARNING'."
+msgstr ""
+
+msgid "A TIP"
+msgstr ""
+
+msgid "When using LOGGER functions in your project, check the existence of the function before the calling: ` if( function_exist( `do_log` ) ) { do_log(...); } ` So when the plugin is disabled all functions will not throw errors!"
+msgstr ""

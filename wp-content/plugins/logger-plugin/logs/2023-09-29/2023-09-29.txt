@@ -1,0 +1,204 @@
+LOGGER | 23/09/23 08:21:17 | C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\logger-plugin\template\logger_function.php | INFO ~ Trying to register Post-Type: 'e'
+LOGGER | 23/09/23 08:21:17 | C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\logger-plugin\template\logger_function.php | SUCCESS | Custom Post-Type 'e' created! ~ Object Class: 'PostType'
+{
+    "post_name": "E",
+    "post_slug": "e",
+    "post_singular_name": "e",
+    "supports": [
+        "title",
+        "author",
+        "editor",
+        "excerpt",
+        "thumbnail",
+        "comments",
+        "custom-fields"
+    ],
+    "post_taxonomies": [
+        "category",
+        "post_tag"
+    ]
+}
+
+LOGGER | 23/09/23 08:25:43 | INFO ~ Trying to Disable a Post-Type : 'e'
+LOGGER | 23/09/23 08:25:56 | SUCCESS ~ Disabling 'e' successful!
+LOGGER | 23/09/23 08:39:11 | INFO ~ Trying to enable a Post-Type : 'e'
+LOGGER | 23/09/23 08:39:26 | SUCCESS ~ Enabling Post-Type 'e' successful!
+LOGGER | 23/09/23 08:44:17 |  | INFO ~ Trying to Disable a Post-Type : 'e'
+LOGGER | 23/09/23 08:49:25 | 
+	require->wp->main->parse_request->do_action_ref_array->do_action->apply_filters->rest_api_loaded->serve_request->dispatch->respond_to_request->disable_custom_post->logger_info->do_log
+	 | INFO ~ Trying to Disable a Post-Type : 'e'
+LOGGER | 23/09/23 08:49:30 | 
+	require->wp->main->parse_request->do_action_ref_array->do_action->apply_filters->rest_api_loaded->serve_request->dispatch->respond_to_request->disable_custom_post->logger_error->do_log
+	 | ERROR | Error, disabling 'e' fail. Query SQL ~ UPDATE `wp_add_post_type_plugin` SET `post_enabled` = '' WHERE `post_slug` = 'e'
+LOGGER | 23/09/23 08:49:55 | 
+	require->wp->main->parse_request->do_action_ref_array->do_action->apply_filters->rest_api_loaded->serve_request->dispatch->respond_to_request->enable_custom_post->logger_info->do_log
+	 | INFO ~ Trying to enable a Post-Type : 'e'
+LOGGER | 23/09/23 08:49:55 | 
+	require->wp->main->parse_request->do_action_ref_array->do_action->apply_filters->rest_api_loaded->serve_request->dispatch->respond_to_request->enable_custom_post->logger_success->do_log
+	 | SUCCESS ~ Enabling Post-Type 'e' successful!
+LOGGER | 23/09/23 08:50:03 | 
+	require->wp->main->parse_request->do_action_ref_array->do_action->apply_filters->rest_api_loaded->serve_request->dispatch->respond_to_request->disable_custom_post->logger_info->do_log
+	 | INFO ~ Trying to Disable a Post-Type : 'e'
+LOGGER | 23/09/23 08:50:03 | 
+	require->wp->main->parse_request->do_action_ref_array->do_action->apply_filters->rest_api_loaded->serve_request->dispatch->respond_to_request->disable_custom_post->logger_success->do_log
+	 | SUCCESS ~ Disabling 'e' successful!
+LOGGER | 23/09/23 08:49:17 |  | SUCCESS ~ Disabling 'e' successful!
+**LOGGER** | 23/09/23 09:03:28 | 
+	require->wp->main->parse_request->do_action_ref_array->do_action->apply_filters->rest_api_loaded->serve_request->dispatch->respond_to_request->add_custom_post->logger_info->do_log
+	INFO ~ Trying to register Post-Type: 'a'
+**LOGGER** | 23/09/23 09:03:28 | 
+	require->wp->main->parse_request->do_action_ref_array->do_action->apply_filters->rest_api_loaded->serve_request->dispatch->respond_to_request->add_custom_post->register_custom->logger_success->do_log
+	SUCCESS | Custom Post-Type 'a' created! ~ Object Class: 'PostType'
+{
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "supports": [
+        "title",
+        "author",
+        "editor",
+        "excerpt",
+        "thumbnail"
+    ],
+    "post_taxonomies": [
+        "category",
+        "post_tag",
+        "tipologia_persona",
+        "categoria_custom"
+    ]
+}
+
+**LOGGER** | 23/09/23 09:06:05 | INFO
+	require->wp->main->parse_request->do_action_ref_array->do_action->apply_filters->rest_api_loaded->serve_request->dispatch->respond_to_request->disable_custom_post->logger_info->do_log
+	 ~ Trying to Disable a Post-Type : 'a'
+**LOGGER** | 23/09/23 09:06:05 | SUCCESS
+	require->wp->main->parse_request->do_action_ref_array->do_action->apply_filters->rest_api_loaded->serve_request->dispatch->respond_to_request->disable_custom_post->logger_success->do_log
+	 ~ Disabling 'a' successful!
+**LOGGER** | 23/09/23 09:08:16 | INFO
+	require->wp->main->parse_request->do_action_ref_array->do_action->apply_filters->rest_api_loaded->serve_request->dispatch->respond_to_request->get_custom_post->logger_info->do_log
+	 ~ Trying to get a Post-Type with slug: 'a'
+**LOGGER** | 23/09/23 09:08:16 | SUCCESS
+	require->wp->main->parse_request->do_action_ref_array->do_action->apply_filters->rest_api_loaded->serve_request->dispatch->respond_to_request->get_custom_post->logger_success->do_log
+	 - Get the Post-type 'slug' ->  ~ 
+	
+Array
+		[0] : Object Class: 'stdClass'
+{
+    "id": "28",
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "post_content": "1",
+    "post_excerpt": "1",
+    "post_thumb": "1",
+    "post_comments": "0",
+    "post_custom_fields": "0",
+    "post_taxonomies": "category,post_tag,tipologia_persona,categoria_custom",
+    "post_enabled": "0"
+}
+
+
+**LOGGER** | 23/09/23 09:08:23 | INFO
+	require->wp->main->parse_request->do_action_ref_array->do_action->apply_filters->rest_api_loaded->serve_request->dispatch->respond_to_request->update_custom_post->logger_info->do_log
+	 - Trying to modify old Post-Type with slug: 'a', POST-TYPE Before Modification ~ Object Class: 'stdClass'
+{
+    "id": "28",
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "post_content": "1",
+    "post_excerpt": "1",
+    "post_thumb": "1",
+    "post_comments": "0",
+    "post_custom_fields": "0",
+    "post_taxonomies": "category,post_tag,tipologia_persona,categoria_custom",
+    "post_enabled": "0"
+}
+
+**LOGGER** | 23/09/23 09:08:23 | SUCCESS
+	require->wp->main->parse_request->do_action_ref_array->do_action->apply_filters->rest_api_loaded->serve_request->dispatch->respond_to_request->update_custom_post->logger_success->do_log
+	 - Post-type 'a' updated! From 'a' into 'a' ~ Object Class: 'PostType'
+{
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "supports": {
+        "post_content": true,
+        "post_excerpt": true,
+        "post_thumb": true,
+        "post_comments": true,
+        "post_custom_fields": true
+    },
+    "post_taxonomies": "category,post_tag,tipologia_persona,categoria_custom"
+}
+
+**LOGGER** | 23/09/23 09:15:57 | INFO
+	serve_request->dispatch->respond_to_request->remove_custom_post->logger_info->do_log
+	 ~ Trying to Delete a Post-Type with Slug: 'e'
+**LOGGER** | 23/09/23 09:15:57 | INFO
+	serve_request->dispatch->respond_to_request->remove_custom_post->logger_info->do_log
+	 ~ Trying to delete all posts of type 'e'
+**LOGGER** | 23/09/23 09:15:57 | SUCCESS
+	serve_request->dispatch->respond_to_request->remove_custom_post->logger_success->do_log
+	 ~ Post-Type successful deleted but no posts to delete.
+** LOGGER ** | 23/09/23 09:17:23 | INFO	..serve_request->dispatch->respond_to_request->remove_custom_post->logger_info->do_log
+	 ~ Trying to Delete a Post-Type with Slug: 'a'
+** LOGGER ** | 23/09/23 09:17:23 | INFO	..serve_request->dispatch->respond_to_request->remove_custom_post->logger_info->do_log
+	 ~ Trying to delete all posts of type 'a'
+** LOGGER ** | 23/09/23 09:17:23 | SUCCESS	..serve_request->dispatch->respond_to_request->remove_custom_post->logger_success->do_log
+	 ~ Post-Type successful deleted but no posts to delete.
+** LOGGER ** | 23/09/23 09:19:33 | INFO	.. -> rest_api_loaded -> serve_request -> dispatch -> respond_to_request -> add_custom_post -> logger_info -> do_log
+	 ~ Trying to register Post-Type: 'a'
+** LOGGER ** | 23/09/23 09:19:33 | SUCCESS	.. -> serve_request -> dispatch -> respond_to_request -> add_custom_post -> register_custom -> logger_success -> do_log
+	 - Custom Post-Type 'a' created! ~ Object Class: 'PostType'
+{
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "supports": [
+        "title",
+        "author",
+        "editor",
+        "excerpt",
+        "thumbnail",
+        "comments",
+        "custom-fields"
+    ],
+    "post_taxonomies": [
+        "category",
+        "post_tag"
+    ]
+}
+
+** LOGGER ** | 23/09/23 09:22:30 | INFO | 	.. -> rest_api_loaded -> serve_request -> dispatch -> respond_to_request -> disable_custom_post -> logger_info -> do_log
+	 ~ Trying to Disable a Post-Type : 'a'
+** LOGGER ** | 23/09/23 09:22:30 | SUCCESS | 	.. -> rest_api_loaded -> serve_request -> dispatch -> respond_to_request -> disable_custom_post -> logger_success -> do_log
+	 ~ Disabling 'a' successful!
+** LOGGER ** | 23/09/23 09:24:42 | INFO |  |-->rest_api_loaded->serve_request->dispatch->respond_to_request->enable_custom_post->logger_info->do_log
+	 ~ Trying to enable a Post-Type : 'a'
+** LOGGER ** | 23/09/23 09:24:42 | SUCCESS |  |-->rest_api_loaded->serve_request->dispatch->respond_to_request->enable_custom_post->logger_success->do_log
+	 ~ Enabling Post-Type 'a' successful!
+** LOGGER ** | 23/09/23 09:25:38 | INFO | -->rest_api_loaded->serve_request->dispatch->respond_to_request->disable_custom_post->logger_info->do_log
+	 ~ Trying to Disable a Post-Type : 'a'
+** LOGGER ** | 23/09/23 09:25:38 | SUCCESS | -->rest_api_loaded->serve_request->dispatch->respond_to_request->disable_custom_post->logger_success->do_log
+	 ~ Disabling 'a' successful!
+** LOGGER ** | 23/09/23 09:28:28 | INFO | -->rest_api_loaded->serve_request->dispatch->respond_to_request->disable_custom_post->logger_info->do_log
+	 ~ Trying to Disable a Post-Type : 'a'
+** LOGGER ** | 23/09/23 09:28:28 | ERROR | -->rest_api_loaded->serve_request->dispatch->respond_to_request->disable_custom_post->logger_error->do_log
+	- Error, disabling 'a' fail. Query SQL ~ UPDATE `wp_add_post_type_plugin` SET `post_enabled` = '' WHERE `post_slug` = 'a'
+** LOGGER ** | 23/09/23 09:31:00 | INFO | -->rest_api_loaded->serve_request->dispatch->respond_to_request->disable_custom_post->logger_info->do_log
+	 ~ Trying to Disable a Post-Type : 'a'
+** LOGGER ** | 23/09/23 09:31:00 | SUCCESS | -->rest_api_loaded->serve_request->dispatch->respond_to_request->disable_custom_post->logger_success->do_log
+	 ~ Disabling 'a' successful!
+** LOGGER ** | 23/09/23 09:42:35 | INFO | -->rest_api_loaded->serve_request->dispatch->respond_to_request->disable_custom_post->logger_info->do_log
+	 ~ Trying to Disable a Post-Type : 'a'
+** LOGGER ** | 23/09/23 09:42:35 | WARNING | -->rest_api_loaded->serve_request->dispatch->respond_to_request->disable_custom_post->logger_warning->do_log
+	 ~ Type 'a' already disabled!
+** LOGGER ** | 23/09/23 09:42:47 | INFO | -->rest_api_loaded->serve_request->dispatch->respond_to_request->enable_custom_post->logger_info->do_log
+	 ~ Trying to enable a Post-Type : 'a'
+** LOGGER ** | 23/09/23 09:42:47 | SUCCESS | -->rest_api_loaded->serve_request->dispatch->respond_to_request->enable_custom_post->logger_success->do_log
+	 ~ Enabling Post-Type 'a' successful!
+** LOGGER ** | 23/09/23 09:42:54 | INFO | -->rest_api_loaded->serve_request->dispatch->respond_to_request->disable_custom_post->logger_info->do_log
+	 ~ Trying to Disable a Post-Type : 'a'
+** LOGGER ** | 23/09/23 09:42:54 | SUCCESS | -->rest_api_loaded->serve_request->dispatch->respond_to_request->disable_custom_post->logger_success->do_log
+	 ~ Disabling 'a' successful!

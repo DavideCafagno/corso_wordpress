@@ -1,0 +1,55 @@
+{
+  "translation-revision-date": "2023-09-29T13:30:11-07:00",
+  "generator": "WP-CLI/2.2.0",
+  "source": "logger-script.js",
+  "domain": "logger-plugin",
+  "locale_data": {
+    "logger-plugin": {
+      "": {
+        "domain": "logger-plugin",
+        "lang": "it",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+
+       "SELECT YOUR LOG FILE": ["SCEGLI IL TUO FILE DI LOG"],
+
+       "CONTENT": ["CONTENUTO"],
+
+       "FOLDER": ["CARTELLA"],
+
+       "FILE": ["FILE"],
+
+       "Error reading files.": ["Errore, lettura files"],
+
+      "Click to switch light/dark mode": ["Clicca per alternare modalità giorno/notte"],
+
+      "DESCRIPTION": ["DESCRIZIONE"],
+
+      "LOGGER needs jQuery to work and is designed for development. All logs are divided into subfolders and archived by date.": ["LOGGER necessita di jQuery per funzionare ed è progettato per gli sviluppatori. Tutti i log sono divisi in sottocartelle archiviate per data."],
+
+      "LOGGER may write many files and for this reason it is important to store the data logs externally and delete, if necessary, only the contents of the 'logs' folder in the LOGGER plugin.": ["LOGGER potrebbe scrivere molti files e per questo è molto importante archiviare i dati e i logs esternamente e cancellare, se necessario, solo il contenuto della cartella 'logs' nel plugin LOGGER."],
+
+      "LOGGER can clearly log arguments of type: String, Array, Object, Array of Objects; A LOG has the following structure:": ["LOGGER può registrare chiaramente argomenti di tipo: Stringa, Array, Oggetto, Array di Oggetti; Un LOG ha la seguente struttura:"],
+
+      "** LOGGER ** | {Type of LOG} | {-->Functions backtrace} - {Description (optionally)} ~ {Argument(Array, String, Object)}.": ["** LOGGER ** | {Tipo di LOG} | {-->Traccia delle funzioni} - {Descrizione (facoltativa)} ~ {Argomento(Array, Stringa, Oggetto)}."],
+
+      "LOG FUNCTIONS": ["FUNZIONI DI LOG"],
+
+      "LOGGER has 5 functions to insert a LOG wherever you want.": ["LOGGER ha 5 funzioni per poter inserire un LOG dove hai necessità."],
+
+      "Function 1 - do_log( $type, $argument, $description(optional) ) -- Save a Log in the structure as described before. The $type parameter can be customized.": ["Funzione 1 - do_log( $type, $argument, $description(facoltativo) ) -- Salva un Log nella struttura come descrtto prima. Il parametro $type potrà essere personalizzato."],
+
+      "Function 2 - logger_info( $argument, $description(optional) ) -- So $type parameter will be 'INFO'.": ["Funzione 2 - logger_info( $argument, $description(facoltativo) ) -- Il parametro $type sarà quindi 'INFO'."],
+
+      "Function 3 - logger_success( $argument, $description(optional) ) -- So $type parameter will be 'SUCCESS'.": ["Funzione 3 - logger_sucess( $argument, $description(facoltativo) ) -- Il parametro $type sarà quindi 'SUCCESS'."],
+
+      "Function 4 - logger_error( $argument, $description(optional) ) -- So $type parameter will be 'ERROR'.": ["Funzione 4 - logger_error( $argument, $description(facoltativo) ) -- Il parametro $type sarà quindi 'ERROR'."],
+
+      "Function 5 - logger_warning( $argument, $description(optional) ) -- So $type parameter will be 'WARNING'.": ["Funzione 5 - logger_warning( $argument, $description(facoltativo) ) -- Il parametro $type sarà quindi 'WARNING'."],
+
+      "A TIP": ["CONSIGLIO"],
+
+      "When using LOGGER functions in your project, check the existence of the function before the calling: ` if( function_exist( `do_log` ) ) { do_log(...); } ` So when the plugin is disabled all functions will not throw errors!": ["Quando usi le funzioni LOGGER nel tuo progetto, controlla l'esistenza della funzione prima di chiamarla: ` if( function_exist( `do_log` ) ) { do_log(...); } ` Quindi, quando il plugin è disabilitato tutte le funzioni non genereranno errori!"]
+    }
+  }
+}
