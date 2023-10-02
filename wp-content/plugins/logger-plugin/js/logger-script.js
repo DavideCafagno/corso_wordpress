@@ -1,21 +1,24 @@
-function change_files_select(value) {
+function change_files_select(value, nonce) {
 
     if (value) {
-        let url = "http://localhost/Progetti/Corso_wordpress/wp-json/logger/v1/files/?f=" + value;
+        //let url = "http://localhost/Progetti/Corso_wordpress/wp-json/logger/v1/files/?f=" + value;
+        let url = wp_ajax.ajaxUrl;
         jQuery.ajax({
                 method: 'GET',
                 dataType: 'json',
                 url: url,
+            data:{action:'logger_list_files', loggernonce: nonce, folder: value},
                 success: function (resp) {
+                    console.log(resp);
                     if (resp.status === 200) {
                         let html = "<option value=''> - </option>";
-                        for (let file of resp.files) {
+                        for (let file of resp.data) {
                             html += "<option value='" + file + "'>" + file + "</option>";
                         }
                         jQuery('#loggerSelectFiles').html(html);
 
                     } else {
-                        alert(resp.message);
+                        alert(resp.data);
                     }
                 }
             }
@@ -26,20 +29,23 @@ function change_files_select(value) {
 }
 
 
-function view_file_selected(value){
+function view_file_selected(value, nonce){
     if (value) {
-        let url = "http://localhost/Progetti/Corso_wordpress/wp-json/logger/v1/content/?f=" + value;
+        //let url = "http://localhost/Progetti/Corso_wordpress/wp-json/logger/v1/content/?f=" + value;
+        let url = wp_ajax.ajaxUrl;
         jQuery.ajax({
                 method: 'GET',
                 dataType: 'json',
                 url: url,
+                data:{action:'logger_file_content', loggernonce: nonce, file: value},
                 success: function (resp) {
+                    console.log(resp);
                     if (resp.status === 200) {
-                        jQuery('#loggerTextarea').text(resp.content);
+                        jQuery('#loggerTextarea').text(resp.data);
                         jQuery('#fileName').text(" ~ "+value);
 
                     } else {
-                        alert(resp.message);
+                        alert(resp.data);
                     }
                 }
             }

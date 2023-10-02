@@ -18,10 +18,10 @@ if (count(all_custom_post_list()) == 0):
     </tr>
     <tr class="row">
         <td class="col col-6">
-            <button <?php if ($verify) echo 'disabled' ?> class="button" onclick="cestina_post()"><?php echo _e('DISABLE','add-post-type-plugin');?></button>
+            <button <?php if ($verify) echo 'disabled' ?> class="button" onclick="cestina_post('<?php echo wp_create_nonce();?>')"><?php echo _e('DISABLE','add-post-type-plugin');?></button>
         </td>
         <td class="col col-6">
-            <button <?php if ($verify) echo 'disabled' ?> class="button" onclick="elimina_post()"><?php echo _e('DELETE','add-post-type-plugin');?></button>
+            <button <?php if ($verify) echo 'disabled' ?> class="button" onclick="elimina_post('<?php echo wp_create_nonce();?>')"><?php echo _e('DELETE','add-post-type-plugin');?></button>
         </td>
     </tr>
 </table>

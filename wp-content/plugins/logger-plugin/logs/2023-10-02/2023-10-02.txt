@@ -1,0 +1,892 @@
+** LOGGER ** | 23/10/23 07:05:32 | INFO | -->rest_api_loaded->serve_request->dispatch->respond_to_request->disable_custom_post->logger_info->do_log
+	 ~ Trying to Disable a Post-Type : 'a'
+** LOGGER ** | 23/10/23 07:05:32 | WARNING | -->rest_api_loaded->serve_request->dispatch->respond_to_request->disable_custom_post->logger_warning->do_log
+	 ~ Type 'a' already disabled!
+** LOGGER ** | 23/10/23 07:05:43 | INFO | -->rest_api_loaded->serve_request->dispatch->respond_to_request->remove_custom_post->logger_info->do_log
+	 ~ Trying to Delete a Post-Type with Slug: 'a'
+** LOGGER ** | 23/10/23 07:05:43 | INFO | -->rest_api_loaded->serve_request->dispatch->respond_to_request->remove_custom_post->logger_info->do_log
+	 ~ Trying to delete all posts of type 'a'
+** LOGGER ** | 23/10/23 07:05:43 | SUCCESS | -->rest_api_loaded->serve_request->dispatch->respond_to_request->remove_custom_post->logger_success->do_log
+	 ~ Post-Type successful deleted but no posts to delete.
+** LOGGER ** | 23/10/23 07:23:50 | INFO | -->rest_api_loaded->serve_request->dispatch->respond_to_request->get_custom_post->logger_info->do_log
+	 ~ Trying to get a Post-Type with slug: ''
+** LOGGER ** | 23/10/23 07:23:50 | NOT_FOUND | -->apply_filters->rest_api_loaded->serve_request->dispatch->respond_to_request->get_custom_post->do_log
+	 ~ The Post-type with slug: '', not found.
+** LOGGER ** | 23/10/23 07:23:58 | INFO | -->rest_api_loaded->serve_request->dispatch->respond_to_request->get_custom_post->logger_info->do_log
+	 ~ Trying to get a Post-Type with slug: ''
+** LOGGER ** | 23/10/23 07:23:58 | NOT_FOUND | -->apply_filters->rest_api_loaded->serve_request->dispatch->respond_to_request->get_custom_post->do_log
+	 ~ The Post-type with slug: '', not found.
+** LOGGER ** | 23/10/23 07:24:20 | INFO | -->rest_api_loaded->serve_request->dispatch->respond_to_request->get_custom_post->logger_info->do_log
+	 ~ Trying to get a Post-Type with slug: 'articoli-custom'
+** LOGGER ** | 23/10/23 07:24:20 | SUCCESS | -->rest_api_loaded->serve_request->dispatch->respond_to_request->get_custom_post->logger_success->do_log
+	- Get the Post-type 'slug' ->  ~ 
+	
+Array
+		[0] : Object Class: 'stdClass'
+{
+    "id": "10",
+    "post_name": "Articoli Custom",
+    "post_slug": "articoli-custom",
+    "post_singular_name": "Articolo Custom",
+    "post_content": "1",
+    "post_excerpt": "1",
+    "post_thumb": "1",
+    "post_comments": "1",
+    "post_custom_fields": "1",
+    "post_taxonomies": "category,post_tag,tipologia_persona,categoria_custom",
+    "post_enabled": "1"
+}
+
+
+** LOGGER ** | 23/10/23 07:24:37 | INFO | -->rest_api_loaded->serve_request->dispatch->respond_to_request->get_custom_post->logger_info->do_log
+	 ~ Trying to get a Post-Type with slug: 'articoli-custom'
+** LOGGER ** | 23/10/23 07:24:37 | SUCCESS | -->rest_api_loaded->serve_request->dispatch->respond_to_request->get_custom_post->logger_success->do_log
+	- Get the Post-type 'slug' ->  ~ 
+	
+Array
+		[0] : Object Class: 'stdClass'
+{
+    "id": "10",
+    "post_name": "Articoli Custom",
+    "post_slug": "articoli-custom",
+    "post_singular_name": "Articolo Custom",
+    "post_content": "1",
+    "post_excerpt": "1",
+    "post_thumb": "1",
+    "post_comments": "1",
+    "post_custom_fields": "1",
+    "post_taxonomies": "category,post_tag,tipologia_persona,categoria_custom",
+    "post_enabled": "1"
+}
+
+
+** LOGGER ** | 23/10/23 10:08:22 | INFO | -->
+	 ~ Trying to register Post-Type: 'b'
+** LOGGER ** | 23/10/23 10:10:48 | INFO | -->
+	 ~ Trying to register Post-Type: 'b'
+** LOGGER ** | 23/10/23 10:10:48 | SUCCESS | -->
+	- Custom Post-Type 'b' created! ~ Object Class: 'PostType'
+{
+    "post_name": "b",
+    "post_slug": "b",
+    "post_singular_name": "b",
+    "supports": [
+        "title",
+        "author",
+        "editor",
+        "thumbnail",
+        "comments",
+        "custom-fields"
+    ],
+    "post_taxonomies": [
+        "category",
+        "post_tag"
+    ]
+}
+
+** LOGGER ** | 23/10/23 11:00:45 | INFO | -->
+	 ~ Trying to register Post-Type: 'a'
+** LOGGER ** | 23/10/23 11:00:45 | SUCCESS | -->
+	- Custom Post-Type 'a' created! ~ Object Class: 'PostType'
+{
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "supports": [
+        "title",
+        "author",
+        "editor",
+        "excerpt",
+        "thumbnail",
+        "comments",
+        "custom-fields"
+    ],
+    "post_taxonomies": [
+        "category",
+        "post_tag"
+    ]
+}
+
+** LOGGER ** | 23/10/23 11:00:50 | INFO | -->
+	 ~ Trying to register Post-Type: 'a'
+** LOGGER ** | 23/10/23 11:00:50 | ERROR | -->
+	- Custom Post-Type 'a' already exists. ~ Object Class: 'PostType'
+{
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "supports": [
+        "title",
+        "author"
+    ],
+    "post_taxonomies": [
+        "category",
+        "post_tag"
+    ]
+}
+
+** LOGGER ** | 23/10/23 11:02:50 | INFO | -->
+	 ~ Trying to Disable a Post-Type : 'a'
+** LOGGER ** | 23/10/23 11:02:50 | SUCCESS | -->
+	 ~ Disabling 'a' successful!
+** LOGGER ** | 23/10/23 11:03:02 | INFO | -->
+	 ~ Trying to Delete a Post-Type with Slug: 'a'
+** LOGGER ** | 23/10/23 11:03:02 | INFO | -->
+	 ~ Trying to delete all posts of type 'a'
+** LOGGER ** | 23/10/23 11:03:02 | SUCCESS | -->
+	 ~ Post-Type successful deleted but no posts to delete.
+** LOGGER ** | 23/10/23 11:03:02 | ERROR | -->
+	- Post-Type successful deleted but error deleting posts, Query SQL ~ DELETE FROM `wp_posts` WHERE `post_type` = 'a'
+** LOGGER ** | 23/10/23 11:03:02 | SUCCESS | -->
+	 ~ Post-Type successful deleted! .Posts deleted: 0.
+** LOGGER ** | 23/10/23 11:04:09 | INFO | -->
+	 ~ Trying to Delete a Post-Type with Slug: 'b'
+** LOGGER ** | 23/10/23 11:05:14 | SUCCESS | -->
+	 ~ Post-Type successful deleted!
+** LOGGER ** | 23/10/23 11:05:30 | INFO | -->
+	 ~ Trying to register Post-Type: 'a'
+** LOGGER ** | 23/10/23 11:05:30 | SUCCESS | -->
+	- Custom Post-Type 'a' created! ~ Object Class: 'PostType'
+{
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "supports": [
+        "title",
+        "author",
+        "editor",
+        "excerpt",
+        "thumbnail",
+        "comments",
+        "custom-fields"
+    ],
+    "post_taxonomies": [
+        "category",
+        "post_tag"
+    ]
+}
+
+** LOGGER ** | 23/10/23 11:05:47 | INFO | -->
+	 ~ Trying to Delete a Post-Type with Slug: 'a'
+** LOGGER ** | 23/10/23 11:05:47 | INFO | -->
+	 ~ Trying to delete all posts of type 'a'
+** LOGGER ** | 23/10/23 11:05:47 | SUCCESS | -->
+	 ~ Post-Type successful deleted but no posts to delete.
+** LOGGER ** | 23/10/23 11:05:47 | ERROR | -->
+	- Post-Type successful deleted but error deleting posts, Query SQL ~ DELETE FROM `wp_posts` WHERE `post_type` = 'a'
+** LOGGER ** | 23/10/23 11:05:47 | SUCCESS | -->
+	 ~ Post-Type successful deleted! .Posts deleted: 0.
+** LOGGER ** | 23/10/23 11:06:01 | INFO | -->
+	 ~ Trying to Delete a Post-Type with Slug: 'a'
+** LOGGER ** | 23/10/23 11:06:13 | ERROR | -->
+	- Post-Type successful deleted but error deleting posts, Query SQL ~ DELETE FROM `wp_add_post_type_plugin` WHERE `post_slug` = 'a'
+** LOGGER ** | 23/10/23 11:06:49 | INFO | -->
+	 ~ Trying to register Post-Type: 'a'
+** LOGGER ** | 23/10/23 11:06:49 | SUCCESS | -->
+	- Custom Post-Type 'a' created! ~ Object Class: 'PostType'
+{
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "supports": [
+        "title",
+        "author",
+        "editor",
+        "excerpt",
+        "thumbnail",
+        "comments",
+        "custom-fields"
+    ],
+    "post_taxonomies": [
+        "category",
+        "post_tag"
+    ]
+}
+
+** LOGGER ** | 23/10/23 11:06:56 | INFO | -->
+	 ~ Trying to register Post-Type: 'b'
+** LOGGER ** | 23/10/23 11:06:56 | SUCCESS | -->
+	- Custom Post-Type 'b' created! ~ Object Class: 'PostType'
+{
+    "post_name": "b",
+    "post_slug": "b",
+    "post_singular_name": "b",
+    "supports": [
+        "title",
+        "author"
+    ],
+    "post_taxonomies": [
+        "category",
+        "post_tag"
+    ]
+}
+
+** LOGGER ** | 23/10/23 11:09:17 | INFO | -->
+	 ~ Trying to Delete a Post-Type with Slug: 'a'
+** LOGGER ** | 23/10/23 11:09:17 | INFO | -->
+	 ~ Trying to delete all posts of type 'a'
+** LOGGER ** | 23/10/23 11:09:17 | SUCCESS | -->
+	 ~ Post-Type successful deleted but no posts to delete.
+** LOGGER ** | 23/10/23 11:09:17 | ERROR | -->
+	- Post-Type successful deleted but error deleting posts, Query SQL ~ DELETE FROM `wp_posts` WHERE `post_type` = 'a'
+** LOGGER ** | 23/10/23 11:09:17 | SUCCESS | -->
+	 ~ Post-Type successful deleted! .Posts deleted: 0.
+** LOGGER ** | 23/10/23 11:09:46 | INFO | -->
+	 ~ Trying to Delete a Post-Type with Slug: 'b'
+** LOGGER ** | 23/10/23 11:09:46 | SUCCESS | -->
+	 ~ Post-Type successful deleted!
+** LOGGER ** | 23/10/23 11:11:48 | INFO | -->
+	 ~ Trying to register Post-Type: 'a'
+** LOGGER ** | 23/10/23 11:11:48 | SUCCESS | -->
+	- Custom Post-Type 'a' created! ~ Object Class: 'PostType'
+{
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "supports": [
+        "title",
+        "author"
+    ],
+    "post_taxonomies": [
+        "category",
+        "post_tag"
+    ]
+}
+
+** LOGGER ** | 23/10/23 11:11:54 | INFO | -->
+	 ~ Trying to Delete a Post-Type with Slug: 'a'
+** LOGGER ** | 23/10/23 11:11:54 | INFO | -->
+	 ~ Trying to delete all posts of type 'a'
+** LOGGER ** | 23/10/23 11:11:54 | SUCCESS | -->
+	 ~ Post-Type successful deleted but no posts to delete.
+** LOGGER ** | 23/10/23 11:11:54 | ERROR | -->
+	- Post-Type successful deleted but error deleting posts, Query SQL ~ DELETE FROM `wp_posts` WHERE `post_type` = 'a'
+** LOGGER ** | 23/10/23 11:11:54 | SUCCESS | -->
+	 ~ Post-Type successful deleted! .Posts deleted: 0.
+** LOGGER ** | 23/10/23 11:13:51 | INFO | -->
+	 ~ Trying to register Post-Type: 'a'
+** LOGGER ** | 23/10/23 11:13:51 | SUCCESS | -->
+	- Custom Post-Type 'a' created! ~ Object Class: 'PostType'
+{
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "supports": [
+        "title",
+        "author",
+        "editor",
+        "excerpt"
+    ],
+    "post_taxonomies": [
+        "category",
+        "post_tag"
+    ]
+}
+
+** LOGGER ** | 23/10/23 11:13:57 | INFO | -->
+	 ~ Trying to register Post-Type: 's'
+** LOGGER ** | 23/10/23 11:13:57 | SUCCESS | -->
+	- Custom Post-Type 's' created! ~ Object Class: 'PostType'
+{
+    "post_name": "s",
+    "post_slug": "s",
+    "post_singular_name": "s",
+    "supports": [
+        "title",
+        "author",
+        "thumbnail"
+    ],
+    "post_taxonomies": [
+        "category",
+        "post_tag"
+    ]
+}
+
+** LOGGER ** | 23/10/23 11:14:04 | INFO | -->
+	 ~ Trying to register Post-Type: 'c'
+** LOGGER ** | 23/10/23 11:14:04 | SUCCESS | -->
+	- Custom Post-Type 'c' created! ~ Object Class: 'PostType'
+{
+    "post_name": "c",
+    "post_slug": "c",
+    "post_singular_name": "c",
+    "supports": [
+        "title",
+        "author"
+    ],
+    "post_taxonomies": [
+        "category",
+        "post_tag"
+    ]
+}
+
+** LOGGER ** | 23/10/23 11:14:13 | INFO | -->
+	 ~ Trying to Delete a Post-Type with Slug: 'a'
+** LOGGER ** | 23/10/23 11:14:13 | INFO | -->
+	 ~ Trying to delete all posts of type 'a'
+** LOGGER ** | 23/10/23 11:15:45 | INFO | -->
+	 ~ Trying to Delete a Post-Type with Slug: 'a'
+** LOGGER ** | 23/10/23 11:15:45 | ERROR | -->
+	- Post-Type successful deleted but error deleting posts, Query SQL ~ DELETE FROM `wp_add_post_type_plugin` WHERE `post_slug` = 'a'
+** LOGGER ** | 23/10/23 11:16:02 | INFO | -->
+	 ~ Trying to Delete a Post-Type with Slug: 's'
+** LOGGER ** | 23/10/23 11:16:02 | INFO | -->
+	 ~ Trying to delete all posts of type 's'
+** LOGGER ** | 23/10/23 11:16:02 | SUCCESS | -->
+	 ~ Post-Type successful deleted but no posts to delete.
+** LOGGER ** | 23/10/23 11:17:28 | INFO | -->
+	 ~ Trying to Delete a Post-Type with Slug: 'c'
+** LOGGER ** | 23/10/23 11:17:28 | INFO | -->
+	 ~ Trying to delete all posts of type 'c'
+** LOGGER ** | 23/10/23 11:17:28 | SUCCESS | -->
+	 ~ Post-Type successful deleted but no posts to delete.
+** LOGGER ** | 23/10/23 11:18:36 | SUCCESS | -->
+	 ~ Post-Type successful deleted but no posts to delete.
+** LOGGER ** | 23/10/23 11:18:36 | ERROR | -->
+	- Post-Type successful deleted but error deleting posts, Query SQL ~ DELETE FROM `wp_posts` WHERE `post_type` = 'a'
+** LOGGER ** | 23/10/23 11:18:36 | SUCCESS | -->
+	 ~ Post-Type successful deleted! .Posts deleted: 0.
+** LOGGER ** | 23/10/23 12:22:52 | INFO | -->
+	 ~ Trying to register Post-Type: 'a'
+** LOGGER ** | 23/10/23 12:22:52 | SUCCESS | -->
+	- Custom Post-Type 'a' created! ~ Object Class: 'PostType'
+{
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "supports": [
+        "title",
+        "author",
+        "editor",
+        "excerpt"
+    ],
+    "post_taxonomies": [
+        "category",
+        "post_tag"
+    ]
+}
+
+** LOGGER ** | 23/10/23 12:23:00 | INFO | -->
+	 ~ Trying to Disable a Post-Type : 'a'
+** LOGGER ** | 23/10/23 12:23:00 | SUCCESS | -->
+	 ~ Disabling 'a' successful!
+** LOGGER ** | 23/10/23 12:23:08 | INFO | -->
+	 ~ Trying to enable a Post-Type : 'a'
+** LOGGER ** | 23/10/23 12:23:08 | SUCCESS | -->
+	 ~ Enabling Post-Type 'a' successful!
+** LOGGER ** | 23/10/23 12:23:16 | INFO | -->
+	 ~ Trying to Disable a Post-Type : 'a'
+** LOGGER ** | 23/10/23 12:23:16 | SUCCESS | -->
+	 ~ Disabling 'a' successful!
+** LOGGER ** | 23/10/23 12:23:22 | INFO | -->
+	 ~ Trying to get a Post-Type with slug: 'a'
+** LOGGER ** | 23/10/23 12:23:22 | SUCCESS | -->
+	- Get the Post-type 'slug' ->  ~ 
+	
+Array
+		[0] : Object Class: 'stdClass'
+{
+    "id": "39",
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "post_content": "1",
+    "post_excerpt": "1",
+    "post_thumb": "0",
+    "post_comments": "0",
+    "post_custom_fields": "0",
+    "post_taxonomies": "category,post_tag",
+    "post_enabled": "0"
+}
+
+
+** LOGGER ** | 23/10/23 12:23:47 | INFO | -->
+	 ~ Trying to get a Post-Type with slug: 'a'
+** LOGGER ** | 23/10/23 12:23:47 | SUCCESS | -->
+	- Get the Post-type 'slug' ->  ~ 
+	
+Array
+		[0] : Object Class: 'stdClass'
+{
+    "id": "39",
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "post_content": "1",
+    "post_excerpt": "1",
+    "post_thumb": "0",
+    "post_comments": "0",
+    "post_custom_fields": "0",
+    "post_taxonomies": "category,post_tag",
+    "post_enabled": "0"
+}
+
+
+** LOGGER ** | 23/10/23 12:24:46 | INFO | -->
+	 ~ Trying to get a Post-Type with slug: 'a'
+** LOGGER ** | 23/10/23 12:24:46 | SUCCESS | -->
+	- Get the Post-type 'slug' ->  ~ 
+	
+Array
+		[0] : Object Class: 'stdClass'
+{
+    "id": "39",
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "post_content": "1",
+    "post_excerpt": "1",
+    "post_thumb": "0",
+    "post_comments": "0",
+    "post_custom_fields": "0",
+    "post_taxonomies": "category,post_tag",
+    "post_enabled": "0"
+}
+
+
+** LOGGER ** | 23/10/23 12:24:56 | INFO | -->
+	- Trying to modify old Post-Type with slug: 'a', POST-TYPE Before Modification ~ Object Class: 'stdClass'
+{
+    "id": "39",
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "post_content": "1",
+    "post_excerpt": "1",
+    "post_thumb": "0",
+    "post_comments": "0",
+    "post_custom_fields": "0",
+    "post_taxonomies": "category,post_tag",
+    "post_enabled": "0"
+}
+
+** LOGGER ** | 23/10/23 12:24:56 | SUCCESS | -->
+	- Post-type 'a' updated! From 'a' into 'a' ~ Object Class: 'PostType'
+{
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "supports": {
+        "post_content": true,
+        "post_excerpt": true,
+        "post_thumb": true,
+        "post_comments": true,
+        "post_custom_fields": true
+    },
+    "post_taxonomies": "category,post_tag,tipologia_persona,categoria_custom"
+}
+
+** LOGGER ** | 23/10/23 12:25:13 | INFO | -->
+	 ~ Trying to get a Post-Type with slug: 'a'
+** LOGGER ** | 23/10/23 12:25:13 | SUCCESS | -->
+	- Get the Post-type 'slug' ->  ~ 
+	
+Array
+		[0] : Object Class: 'stdClass'
+{
+    "id": "39",
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "post_content": "1",
+    "post_excerpt": "1",
+    "post_thumb": "1",
+    "post_comments": "1",
+    "post_custom_fields": "1",
+    "post_taxonomies": "category,post_tag,tipologia_persona,categoria_custom",
+    "post_enabled": "0"
+}
+
+
+** LOGGER ** | 23/10/23 12:25:57 | INFO | -->
+	 ~ Trying to get a Post-Type with slug: 'a'
+** LOGGER ** | 23/10/23 12:25:57 | SUCCESS | -->
+	- Get the Post-type 'slug' ->  ~ 
+	
+Array
+		[0] : Object Class: 'stdClass'
+{
+    "id": "39",
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "post_content": "1",
+    "post_excerpt": "1",
+    "post_thumb": "1",
+    "post_comments": "1",
+    "post_custom_fields": "1",
+    "post_taxonomies": "category,post_tag,tipologia_persona,categoria_custom",
+    "post_enabled": "0"
+}
+
+
+** LOGGER ** | 23/10/23 12:26:01 | INFO | -->
+	- Trying to modify old Post-Type with slug: 'a', POST-TYPE Before Modification ~ Object Class: 'stdClass'
+{
+    "id": "39",
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "post_content": "1",
+    "post_excerpt": "1",
+    "post_thumb": "1",
+    "post_comments": "1",
+    "post_custom_fields": "1",
+    "post_taxonomies": "category,post_tag,tipologia_persona,categoria_custom",
+    "post_enabled": "0"
+}
+
+** LOGGER ** | 23/10/23 12:26:01 | SUCCESS | -->
+	- Post-type 'a' updated! From 'a' into 'a' ~ Object Class: 'PostType'
+{
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "supports": {
+        "post_content": true,
+        "post_excerpt": true,
+        "post_thumb": false,
+        "post_comments": true,
+        "post_custom_fields": true
+    },
+    "post_taxonomies": "category,post_tag,tipologia_persona,categoria_custom"
+}
+
+** LOGGER ** | 23/10/23 12:26:45 | INFO | -->
+	 ~ Trying to get a Post-Type with slug: 'a'
+** LOGGER ** | 23/10/23 12:26:45 | SUCCESS | -->
+	- Get the Post-type 'slug' ->  ~ 
+	
+Array
+		[0] : Object Class: 'stdClass'
+{
+    "id": "39",
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "post_content": "1",
+    "post_excerpt": "1",
+    "post_thumb": "0",
+    "post_comments": "1",
+    "post_custom_fields": "1",
+    "post_taxonomies": "category,post_tag,tipologia_persona,categoria_custom",
+    "post_enabled": "0"
+}
+
+
+** LOGGER ** | 23/10/23 12:26:51 | INFO | -->
+	- Trying to modify old Post-Type with slug: 'a', POST-TYPE Before Modification ~ Object Class: 'stdClass'
+{
+    "id": "39",
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "post_content": "1",
+    "post_excerpt": "1",
+    "post_thumb": "0",
+    "post_comments": "1",
+    "post_custom_fields": "1",
+    "post_taxonomies": "category,post_tag,tipologia_persona,categoria_custom",
+    "post_enabled": "0"
+}
+
+** LOGGER ** | 23/10/23 12:26:51 | SUCCESS | -->
+	- Post-type 'a' updated! From 'a' into 'a' ~ Object Class: 'PostType'
+{
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "supports": {
+        "post_content": true,
+        "post_excerpt": true,
+        "post_thumb": true,
+        "post_comments": true,
+        "post_custom_fields": true
+    },
+    "post_taxonomies": "category,post_tag,tipologia_persona,categoria_custom"
+}
+
+** LOGGER ** | 23/10/23 12:27:54 | INFO | -->
+	- Trying to modify old Post-Type with slug: 'a', POST-TYPE Before Modification ~ Object Class: 'stdClass'
+{
+    "id": "39",
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "post_content": "1",
+    "post_excerpt": "1",
+    "post_thumb": "1",
+    "post_comments": "1",
+    "post_custom_fields": "1",
+    "post_taxonomies": "category,post_tag,tipologia_persona,categoria_custom",
+    "post_enabled": "0"
+}
+
+** LOGGER ** | 23/10/23 12:28:29 | ERROR | -->
+	- Error, no changes to make. Rows updated: 0. SQL ~ UPDATE `wp_add_post_type_plugin` SET `post_name` = 'a', `post_slug` = 'a', `post_singular_name` = 'a', `post_content` = '1', `post_excerpt` = '1', `post_thumb` = '1', `post_comments` = '1', `post_custom_fields` = '1', `post_taxonomies` = 'category,post_tag,tipologia_persona,categoria_custom' WHERE `post_slug` = 'a'
+** LOGGER ** | 23/10/23 12:31:11 | INFO | -->
+	 ~ Trying to get a Post-Type with slug: 'a'
+** LOGGER ** | 23/10/23 12:31:11 | SUCCESS | -->
+	- Get the Post-type 'slug' ->  ~ 
+	
+Array
+		[0] : Object Class: 'stdClass'
+{
+    "id": "39",
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "post_content": "1",
+    "post_excerpt": "1",
+    "post_thumb": "1",
+    "post_comments": "1",
+    "post_custom_fields": "1",
+    "post_taxonomies": "category,post_tag,tipologia_persona,categoria_custom",
+    "post_enabled": "0"
+}
+
+
+** LOGGER ** | 23/10/23 12:31:17 | INFO | -->
+	- Trying to modify old Post-Type with slug: 'a', POST-TYPE Before Modification ~ Object Class: 'stdClass'
+{
+    "id": "39",
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "post_content": "1",
+    "post_excerpt": "1",
+    "post_thumb": "1",
+    "post_comments": "1",
+    "post_custom_fields": "1",
+    "post_taxonomies": "category,post_tag,tipologia_persona,categoria_custom",
+    "post_enabled": "0"
+}
+
+** LOGGER ** | 23/10/23 12:31:17 | WARNING | -->
+	- Error, no changes to make. Rows updated: 0. SQL ~ UPDATE `wp_add_post_type_plugin` SET `post_name` = 'a', `post_slug` = 'a', `post_singular_name` = 'a', `post_content` = '1', `post_excerpt` = '1', `post_thumb` = '1', `post_comments` = '1', `post_custom_fields` = '1', `post_taxonomies` = 'category,post_tag,tipologia_persona,categoria_custom' WHERE `post_slug` = 'a'
+** LOGGER ** | 23/10/23 12:31:39 | INFO | -->
+	- Trying to modify old Post-Type with slug: 'a', POST-TYPE Before Modification ~ Object Class: 'stdClass'
+{
+    "id": "39",
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "post_content": "1",
+    "post_excerpt": "1",
+    "post_thumb": "1",
+    "post_comments": "1",
+    "post_custom_fields": "1",
+    "post_taxonomies": "category,post_tag,tipologia_persona,categoria_custom",
+    "post_enabled": "0"
+}
+
+** LOGGER ** | 23/10/23 12:31:49 | WARNING | -->
+	- Error, no changes to make. Rows updated: 0. SQL ~ UPDATE `wp_add_post_type_plugin` SET `post_name` = 'a', `post_slug` = 'a', `post_singular_name` = 'a', `post_content` = '1', `post_excerpt` = '1', `post_thumb` = '1', `post_comments` = '1', `post_custom_fields` = '1', `post_taxonomies` = 'category,post_tag,tipologia_persona,categoria_custom' WHERE `post_slug` = 'a'
+** LOGGER ** | 23/10/23 12:32:09 | INFO | -->
+	- Trying to modify old Post-Type with slug: 'a', POST-TYPE Before Modification ~ Object Class: 'stdClass'
+{
+    "id": "39",
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "post_content": "1",
+    "post_excerpt": "1",
+    "post_thumb": "1",
+    "post_comments": "1",
+    "post_custom_fields": "1",
+    "post_taxonomies": "category,post_tag,tipologia_persona,categoria_custom",
+    "post_enabled": "0"
+}
+
+** LOGGER ** | 23/10/23 12:32:18 | INFO | -->
+	 ~ Trying to get a Post-Type with slug: 'a'
+** LOGGER ** | 23/10/23 12:32:18 | SUCCESS | -->
+	- Get the Post-type 'slug' ->  ~ 
+	
+Array
+		[0] : Object Class: 'stdClass'
+{
+    "id": "39",
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "post_content": "1",
+    "post_excerpt": "1",
+    "post_thumb": "1",
+    "post_comments": "1",
+    "post_custom_fields": "1",
+    "post_taxonomies": "category,post_tag,tipologia_persona,categoria_custom",
+    "post_enabled": "0"
+}
+
+
+** LOGGER ** | 23/10/23 12:32:25 | INFO | -->
+	- Trying to modify old Post-Type with slug: 'a', POST-TYPE Before Modification ~ Object Class: 'stdClass'
+{
+    "id": "39",
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "post_content": "1",
+    "post_excerpt": "1",
+    "post_thumb": "1",
+    "post_comments": "1",
+    "post_custom_fields": "1",
+    "post_taxonomies": "category,post_tag,tipologia_persona,categoria_custom",
+    "post_enabled": "0"
+}
+
+** LOGGER ** | 23/10/23 12:32:25 | WARNING | -->
+	- Error, no changes to make. Rows updated: 0. SQL ~ UPDATE `wp_add_post_type_plugin` SET `post_name` = 'a', `post_slug` = 'a', `post_singular_name` = 'a', `post_content` = '1', `post_excerpt` = '1', `post_thumb` = '1', `post_comments` = '1', `post_custom_fields` = '1', `post_taxonomies` = 'category,post_tag,tipologia_persona,categoria_custom' WHERE `post_slug` = 'a'
+** LOGGER ** | 23/10/23 12:32:50 | WARNING | -->
+	- Error, no changes to make. Rows updated: 0. SQL ~ UPDATE `wp_add_post_type_plugin` SET `post_name` = 'a', `post_slug` = 'a', `post_singular_name` = 'a', `post_content` = '1', `post_excerpt` = '1', `post_thumb` = '1', `post_comments` = '1', `post_custom_fields` = '1', `post_taxonomies` = 'category,post_tag,tipologia_persona,categoria_custom' WHERE `post_slug` = 'a'
+** LOGGER ** | 23/10/23 12:32:57 | INFO | -->
+	 ~ Trying to get a Post-Type with slug: 'a'
+** LOGGER ** | 23/10/23 12:32:57 | SUCCESS | -->
+	- Get the Post-type 'slug' ->  ~ 
+	
+Array
+		[0] : Object Class: 'stdClass'
+{
+    "id": "39",
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "post_content": "1",
+    "post_excerpt": "1",
+    "post_thumb": "1",
+    "post_comments": "1",
+    "post_custom_fields": "1",
+    "post_taxonomies": "category,post_tag,tipologia_persona,categoria_custom",
+    "post_enabled": "0"
+}
+
+
+** LOGGER ** | 23/10/23 12:33:00 | INFO | -->
+	- Trying to modify old Post-Type with slug: 'a', POST-TYPE Before Modification ~ Object Class: 'stdClass'
+{
+    "id": "39",
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "post_content": "1",
+    "post_excerpt": "1",
+    "post_thumb": "1",
+    "post_comments": "1",
+    "post_custom_fields": "1",
+    "post_taxonomies": "category,post_tag,tipologia_persona,categoria_custom",
+    "post_enabled": "0"
+}
+
+** LOGGER ** | 23/10/23 12:33:00 | WARNING | -->
+	- Error, no changes to make. Rows updated: 0. SQL ~ UPDATE `wp_add_post_type_plugin` SET `post_name` = 'a', `post_slug` = 'a', `post_singular_name` = 'a', `post_content` = '1', `post_excerpt` = '1', `post_thumb` = '1', `post_comments` = '1', `post_custom_fields` = '1', `post_taxonomies` = 'category,post_tag,tipologia_persona,categoria_custom' WHERE `post_slug` = 'a'
+** LOGGER ** | 23/10/23 12:33:14 | INFO | -->
+	 ~ Trying to get a Post-Type with slug: 'a'
+** LOGGER ** | 23/10/23 12:33:14 | SUCCESS | -->
+	- Get the Post-type 'slug' ->  ~ 
+	
+Array
+		[0] : Object Class: 'stdClass'
+{
+    "id": "39",
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "post_content": "1",
+    "post_excerpt": "1",
+    "post_thumb": "1",
+    "post_comments": "1",
+    "post_custom_fields": "1",
+    "post_taxonomies": "category,post_tag,tipologia_persona,categoria_custom",
+    "post_enabled": "0"
+}
+
+
+** LOGGER ** | 23/10/23 12:33:19 | INFO | -->
+	- Trying to modify old Post-Type with slug: 'a', POST-TYPE Before Modification ~ Object Class: 'stdClass'
+{
+    "id": "39",
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "post_content": "1",
+    "post_excerpt": "1",
+    "post_thumb": "1",
+    "post_comments": "1",
+    "post_custom_fields": "1",
+    "post_taxonomies": "category,post_tag,tipologia_persona,categoria_custom",
+    "post_enabled": "0"
+}
+
+** LOGGER ** | 23/10/23 12:33:19 | SUCCESS | -->
+	- Post-type 'a' updated! From 'a' into 'a' ~ Object Class: 'PostType'
+{
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "supports": {
+        "post_content": false,
+        "post_excerpt": true,
+        "post_thumb": true,
+        "post_comments": true,
+        "post_custom_fields": true
+    },
+    "post_taxonomies": "post_tag,tipologia_persona,categoria_custom"
+}
+
+** LOGGER ** | 23/10/23 12:33:23 | INFO | -->
+	 ~ Trying to get a Post-Type with slug: 'a'
+** LOGGER ** | 23/10/23 12:33:23 | SUCCESS | -->
+	- Get the Post-type 'slug' ->  ~ 
+	
+Array
+		[0] : Object Class: 'stdClass'
+{
+    "id": "39",
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "post_content": "0",
+    "post_excerpt": "1",
+    "post_thumb": "1",
+    "post_comments": "1",
+    "post_custom_fields": "1",
+    "post_taxonomies": "post_tag,tipologia_persona,categoria_custom",
+    "post_enabled": "0"
+}
+
+
+** LOGGER ** | 23/10/23 12:33:32 | INFO | -->
+	- Trying to modify old Post-Type with slug: 'a', POST-TYPE Before Modification ~ Object Class: 'stdClass'
+{
+    "id": "39",
+    "post_name": "a",
+    "post_slug": "a",
+    "post_singular_name": "a",
+    "post_content": "0",
+    "post_excerpt": "1",
+    "post_thumb": "1",
+    "post_comments": "1",
+    "post_custom_fields": "1",
+    "post_taxonomies": "post_tag,tipologia_persona,categoria_custom",
+    "post_enabled": "0"
+}
+
+** LOGGER ** | 23/10/23 12:33:32 | INFO | -->
+	 ~ Trying to modify posts of type 'a' into type: 'aa'
+** LOGGER ** | 23/10/23 12:33:32 | SUCCESS | -->
+	- No posts to modify. New Post-Type 'aa' ~ Object Class: 'PostType'
+{
+    "post_name": "a",
+    "post_slug": "aa",
+    "post_singular_name": "a",
+    "supports": {
+        "post_content": false,
+        "post_excerpt": true,
+        "post_thumb": true,
+        "post_comments": true,
+        "post_custom_fields": true
+    },
+    "post_taxonomies": "post_tag,tipologia_persona,categoria_custom"
+}
+

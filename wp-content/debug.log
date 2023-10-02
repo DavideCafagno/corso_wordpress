@@ -2988,3 +2988,133 @@ Stack trace:
 [29-Sep-2023 08:51:33 UTC] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\logger-plugin\template\logger_function.php on line 25
 [29-Sep-2023 08:51:33 UTC] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\logger-plugin\template\logger_function.php on line 25
 [29-Sep-2023 13:05:24 UTC] PHP Parse error:  syntax error, unexpected identifier "logs", expecting ")" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\logger-plugin\template\logger_info.php on line 7
+[02-Oct-2023 07:02:28 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:28 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:29 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:29 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:30 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:32 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:33 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:37 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:37 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:43 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:43 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:44 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:45 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:47 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:47 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:49 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:49 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:50 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:50 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:50 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:51 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:51 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:52 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:52 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:53 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:53 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:53 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:54 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:54 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:55 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:55 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:55 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:56 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:56 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:57 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:57 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:57 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:58 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:02:58 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 07:23:50 UTC] PHP Warning:  Undefined array key "post_slug" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\add-post-type-plugin\rest_api.php on line 228
+[02-Oct-2023 07:23:58 UTC] PHP Warning:  Undefined array key "post_slug" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\add-post-type-plugin\rest_api.php on line 228
+[02-Oct-2023 07:30:15 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\add-post-type-plugin\custom_plug.php on line 18 and at least 2 expected in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\add-post-type-plugin\custom_plug.php(18): add_action('requ')
+#1 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-settings.php(462): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-config.php(103): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-login.php(12): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\plugin.php on line 441
+[02-Oct-2023 07:30:15 UTC] PHP Notice:  La funzione is_embed è stata richiamata <strong>in maniera scorretta</strong>. I tag condizionali di una query non funzionano prima che la query sia stata eseguita. Prima dell'esecuzione restituiscono sempre il valore False. Leggi <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> per maggiori informazioni. (Questo messaggio è stato aggiunto nella versione 3.1.0.) in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\functions.php on line 5897
+[02-Oct-2023 07:30:15 UTC] PHP Notice:  La funzione is_search è stata richiamata <strong>in maniera scorretta</strong>. I tag condizionali di una query non funzionano prima che la query sia stata eseguita. Prima dell'esecuzione restituiscono sempre il valore False. Leggi <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> per maggiori informazioni. (Questo messaggio è stato aggiunto nella versione 3.1.0.) in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\functions.php on line 5897
+[02-Oct-2023 08:23:19 UTC] PHP Warning:  Undefined variable $logger_nonce in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\logger-plugin\template\list.php on line 113
+[02-Oct-2023 08:23:19 UTC] PHP Warning:  Undefined variable $logger_nonce in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\logger-plugin\template\list.php on line 124
+[02-Oct-2023 08:24:40 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "LOGGERNONCE" in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\logger-plugin\template\list.php:113
+Stack trace:
+#0 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\logger-plugin\logger.php(53): include()
+#1 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp-hook.php(310): my_logs_view('')
+#2 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-admin\admin.php(259): do_action('toplevel_page_l...')
+#5 {main}
+  thrown in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\logger-plugin\template\list.php on line 113
+[02-Oct-2023 09:00:04 UTC] PHP Notice:  La funzione WP_Scripts::localize è stata richiamata <strong>in maniera scorretta</strong>. Il parametro <code>$l10n</code> deve essere un array. Per passare dati arbitrari agli script, usa la funzione <code>wp_add_inline_script()</code>. Leggi <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> per maggiori informazioni. (Questo messaggio è stato aggiunto nella versione 5.7.0.) in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\functions.php on line 5897
+[02-Oct-2023 09:00:24 UTC] PHP Notice:  La funzione WP_Scripts::localize è stata richiamata <strong>in maniera scorretta</strong>. Il parametro <code>$l10n</code> deve essere un array. Per passare dati arbitrari agli script, usa la funzione <code>wp_add_inline_script()</code>. Leggi <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> per maggiori informazioni. (Questo messaggio è stato aggiunto nella versione 5.7.0.) in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\functions.php on line 5897
+[02-Oct-2023 09:00:57 UTC] PHP Notice:  La funzione WP_Scripts::localize è stata richiamata <strong>in maniera scorretta</strong>. Il parametro <code>$l10n</code> deve essere un array. Per passare dati arbitrari agli script, usa la funzione <code>wp_add_inline_script()</code>. Leggi <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> per maggiori informazioni. (Questo messaggio è stato aggiunto nella versione 5.7.0.) in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\functions.php on line 5897
+[02-Oct-2023 09:02:04 UTC] PHP Notice:  La funzione WP_Scripts::localize è stata richiamata <strong>in maniera scorretta</strong>. Il parametro <code>$l10n</code> deve essere un array. Per passare dati arbitrari agli script, usa la funzione <code>wp_add_inline_script()</code>. Leggi <a href="https://wordpress.org/documentation/article/debugging-in-wordpress/">Debugging in WordPress</a> per maggiori informazioni. (Questo messaggio è stato aggiunto nella versione 5.7.0.) in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\functions.php on line 5897
+[02-Oct-2023 09:10:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_params() on string in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\logger-plugin\template\logger_function.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp-hook.php(310): logger_list_files('')
+#1 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_logger_...')
+#4 {main}
+  thrown in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\logger-plugin\template\logger_function.php on line 114
+[02-Oct-2023 09:13:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_params() on string in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\logger-plugin\template\logger_function.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp-hook.php(310): logger_list_files('')
+#1 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_logger_...')
+#4 {main}
+  thrown in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\logger-plugin\template\logger_function.php on line 114
+[02-Oct-2023 10:08:27 UTC] PHP Fatal error:  Uncaught Error: Class "PostType" not found in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\add-post-type-plugin\rest_api.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp-hook.php(310): add_custom_post('')
+#1 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_add_cus...')
+#4 {main}
+  thrown in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-content\plugins\add-post-type-plugin\rest_api.php on line 114
+[02-Oct-2023 12:34:37 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:34:38 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:34:49 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:34:50 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:34:50 UTC] PHP Warning:  Si è verificato un errore inaspettato. C'è qualche cosa di sbagliato con WordPress.org o con la configurazione di questo server. Se continui ad avere problemi, chiedi aiuto sul <a href="https://it.wordpress.org/support/forums/">forum di supporto</a>. (WordPress non può stabilire una connessione sicura a WordPress.org. Contatta l’amministratore del server.) in C:\xampp\htdocs\Progetti\Corso_Wordpress\wp-includes\update.php on line 724
+[02-Oct-2023 12:34:50 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:34:51 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:34:51 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:34:51 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:34:52 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:35:33 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:35:34 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:35:36 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:35:36 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:35:56 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:35:56 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:36:10 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:36:11 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:36:26 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:36:27 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:36:35 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:36:35 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:38:36 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:38:36 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:40:37 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:40:37 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:42:38 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:42:38 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:44:39 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:44:39 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:46:46 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:46:47 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:47:07 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:47:10 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:47:10 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:47:32 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:47:33 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:47:44 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[02-Oct-2023 12:47:45 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).

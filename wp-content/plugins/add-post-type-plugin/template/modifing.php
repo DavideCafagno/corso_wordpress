@@ -4,7 +4,7 @@ if (count(all_custom_post_list()) == 0):
     $verify = true; ?>
     <p><?php echo _e("No custom posts to update.", 'add-post-type-plugin'); ?></p>
 <?php endif; ?>
-<select <?php if ($verify) echo 'disabled' ?> onchange="compile_update_post(this.value)" id="select_update_post">
+<select <?php if ($verify) echo 'disabled' ?> onchange="compile_update_post(this.value,'<?php echo wp_create_nonce();?>')" id="select_update_post">
     <option value="" selected> -</option>
     <?php foreach (all_custom_post_list() as $post): ?>
         <option value="<?= $post->post_slug ?>"><?= $post->post_name ?></option>
@@ -63,7 +63,7 @@ if (count(all_custom_post_list()) == 0):
     <?php endforeach; ?>
     <tr class="row">
         <td class="col col-12">
-            <button <?php if ($verify) echo 'disabled' ?> class="button" onclick="update_post()">Modifica</button>
+            <button <?php if ($verify) echo 'disabled' ?> class="button" onclick="update_post('<?php echo wp_create_nonce();?>')">Modifica</button>
         </td>
     </tr>
 </table>

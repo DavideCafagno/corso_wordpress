@@ -1,6 +1,8 @@
-console.log(wp.i18n.__('Add Post-Type','add-post-type-plugin'));
-console.log(lang.script);
-function invia_dati() {
+//console.log(wp.i18n.__('Add Post-Type', 'add-post-type-plugin'));
+//console.log(lang.script);
+
+function invia_dati(nonce) {
+
     let post_name = jQuery("#post_name").val();
     let post_slug = jQuery("#post_slug").val();
     let post_singular_name = jQuery("#post_singular_name").val();
@@ -25,16 +27,16 @@ function invia_dati() {
         dato['post_taxonomies'] = post_taxonomies;
 
         jQuery.ajax({
-            url: "http://localhost/Progetti/Corso_wordpress/wp-json/plug/v1/add-custom-post-type/",
+            url: wp_ajax.ajaxUrl,
             method: "POST",
             dataType: "json",
-            data: dato,
+            data: {action: 'add_custom_post', post_type: dato, addPostNonce: nonce},
             success: function (response) {
                 if (response.status === 200) {
-                    alert(response.message);
+                    alert(response.data);
                     location.reload();
                 } else {
-                    alert(response.message);
+                    alert(response.data);
                 }
             }
         });
@@ -45,31 +47,29 @@ function invia_dati() {
     }
 }
 
-function elimina_post() {
+function elimina_post(nonce) {
     let val = jQuery('#post_selected').val();
     if (val) {
-        let post_name = {'post_type': val};
-        let url = "http://localhost/Progetti/Corso_wordpress/wp-json/plug/v1/remove-custom-post-type/";
+
+        let association = false;
         if (
             confirm(lang.sure_delete)
             //confirm(wp.i18n.__('Are you sure to permanently delete?', 'add-post-type-plugin'))
         ) {
-            if(confirm(lang.confirm_delete_posts)){ //confirm(wp.i18n.__('Do you want to permanently delete all associated posts?', 'add-post-type-plugin'))
-                url+="?association=true";
-            }else{
-                url+="?association=false";
+            if (confirm(lang.confirm_delete_posts)) { //confirm(wp.i18n.__('Do you want to permanently delete all associated posts?', 'add-post-type-plugin'))
+                association = true;
             }
             jQuery.ajax({
-                url: url,
+                url: wp_ajax.ajaxUrl,
                 method: "POST",
                 dataType: "json",
-                data: post_name,
+                data: {action: 'remove_custom_post', association: association, post_type: val, removePostNonce: nonce},
                 success: function (response) {
                     if (response.status === 200) {
-                        alert(response.message);
+                        alert(response.data);
                         location.reload();
                     } else {
-                        alert(response.message);
+                        alert(response.data);
                     }
                 }
             });
@@ -80,25 +80,28 @@ function elimina_post() {
     }
 }
 
-function cestina_post() {
+function cestina_post(nonce) {
     let val = jQuery('#post_selected').val();
     if (val) {
-        let post_name = {'post_type': val};
         if (
             confirm(lang.sure_disable)
             //confirm(wp.i18n.__('Are you sure to disable? You can enable it later.', 'add-post-type-plugin'))
         ) {
             jQuery.ajax({
-                url: "http://localhost/Progetti/Corso_wordpress/wp-json/plug/v1/disable-custom-post-type/",
+                url: wp_ajax.ajaxUrl,
                 method: "POST",
                 dataType: "json",
-                data: post_name,
+                data: {
+                    action: 'disable_custom_post',
+                    post_type: val,
+                    disablePostNonce: nonce
+                },
                 success: function (response) {
                     if (response.status === 200) {
-                        alert(response.message);
+                        alert(response.data);
                         location.reload();
                     } else {
-                        alert(response.message);
+                        alert(response.data);
                     }
                 }
             });
@@ -109,21 +112,20 @@ function cestina_post() {
     }
 }
 
-function attiva_post() {
+function attiva_post(nonce) {
     let val = jQuery('#post_selected').val();
     if (val) {
-        let post_name = {'post_type': val};
         jQuery.ajax({
-            url: "http://localhost/Progetti/Corso_wordpress/wp-json/plug/v1/enable-custom-post-type/",
+            url: wp_ajax.ajaxUrl,
             method: "POST",
             dataType: "json",
-            data: post_name,
+            data: {action: 'enable_custom_post', post_type: val, enablePostNonce: nonce},
             success: function (response) {
                 if (response.status === 200) {
-                    alert(response.message);
+                    alert(response.data);
                     location.reload();
                 } else {
-                    alert(response.message);
+                    alert(response.data);
                 }
             }
         });
@@ -133,15 +135,16 @@ function attiva_post() {
     }
 }
 
-function compile_update_post(value) {
+function compile_update_post(value, nonce) {
     if (value != "") {
         jQuery.ajax({
-            url: "http://localhost/Progetti/Corso_wordpress/wp-json/plug/v1/get-custom-post-type?post_slug=" + value,
+            url: wp_ajax.ajaxUrl,
             dataType: 'json',
             method: 'GET',
+            data: {action: 'get_custom_post', post_slug: value, getPostNonce: nonce},
             success: function (response) {
                 if (response.status === 200) {
-                    let post = response.post[0];
+                    let post = response.data[0];
                     jQuery("#post_name").val(post.post_name);
                     jQuery("#post_slug").val(post.post_slug);
                     jQuery("#post_singular_name").val(post.post_singular_name);
@@ -157,7 +160,7 @@ function compile_update_post(value) {
                         (jQuery(this)[0]['checked'] = taxarray.includes(val));
                     });
                 } else if (response.status === 404) {
-                    alert(response.message);
+                    alert(response.data);
                     clean();
                 } else {
                     alert("Error!");
@@ -186,8 +189,9 @@ function clean() {
     });
 }
 
-function update_post() {
+function update_post(nonce) {
     let val = jQuery('#select_update_post').val();
+    let association = false;
     if (val) {
         let dato = {};
         dato['post_name'] = jQuery("#post_name").val();
@@ -202,7 +206,7 @@ function update_post() {
             return jQuery(this).val();
         }).get();
         if (dato['post_name'] && dato['post_slug'] && dato['post_singular_name']) {
-            let url = "http://localhost/Progetti/Corso_wordpress/wp-json/plug/v1/update-custom-post-type/?old_slug=" + val;
+
             if (
                 confirm(lang.sure_changes)
                 // confirm(wp.i18n.__("Are you sure to make the changes?", "add-post-type-plugin")/*'Sicro di voler modificare?'*/)
@@ -211,25 +215,27 @@ function update_post() {
                     if (
                         confirm(sprintf(lang.new_association, val, dato['post_slug']))
                         //confirm(wp.i18n.__("The posts associated with their old slug will lose the association with their Post-Type. Do you want to associate them with the new slug ", "add-post-type-plugin") + "'" + dato['post_slug'] + "' ?")
-                        ) {
-                        url += '&association=true';
-                    } else {
-                        url += '&association=false';
+                    ) {
+                        association = true;
                     }
-                } else {
-                    url += '&association=false';
                 }
                 jQuery.ajax({
-                        url: url,
+                        url: wp_ajax.ajaxUrl,
                         method: 'POST',
                         dataType: 'json',
-                        data: dato,
+                        data: {
+                            action: 'update_custom_post',
+                            post_type: dato,
+                            association: association,
+                            updatePostNonce: nonce,
+                            old_slug: val
+                        },
                         success: function (response) {
                             if (response.status === 200) {
-                                alert(response.message);
+                                alert(response.data);
                                 location.reload();
                             } else {
-                                alert(response.message);
+                                alert(response.data);
                             }
                         }
 

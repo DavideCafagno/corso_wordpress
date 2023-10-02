@@ -90,6 +90,7 @@
 
 <?php
 $folders = logger_list_folders();
+$loggernonce = wp_create_nonce();
 ?>
 <h1><?php echo __('LOGGER', 'logger-plugin'); ?></h1><br>
 <hr>
@@ -106,7 +107,7 @@ $folders = logger_list_folders();
                     <tr>
                         <td><?php echo __('FOLDER', 'logger-plugin'); ?></td>
                         <td>
-                            <select id="loggerSelectFolders" onchange="change_files_select(this.value)">
+                            <select id="loggerSelectFolders" onchange="change_files_select(this.value,'<?php echo $loggernonce?>')">
                                 <option value=""> -</option>
                                 <?php foreach ($folders as $f): ?>
                                     <option value="<?php echo $f; ?>"><?php echo $f; ?></option>
@@ -117,7 +118,7 @@ $folders = logger_list_folders();
                     <tr>
                         <td><?php echo __('FILE', 'logger-plugin'); ?></td>
                         <td>
-                            <select id="loggerSelectFiles" onchange="view_file_selected(this.value)">
+                            <select id="loggerSelectFiles" onchange="view_file_selected(this.value,'<?php echo $loggernonce?>')">
                                 <option value=""> -</option>
                             </select>
                         </td>

@@ -25,6 +25,7 @@ function load_logger_script(){
     wp_register_script('logger_script',plugins_url()."/logger-plugin/js/logger-script.js");
     wp_set_script_translations( 'logger_script', 'logger-plugin', plugins_url().'/logger-plugin/languages/');
     load_script_textdomain('logger_script','logger-plugin',plugins_url().'/logger-plugin/languages/');
+    wp_localize_script('logger_script','wp_ajax',array('ajaxUrl' => admin_url('admin-ajax.php')));
     wp_enqueue_script('logger_script');
 }
 add_action('rest_api_init', 'load_logger_rest_api');

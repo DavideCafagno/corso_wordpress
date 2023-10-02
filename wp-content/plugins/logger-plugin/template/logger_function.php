@@ -14,7 +14,7 @@ function do_log($type, $argument, $description = "")
         $filepath = ABSPATH . "/wp-content/plugins/logger-plugin/logs/" . date('Y-m-d') . '/' . date('Y-m-d') . '_' . $suffix++ . '.txt';
         $file = fopen($filepath, 'a');
     }
-    $str .= ' | ' . strtoupper($type) . ' | ' . function_debug_tracing(debug_backtrace()) . (($description) ? ("- ".$description) : ('')) . ' ~ ' . $argument . "\n";
+    $str .= ' | ' . strtoupper($type) . ' | ' . function_debug_tracing(debug_backtrace()) . (($description) ? ("- " . $description) : ('')) . ' ~ ' . $argument . "\n";
     //$str .= ' | '. strtoupper($type) . (($description) ? (' | ' . $description) : ('')) . ' ~ ' . $argument . "\n";
     fwrite($file, $str);
     fclose($file);
@@ -107,56 +107,54 @@ function logger_list_folders(): array
     return $res;
 }
 
-function logger_list_files($data)
+add_action('wp_ajax_logger_list_files', 'logger_list_files');
+function logger_list_files()
 {
-    $folder = $data->get_params()['f'];
-    $res = [];
-    $directory = ABSPATH . "/wp-content/plugins/logger-plugin/logs/" . $folder;
-    if (is_dir($directory)) {
-        if ($handle = opendir($directory)) {
-            while (($dirname = readdir($handle)) !== false) {
-                if ($dirname != '.' && $dirname != '..') {
-                    $res[] = $dirname;
+    if (wp_verify_nonce($_REQUEST['loggernonce'])) {
+        $folder = $_REQUEST['folder'];
+        $res = [];
+        $directory = ABSPATH . "/wp-content/plugins/logger-plugin/logs/" . $folder;
+        if (is_dir($directory)) {
+            if ($handle = opendir($directory)) {
+                while (($dirname = readdir($handle)) !== false) {
+                    if ($dirname != '.' && $dirname != '..') {
+                        $res[] = $dirname;
+                    }
                 }
             }
+            closedir($handle);
         }
-        closedir($handle);
-    }
-    if (!empty($res)) {
-        return new WP_REST_Response(array(
-            'status' => 200,
-            'files' => $res
-        ));
+        if (!empty($res)) {
+            echo json_encode(new WP_REST_Response($res, 200));
+        } else {
+            echo json_encode(new WP_REST_Response(__("Error reading files!",'logger-plugin'), 200));
+        }
     } else {
-        return new WP_REST_Response(array(
-            'status' => 200,
-            'message' => "Errore lettura files!"
-        ));
+        echo json_encode(new WP_REST_Response('ERROR, YOU NOT ARE LOGGED IN.', 401));
     }
-
+    die();
 }
 
-
-function logger_file_content($data)
+add_action('wp_ajax_logger_file_content', 'logger_file_content');
+function logger_file_content()
 {
-    $fileName = $data->get_params()['f'];
-    $res = "";
-    $folder = substr($fileName, 0, 10);
-    $path = ABSPATH . "wp-content/plugins/logger-plugin/logs/$folder/$fileName";
-    if (($file = fopen($path, 'r')) !== false) {
-        while (($line = fgets($file)) !== false) {
-            $res .= $line;
+    if (wp_verify_nonce($_REQUEST['loggernonce'])) {
+        $fileName = $_REQUEST['file'];
+        $res = "";
+        $folder = substr($fileName, 0, 10);
+        $path = ABSPATH . "wp-content/plugins/logger-plugin/logs/$folder/$fileName";
+        if (($file = fopen($path, 'r')) !== false) {
+            while (($line = fgets($file)) !== false) {
+                $res .= $line;
+            }
         }
-    }
-    if (!empty($res)) {
-        return new WP_REST_Response(array(
-            'status' => 200,
-            'content' => $res
-        ));
+        if (!empty($res)) {
+            echo json_encode(new WP_REST_Response($res, 200));
+        } else {
+            echo json_encode(new WP_REST_Response(__("Error reading files!",'logger-plugin'), 200));
+        }
     } else {
-        return new WP_REST_Response(array(
-            'status' => 200,
-            'message' => "Errore lettura files!"
-        ));
+        echo json_encode(new WP_REST_Response("ERROR, YOU NOT ARE LOGGED IN.", 401));
     }
+    die();
 }

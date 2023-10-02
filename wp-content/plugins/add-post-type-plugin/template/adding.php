@@ -52,7 +52,7 @@
     <?php endforeach; ?>
     <tr class="row">
         <td class="col col-12">
-            <button class="button" onclick="invia_dati()"><?php _e('ADD POST-TYPE','add-post-type-plugin');?></button>
+            <button class="button" onclick="invia_dati('<?php echo wp_create_nonce();  ?>')"><?php _e('ADD POST-TYPE','add-post-type-plugin');?></button>
         </td>
     </tr>
 </table>

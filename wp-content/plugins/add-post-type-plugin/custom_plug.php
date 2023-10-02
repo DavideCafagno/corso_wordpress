@@ -15,6 +15,7 @@
 if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly
 }
+
 add_action('plugins_loaded', 'add_post_type_plugin_myplugin_load_translation');
 function add_post_type_plugin_myplugin_load_translation()
 {
@@ -113,13 +114,10 @@ add_action('admin_enqueue_scripts', 'add_script');
 function add_script()
 {
     wp_register_script('add-post-type-plugin-script', plugins_url('add-post-type-plugin/js/custom_plugin.js'), array('wp-i18n'), 0.1,'');//, array('jquery'));
-    global $GLOBALS;
-
     load_script_textdomain('dd-post-type-plugin-script','add-post-type-plugin',plugins_url().'/add-post-type-plugin/languages/');
     wp_set_script_translations( 'add-post-type-plugin-script', 'add-post-type-plugin', plugins_url().'/add-post-type-plugin/languages/');
 
     wp_localize_script('add-post-type-plugin-script', 'lang',array(
-        'script'=>$GLOBALS['wp_scripts']->registered['add-post-type-plugin-script'],
         'insert_all'=>__('Insert all text fields!', 'add-post-type-plugin'),
         'sure_changes'=>__('Are you sure to make the changes?', 'add-post-type-plugin'),
         'select_one'=>__('Select at least one Post-Type!', 'add-post-type-plugin'),
@@ -128,9 +126,8 @@ function add_script()
         'new_association'=>__('The posts associated with their old slug `%1$s`, will lose the association with their Post-Type. Do you want to associate them with the new slug `%2$s`?', 'add-post-type-plugin'),
         'confirm_delete_posts'=>__('Do you want to permanently delete all associated posts?','add-post-type-plugin')
     ));
+    wp_localize_script('add-post-type-plugin-script', 'wp_ajax',array('ajaxUrl' => admin_url('admin-ajax.php')));
     wp_enqueue_script('add-post-type-plugin-script');
-
-
 
     wp_register_script('jquery_script', 'https://code.jquery.com/jquery-3.7.1.min.js');
     wp_enqueue_script('jquery_script');
